@@ -1,0 +1,390 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BIOS</title></title>
+  <link rel="stylesheet" href="styles/styles_home.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  
+  <link rel="icon" type="image/png" href="icon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="icon/favicon.svg" />
+<link rel="shortcut icon" href="icon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png" />
+<link rel="manifest" href="icon/site.webmanifest" />
+ 
+
+<meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+
+
+<meta name="robots" content="noindex, nofollow">
+
+<meta name="description" content=" BIOS / RomsXISOs.">
+
+<meta name="author" content="RomsXISOs">
+  
+  
+  <style>
+    
+ .grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .item {
+      background-color: #222;
+      border-radius: 8px;
+      text-align: center;
+      width: 180px;
+      padding-bottom: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .item:hover {
+    transform: scale(1.03);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+.item a:hover {
+    color: white;
+    }
+
+    .image-container {
+      width: 100%;
+      height: 130px;
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px 8px 0 0;
+      overflow: hidden;
+    }
+
+    .item img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+      display: block;
+      border-radius: 8px 8px 0px 0px;
+
+    }
+
+    .item .label {
+      font-weight: bold;
+      font-size: 18px;
+      margin-top: 10px;
+      color:white;
+    }
+
+    .item a {
+      color: #a0cfff;
+      font-size: 14px;
+      text-decoration: underline;
+      display: inline-block;
+      margin-top: 4px;
+    }
+
+    .double-label {
+      margin-top: 6px;
+    }
+
+    @media (max-width: 379px) {
+        .item {
+      width: 130px;
+      margin-left:1px;
+      margin-right:1px;
+    }
+     }
+
+    
+  </style>
+ 
+</head>
+
+<body>
+
+
+ <!-- NAVBAR -->
+  <div class="navbar">
+      <a href="index.html" class="navbar-logo">
+      <img src="https://i.postimg.cc/Cx35yNJ8/logo.png" alt="Logo RomsXISOs" class="logo-img" />
+    </a>
+    <div class="menu-icon" onclick="openMenu()">☰</div>
+  </div>
+
+  <!-- SIDE MENU -->
+  <div id="sideMenu" class="side-menu">
+    <span class="closebtn" onclick="closeMenu()">×</span>
+     <a href="index.html">Inicio</a>
+    <a href="bios.html" class="active">BIOS</a>
+    <a href="novedades.html">Novedades</a>
+    <a href="reportar-problema.html">¿Algún Problema o Falta Algún Juego?</a>
+    <a href="acerca-del-sitio.html">Acerca del Sitio Web</a>
+  </div>
+
+<main class="main">
+    
+<center>
+
+<h1 class="bios_title">BIOS</h1>
+
+<div class="search-container">
+  <input type="text" id="searchInput" placeholder="Buscar BIOS..." oninput="handleInput()" />
+  <span class="search-icon">🔍</span>
+  <span class="clear-icon" id="clearIcon" onclick="clearSearch()" style="display: none;">✖</span>
+</div>
+<p id="noResults" style="text-align:center; display:none; color:red; font-weight:bold;">No se encuentran resultados</p>
+
+
+</center>
+
+   <div class="grid">
+
+    <div class="item">
+      <img src="https://i.postimg.cc/KYn5QKDZ/bios-gbc.gif" alt="GBA/GBC">
+      <div class="label">GBA - <a target="_blank"target="_blank" href="https://drive.google.com/file/d/1KN3j6eFf5MdFhudAMmon7DSKB8m3OvBQ/view?usp=drive_link">Download</a></div>
+      <div class="label double-label">GBC - <a target="_blank" href="https://drive.google.com/file/d/1ZVvBkNHTdjzfgsaogBUDmcwyT7vvPNMu/view?usp=drive_link">Download</a></div>
+    </div>
+
+    <div class="item">
+      <img src="https://i.postimg.cc/xC3bNMyz/segacd.gif" alt="SEGA CD">
+      <div class="label">SEGA CD</div>
+      <a target="_blank"href="https://drive.google.com/file/d/1_AA43MKWJom7a2dKc_hL4uu9DkEJH-9A/view?usp=drive_link">Download</a>
+    </div>
+
+    <div class="item">
+      <img src="https://i.postimg.cc/4NNptL0N/ps1.gif" alt="PSX">
+      <div class="label">PSX</div>
+      <a target="_blank"href="https://drive.google.com/file/d/1zYdY64XEzhLqLZQGosVJybNIFTpb-Il2/view?usp=drive_link">Download</a>
+    </div>
+
+    <div class="item">
+      <img src="https://i.postimg.cc/CLL614Hb/ps2-startup.gif" alt="PS2">
+      <div class="label">PS2</div>
+      <a target="_blank"href="https://drive.google.com/file/d/1vCK8-UnUwhAqG08JpIqaOAAG6AyipOmR/view?usp=drive_link">Download</a>
+    </div>
+
+     <div class="item">
+      <img src="https://i.postimg.cc/g27yGVNc/neogeo.gif" alt="neogeo">
+      <div class="label">NeoGeo</div>
+      <a target="_blank"href="https://drive.google.com/file/d/1-8O-6vCMkc6lDUay8Sm_3fYVLDbTxASy/view?usp=drive_link">Download</a>
+    </div>
+
+     <div class="item">
+      <img src="https://i.postimg.cc/hPfgdzHw/nintends.gif" alt="PS2">
+      <div class="label">Nintendo DS</div>
+      <a target="_blank"href="https://drive.google.com/file/d/1ti5snts5hEQGmgN40SX3Vv91cysRih-U/view?usp=drive_link">Download</a>
+    </div>
+
+     <div class="item">
+      <img src="https://i.postimg.cc/jjJH2DFH/famicom.gif" alt="Famicom Disk System">
+      <div class="label">Famicom Disk System</div>
+      <a target="_blank"href="https://drive.google.com/file/d/1Qy754TExbDXPqVlFxmYrjIYIjdClYzi4/view?usp=drive_link">Download</a>
+    </div>
+
+
+     <div class="item">
+      <img src="https://i.postimg.cc/mDLgqqCP/saturn.gif" alt="Sega Saturn">
+      <div class="label">Sega Saturn</div>
+      <a target="_blank"href="https://drive.google.com/file/d/1cTxilIvP2PXib0gisZP7NoTt9chvYe1K/view?usp=drive_link">Download</a>
+    </div>
+
+     <div class="item">
+      <img src="https://i.postimg.cc/rpQRpt6m/gamecube.gif" alt="Gamecube">
+      <div class="label">Gamecube</div>
+      <a target="_blank"href="https://drive.google.com/file/d/16nsUMkzNHmlzxTm8FJHmPaUiNvoJcDkM/view?usp=drive_link">Download</a>
+    </div>
+
+     <div class="item">
+      <img src="https://i.postimg.cc/9XPByqF1/dc.gif" alt="Dreamcast">
+      <div class="label">Dreamcast</div>
+      <a target="_blank"href="https://drive.google.com/file/d/1t0lH81q94t_3kcV_R161qz40CvEmR3Pp/view?usp=drive_link">Download</a>
+    </div>
+
+     <div class="item">
+      <img src="https://i.postimg.cc/5NRQzxvn/xbox-microsoft.gif" alt="Xbox Classic">
+      <div class="label">Xbox Classic</div>
+      <a target="_blank"href="https://drive.google.com/file/d/1vN86GuX6l18dLCqI_OILSxM9S6K0hQ5R/view?usp=drive_link">Download</a>
+    </div>
+
+
+    <div class="item">
+      <img src="https://i.postimg.cc/LsdTzkfC/cdiphilips.jpg" alt="CD-i">
+      <div class="label">CD-i</div>
+      <a target="_blank"href="https://drive.google.com/file/d/1XQiKzFcoQUiNGiDkhgjm8SxaQ2MTBg3o/view?usp=drive_link">Download</a>
+    </div>
+
+
+  <div class="item">
+      <img src="https://i.postimg.cc/nzBGRXKF/coleco.png" alt="ColecoVision">
+      <div class="label">ColecoVision</div>
+      <a target="_blank"href="https://drive.google.com/file/d/1jXmwuOGXnFX_QUR4Ao5j_3Fud5QddppY/view?usp=drive_link">Download</a>
+    </div>
+
+
+  <div class="item">
+      <img src="https://i.postimg.cc/VvznKDLg/pc-engine.png" alt="PC Engine">
+      <div class="label">PC Engine</div>
+      <a target="_blank"href="https://drive.google.com/file/d/1XZMtpYoNCoDKTwpPXnTcVV3rq88pzTpz/view?usp=drive_link">Download</a>
+    </div>
+
+     <div class="item">
+      <img src="https://i.postimg.cc/MZtQW0Gk/sonic2.gif" alt="Sega Genesis">
+      <div class="label">Sega Genesis/ Megadrive </div>
+      <a target="_blank"href="https://drive.google.com/file/d/1uHS2GVJLNpGyLlxXIK0RqFnHHsd-Dk9w/view?usp=drive_link">Download</a>
+    </div>
+
+  <div class="item">
+      <img src="https://i.postimg.cc/9XBGD5Jn/retroarch.jpg" alt="RetroArch">
+      <div class="label">RetroArch</div>
+      <a target="_blank"href="https://drive.google.com/file/d/1zmWwi09-AgNCBz0ROf-Vyyi8xjs5w6tk/view?usp=drive_link">Download</a>
+    </div>
+
+      <div class="item">
+      <img src="https://i.postimg.cc/KjbrdmQn/commode64.jpg" alt="Commode 64">
+      <div class="label">Commodare 64</div>
+      <a target="_blank"href="https://drive.google.com/file/d/1Xdk8n3rAoJt1nibFSA0cw_yw16RCV4iN/view?usp=drive_link">Download</a>
+    </div>
+
+     <div class="item">
+      <img src="https://i.postimg.cc/25fQqkRg/91890-BIOS-Atari-Lynx-USA-Europe-1.png" alt="Atari Lynx">
+      <div class="label">Atari Lynx</div>
+      <a target="_blank"href="https://drive.google.com/file/d/1Kaikelb5-AyGbbk5fdS4atLxAKQQjzuV/view?usp=drive_link">Download</a>
+    </div>
+
+     <div class="item">
+      <img src="https://i.postimg.cc/6pqLsjV1/logo-xemu.png" alt="XEMU">
+      <div class="label">XEMU</div>
+      <a target="_blank"href="https://drive.google.com/file/d/1W2m3GALmlfDkh4nSl69gKT7GcPx8nbJb/view?usp=drive_link">Download</a>
+    </div>
+
+     <div class="item">
+      <img src="https://i.postimg.cc/rpdJ4nKt/c64bios.jpg" alt="C64">
+      <div class="label">C64</div>
+      <a target="_blank"href="https://drive.google.com/file/d/10jt8urc62KC6cUtQH3hJISZKXuzwF8I3/view?usp=drive_link">Download</a>
+    </div>
+
+ <div class="item">
+      <img src="https://i.postimg.cc/YqpzRqv7/flycast.jpg" alt="Flycast">
+      <div class="label">Flycast</div>
+      <a target="_blank"href="https://drive.google.com/file/d/1WFDbJ7CfZG3Va_BmX5klaUtAhtAOJ6WH/view?usp=drive_link">Download</a>
+    </div>
+
+
+     <div class="item">
+      <img src="https://i.postimg.cc/V6qX9315/ngage.jpg" alt="N-Gage">
+      <div class="label">N-Gage</div>
+      <a target="_blank"href="https://drive.google.com/file/d/1EKyqAXHsHGHieT4-avHbhMm0BiAN8kCd/view?usp=drive_link">Download</a>
+    </div>
+
+     <div class="item">
+      <img src="https://i.postimg.cc/x1p5cDT2/3do.png" alt="3DO">
+      <div class="label">3DO</div>
+      <a target="_blank"href="https://drive.google.com/file/d/1Nw9vtWrqR-jrrHtgbQ4-nOmvtoJk-Qvh/view?usp=drive_link">Download</a>
+    </div>
+
+    <div class="item">
+      <img src="https://i.postimg.cc/wMcnLH9w/sms.gif" alt="Sega Master System">
+      <div class="label">Sega Master System</div>
+      <a target="_blank"href="https://drive.google.com/file/d/1eHYi2rA52OStTobEM8QLC765YP8VKJdi/view?usp=drive_link">Download</a>
+    </div>
+
+
+    <div class="item">
+      <img src="https://i.postimg.cc/X7LTvVHJ/Satellaview-BS-X.webp" alt="Satellaview BSX">
+      <div class="label">Satellaview BSX</div>
+      <a target="_blank"href="https://drive.google.com/file/d/1K9IQQthCVytAbZZZtOoNVry40W0_zbgw/view?usp=drive_link">Download</a>
+    </div>
+
+    <div class="item">
+      <img src="https://i.postimg.cc/K8YCkdw5/amiga.gif" alt="Commodore Amiga">
+      <div class="label">Commodore Amiga</div>
+      <a target="_blank"href="https://drive.google.com/file/d/12g0S4L97qK-zjB2fzEIhiJyF9weOA8VC/view?usp=sharing">Download</a>
+    </div>
+
+<div class="item">
+      <img src="https://i.postimg.cc/NG13W8RR/atari5200.png" alt="Atari 5200">
+      <div class="label">Atari 5200</div>
+      <a target="_blank"href="https://drive.google.com/file/d/1DyZrsOXQwwfNVDFyCLw1ePw7p4-p0qBf/view?usp=drive_link">Download</a>
+    </div>
+
+    <div class="item">
+      <img src="https://i.postimg.cc/3NHPkWQy/atari7800.webp" alt="Atari 7800">
+      <div class="label">Atari 7800</div>
+      <a target="_blank"href="https://drive.google.com/file/d/1RxJ1_MlpYUe5uqyUeVbTBTsbJfmzbbQJ/view?usp=drive_link">Download</a>
+    </div>
+
+
+  </div>
+
+  </main>
+
+
+  <script>
+    function openMenu() {
+      document.getElementById("sideMenu").style.width = "250px";
+    }
+
+    function closeMenu() {
+      document.getElementById("sideMenu").style.width = "0";
+    }
+  </script>
+
+<script>
+  function handleInput() {
+    const input = document.getElementById("searchInput");
+    const clearIcon = document.getElementById("clearIcon");
+
+    clearIcon.style.display = input.value ? "inline" : "none";
+    filterItems();
+  }
+
+  function filterItems() {
+    const input = document.getElementById("searchInput");
+    const filter = input.value.toLowerCase();
+    const items = document.querySelectorAll(".item");
+    let anyVisible = false;
+
+    items.forEach((item) => {
+      const text = item.textContent.toLowerCase();
+      if (text.includes(filter)) {
+        item.style.display = "flex";
+        anyVisible = true;
+      } else {
+        item.style.display = "none";
+      }
+    });
+
+    document.getElementById("noResults").style.display = anyVisible ? "none" : "block";
+  }
+
+  function clearSearch() {
+    const input = document.getElementById("searchInput");
+    input.value = "";
+    document.getElementById("clearIcon").style.display = "none";
+    filterItems();
+    input.focus();
+  }
+</script>
+
+<!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-content"></div>
+    <center>
+
+    <script id="_wauybp">var _wau = _wau || []; _wau.push(["small", "2zboycmjti", "ybp"]);</script><script async src="//waust.at/s.js"></script>
+
+    </center>
+  </footer>
+  
+  
+</body>
+</html>
+

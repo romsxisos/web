@@ -1,0 +1,218 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 0px;
+        background-color: #DCDCDC;
+    }
+    
+    .fuente_descarga {
+        /* Estilos para la caja */
+background-color: #f0f0f0; /* Color de fondo */
+padding: 10px; /* Espacio interior */
+margin: 20px; /* Espacio exterior */
+border: 1px solid #ccc; /* Borde */
+border-radius: 5px; /* Bordes redondeados */
+
+/* Estilos para el texto */
+text-align: justify; /* Alineación del texto */ font-family: Arial, sans-serif; /* Fuente */ font-size: 16px; /* Tamaño de fuente */ line-height: 1.5; /* Altura de línea */
+    }
+
+    .letters {
+      margin-bottom: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      display: flex;
+  justify-content: center; /* centra horizontalmente */
+  align-items: center; 
+    }
+
+    .letters a {
+      text-decoration: none;
+      font-weight: bold;
+      cursor: pointer;
+      color: #007bff;
+      display: flex;
+  justify-content: center; /* centra horizontalmente */
+  align-items: center; 
+    }
+
+    .letters a:hover {
+      text-decoration: underline;
+      color: red;
+    }
+
+    .letters a:active {
+      color: red;
+    }
+    
+.regresar{
+  margin-top: 15px;
+}
+
+    .regresar a{
+        font-size: 20px;
+        text-decoration: none;
+        color: #007bff;  
+    }
+
+
+ .regresar a:hover {
+      color:red;
+        
+    }
+
+    .search-box {
+      width: 100%;
+      max-width: 400px;
+      padding: 10px;
+      margin-bottom: 20px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    .table-container {
+      width: 100%;
+      overflow-x: auto;
+    }
+
+    table {
+      width: 98%;
+      border-collapse: collapse;
+      min-width: 600px;
+      margin: 10px;
+    }
+
+    th, td {
+      border: 1px solid #333;
+      padding: 8px;
+      text-align: center;
+      vertical-align: middle;
+      background-color: white;
+    }
+
+    th {
+      background-color: #FF8C00;
+    }
+
+    td:first-child {
+      padding: 0;
+      width: 60px;
+    }
+
+    td:first-child img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 0;
+    }
+
+    a.rom-link {
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a.rom-link:hover {
+      color: #007bff;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      th, td {
+        font-size: 14px;
+        padding: 6px;
+      }
+
+      td:first-child {
+        width: 50px;
+      }
+
+      td:first-child img {
+        width: 100%;
+      }
+    }
+
+.alerta {
+      position: relative;
+      padding: 20px 40px 20px 20px;
+      background-color: #dde73b;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      width: 300px;
+      font-family: sans-serif;
+    }
+
+    .cerrar {
+      position: absolute;
+      top: 8px;
+      right: 12px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #555;
+      cursor: pointer;
+    }
+
+    .cerrar:hover {
+      color: #f00;
+    }
+
+
+
+    @media (max-width: 480px) {
+      table {
+        font-size: 12px;
+      }
+
+      td:first-child {
+        width: 40px;
+      }
+
+      td:first-child img {
+        width: 100%;
+      }
+
+
+    .search-box {
+      width: 90%;
+      }
+    }
+/* FOOTER */
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 4%;
+}
+
+.footer-content {
+  max-width: 900px;
+  margin: auto;
+  padding: 0 20px;
+  }
+  
+  
+  .footer-content:before {
+  content: "2025 RomsXISOs - Versión del Sitio 1.0.3";
+  color: white;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  
+}
+
+.footer-links a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-social a {
+  margin: 0 10px;
+}

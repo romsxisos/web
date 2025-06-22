@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio / RomsXISOs </title>
+ <link rel="stylesheet" href="styles/styles_home.css">
+ <link rel="stylesheet" href="styles/styles.css">
+ 
+ 
+ <link rel="icon" type="image/png" href="icon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="icon/favicon.svg" />
+<link rel="shortcut icon" href="icon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png" />
+<link rel="manifest" href="icon/site.webmanifest" />
+ 
+
+<meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+
+
+<meta name="robots" content="noindex, nofollow">
+
+<meta name="description" content=" Inicio / RomsXISOs.">
+
+<meta name="author" content="RomsXISOs">
+ 
+ 
+</head>
+
+<body>
+
+
+ <!-- NAVBAR -->
+  <div class="navbar">
+      <a href="#" class="navbar-logo">
+      <img src="https://i.postimg.cc/Cx35yNJ8/logo.png" alt="Logo del sitio" class="logo-img" />
+    </a>
+    <div class="menu-icon" onclick="openMenu()">☰</div>
+  </div>
+
+  <!-- SIDE MENU -->
+  <div id="sideMenu" class="side-menu">
+    <span class="closebtn" onclick="closeMenu()">×</span>
+     <a href="index.html" class="active">Inicio</a>
+    <a href="bios.html">BIOS</a>
+    <a href="novedades.html">Novedades</a>
+    <a href="reportar-problema.html">¿Algún Problema o Falta Algún Juego?</a>
+    <a href="acerca-del-sitio.html">Acerca del Sitio Web</a>
+  </div>
+
+<main class="main">
+
+
+
+<center>
+
+  <img class="wallpaper" src="https://i.postimg.cc/ry3DPkCD/wallpaper.png">
+
+  <h2>Lista de Consolas Disponibles</h2>
+
+<div class="search-container">
+  <input type="text" id="searchInput" placeholder="Buscar consola..." oninput="handleInput()" />
+  <span class="search-icon">🔍</span>
+  <span class="clear-icon" id="clearIcon" onclick="clearSearch()" style="display: none;">✖</span>
+</div>
+<p id="noResults" style="text-align:center; display:none; color:red; font-weight:bold;">No se encuentran resultados</p>
+
+
+</center>
+
+
+  <div class="container">
+
+    <div class="console-box">
+      <img src="https://i.postimg.cc/2SW-wgtb0/Atari-2600-png.png" alt="Atari 2600">
+      <div class="console-title"><a href="roms/atari2600_roms.html">Atari 2600
+</a></div>
+      <div class="roms-count"> 766 Roms</div>
+    </div>
+
+<div class="console-box">
+      <img src="https://i.postimg.cc/1X4TFKWb/Atari-5200-Console.png" alt="Atari 5200">
+      <div class="console-title"><a href="roms/atari5200_roms.html">Atari 5200
+</a></div>
+      <div class="roms-count"> 70 Roms</div>
+    </div>
+
+    <div class="console-box">
+      <img src="https://i.postimg.cc/J06s6R5G/960px-Atari-7800-Console.png" alt="Atari 7800">
+      <div class="console-title"><a href="roms/atari7800_roms.html">Atari 7800
+</a></div>
+      <div class="roms-count"> 140 Roms</div>
+    </div>
+
+     <div class="console-box">
+      <img src="https://i.postimg.cc/7YSc2XwJ/1200px-Atari-Jaguar-Console-Set.png" alt="Atari Jaguar">
+      <div class="console-title"><a href="roms/atarijaguar_roms.html">Atari Jaguar
+</a></div>
+      <div class="roms-count"> 140 Roms</div>
+    </div>
+
+<div class="console-box">
+      <img src="https://i.postimg.cc/HsqsbFFb/1024px-Atari-1040-ST.png" alt="Atari ST">
+      <div class="console-title"><a href="roms/atarist_roms.html">Atari ST</a></div>
+      <div class="roms-count">315 Roms</div>
+    </div>
+
+
+
+    <div class="console-box">
+      <img src="https://i.postimg.cc/qqK08Kz4/atomisw-ave.png" alt="Atomiswave ">
+      <div class="console-title"><a href="roms/atomiswave_roms.html">Atomiswave 
+</a></div>
+      <div class="roms-count"> 28 Roms</div>
+    </div>
+
+
+
+<div class="console-box">
+      <img src="https://i.postimg.cc/XYrYNbgc/Amiga500-system.png" alt="Amiga 500">
+      <div class="console-title"><a href="roms/amiga500_roms.html">Amiga 500</a></div>
+      <div class="roms-count">190 Roms</div>
+    </div>
+
+
+<div class="console-box">
+      <img src="https://i.postimg.cc/Nf6RpHwJ/Coleco-Vision-w-Controller-L.png" alt="ColecoVision">
+      <div class="console-title"><a href="roms/colecovision.html">ColecoVision
+</a></div>
+      <div class="roms-count"> 96 Roms</div>
+    </div>
+
+<div class="console-box">
+      <img src="https://i.postimg.cc/zvZVJvV4/Cps1-board.gif" alt="Capcom Play System 1">
+      <div class="console-title"><a href="roms/cps1.html">Capcom Play System 1
+</a></div>
+      <div class="roms-count"> 138 Roms</div>
+    </div>
+
+
+<div class="console-box">
+      <img src="https://i.postimg.cc/hj0HG3jg/Cps2.webp" alt="Capcom Play System 1">
+      <div class="console-title"><a href="roms/cps2.html">Capcom Play System 2
+</a></div>
+      <div class="roms-count"> 27 Roms</div>
+    </div>
+
+<div class="console-box">
+      <img src="https://i.postimg.cc/x1HpCFx7/cps3system.png" alt="Capcom Play System 3">
+      <div class="console-title"><a href="roms/cps3.html">Capcom Play System 3
+</a></div>
+      <div class="roms-count"> 7 Roms</div>
+    </div>
+
+<div class="console-box">
+      <img src="https://i.postimg.cc/HnLd4wfb/Commodore-64-Computer-FL.png" alt="Commodore 64">
+      <div class="console-title"><a href="roms/commodore64_roms.html">Commodore 64
+</a></div>
+      <div class="roms-count"> 252 Roms</div>
+    </div>
+
+
+<div class="console-box">
+      <img src="https://i.postimg.cc/KvQYNQx5/msx1-console.png" alt="MSX 1">
+      <div class="console-title"><a href="roms/msx_roms.html">MSX 1
+</a></div>
+      <div class="roms-count"> 610 Roms</div>
+    </div>
+
+
+<div class="console-box">
+      <img src="https://i.postimg.cc/YSvjjgcz/msx2-console.png" alt="MSX 2">
+      <div class="console-title"><a href="roms/msx2_roms.html">MSX 2
+</a></div>
+      <div class="roms-count"> 156 Roms</div>
+    </div>
+
+
+
+    <div class="console-box">
+      <img src="https://i.postimg.cc/gJ1Fm7pp/NES-Console-Set.png" alt="NES">
+      <div class="console-title"><a href="roms/nes_roms.html">Nintendo Entertainment System
+</a></div>
+      <div class="roms-count">3,100‬ Roms</div>
+    </div>
+
+    <div class="console-box">
+      <img src="https://i.postimg.cc/zByYmr9p/Nintendo-Famicom-Console-Set-FL.png" alt="Famicom Disk System">
+      <div class="console-title"><a href="roms/famicom_roms.html"> Famicom Disk System</a></div>
+      <div class="roms-count">395 Roms</div>
+    </div>
+
+    <div class="console-box">
+      <img src="https://i.postimg.cc/FsRZ4p0q/Game-Boy-FL.png" alt="Gameboy">
+      <div class="console-title"><a href="roms/gameboy_roms.html">Gameboy</a></div>
+      <div class="roms-count">1951 Roms</div>
+    </div>
+
+    <div class="console-box">
+      <img src="https://i.postimg.cc/fyXwPpMd/Game-Boy-Color-green.png" alt="Gameboy Color">
+      <div class="console-title"><a href="roms/gameboycolor_roms.html">GameBoy Color</a></div>
+      <div class="roms-count">1241 Roms</div>
+    </div>
+
+
+
+<div class="console-box">
+      <img src="https://i.postimg.cc/dQx59Kgp/intelliviison.png" alt="Intellivision">
+      <div class="console-title"><a href="roms/intellivision_roms.html">Intellivision</a></div>
+      <div class="roms-count">218 Roms</div>
+    </div>
+
+    <div class="console-box">
+      <img src="https://i.postimg.cc/rm7VQM2c/sega-genesis.jpg" alt="Fujitsu FM Towns">
+      <div class="console-title"><a href="roms/segagenesis_roms.html">Sega Genesis / Megadrive </a></div>
+      <div class="roms-count">1709 Roms</div>
+    </div>
+    
+    <div class="console-box">
+      <img src="https://i.postimg.cc/zvN1vjmZ/Sega-Genesis-Model2-32-X.png" alt="32X">
+      <div class="console-title"><a href="roms/sega32x_roms.html">Sega 32X</a></div>
+      <div class="roms-count">71 Roms</div>
+    </div>
+    
+   <div class="console-box">
+      <img src="https://i.postimg.cc/Zq1Wf1N8/Sega-SG-1000-Console-Set.png" alt="Sega SG-1000">
+      <div class="console-title"><a href="roms/sg1000_roms.html">Sega SG-1000</a></div>
+      <div class="roms-count">33 Roms</div>
+    </div>
+
+
+<div class="console-box">
+      <img src="https://i.postimg.cc/VkLRkF68/SEGA-Pico.png" alt="Sega PICO">
+      <div class="console-title"><a href="roms/segapico_roms.html">Sega PICO</a></div>
+      <div class="roms-count">417 Roms</div>
+    </div>
+
+
+<div class="console-box">
+      <img src="https://i.postimg.cc/zfBmJf70/segamodel1.png" alt="Sega Model 1">
+      <div class="console-title"><a href="roms/segamodel1_roms.html">Sega Model 1</a></div>
+      <div class="roms-count">6 Roms</div>
+    </div>
+
+
+<div class="console-box">
+      <img src="https://i.postimg.cc/yxWH6yHQ/model2.png alt="Sega Model 2">
+      <div class="console-title"><a href="roms/segamodel2_roms.html">Sega Model 2</a></div>
+      <div class="roms-count">33 Roms</div>
+    </div>
+
+
+<div class="console-box">
+      <img src="https://i.postimg.cc/YqNphJxm/model3.png" alt="Sega Model 3">
+      <div class="console-title"><a href="roms/segamodel3_roms.html">Sega Model 3</a></div>
+      <div class="roms-count">44 Roms</div>
+    </div>
+
+    <div class="console-box">
+      <img src="https://i.postimg.cc/rFq2nT3y/naomi-arcade.webp" alt="Sega Naomi">
+      <div class="console-title"><a href="roms/seganaomi_roms.html">Sega Naomi 1</a></div>
+      <div class="roms-count"> 45 Roms</div>
+    </div>
+
+  <div class="console-box">
+      <img src="https://i.postimg.cc/Y9JQ3k3t/naomi2console.png" alt="Sega Naomi 2">
+      <div class="console-title"><a href="roms/seganaomi2_roms.html">Sega Naomi 2</a></div>
+      <div class="roms-count"> 17 Roms</div>
+    </div>
+
+
+ <div class="console-box">
+      <img src="https://i.postimg.cc/wxsT3yDB/N64-Console-Set.png" alt="N64">
+      <div class="console-title"><a href="roms/n64_roms.html">Nintendo 64</a></div>
+      <div class="roms-count">330 Roms</div>
+    </div>
+
+    <div class="console-box">
+      <img src="https://i.postimg.cc/Fz5fsnqD/1200px-64-DD-Attached.png" alt="N64 DD">
+      <div class="console-title"><a href="roms/n64dd_roms.html">Nintendo 64DD</a></div>
+      <div class="roms-count">13 Roms</div>
+    </div>
+
+    
+    <div class="console-box">
+      <img src="https://i.postimg.cc/xjkN1pN7/SNES-Mod1-Console-Set.png" alt="Super Nintendo">
+      <div class="console-title"><a href="roms/snes_roms.html">Super Nintendo Entertainment System</a></div>
+      <div class="roms-count">1342 Roms</div>
+    </div>
+
+
+    <div class="console-box">
+      <img src="https://i.postimg.cc/y8mCwpX7/fastroms-snes.jpg" alt="SNES">
+      <div class="console-title"><a href="roms/snesfast_roms.html">SNES - Fast ROMs</a></div>
+      <div class="roms-count">204 Roms</div>
+    </div>
+
+
+
+    <div class="console-box">
+      <img src="https://i.postimg.cc/KjjGYVdT/Satellaview-with-Super-Famicom.png" alt="Satellaview ">
+      <div class="console-title"><a href="roms/satellaview_roms.html">Satellaview </a></div>
+      <div class="roms-count">245 Roms</div>
+    </div>
+
+
+ <div class="console-box">
+      <img src="https://i.postimg.cc/HsGWmS6r/msu-1v2.webp" alt="MSU-1">
+      <div class="console-title"><a href="roms/msu1_roms.html">MSU-1</a></div>
+      <div class="roms-count">152 Roms</div>
+    </div>
+    
+    <div class="console-box">
+      <img src="https://i.postimg.cc/rwY39pgQ/Sms.png" alt="Sega Master System">
+      <div class="console-title"><a href="roms/master_system_roms.html">Sega Master System</a></div>
+      <div class="roms-count">816 Roms</div>
+    </div>
+    
+  <div class="console-box">
+      <img src="https://i.postimg.cc/DydK1sW-h/Sega-Game-Gear-WB.png" alt="Sega Master System">
+      <div class="console-title"><a href="roms/gamegear_roms.html">Sega Game Gear</a></div>
+      <div class="roms-count">514 Roms</div>
+    </div>
+
+
+
+ <div class="console-box">
+      <img src="https://i.postimg.cc/dV3WwZDQ/scummvm.png" alt="ScummVM">
+      <div class="console-title"><a href="roms/scummvm_roms.html">ScummVM</a></div>
+      <div class="roms-count">66 Roms</div>
+    </div>
+   
+   
+   <div class="console-box">
+      <img src="https://i.postimg.cc/CxTvnz0k/Nintendo-DS-Lite.png" alt="DS">
+      <div class="console-title"><a href="roms/ds_roms.html">Nintendo DS</a></div>
+      <div class="roms-count">2351 Roms</div>
+    </div>
+    
+    <div class="console-box">
+      <img src="https://i.postimg.cc/7YV4K8LC/Nintendo-3-DS-Aqua-Open.png" alt="3ds">
+      <div class="console-title"><a href="roms/3ds_roms.html">Nintendo 3DS</a></div>
+      <div class="roms-count">616 Roms</div>
+    </div>
+   
+
+
+<div class="console-box">
+      <img src="https://i.postimg.cc/Z54fgDzN/3-DO-FZ1-Console.png" alt="3DO Interactive">
+      <div class="console-title"><a href="roms/3dointeractive_roms.html">3DO Interactive</a></div>
+      <div class="roms-count">136 Roms</div>
+    </div>
+
+   <div class="console-box">
+      <img src="https://i.postimg.cc/2jcWt6Sv/PSX-Console-w-Controller.png" alt="PS1">
+      <div class="console-title"><a href="roms/ps1_roms.html">PlayStation 1</a></div>
+      <div class="roms-count">4124 Roms</div>
+    </div>
+    
+       <div class="console-box">
+      <img src="https://i.postimg.cc/C5QmMsHp/Play-Station-2.png" alt="PS2">
+      <div class="console-title"><a href="roms/ps2_roms.html">PlayStation 2</a></div>
+      <div class="roms-count">3130 Roms</div>
+    </div>
+    
+    
+    <div class="console-box">
+      <img src="https://i.postimg.cc/J0NvN4f6/PSP-1000.png" alt="PSP">
+      <div class="console-title"><a href="roms/psp_roms.html">PlayStation Portable</a></div>
+      <div class="roms-count">1468 Roms</div>
+    </div>
+
+    <div class="console-box">
+      <img src="https://i.postimg.cc/qMFqP2c5/ps3.png" alt="PS3">
+      <div class="console-title"><a href="roms/ps3_roms.html">PlayStation 3</a></div>
+      <div class="roms-count">1438 Roms</div>
+    </div>
+
+
+ <div class="console-box">
+      <img src="https://i.postimg.cc/85ztwKxb/Play-Station-Vita-illustration-svg.png" alt="PS Vita">
+      <div class="console-title"><a href="roms/psvita_roms.html">PlayStation Vita</a></div>
+      <div class="roms-count">1031 Roms</div>
+    </div>
+
+
+<div class="console-box">
+      <img src="https://i.postimg.cc/hvWXkG5b/Sega-Dreamcast-VMU.png" alt="VMU">
+      <div class="console-title"><a href="roms/vmu_roms.html">VMU
+</a></div>
+      <div class="roms-count"> 134 Roms</div>
+    </div>
+
+    
+   <div class="console-box">
+      <img src="https://i.postimg.cc/0QDzyYgK/1024px-Wii-console.png" alt="WII">
+      <div class="console-title"><a href="roms/wii_roms.html">Wii</a></div>
+      <div class="roms-count">1327 Roms</div>
+    </div>
+
+      <div class="console-box">
+      <img src="https://i.postimg.cc/Kvs5mmfN/wiiiware.png" alt="WiiWare">
+      <div class="console-title"><a href="roms/wiiware_roms.html">Wii Ware</a></div>
+      <div class="roms-count">3067 Roms</div>
+    </div>
+ 
+ 
+ <div class="console-box">
+      <img src="https://i.postimg.cc/GtfvPsGr/Nintendo-Game-Boy-Advance-Purple-FL.png" alt="GameBoy Advance">
+      <div class="console-title"><a href="roms/gba_roms.html">GameBoy Advance</a></div>
+      <div class="roms-count">885 Roms</div>
+    </div>
+    
+    <div class="console-box">
+      <img src="https://i.postimg.cc/43QcRvbW/Game-Cube-Console-Set.png" alt="GameCube">
+      <div class="console-title"><a href="roms/gamecube_roms.html">Gamecube</a></div>
+      <div class="roms-count">1254 Roms</div>
+    </div>
+    
+    
+     <div class="console-box">
+      <img src="https://i.postimg.cc/DZfXvWxn/Sega-dreamcast-set.png" alt="Dreamcast">
+      <div class="console-title"><a href="roms/dreamcast_roms.html">Dreamcast</a></div>
+      <div class="roms-count">651 Roms</div>
+    </div>
+    
+    
+    <div class="console-box">
+      <img src="https://i.postimg.cc/m2F6Kgch/Sega-Saturn-Console-Set-Mk2.png" alt="Saturn">
+      <div class="console-title"><a href="roms/saturn_roms.html">Sega Saturn</a></div>
+      <div class="roms-count"> 280 Roms</div>
+    </div>
+
+     <div class="console-box">
+      <img src="https://i.postimg.cc/Lsk9WCMB/segacd.png" alt="Sega cd">
+      <div class="console-title"><a href="roms/segacd_roms.html">Sega CD</a></div>
+      <div class="roms-count"> 540 Roms</div>
+    </div>
+  
+    
+    <div class="console-box">
+      <img src="https://i.postimg.cc/fRKM6KFH/Neo-Geo-Pocket-Anthra-Left.png" alt="NeoGeoCD">
+      <div class="console-title"><a href="roms/pocket_color_roms.html">NeoGeo Pocket</a></div>
+      <div class="roms-count"> 39 Roms</div>
+    </div>
+
+
+<div class="console-box">
+      <img src="https://i.postimg.cc/3xw541x2/Nokia-N-Gage.png" alt="N-Gage">
+      <div class="console-title"><a href="roms/ngage_roms.html">N-Gage</a></div>
+      <div class="roms-count"> 65 Roms</div>
+    </div>
+
+
+
+    
+    
+  <div class="console-box">
+      <img src="https://i.postimg.cc/Y26vkNQK/Game-and-watch-ball.png" alt="Game&Watch">
+      <div class="console-title"><a href="roms/game-watch_roms.html">Game&Watch</a></div>
+      <div class="roms-count"> 60 Roms</div>
+    </div>
+    
+    
+    <div class="console-box">
+      <img src="https://i.postimg.cc/HLrCZ3sG/Neo-Geo-CDZ-w-Controller-FL.png" alt="NeoGeoCD">
+      <div class="console-title"><a href="roms/neogeocd_roms.html">NeoGeo CD</a></div>
+      <div class="roms-count"> 100 Roms</div>
+    </div>
+    
+    <div class="console-box">
+      <img src="https://i.postimg.cc/8PLtY2qS/Neo-Geo-AES-FL.png" alt="NeoGeo">
+      <div class="console-title"><a href="roms/neogeo_roms.html">NeoGeo</a></div>
+      <div class="roms-count"> 172 Roms</div>
+    </div>
+    
+
+
+<div class="console-box">
+      <img src="https://i.postimg.cc/TPRLk7ch/pokemon-mini.png" alt="Pokémon mini">
+      <div class="console-title"><a href="roms/pokemonmini.html">Pokémon Mini</a></div>
+      <div class="roms-count"> 18 Roms</div>
+    </div>
+
+
+<div class="console-box">
+      <img src="https://i.postimg.cc/xTw1dZpw/Philips-CDi-220.png" alt="Philips CD-i">
+      <div class="console-title"><a href="roms/cdi_roms.html">Philips CD-i</a></div>
+      <div class="roms-count"> 220 Roms</div>
+    </div>
+
+
+
+    <div class="console-box">
+      <img src="https://i.postimg.cc/TPLbzGBY/Virtual-Boy-Set.png" alt="VirtualBoy">
+      <div class="console-title"><a href="roms/virtualboy_roms.html">VirtualBoy</a></div>
+      <div class="roms-count"> 20 Roms</div>
+    </div>
+
+    <div class="console-box">
+      <img src="https://i.postimg.cc/q7bYgpkb/Wii-U-Black-image.png" alt="Wii U">
+      <div class="console-title"><a href="roms/wiiu_roms.html">WII U</a></div>
+      <div class="roms-count"> 178 Roms</div>
+    </div>
+
+
+<div class="console-box">
+      <img src="https://i.postimg.cc/4Ncj7dnB/Wonder-Sw-an.png" alt="WonderSwan">
+      <div class="console-title"><a href="roms/wonderswan_roms.html">WonderSwan</a></div>
+      <div class="roms-count"> 146 Roms</div>
+    </div>
+
+
+<div class="console-box">
+      <img src="https://i.postimg.cc/sxhHh6fv/Wonder-Sw-an-Color.png" alt="WonderSwan Color">
+      <div class="console-title"><a href="roms/wonderswancolor_roms.html">WonderSwan Color</a></div>
+      <div class="roms-count"> 89 Roms</div>
+    </div>
+
+
+
+ <div class="console-box">
+      <img src="https://i.postimg.cc/NFd11cSf/Tiger-Game-Com-FL.png" alt=" Tiger Game.com">
+      <div class="console-title"><a href="roms/tigergame.html">Tiger Game.com</a></div>
+      <div class="roms-count"> 25 Roms</div>
+    </div>
+
+    <div class="console-box">
+      <img src="https://i.postimg.cc/XYsY3d05/Turbo-Grafx16-Console-Set.png" alt="Turbo-Grafx16">
+      <div class="console-title"><a href="roms/TurboGrafx16_roms.html">TurboGrafx-16</a></div>
+      <div class="roms-count"> 505 Roms</div>
+    </div>
+
+
+<div class="console-box">
+      <img src="https://i.postimg.cc/KYKf5RDk/NEC-Turbo-Grafx-16-CD-FL.png" alt="Turbo-Grafx CD">
+      <div class="console-title"><a href="roms/turbografxcd_roms.html">TurboGrafx CD</a></div>
+      <div class="roms-count"> 187 Roms</div>
+    </div>
+
+
+
+     <div class="console-box">
+      <img src="https://i.postimg.cc/4N9cnP1p/Xbox-Console-Set.png" alt="Xbox">
+      <div class="console-title"><a href="roms/xbox_roms.html">Xbox</a></div>
+      <div class="roms-count">983 Roms</div>
+    </div>
+  
+
+    <div class="console-box">
+      <img src="https://i.postimg.cc/50rJCwmC/Xbox-360-Pro.png" alt="Xbox 360">
+      <div class="console-title"><a href="roms/xbox360_roms.html">Xbox 360</a></div>
+      <div class="roms-count">1265 Roms</div>
+    </div>
+  
+ 
+  </main>
+
+  </div>
+
+
+   <script>
+  const sideMenu = document.getElementById("sideMenu");
+
+  function openMenu() {
+    sideMenu.style.width = "250px";
+    document.body.addEventListener("click", outsideClickListener);
+  }
+
+  function closeMenu() {
+    sideMenu.style.width = "0";
+    document.body.removeEventListener("click", outsideClickListener);
+  }
+
+  function outsideClickListener(event) {
+    const isClickInside = sideMenu.contains(event.target) || event.target.classList.contains("menu-icon");
+
+    if (!isClickInside) {
+      closeMenu();
+    }
+  }
+</script>
+
+
+<script>
+  function handleInput() {
+    const input = document.getElementById("searchInput");
+    const clearIcon = document.getElementById("clearIcon");
+
+    clearIcon.style.display = input.value ? "inline" : "none";
+    filterConsoles();
+  }
+
+  function filterConsoles() {
+    const input = document.getElementById("searchInput");
+    const filter = input.value.toLowerCase();
+    const consoles = document.querySelectorAll(".console-box");
+    let anyVisible = false;
+
+    consoles.forEach((box) => {
+      const title = box.querySelector(".console-title a").textContent.toLowerCase();
+      if (title.includes(filter)) {
+        box.style.display = "block";
+        anyVisible = true;
+      } else {
+        box.style.display = "none";
+      }
+    });
+
+    document.getElementById("noResults").style.display = anyVisible ? "none" : "block";
+  }
+
+  function clearSearch() {
+    const input = document.getElementById("searchInput");
+    input.value = "";
+    document.getElementById("clearIcon").style.display = "none";
+    filterConsoles();
+    input.focus();
+  }
+</script>
+
+
+<!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-content"></div>
+    <center>
+
+    <script id="_wauybp">var _wau = _wau || []; _wau.push(["small", "2zboycmjti", "ybp"]);</script><script async src="//waust.at/s.js"></script>
+
+    </center>
+  </footer>
+  
+  
+</body>
+</html>
