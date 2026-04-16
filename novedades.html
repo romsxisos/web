@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+<script>
+(function(){
+  var t = localStorage.getItem('theme') || 'dark';
+  document.documentElement.setAttribute('data-theme', t);
+})();
+</script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> Novedades del Sitio Web / RomsXISOs </title>
@@ -36,6 +43,7 @@
       <a href="index.html" class="navbar-logo">
       <img src="https://i.postimg.cc/Cx35yNJ8/logo.png" alt="Logo del sitio" class="logo-img" />
     </a>
+    <button class="theme-toggle" onclick="toggleTheme()" title="Cambiar tema">🌙</button>
     <div class="menu-icon" onclick="openMenu()">☰</div>
   </div>
 
@@ -54,6 +62,12 @@
     
 
 <div class="novedades">
+    
+    <p> 15/04/2026 </p>
+   <p>▪︎ Se Cambió el Diseño del Sitio</p>
+   <p>▪︎ Algunos ROMS/ISOS No Estarán Disponibles de Momento </p>
+  
+    <hr>
 
    <p> 25/06/2025 </p>
   <p> Se Agrego: </p>
@@ -252,5 +266,24 @@
   </footer>
   
   
+
+<script>
+function toggleTheme() {
+  var html = document.documentElement;
+  var current = html.getAttribute('data-theme') || 'dark';
+  var next = current === 'dark' ? 'light' : 'dark';
+  html.setAttribute('data-theme', next);
+  localStorage.setItem('theme', next);
+  updateToggleIcon();
+}
+function updateToggleIcon() {
+  var btn = document.querySelector('.theme-toggle');
+  if (!btn) return;
+  var t = document.documentElement.getAttribute('data-theme') || 'dark';
+  btn.textContent = t === 'dark' ? '☀️' : '🌙';
+}
+document.addEventListener('DOMContentLoaded', updateToggleIcon);
+</script>
+
 </body>
 </html>

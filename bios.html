@@ -2,6 +2,13 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+<script>
+(function(){
+  var t = localStorage.getItem('theme') || 'dark';
+  document.documentElement.setAttribute('data-theme', t);
+})();
+</script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BIOS</title></title>
@@ -37,12 +44,12 @@
     }
 
     .item {
-      background-color: #222;
+      background-color: var(--bg-card, #1a1a3e);
       border-radius: 8px;
       text-align: center;
       width: 180px;
       padding-bottom: 10px;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.08);
       display: flex;
       flex-direction: column;
     }
@@ -59,7 +66,7 @@
     .image-container {
       width: 100%;
       height: 130px;
-      background-color: #fff;
+      background-color: rgba(255,255,255,0.05);
       display: flex;
       align-items: center;
       justify-content: center;
@@ -80,11 +87,11 @@
       font-weight: bold;
       font-size: 18px;
       margin-top: 10px;
-      color:white;
+      color: var(--text-primary, #e8e8f0);
     }
 
     .item a {
-      color: #a0cfff;
+      color: var(--accent-cyan, #00e5ff);
       font-size: 14px;
       text-decoration: underline;
       display: inline-block;
@@ -116,6 +123,7 @@
       <a href="index.html" class="navbar-logo">
       <img src="https://i.postimg.cc/Cx35yNJ8/logo.png" alt="Logo RomsXISOs" class="logo-img" />
     </a>
+    <button class="theme-toggle" onclick="toggleTheme()" title="Cambiar tema">🌙</button>
     <div class="menu-icon" onclick="openMenu()">☰</div>
   </div>
 
@@ -385,6 +393,25 @@
   </footer>
   
   
+
+<script>
+function toggleTheme() {
+  var html = document.documentElement;
+  var current = html.getAttribute('data-theme') || 'dark';
+  var next = current === 'dark' ? 'light' : 'dark';
+  html.setAttribute('data-theme', next);
+  localStorage.setItem('theme', next);
+  updateToggleIcon();
+}
+function updateToggleIcon() {
+  var btn = document.querySelector('.theme-toggle');
+  if (!btn) return;
+  var t = document.documentElement.getAttribute('data-theme') || 'dark';
+  btn.textContent = t === 'dark' ? '☀️' : '🌙';
+}
+document.addEventListener('DOMContentLoaded', updateToggleIcon);
+</script>
+
 </body>
 </html>
 

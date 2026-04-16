@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+<script>
+(function(){
+  var t = localStorage.getItem('theme') || 'dark';
+  document.documentElement.setAttribute('data-theme', t);
+})();
+</script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Inicio / RomsXISOs </title>
@@ -37,6 +44,7 @@
       <a href="#" class="navbar-logo">
       <img src="https://i.postimg.cc/Cx35yNJ8/logo.png" alt="Logo del sitio" class="logo-img" />
     </a>
+    <button class="theme-toggle" onclick="toggleTheme()" title="Cambiar tema">🌙</button>
     <div class="menu-icon" onclick="openMenu()">☰</div>
   </div>
 
@@ -213,7 +221,7 @@
     </div>
 
     <div class="console-box">
-      <img src="https://i.postimg.cc/rm7VQM2c/sega-genesis.jpg" alt="Fujitsu FM Towns">
+      <img src="https://i.postimg.cc/rsTJTdGf/Sega-Genesis-Mod1-Set.png" alt="Sega Genesis">
       <div class="console-title"><a href="roms/segagenesis_roms.html">Sega Genesis / Megadrive </a></div>
       <div class="roms-count">1709 Roms</div>
     </div>
@@ -335,13 +343,13 @@
    
    <div class="console-box">
       <img src="https://i.postimg.cc/CxTvnz0k/Nintendo-DS-Lite.png" alt="DS">
-      <div class="console-title"><a href="roms/ds_roms.html">Nintendo DS</a></div>
+      <div class="console-title"><s>Nintendo DS </s></div>
       <div class="roms-count">2351 Roms</div>
     </div>
     
     <div class="console-box">
       <img src="https://i.postimg.cc/7YV4K8LC/Nintendo-3-DS-Aqua-Open.png" alt="3ds">
-      <div class="console-title"><a href="roms/3ds_roms.html">Nintendo 3DS</a></div>
+      <div class="console-title"><s>Nintendo 3DS</s></div>
       <div class="roms-count">616 Roms</div>
     </div>
    
@@ -355,26 +363,26 @@
 
    <div class="console-box">
       <img src="https://i.postimg.cc/2jcWt6Sv/PSX-Console-w-Controller.png" alt="PS1">
-      <div class="console-title"><a href="roms/ps1_roms.html">PlayStation 1</a></div>
+      <div class="console-title"><s>Playstation</s></div>
       <div class="roms-count">4124 Roms</div>
     </div>
     
        <div class="console-box">
       <img src="https://i.postimg.cc/C5QmMsHp/Play-Station-2.png" alt="PS2">
-      <div class="console-title"><a href="roms/ps2_roms.html">PlayStation 2</a></div>
+      <div class="console-title"><s> Playstation 2 </s></div>
       <div class="roms-count">3130 Roms</div>
     </div>
     
     
     <div class="console-box">
       <img src="https://i.postimg.cc/J0NvN4f6/PSP-1000.png" alt="PSP">
-      <div class="console-title"><a href="roms/psp_roms.html">PlayStation Portable</a></div>
+      <div class="console-title"><s>Playstation Portable</s></div>
       <div class="roms-count">1468 Roms</div>
     </div>
 
     <div class="console-box">
       <img src="https://i.postimg.cc/qMFqP2c5/ps3.png" alt="PS3">
-      <div class="console-title"><a href="roms/ps3_roms.html">PlayStation 3</a></div>
+      <div class="console-title"><s>Playstation 3</s></div>
       <div class="roms-count">1438 Roms</div>
     </div>
 
@@ -396,7 +404,7 @@
     
    <div class="console-box">
       <img src="https://i.postimg.cc/0QDzyYgK/1024px-Wii-console.png" alt="WII">
-      <div class="console-title"><a href="roms/wii_roms.html">Wii</a></div>
+      <div class="console-title"><s>Wii</s></div>
       <div class="roms-count">1327 Roms</div>
     </div>
 
@@ -415,14 +423,14 @@
     
     <div class="console-box">
       <img src="https://i.postimg.cc/43QcRvbW/Game-Cube-Console-Set.png" alt="GameCube">
-      <div class="console-title"><a href="roms/gamecube_roms.html">Gamecube</a></div>
+      <div class="console-title"><s>GameCube </s></div>
       <div class="roms-count">1254 Roms</div>
     </div>
     
     
      <div class="console-box">
       <img src="https://i.postimg.cc/DZfXvWxn/Sega-dreamcast-set.png" alt="Dreamcast">
-      <div class="console-title"><a href="roms/dreamcast_roms.html">Dreamcast</a></div>
+      <div class="console-title"><s>Sega Dreamcast</s></div>
       <div class="roms-count">651 Roms</div>
     </div>
     
@@ -435,7 +443,7 @@
 
      <div class="console-box">
       <img src="https://i.postimg.cc/Lsk9WCMB/segacd.png" alt="Sega cd">
-      <div class="console-title"><a href="roms/segacd_roms.html">Sega CD</a></div>
+      <div class="console-title"><s>Sega CD</s></div>
       <div class="roms-count"> 540 Roms</div>
     </div>
 
@@ -515,7 +523,7 @@
 
     <div class="console-box">
       <img src="https://i.postimg.cc/q7bYgpkb/Wii-U-Black-image.png" alt="Wii U">
-      <div class="console-title"><a href="roms/wiiu_roms.html">WII U</a></div>
+      <div class="console-title"><s>Wii U </s></div>
       <div class="roms-count"> 178 Roms</div>
     </div>
 
@@ -558,14 +566,14 @@
 
      <div class="console-box">
       <img src="https://i.postimg.cc/4N9cnP1p/Xbox-Console-Set.png" alt="Xbox">
-      <div class="console-title"><a href="roms/xbox_roms.html">Xbox</a></div>
+      <div class="console-title"><s>Xbox</s></div>
       <div class="roms-count">983 Roms</div>
     </div>
   
 
     <div class="console-box">
       <img src="https://i.postimg.cc/50rJCwmC/Xbox-360-Pro.png" alt="Xbox 360">
-      <div class="console-title"><a href="roms/xbox360_roms.html">Xbox 360</a></div>
+      <div class="console-title"><s>Xbox 360 </s><div>
       <div class="roms-count">1265 Roms</div>
     </div>
   
@@ -647,5 +655,24 @@
   </footer>
   
   
+
+<script>
+function toggleTheme() {
+  var html = document.documentElement;
+  var current = html.getAttribute('data-theme') || 'dark';
+  var next = current === 'dark' ? 'light' : 'dark';
+  html.setAttribute('data-theme', next);
+  localStorage.setItem('theme', next);
+  updateToggleIcon();
+}
+function updateToggleIcon() {
+  var btn = document.querySelector('.theme-toggle');
+  if (!btn) return;
+  var t = document.documentElement.getAttribute('data-theme') || 'dark';
+  btn.textContent = t === 'dark' ? '☀️' : '🌙';
+}
+document.addEventListener('DOMContentLoaded', updateToggleIcon);
+</script>
+
 </body>
 </html>
