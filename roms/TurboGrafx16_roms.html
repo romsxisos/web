@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+<script>
+(function(){
+  var t = localStorage.getItem('theme') || 'dark';
+  document.documentElement.setAttribute('data-theme', t);
+})();
+</script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+  
 
 <link rel="icon" type="image/png" href="../icon/favicon-96x96.png" sizes="96x96" />
 <link rel="icon" type="image/svg+xml" href="../icon/favicon.svg" />
@@ -29,6 +36,7 @@
   <link rel="stylesheet" href="../styles/styles_roms.css">
 </head>
 <body>
+<div style="position:fixed;top:12px;right:12px;z-index:999;"><button class="theme-toggle" onclick="toggleTheme()" title="Cambiar tema">🌙</button></div>
 
 <center>
     
@@ -84,7 +92,7 @@
       <tr>
         <th>Imagen</th>
         <th>Nombre del Juego</th>
-        <th>Enlace #1 (Servidor erista.me)</th>
+        <th>Enlace #1 (Servidor Drive)</th>
          <th>Enlace #2</th>
         <th>Tamaño</th>
       </tr>
@@ -106,6 +114,25 @@
 
     </center>
   </footer>
+
+
+<script>
+function toggleTheme() {
+  var html = document.documentElement;
+  var current = html.getAttribute('data-theme') || 'dark';
+  var next = current === 'dark' ? 'light' : 'dark';
+  html.setAttribute('data-theme', next);
+  localStorage.setItem('theme', next);
+  updateToggleIcon();
+}
+function updateToggleIcon() {
+  var btn = document.querySelector('.theme-toggle');
+  if (!btn) return;
+  var t = document.documentElement.getAttribute('data-theme') || 'dark';
+  btn.textContent = t === 'dark' ? '☀️' : '🌙';
+}
+document.addEventListener('DOMContentLoaded', updateToggleIcon);
+</script>
 
 </body>
 </html>
