@@ -39,28 +39,40 @@
 
  <!-- NAVBAR -->
   <div class="navbar">
-      <a href="index.html" class="navbar-logo">
+      <div class="menu-icon" onclick="openMenu()">☰</div>
+    <a href="index.html" class="navbar-logo">
       <img src="https://i.postimg.cc/Cx35yNJ8/logo.png" alt="Logo del sitio" class="logo-img" />
     </a>
     <button class="theme-toggle" onclick="toggleTheme()" title="Cambiar tema">🌙</button>
-    <div class="menu-icon" onclick="openMenu()">☰</div>
   </div>
 
   <!-- SIDE MENU -->
   <div id="sideMenu" class="side-menu">
     <span class="closebtn" onclick="closeMenu()">×</span>
      <a href="index.html">Inicio</a>
+    <a href="emuladores.html">Emuladores</a>
     <a href="bios.html">BIOS</a>
     <a href="novedades.html">Novedades</a>
     <a href="reportar-problema.html" class="active">¿Algún Problema o Falta Algún Juego?</a>
     <a href="acerca-del-sitio.html">Acerca del Sitio Web</a>
   </div>
 
-<!-- Elfsight Comments | Untitled Comments -->
+
+
+<main class="main">
+<center>
+  <h3> En Caso De Que Algun Juego No Funcione Me Lo Puedes Hacer Saber en la Caja del Chat <h3></center>
+
+    <br>
+    <br>
+    
+   <!-- Elfsight Comments | Untitled Comments -->
 <script src="https://elfsightcdn.com/platform.js" async></script>
 <div class="elfsight-app-c40c4c16-2823-4fb3-8bc4-ea359627ea3a" data-elfsight-app-lazy></div>
 
- 
+    </main>
+
+
   <script>
     function openMenu() {
       document.getElementById("sideMenu").style.width = "250px";

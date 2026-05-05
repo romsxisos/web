@@ -40,17 +40,18 @@
 
  <!-- NAVBAR -->
   <div class="navbar">
-      <a href="index.html" class="navbar-logo">
+      <div class="menu-icon" onclick="openMenu()">☰</div>
+    <a href="index.html" class="navbar-logo">
       <img src="https://i.postimg.cc/Cx35yNJ8/logo.png" alt="Logo del sitio" class="logo-img" />
     </a>
     <button class="theme-toggle" onclick="toggleTheme()" title="Cambiar tema">🌙</button>
-    <div class="menu-icon" onclick="openMenu()">☰</div>
   </div>
 
   <!-- SIDE MENU -->
   <div id="sideMenu" class="side-menu">
     <span class="closebtn" onclick="closeMenu()">×</span>
      <a href="index.html">Inicio</a>
+    <a href="emuladores.html">Emuladores</a>
     <a href="bios.html">BIOS</a>
     <a href="novedades.html" class="active">Novedades</a>
     <a href="reportar-problema.html">¿Algún Problema o Falta Algún Juego?</a>
@@ -62,6 +63,14 @@
     
 
 <div class="novedades">
+
+
+  <p> 5/5/2026 </p>
+   <p>▪︎ Se Añadio la Sección Emuladores Para PC/Android</p>
+   <p>▪︎ Ahora los Juegos Mostrarán Sus BoxArt</p>
+  
+    <hr>
+
     
     <p> 15/04/2026 </p>
    <p>▪︎ Se Cambió el Diseño del Sitio</p>
@@ -282,6 +291,8 @@ function updateToggleIcon() {
 }
 document.addEventListener('DOMContentLoaded', updateToggleIcon);
 </script>
+
+
 
 </body>
 </html>

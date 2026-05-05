@@ -1,0 +1,1221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<script>
+(function(){
+  var t = localStorage.getItem('theme') || 'dark';
+  document.documentElement.setAttribute('data-theme', t);
+})();
+</script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emuladores / RomsXISOs</title>
+  <link rel="stylesheet" href="styles/styles_home.css">
+  <link rel="stylesheet" href="styles/styles.css">
+
+  <link rel="icon" type="image/png" href="icon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="icon/favicon.svg" />
+  <link rel="shortcut icon" href="icon/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png" />
+  <link rel="manifest" href="icon/site.webmanifest" />
+
+  <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Emuladores / RomsXISOs.">
+  <meta name="author" content="RomsXISOs">
+
+  <style>
+    .emu-title{ text-align:center; margin: 10px 0 6px; }
+    .emu-sub{ text-align:center; color: var(--text-secondary,#a0a0c0); margin-bottom: 18px; font-size: 14px; }
+
+    .emu-grid{
+      display:grid;
+      grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+      gap: 18px;
+      max-width: 1300px;
+      margin: 0 auto;
+      padding: 0 14px 40px;
+    }
+
+    .emu-card{
+      background: var(--bg-card, #1a1a3e);
+      border: 1px solid var(--border-color, rgba(255,255,255,0.08));
+      border-radius: 14px;
+      padding: 14px 14px 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+      display:flex; flex-direction:column;
+    }
+    .emu-card:hover{ transform: translateY(-2px); transition: transform .15s ease; }
+
+    .emu-head{
+      display:flex; align-items:center; gap:10px;
+      padding-bottom:10px; margin-bottom:10px;
+      border-bottom: 1px solid var(--border-color, rgba(255,255,255,0.08));
+    }
+    .emu-head img{
+      width:46px; height:46px; object-fit:contain;
+      background: rgba(255,255,255,0.05); border-radius:8px; padding:4px;
+    }
+    .emu-head h3{
+      margin:0; font-size:16px; color: var(--text-primary,#e8e8f0);
+    }
+
+    .emu-section{
+      margin-top: 4px;
+    }
+    .emu-section h4{
+      margin:8px 0 6px; font-size:12px; letter-spacing:1px;
+      color: var(--accent-orange,#ff8c00); text-transform:uppercase;
+    }
+    .emu-list{ list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:6px; }
+    .emu-item{
+      display:flex; justify-content:space-between; align-items:center; gap:8px;
+      background: rgba(255,255,255,0.03);
+      border:1px solid rgba(255,255,255,0.05);
+      border-radius:8px; padding:8px 10px;
+    }
+    .emu-item .name{
+      color: var(--text-primary,#e8e8f0); font-weight:600; font-size:14px;
+      display:flex; align-items:center; gap:8px; flex-wrap:wrap; min-width:0; flex:1;
+    }
+    .emu-item .ico{
+      width:28px; height:28px; flex:0 0 28px; object-fit:contain;
+      background: rgba(255,255,255,0.06); border-radius:6px; padding:3px;
+    }
+    .emu-item .nm{ overflow:hidden; text-overflow:ellipsis; }
+    .emu-item .ver{
+      font-size:11px; padding:2px 6px; border-radius:6px;
+      background: rgba(0,229,255,0.12); color: var(--accent-cyan,#00e5ff);
+    }
+    .emu-item .ver.loading{ background: rgba(255,255,255,0.08); color: var(--text-secondary,#a0a0c0); }
+    .emu-item .ver.err{ background: rgba(255,80,80,0.15); color:#ff8080; }
+    .emu-item a.dl{
+      font-size:12px; padding:6px 10px; border-radius:8px;
+      background: var(--accent-cyan,#00e5ff); color:#000; text-decoration:none; font-weight:700;
+      white-space:nowrap;
+    }
+    .emu-item a.dl:hover{ background: var(--accent-purple,#b84dff); color:#fff; }
+
+    .console-picker{
+      display:flex; justify-content:center; align-items:center; gap:10px;
+      flex-wrap:wrap; margin: 6px auto 14px;
+    }
+    .console-picker label{
+      color: var(--text-secondary,#a0a0c0); font-size:14px; font-weight:600;
+    }
+    .console-picker select{
+      background: var(--bg-card,#1a1a3e);
+      color: var(--text-primary,#e8e8f0);
+      border: 1px solid var(--border-color, rgba(255,255,255,0.15));
+      border-radius: 10px; padding: 8px 12px; font-size: 14px; min-width: 240px;
+      cursor:pointer; outline:none;
+    }
+    .console-picker select:focus{ border-color: var(--accent-cyan,#00e5ff); }
+    .console-picker button{
+      background: transparent; color: var(--text-secondary,#a0a0c0);
+      border: 1px solid var(--border-color, rgba(255,255,255,0.15));
+      border-radius:10px; padding:8px 12px; cursor:pointer; font-size:13px;
+    }
+    .console-picker button:hover{ color: var(--accent-cyan,#00e5ff); border-color: var(--accent-cyan,#00e5ff); }
+
+    .emu-card.highlight{
+      outline: 2px solid var(--accent-cyan,#00e5ff);
+      box-shadow: 0 0 0 4px rgba(0,229,255,0.15), 0 4px 20px rgba(0,0,0,0.3);
+      transition: outline-color .3s, box-shadow .3s;
+    }
+
+    .legend{
+      max-width:1100px; margin: 0 auto 18px; padding: 10px 14px;
+      color: var(--text-secondary,#a0a0c0); font-size:13px; text-align:center;
+    }
+    .legend code{
+      background: rgba(255,255,255,0.06); padding:2px 6px; border-radius:6px;
+      color: var(--accent-cyan,#00e5ff);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <div class="navbar">
+    <div class="menu-icon" onclick="openMenu()">☰</div>
+    <a href="index.html" class="navbar-logo">
+      <img src="https://i.postimg.cc/Cx35yNJ8/logo.png" alt="Logo RomsXISOs" class="logo-img" />
+    </a>
+    <button class="theme-toggle" onclick="toggleTheme()" title="Cambiar tema">🌙</button>
+  </div>
+
+  <!-- SIDE MENU -->
+  <div id="sideMenu" class="side-menu">
+    <span class="closebtn" onclick="closeMenu()">×</span>
+    <a href="index.html">Inicio</a>
+    <a href="bios.html">BIOS</a>
+    <a href="emuladores.html" class="active">Emuladores</a>
+    <a href="novedades.html">Novedades</a>
+    <a href="reportar-problema.html">¿Algún Problema o Falta Algún Juego?</a>
+    <a href="acerca-del-sitio.html">Acerca del Sitio Web</a>
+  </div>
+
+<main class="main">
+<center>
+  <h1 class="emu-title">Emuladores</h1>
+  <p class="emu-sub">Emuladores para <b>PC</b> y <b>Android</b> de cada consola disponible. Las versiones se actualizan automáticamente desde la web oficial de cada emulador.</p>
+
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="Buscar consola o emulador..." oninput="filterEmu()" />
+    <span class="search-icon">🔍</span>
+    <span class="clear-icon" id="clearIcon" onclick="clearEmu()" style="display:none;">✖</span>
+  </div>
+  <p id="noResults" style="text-align:center; display:none; color:red; font-weight:bold;">No se encuentran resultados</p>
+
+  <div class="console-picker">
+    <label for="consoleSelect">Ir a consola:</label>
+    <select id="consoleSelect" onchange="jumpToConsole(this.value)">
+      <option value="">— Selecciona una consola —</option>
+    </select>
+    <button type="button" onclick="resetPicker()">Mostrar todas</button>
+    <label for="sortSelect" style="margin-left:10px;">Ordenar:</label>
+    <select id="sortSelect" onchange="sortConsoles(this.value)">
+      <option value="default">Por defecto</option>
+      <option value="az">Nombre (A → Z)</option>
+      <option value="za">Nombre (Z → A)</option>
+    </select>
+  </div>
+</center>
+
+<p class="legend">
+  La etiqueta <code>v…</code> muestra la <b>última versión</b> obtenida en vivo desde el repositorio oficial (GitHub Releases). Si una página oficial no permite consulta directa, el botón <b>Descargar</b> abre la web oficial que siempre sirve la última versión.
+</p>
+
+<div id="emuGrid" class="emu-grid"></div>
+</main>
+
+<script>
+/* ============================================================
+   DATA: una entrada por consola del listado. Cada emulador puede
+   tener:
+     - name      : nombre visible
+     - url       : URL oficial de descarga
+     - github    : "owner/repo" para auto-fetch de la última release
+     - playStore : URL de Play Store (opcional)
+   ============================================================ */
+/* Helper to derive a favicon URL from any official site (used as auto-fallback for emulator icons) */
+function fav(url){
+  try{ const u=new URL(url); return `https://www.google.com/s2/favicons?domain=${u.hostname}&sz=64`; }
+  catch(e){ return ''; }
+}
+
+const CONSOLES = [
+  { id:"atari2600", name:"Atari 2600", icon:"https://i.postimg.cc/2SW-wgtb0/Atari-2600-png.png",
+    pc:[
+      {name:"Stella", url:"https://stella-emu.github.io/downloads.html", github:"stella-emu/stella", icon:"https://stella-emu.github.io/images/stella.png"},
+      {name:"RetroArch (Stella core)", url:"https://www.retroarch.com/?page=platforms", github:"libretro/RetroArch", icon:"https://www.retroarch.com/images/logo.png"},
+      {name:"MAME", url:"https://www.mamedev.org/release.html", github:"mamedev/mame"},
+      {name:"javatari.js", url:"https://javatari.org/"}
+    ],
+    android:[
+      {name:"2600.emu", url:"https://play.google.com/store/apps/details?id=com.explusalpha.A2600Emu", github:"Rakashazi/emu-ex-plus-alpha"},
+      {name:"RetroArch", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch"},
+      {name:"Stella (Android)", url:"https://play.google.com/store/apps/details?id=stellaA2600.androidA"}
+    ]
+  },
+  { id:"atari5200", name:"Atari 5200", icon:"https://i.postimg.cc/1X4TFKWb/Atari-5200-Console.png",
+    pc:[
+      {name:"Altirra", url:"https://www.virtualdub.org/altirra.html"},
+      {name:"Atari800", url:"https://atari800.github.io/"},
+      {name:"RetroArch (Atari800)", url:"https://www.retroarch.com/?page=platforms", github:"libretro/RetroArch"},
+      {name:"MAME", url:"https://www.mamedev.org/release.html", github:"mamedev/mame"}
+    ],
+    android:[
+      {name:"RetroArch", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch"},
+      {name:"ColEm Deluxe (5200)", url:"https://play.google.com/store/apps/details?id=com.fms.colem.deluxe"}
+    ]
+  },
+  { id:"atari7800", name:"Atari 7800", icon:"https://i.postimg.cc/J06s6R5G/960px-Atari-7800-Console.png",
+    pc:[
+      {name:"A7800", url:"https://7800.8bitdev.org/index.php/A7800_Emulator"},
+      {name:"RetroArch (ProSystem)", url:"https://www.retroarch.com/?page=platforms", github:"libretro/RetroArch"},
+      {name:"MAME", url:"https://www.mamedev.org/release.html", github:"mamedev/mame"}
+    ],
+    android:[
+      {name:"RetroArch (ProSystem)", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch"}
+    ]
+  },
+  { id:"atarijaguar", name:"Atari Jaguar", icon:"https://i.postimg.cc/7YSc2XwJ/1200px-Atari-Jaguar-Console-Set.png",
+    pc:[
+      {name:"BigPEmu", url:"https://www.richwhitehouse.com/jaguar/"},
+      {name:"Phoenix", url:"https://atari-source.org/"},
+      {name:"Virtual Jaguar", url:"https://icculus.org/virtualjaguar/"},
+      {name:"MAME", url:"https://www.mamedev.org/release.html", github:"mamedev/mame"}
+    ],
+    android:[
+      {name:"RetroArch (Virtual Jaguar)", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch"}
+    ]
+  },
+  { id:"atarist", name:"Atari ST", icon:"https://i.postimg.cc/HsqsbFFb/1024px-Atari-1040-ST.png",
+    pc:[
+      {name:"Hatari", url:"https://hatari.tuxfamily.org/", github:"hatari/hatari"},
+      {name:"Steem SSE", url:"https://sourceforge.net/projects/steemsse/"},
+      {name:"SainT", url:"http://leonard.oxg.free.fr/"}
+    ],
+    android:[
+      {name:"Hataroid", url:"https://github.com/jsmolina/hataroid", github:"jsmolina/hataroid"}
+    ]
+  },
+  { id:"3do", name:"3DO Interactive", icon:"https://i.postimg.cc/Z54fgDzN/3-DO-FZ1-Console.png",
+    pc:[
+      {name:"Opera (libretro)", url:"https://www.retroarch.com/?page=platforms", github:"libretro/opera-libretro"},
+      {name:"Phoenix Emu Project", url:"http://www.phoenixproject.zsnes.com/"},
+      {name:"4DO", url:"https://www.fourdo.com/"}
+    ],
+    android:[
+      {name:"RetroArch (Opera)", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch"},
+      {name:"Real3DOPlayer", url:"https://play.google.com/store/apps/details?id=com.real3doplayer"}
+    ]
+  },
+  { id:"amiga500", name:"Amiga 500", icon:"https://i.postimg.cc/XYrYNbgc/Amiga500-system.png",
+    pc:[
+      {name:"WinUAE", url:"https://www.winuae.net/"},
+      {name:"FS-UAE", url:"https://fs-uae.net/download"},
+      {name:"Amiberry (PC/RPi)", url:"https://github.com/BlitterStudio/amiberry/releases", github:"BlitterStudio/amiberry"}
+    ],
+    android:[
+      {name:"Uae4arm", url:"https://play.google.com/store/apps/details?id=atua.anddev.uae4arm"},
+      {name:"RetroArch (PUAE)", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch"}
+    ]
+  },
+  { id:"atomiswave", name:"Atomiswave", icon:"https://i.postimg.cc/qqK08Kz4/atomisw-ave.png",
+    pc:[
+      {name:"Demul", url:"http://demul.emulation64.com/"},
+      {name:"Flycast", url:"https://github.com/flyinghead/flycast/releases", github:"flyinghead/flycast"},
+      {name:"MAME", url:"https://www.mamedev.org/release.html", github:"mamedev/mame"}
+    ],
+    android:[
+      {name:"Flycast", url:"https://play.google.com/store/apps/details?id=com.flycast.emulator", github:"flyinghead/flycast"},
+      {name:"RetroArch (Flycast)", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch"}
+    ]
+  },
+  { id:"cdi", name:"Philips CD-i", icon:"https://i.postimg.cc/xTw1dZpw/Philips-CDi-220.png",
+    pc:[
+      {name:"CD-i Emulator", url:"https://www.cdiemu.org/"},
+      {name:"MAME", url:"https://www.mamedev.org/release.html", github:"mamedev/mame"},
+      {name:"SAME CDi", url:"https://github.com/TeamFireball/SAMECDi"}
+    ],
+    android:[
+      {name:"MAME4droid 2024", url:"https://play.google.com/store/apps/details?id=com.seleuco.mame4d2024"},
+      {name:"RetroArch (SAMECDi)", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch"}
+    ]
+  },
+  { id:"colecovision", name:"ColecoVision", icon:"https://i.postimg.cc/Nf6RpHwJ/Coleco-Vision-w-Controller-L.png",
+    pc:[
+      {name:"ColEm", url:"https://fms.komkon.org/ColEm/"},
+      {name:"BlueMSX", url:"http://bluemsx.msxblue.com/"},
+      {name:"openMSX", url:"https://openmsx.org/", github:"openMSX/openMSX"},
+      {name:"MAME", url:"https://www.mamedev.org/release.html", github:"mamedev/mame"}
+    ],
+    android:[
+      {name:"ColEm", url:"https://play.google.com/store/apps/details?id=com.fms.colem"},
+      {name:"ColEm Deluxe", url:"https://play.google.com/store/apps/details?id=com.fms.colem.deluxe"},
+      {name:"RetroArch (bluemsx)", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch"}
+    ]
+  },
+  { id:"c64", name:"Commodore 64", icon:"https://i.postimg.cc/HnLd4wfb/Commodore-64-Computer-FL.png",
+    pc:[
+      {name:"VICE", url:"https://vice-emu.sourceforge.io/"},
+      {name:"Hoxs64", url:"http://www.hoxs64.net/"},
+      {name:"CCS64", url:"http://www.ccs64.com/"},
+      {name:"Denise", url:"https://www.denise-emu.com/"}
+    ],
+    android:[
+      {name:"Frodo C64", url:"https://play.google.com/store/apps/details?id=org.ab.c64"},
+      {name:"Mobile C64", url:"https://play.google.com/store/apps/details?id=com.ssoft.android.mobilec64"},
+      {name:"VICE C64 (RetroArch)", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch"}
+    ]
+  },
+  { id:"cps1", name:"Capcom CPS1", icon:"https://i.postimg.cc/zvZVJvV4/Cps1-board.gif",
+    pc:[
+      {name:"FinalBurn Neo", url:"https://github.com/finalburnneo/FBNeo/releases", github:"finalburnneo/FBNeo"},
+      {name:"MAME", url:"https://www.mamedev.org/release.html", github:"mamedev/mame"},
+      {name:"Nebula", url:"https://nebula.emulatronia.com/"},
+      {name:"Kawaks", url:"https://www.zophar.net/arcade/winkawaks.html"}
+    ],
+    android:[
+      {name:"MAME4droid 2024", url:"https://play.google.com/store/apps/details?id=com.seleuco.mame4d2024"},
+      {name:"MAME4droid (0.139)", url:"https://play.google.com/store/apps/details?id=com.seleuco.mame4all"},
+      {name:"RetroArch (FBNeo)", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch"}
+    ]
+  },
+  { id:"cps2", name:"Capcom CPS2", icon:"https://i.postimg.cc/hj0HG3jg/Cps2.webp",
+    pc:[
+      {name:"FinalBurn Neo", url:"https://github.com/finalburnneo/FBNeo/releases", github:"finalburnneo/FBNeo"},
+      {name:"MAME", url:"https://www.mamedev.org/release.html", github:"mamedev/mame"},
+      {name:"Nebula", url:"https://nebula.emulatronia.com/"},
+      {name:"Kawaks", url:"https://www.zophar.net/arcade/winkawaks.html"}
+    ],
+    android:[
+      {name:"MAME4droid 2024", url:"https://play.google.com/store/apps/details?id=com.seleuco.mame4d2024"},
+      {name:"RetroArch (FBNeo)", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch"}
+    ]
+  },
+  { id:"cps3", name:"Capcom CPS3", icon:"https://i.postimg.cc/x1HpCFx7/cps3system.png",
+    pc:[
+      {name:"FinalBurn Neo", url:"https://github.com/finalburnneo/FBNeo/releases", github:"finalburnneo/FBNeo"},
+      {name:"MAME", url:"https://www.mamedev.org/release.html", github:"mamedev/mame"},
+      {name:"Nebula", url:"https://nebula.emulatronia.com/"}
+    ],
+    android:[
+      {name:"MAME4droid 2024", url:"https://play.google.com/store/apps/details?id=com.seleuco.mame4d2024"},
+      {name:"RetroArch (FBNeo)", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch"}
+    ]
+  },
+  { id:"famicom", name:"Famicom / Famicom Disk System", icon:"https://i.postimg.cc/zByYmr9p/Nintendo-Famicom-Console-Set-FL.png",
+    pc:[
+      {name:"FCEUX", url:"https://fceux.com/web/download.html", github:"TASEmulators/fceux"},
+      {name:"Mesen 2", url:"https://www.mesen.ca/", github:"SourMesen/Mesen2"},
+      {name:"Nestopia UE", url:"http://0ldsk00l.ca/nestopia/", github:"0ldsk00l/nestopia"},
+      {name:"puNES", url:"https://github.com/punesemu/puNES/releases", github:"punesemu/puNES"}
+    ],
+    android:[
+      {name:"Nostalgia.NES", url:"https://play.google.com/store/apps/details?id=com.nostalgiaemulators.nesfree"},
+      {name:"NES.emu", url:"https://play.google.com/store/apps/details?id=com.explusalpha.NesEmu", github:"Rakashazi/emu-ex-plus-alpha"},
+      {name:"RetroArch", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch"}
+    ]
+  },
+  { id:"gameboy", name:"Game Boy", icon:"https://i.postimg.cc/FsRZ4p0q/Game-Boy-FL.png",
+    pc:[
+      {name:"SameBoy", url:"https://sameboy.github.io/", github:"LIJI32/SameBoy"},
+      {name:"BGB", url:"https://bgb.bircd.org/"},
+      {name:"mGBA", url:"https://mgba.io/downloads.html", github:"mgba-emu/mgba"},
+      {name:"Gambatte", url:"https://github.com/sinamas/gambatte", github:"sinamas/gambatte"}
+    ],
+    android:[
+      {name:"mGBA", url:"https://play.google.com/store/apps/details?id=io.mgba.mgba", github:"mgba-emu/mgba"},
+      {name:"My OldBoy! Free", url:"https://play.google.com/store/apps/details?id=com.fastemulator.gbcfree"},
+      {name:"GBC.emu", url:"https://play.google.com/store/apps/details?id=com.explusalpha.GbcEmu", github:"Rakashazi/emu-ex-plus-alpha"},
+      {name:"Pizza Boy GBC", url:"https://play.google.com/store/apps/details?id=it.dbtecno.pizzaboygbcfree"}
+    ]
+  },
+  { id:"gameboycolor", name:"Game Boy Color", icon:"https://i.postimg.cc/fyXwPpMd/Game-Boy-Color-green.png",
+    pc:[
+      {name:"SameBoy", url:"https://sameboy.github.io/", github:"LIJI32/SameBoy"},
+      {name:"BGB", url:"https://bgb.bircd.org/"},
+      {name:"mGBA", url:"https://mgba.io/downloads.html", github:"mgba-emu/mgba"},
+      {name:"Gambatte", url:"https://github.com/sinamas/gambatte", github:"sinamas/gambatte"}
+    ],
+    android:[
+      {name:"My OldBoy!", url:"https://play.google.com/store/apps/details?id=com.fastemulator.gbcfree"},
+      {name:"Pizza Boy GBC", url:"https://play.google.com/store/apps/details?id=it.dbtecno.pizzaboygbcfree"},
+      {name:"mGBA", url:"https://play.google.com/store/apps/details?id=io.mgba.mgba", github:"mgba-emu/mgba"}
+    ]
+  },
+  { id:"gba", name:"Game Boy Advance", icon:"https://i.postimg.cc/GtfvPsGr/Nintendo-Game-Boy-Advance-Purple-FL.png",
+    pc:[
+      {name:"mGBA", url:"https://mgba.io/downloads.html", github:"mgba-emu/mgba"},
+      {name:"VisualBoyAdvance-M", url:"https://github.com/visualboyadvance-m/visualboyadvance-m/releases", github:"visualboyadvance-m/visualboyadvance-m"},
+      {name:"NO$GBA", url:"https://www.nogba.com/"},
+      {name:"BizHawk", url:"https://github.com/TASEmulators/BizHawk/releases", github:"TASEmulators/BizHawk"}
+    ],
+    android:[
+      {name:"My Boy! Free", url:"https://play.google.com/store/apps/details?id=com.fastemulator.gbafree"},
+      {name:"mGBA", url:"https://play.google.com/store/apps/details?id=io.mgba.mgba", github:"mgba-emu/mgba"},
+      {name:"Pizza Boy GBA", url:"https://play.google.com/store/apps/details?id=it.dbtecno.pizzaboygba"},
+      {name:"GBA.emu", url:"https://play.google.com/store/apps/details?id=com.explusalpha.GbaEmu", github:"Rakashazi/emu-ex-plus-alpha"}
+    ]
+  },
+  { id:"gamegear", name:"Game Gear", icon:"https://i.postimg.cc/DydK1sW-h/Sega-Game-Gear-WB.png",
+    pc:[
+      {name:"Kega Fusion", url:"https://www.carpeludum.com/kega-fusion/"},
+      {name:"Genesis Plus GX (RetroArch)", url:"https://www.retroarch.com/?page=platforms", github:"libretro/Genesis-Plus-GX"},
+      {name:"BizHawk", url:"https://github.com/TASEmulators/BizHawk/releases", github:"TASEmulators/BizHawk"},
+      {name:"Emulicious", url:"http://emulicious.net/"}
+    ],
+    android:[
+      {name:"MD.emu", url:"https://play.google.com/store/apps/details?id=com.explusalpha.MdEmu", github:"Rakashazi/emu-ex-plus-alpha"},
+      {name:"RetroArch", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch"}
+    ]
+  },
+  { id:"intellivision", name:"Intellivision", icon:"https://i.postimg.cc/dQx59Kgp/intelliviison.png",
+    pc:[
+      {name:"jzIntv", url:"http://spatula-city.org/~im14u2c/intv/"},
+      {name:"Bliss", url:"http://bliss.kylepearson.co.uk/"},
+      {name:"MAME", url:"https://www.mamedev.org/release.html", github:"mamedev/mame"}
+    ],
+    android:[
+      {name:"RetroArch (FreeIntv)", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch"},
+      {name:"MAME4droid 2024", url:"https://play.google.com/store/apps/details?id=com.seleuco.mame4d2024"}
+    ]
+  },
+  { id:"mastersystem", name:"Sega Master System", icon:"https://i.postimg.cc/rwY39pgQ/Sms.png",
+    pc:[
+      {name:"Kega Fusion", url:"https://www.carpeludum.com/kega-fusion/"},
+      {name:"Genesis Plus GX", url:"https://www.retroarch.com/?page=platforms", github:"libretro/Genesis-Plus-GX"},
+      {name:"BlastEm", url:"https://www.retrodev.com/blastem/"},
+      {name:"Emulicious", url:"http://emulicious.net/"}
+    ],
+    android:[
+      {name:"MD.emu", url:"https://play.google.com/store/apps/details?id=com.explusalpha.MdEmu", github:"Rakashazi/emu-ex-plus-alpha"},
+      {name:"RetroArch", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch"}
+    ]
+  },
+  { id:"msu1", name:"MSU-1 (SNES)", icon:"https://i.postimg.cc/HsGWmS6r/msu-1v2.webp",
+    pc:[
+      {name:"Snes9x", url:"https://www.snes9x.com/", github:"snes9xgit/snes9x"},
+      {name:"bsnes", url:"https://github.com/bsnes-emu/bsnes/releases", github:"bsnes-emu/bsnes"},
+      {name:"Mesen 2", url:"https://www.mesen.ca/", github:"SourMesen/Mesen2"}
+    ],
+    android:[
+      {name:"Snes9x EX+", url:"https://play.google.com/store/apps/details?id=com.explusalpha.Snes9xPlus", github:"Rakashazi/emu-ex-plus-alpha"},
+      {name:"RetroArch (bsnes)", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch"}
+    ]
+  },
+  { id:"msx", name:"MSX 1", icon:"https://i.postimg.cc/KvQYNQx5/msx1-console.png",
+    pc:[
+      {name:"openMSX", url:"https://openmsx.org/", github:"openMSX/openMSX"},
+      {name:"BlueMSX", url:"http://bluemsx.msxblue.com/"},
+      {name:"WebMSX", url:"https://webmsx.org/"},
+      {name:"fMSX", url:"https://fms.komkon.org/fMSX/"}
+    ],
+    android:[
+      {name:"fMSX", url:"https://play.google.com/store/apps/details?id=com.fms.fmsx"},
+      {name:"fMSX Deluxe", url:"https://play.google.com/store/apps/details?id=com.fms.fmsx.deluxe"},
+      {name:"RetroArch (bluemsx)", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch"}
+    ]
+  },
+  { id:"msx2", name:"MSX 2", icon:"https://i.postimg.cc/YSvjjgcz/msx2-console.png",
+    pc:[
+      {name:"openMSX", url:"https://openmsx.org/", github:"openMSX/openMSX"},
+      {name:"BlueMSX", url:"http://bluemsx.msxblue.com/"},
+      {name:"WebMSX", url:"https://webmsx.org/"}
+    ],
+    android:[
+      {name:"fMSX", url:"https://play.google.com/store/apps/details?id=com.fms.fmsx"},
+      {name:"fMSX Deluxe", url:"https://play.google.com/store/apps/details?id=com.fms.fmsx.deluxe"}
+    ]
+  },
+  { id:"mugen", name:"M.U.G.E.N", icon:"https://i.postimg.cc/cJL29RQG/F8-B5-TJMHEI47-QZV.webp",
+    pc:[
+      {name:"M.U.G.E.N 1.1", url:"https://www.mugenfreeforall.com/index.php?/files/file/1-mugen-11/"},
+      {name:"IKEMEN GO", url:"https://github.com/ikemen-engine/Ikemen-GO/releases", github:"ikemen-engine/Ikemen-GO"}
+    ],
+    android:[
+      {name:"IKEMEN GO Android", url:"https://github.com/ikemen-engine/Ikemen-GO/releases", github:"ikemen-engine/Ikemen-GO"},
+      {name:"Mugen Android", url:"https://play.google.com/store/apps/details?id=com.elecbyte.mugen"}
+    ]
+  },
+  { id:"n64", name:"Nintendo 64", icon:"https://i.postimg.cc/wxsT3yDB/N64-Console-Set.png",
+    pc:[
+      {name:"Project64", url:"https://www.pj64-emu.com/"},
+      {name:"RMG (Mupen64Plus)", url:"https://github.com/Rosalie241/RMG/releases", github:"Rosalie241/RMG"},
+      {name:"simple64", url:"https://github.com/simple64/simple64/releases", github:"simple64/simple64"},
+      {name:"ParaLLEl N64 (RetroArch)", url:"https://www.retroarch.com/?page=platforms", github:"libretro/parallel-n64"},
+      {name:"Ares", url:"https://ares-emu.net/", github:"ares-emulator/ares"}
+    ],
+    android:[
+      {name:"Mupen64Plus FZ", url:"https://play.google.com/store/apps/details?id=org.mupen64plusae.v3.fzurita"},
+      {name:"M64Plus FZ Pro", url:"https://play.google.com/store/apps/details?id=org.mupen64plusae.v3.fzurita.pro"},
+      {name:"RetroArch", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch"}
+    ]
+  },
+  { id:"n64dd", name:"Nintendo 64DD", icon:"https://i.postimg.cc/Fz5fsnqD/1200px-64-DD-Attached.png",
+    pc:[
+      {name:"Project64", url:"https://www.pj64-emu.com/"},
+      {name:"Ares", url:"https://ares-emu.net/", github:"ares-emulator/ares"},
+      {name:"CEN64", url:"https://cen64.com/"}
+    ],
+    android:[
+      {name:"Mupen64Plus FZ", url:"https://play.google.com/store/apps/details?id=org.mupen64plusae.v3.fzurita"}
+    ]
+  },
+  { id:"neogeo", name:"Neo Geo (AES/MVS)", icon:"https://i.postimg.cc/8PLtY2qS/Neo-Geo-AES-FL.png",
+    pc:[
+      {name:"FinalBurn Neo", url:"https://github.com/finalburnneo/FBNeo/releases", github:"finalburnneo/FBNeo"},
+      {name:"MAME", url:"https://www.mamedev.org/release.html", github:"mamedev/mame"},
+      {name:"Kawaks", url:"https://www.zophar.net/arcade/winkawaks.html"},
+      {name:"Nebula", url:"https://nebula.emulatronia.com/"}
+    ],
+    android:[
+      {name:"NEO.emu", url:"https://play.google.com/store/apps/details?id=com.explusalpha.NeoEmu", github:"Rakashazi/emu-ex-plus-alpha"},
+      {name:"MAME4droid 2024", url:"https://play.google.com/store/apps/details?id=com.seleuco.mame4d2024"},
+      {name:"RetroArch (FBNeo)", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch"}
+    ]
+  },
+  { id:"neogeocd", name:"Neo Geo CD", icon:"https://i.postimg.cc/HLrCZ3sG/Neo-Geo-CDZ-w-Controller-FL.png",
+    pc:[
+      {name:"NeoCD (libretro)", url:"https://www.retroarch.com/?page=platforms", github:"libretro/neocd_libretro"},
+      {name:"MAME", url:"https://www.mamedev.org/release.html", github:"mamedev/mame"},
+      {name:"NeoRageX", url:"https://www.zophar.net/arcade/neoragex.html"}
+    ],
+    android:[
+      {name:"RetroArch (NeoCD)", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch"},
+      {name:"MAME4droid 2024", url:"https://play.google.com/store/apps/details?id=com.seleuco.mame4d2024"}
+    ]
+  },
+  { id:"nes", name:"NES", icon:"https://i.postimg.cc/gJ1Fm7pp/NES-Console-Set.png",
+    pc:[
+      {name:"FCEUX", url:"https://fceux.com/", github:"TASEmulators/fceux"},
+      {name:"Mesen 2", url:"https://www.mesen.ca/", github:"SourMesen/Mesen2"},
+      {name:"Nestopia UE", url:"http://0ldsk00l.ca/nestopia/", github:"0ldsk00l/nestopia"},
+      {name:"puNES", url:"https://github.com/punesemu/puNES/releases", github:"punesemu/puNES"}
+    ],
+    android:[
+      {name:"Nostalgia.NES", url:"https://play.google.com/store/apps/details?id=com.nostalgiaemulators.nesfree"},
+      {name:"NES.emu", url:"https://play.google.com/store/apps/details?id=com.explusalpha.NesEmu", github:"Rakashazi/emu-ex-plus-alpha"},
+      {name:"RetroArch", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch"}
+    ]
+  },
+  { id:"ngage", name:"Nokia N-Gage", icon:"https://i.postimg.cc/3xw541x2/Nokia-N-Gage.png",
+    pc:[
+      {name:"EKA2L1", url:"https://github.com/EKA2L1/EKA2L1/releases", github:"EKA2L1/EKA2L1"}
+    ],
+    android:[
+      {name:"EKA2L1 Android", url:"https://github.com/EKA2L1/EKA2L1/releases", github:"EKA2L1/EKA2L1"}
+    ]
+  },
+  { id:"pocketcolor", name:"Neo Geo Pocket / Color", icon:"https://i.postimg.cc/fRKM6KFH/Neo-Geo-Pocket-Anthra-Left.png",
+    pc:[
+      {name:"Mednafen", url:"https://mednafen.github.io/releases/"},
+      {name:"RetroArch (Beetle NGP)", url:"https://www.retroarch.com/?page=platforms", github:"libretro/RetroArch"},
+      {name:"NeoPop", url:"https://www.zophar.net/ngpc/neopop.html"}
+    ],
+    android:[
+      {name:"NGP.emu", url:"https://play.google.com/store/apps/details?id=com.explusalpha.NgpEmu", github:"Rakashazi/emu-ex-plus-alpha"},
+      {name:"RetroArch", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch"}
+    ]
+  },
+  { id:"pokemonmini", name:"Pokémon mini", icon:"https://i.postimg.cc/TPRLk7ch/pokemon-mini.png",
+    pc:[
+      {name:"PokeMini", url:"https://sourceforge.net/projects/pokemini/"},
+      {name:"RetroArch (PokeMini)", url:"https://www.retroarch.com/?page=platforms", github:"libretro/RetroArch"}
+    ],
+    android:[
+      {name:"RetroArch (PokeMini)", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch"}
+    ]
+  },
+  { id:"psvita", name:"PlayStation Vita", icon:"https://i.postimg.cc/85ztwKxb/Play-Station-Vita-illustration-svg.png",
+    pc:[
+      {name:"Vita3K", url:"https://vita3k.org/", github:"Vita3K/Vita3K"}
+    ],
+    android:[
+      {name:"Vita3K Android", url:"https://github.com/Vita3K/Vita3K-Android/releases", github:"Vita3K/Vita3K-Android"}
+    ]
+  },
+  { id:"satellaview", name:"Satellaview (SNES)", icon:"https://i.postimg.cc/KjjGYVdT/Satellaview-with-Super-Famicom.png",
+    pc:[
+      {name:"Snes9x", url:"https://www.snes9x.com/", github:"snes9xgit/snes9x"},
+      {name:"bsnes", url:"https://github.com/bsnes-emu/bsnes/releases", github:"bsnes-emu/bsnes"},
+      {name:"Mesen 2", url:"https://www.mesen.ca/", github:"SourMesen/Mesen2"}
+    ],
+    android:[
+      {name:"Snes9x EX+", url:"https://play.google.com/store/apps/details?id=com.explusalpha.Snes9xPlus", github:"Rakashazi/emu-ex-plus-alpha"}
+    ]
+  },
+  { id:"saturn", name:"Sega Saturn", icon:"https://i.postimg.cc/m2F6Kgch/Sega-Saturn-Console-Set-Mk2.png",
+    pc:[
+      {name:"Mednafen", url:"https://mednafen.github.io/releases/"},
+      {name:"YabaSanshiro", url:"https://www.uoyabause.org/"},
+      {name:"Kronos", url:"https://github.com/FCare/Kronos/releases", github:"FCare/Kronos"},
+      {name:"SSF", url:"https://www.shimulator.com/ssf/"}
+    ],
+    android:[
+      {name:"Yaba Sanshiro 2", url:"https://play.google.com/store/apps/details?id=org.devmiyax.yabasanshioro2"},
+      {name:"Yaba Sanshiro 2 Pro", url:"https://play.google.com/store/apps/details?id=org.devmiyax.yabasanshioro2.pro"},
+      {name:"RetroArch (Beetle Saturn)", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch"}
+    ]
+  },
+  { id:"scummvm", name:"ScummVM", icon:"https://i.postimg.cc/dV3WwZDQ/scummvm.png",
+    pc:[
+      {name:"ScummVM", url:"https://www.scummvm.org/downloads/", github:"scummvm/scummvm"},
+      {name:"ResidualVM (legacy)", url:"https://www.residualvm.org/downloads/"}
+    ],
+    android:[
+      {name:"ScummVM", url:"https://play.google.com/store/apps/details?id=org.scummvm.scummvm", github:"scummvm/scummvm"}
+    ]
+  },
+  { id:"sega32x", name:"Sega 32X", icon:"https://i.postimg.cc/zvN1vjmZ/Sega-Genesis-Model2-32-X.png",
+    pc:[
+      {name:"Kega Fusion", url:"https://www.carpeludum.com/kega-fusion/"},
+      {name:"PicoDrive", url:"https://github.com/notaz/picodrive/releases", github:"notaz/picodrive"},
+      {name:"Ares", url:"https://ares-emu.net/", github:"ares-emulator/ares"}
+    ],
+    android:[
+      {name:"MD.emu", url:"https://play.google.com/store/apps/details?id=com.explusalpha.MdEmu", github:"Rakashazi/emu-ex-plus-alpha"},
+      {name:"RetroArch (PicoDrive)", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch"}
+    ]
+  },
+  { id:"genesis", name:"Sega Genesis / Mega Drive", icon:"https://i.postimg.cc/rsTJTdGf/Sega-Genesis-Mod1-Set.png",
+    pc:[
+      {name:"Kega Fusion", url:"https://www.carpeludum.com/kega-fusion/"},
+      {name:"BlastEm", url:"https://www.retrodev.com/blastem/"},
+      {name:"Genesis Plus GX", url:"https://www.retroarch.com/?page=platforms", github:"libretro/Genesis-Plus-GX"},
+      {name:"Gens/GS", url:"https://segaretro.org/Gens/GS"},
+      {name:"Exodus", url:"http://www.exodusemulator.com/"}
+    ],
+    android:[
+      {name:"MD.emu", url:"https://play.google.com/store/apps/details?id=com.explusalpha.MdEmu", github:"Rakashazi/emu-ex-plus-alpha"},
+      {name:"GENPlusDroid", url:"https://play.google.com/store/apps/details?id=com.androbot.genplusdroid"},
+      {name:"RetroArch", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch"}
+    ]
+  },
+  { id:"segamodel1", name:"Sega Model 1", icon:"https://i.postimg.cc/zfBmJf70/segamodel1.png",
+    pc:[
+      {name:"MAME", url:"https://www.mamedev.org/release.html", github:"mamedev/mame"},
+      {name:"Model 1 Emu (ElSemi)", url:"https://www.zophar.net/sega/model-1.html"}
+    ],
+    android:[
+      {name:"MAME4droid 2024", url:"https://play.google.com/store/apps/details?id=com.seleuco.mame4d2024"}
+    ]
+  },
+  { id:"segamodel2", name:"Sega Model 2", icon:"https://i.postimg.cc/zfBmJf70/segamodel1.png",
+    pc:[
+      {name:"Model 2 Emulator (ElSemi)", url:"https://nebula.emulatronia.com/"},
+      {name:"MAME", url:"https://www.mamedev.org/release.html", github:"mamedev/mame"}
+    ],
+    android:[
+      {name:"MAME4droid 2024", url:"https://play.google.com/store/apps/details?id=com.seleuco.mame4d2024"}
+    ]
+  },
+  { id:"segamodel3", name:"Sega Model 3", icon:"https://i.postimg.cc/YqNphJxm/model3.png",
+    pc:[
+      {name:"Supermodel", url:"https://www.supermodel3.com/Download.html"},
+      {name:"MAME (parcial)", url:"https://www.mamedev.org/release.html", github:"mamedev/mame"}
+    ],
+    android:[
+      {name:"MAME4droid 2024 (limitado)", url:"https://play.google.com/store/apps/details?id=com.seleuco.mame4d2024"}
+    ]
+  },
+  { id:"naomi", name:"Sega NAOMI", icon:"https://i.postimg.cc/rFq2nT3y/naomi-arcade.webp",
+    pc:[
+      {name:"Demul", url:"http://demul.emulation64.com/"},
+      {name:"Flycast", url:"https://github.com/flyinghead/flycast/releases", github:"flyinghead/flycast"},
+      {name:"MAME", url:"https://www.mamedev.org/release.html", github:"mamedev/mame"}
+    ],
+    android:[
+      {name:"Flycast", url:"https://play.google.com/store/apps/details?id=com.flycast.emulator", github:"flyinghead/flycast"},
+      {name:"RetroArch (Flycast)", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch"}
+    ]
+  },
+  { id:"naomi2", name:"Sega NAOMI 2", icon:"https://i.postimg.cc/Y9JQ3k3t/naomi2console.png",
+    pc:[
+      {name:"Demul", url:"http://demul.emulation64.com/"},
+      {name:"Flycast", url:"https://github.com/flyinghead/flycast/releases", github:"flyinghead/flycast"}
+    ],
+    android:[
+      {name:"Flycast", url:"https://play.google.com/store/apps/details?id=com.flycast.emulator", github:"flyinghead/flycast"}
+    ]
+  },
+  { id:"segapico", name:"Sega Pico", icon:"https://i.postimg.cc/VkLRkF68/SEGA-Pico.png",
+    pc:[
+      {name:"PicoDrive", url:"https://github.com/notaz/picodrive/releases", github:"notaz/picodrive"},
+      {name:"Kega Fusion", url:"https://www.carpeludum.com/kega-fusion/"}
+    ],
+    android:[
+      {name:"RetroArch (PicoDrive)", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch"}
+    ]
+  },
+  { id:"sg1000", name:"Sega SG-1000", icon:"https://i.postimg.cc/Zq1Wf1N8/Sega-SG-1000-Console-Set.png",
+    pc:[
+      {name:"Kega Fusion", url:"https://www.carpeludum.com/kega-fusion/"},
+      {name:"Genesis Plus GX", url:"https://www.retroarch.com/?page=platforms", github:"libretro/Genesis-Plus-GX"},
+      {name:"BlueMSX", url:"http://bluemsx.msxblue.com/"}
+    ],
+    android:[
+      {name:"RetroArch", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch"}
+    ]
+  },
+  { id:"x68000", name:"Sharp X68000", icon:"https://i.postimg.cc/Yq65jyd3/Sharp-X68000.png",
+    pc:[
+      {name:"XM6 Pro-68k", url:"https://www.satotomi.com/xm6/xm6_main.html"},
+      {name:"XM6 TypeG", url:"https://www.geocities.jp/kugimoto0715/"},
+      {name:"PX68k libretro", url:"https://www.retroarch.com/?page=platforms", github:"libretro/PX68k-libretro"}
+    ],
+    android:[
+      {name:"RetroArch (PX68k)", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch"}
+    ]
+  },
+  { id:"snes", name:"Super Nintendo (SNES)", icon:"https://i.postimg.cc/xjkN1pN7/SNES-Mod1-Console-Set.png",
+    pc:[
+      {name:"Snes9x", url:"https://www.snes9x.com/", github:"snes9xgit/snes9x"},
+      {name:"bsnes", url:"https://github.com/bsnes-emu/bsnes/releases", github:"bsnes-emu/bsnes"},
+      {name:"Mesen 2", url:"https://www.mesen.ca/", github:"SourMesen/Mesen2"},
+      {name:"ZSNES (legacy)", url:"https://www.zsnes.com/"}
+    ],
+    android:[
+      {name:"Snes9x EX+", url:"https://play.google.com/store/apps/details?id=com.explusalpha.Snes9xPlus", github:"Rakashazi/emu-ex-plus-alpha"},
+      {name:"SuperRetro16", url:"https://play.google.com/store/apps/details?id=com.explusalpha.SuperRetro16"},
+      {name:"RetroArch", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch"}
+    ]
+  },
+  { id:"snesfast", name:"SNES (Snes9x Fast)", icon:"https://i.postimg.cc/y8mCwpX7/fastroms-snes.jpg",
+    pc:[
+      {name:"Snes9x", url:"https://www.snes9x.com/", github:"snes9xgit/snes9x"},
+      {name:"bsnes-jg", url:"https://github.com/jgemu/bsnes/releases", github:"jgemu/bsnes"}
+    ],
+    android:[
+      {name:"Snes9x EX+", url:"https://play.google.com/store/apps/details?id=com.explusalpha.Snes9xPlus", github:"Rakashazi/emu-ex-plus-alpha"},
+      {name:"SuperRetro16", url:"https://play.google.com/store/apps/details?id=com.explusalpha.SuperRetro16"}
+    ]
+  },
+  { id:"tigergame", name:"Tiger Game.com", icon:"https://i.postimg.cc/NFd11cSf/Tiger-Game-Com-FL.png",
+    pc:[
+      {name:"MAME", url:"https://www.mamedev.org/release.html", github:"mamedev/mame"}
+    ],
+    android:[
+      {name:"MAME4droid 2024", url:"https://play.google.com/store/apps/details?id=com.seleuco.mame4d2024"}
+    ]
+  },
+  { id:"tg16", name:"TurboGrafx-16 / PC Engine", icon:"https://i.postimg.cc/XYsY3d05/Turbo-Grafx16-Console-Set.png",
+    pc:[
+      {name:"Mednafen", url:"https://mednafen.github.io/releases/"},
+      {name:"Ootake", url:"http://www.ouma.jp/ootake/"},
+      {name:"Magic Engine", url:"https://www.magicengine.com/"},
+      {name:"BizHawk", url:"https://github.com/TASEmulators/BizHawk/releases", github:"TASEmulators/BizHawk"}
+    ],
+    android:[
+      {name:"PCE.emu", url:"https://play.google.com/store/apps/details?id=com.explusalpha.PceEmu", github:"Rakashazi/emu-ex-plus-alpha"},
+      {name:"RetroArch (Beetle PCE)", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch"}
+    ]
+  },
+  { id:"tgcd", name:"TurboGrafx-CD / PC Engine CD", icon:"https://i.postimg.cc/KYKf5RDk/NEC-Turbo-Grafx-16-CD-FL.png",
+    pc:[
+      {name:"Mednafen", url:"https://mednafen.github.io/releases/"},
+      {name:"Ootake", url:"http://www.ouma.jp/ootake/"},
+      {name:"Magic Engine", url:"https://www.magicengine.com/"}
+    ],
+    android:[
+      {name:"PCE.emu", url:"https://play.google.com/store/apps/details?id=com.explusalpha.PceEmu", github:"Rakashazi/emu-ex-plus-alpha"},
+      {name:"RetroArch", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch"}
+    ]
+  },
+  { id:"virtualboy", name:"Virtual Boy", icon:"https://i.postimg.cc/TPLbzGBY/Virtual-Boy-Set.png",
+    pc:[
+      {name:"Mednafen", url:"https://mednafen.github.io/releases/"},
+      {name:"Beetle VB (RetroArch)", url:"https://www.retroarch.com/?page=platforms", github:"libretro/RetroArch"},
+      {name:"Red Dragon", url:"http://www.planetvb.com/modules/emulators/"}
+    ],
+    android:[
+      {name:"RetroArch (Beetle VB)", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch"}
+    ]
+  },
+  { id:"vmu", name:"Dreamcast VMU", icon:"https://i.postimg.cc/hvWXkG5b/Sega-Dreamcast-VMU.png",
+    pc:[
+      {name:"VMU Emu (Pristine)", url:"https://www.dreamcast-talk.com/forum/viewtopic.php?t=12000"},
+      {name:"Flycast (VMU integrado)", url:"https://github.com/flyinghead/flycast/releases", github:"flyinghead/flycast"},
+      {name:"BizHawk", url:"https://github.com/TASEmulators/BizHawk/releases", github:"TASEmulators/BizHawk"}
+    ],
+    android:[
+      {name:"Flycast", url:"https://play.google.com/store/apps/details?id=com.flycast.emulator", github:"flyinghead/flycast"}
+    ]
+  },
+  { id:"wiiware", name:"WiiWare", icon:"https://i.postimg.cc/Kvs5mmfN/wiiiware.png",
+    pc:[
+      {name:"Dolphin", url:"https://dolphin-emu.org/download/", github:"dolphin-emu/dolphin"},
+      {name:"Dolphin Dev", url:"https://dolphin-emu.org/download/list/master/1/"}
+    ],
+    android:[
+      {name:"Dolphin", url:"https://play.google.com/store/apps/details?id=org.dolphinemu.dolphinemu", github:"dolphin-emu/dolphin"},
+      {name:"Dolphin MMJR2", url:"https://github.com/Bankaimaster999/Dolphin-MMJR2/releases", github:"Bankaimaster999/Dolphin-MMJR2"}
+    ]
+  },
+  { id:"wonderswan", name:"WonderSwan", icon:"https://i.postimg.cc/4Ncj7dnB/Wonder-Sw-an.png",
+    pc:[
+      {name:"Mednafen", url:"https://mednafen.github.io/releases/"},
+      {name:"Oswan", url:"http://oswan.work/"},
+      {name:"Cygne", url:"https://www.zophar.net/wonderswan/cygne.html"}
+    ],
+    android:[
+      {name:"Swan.emu", url:"https://play.google.com/store/apps/details?id=com.explusalpha.SwanEmu", github:"Rakashazi/emu-ex-plus-alpha"},
+      {name:"NostalgiaWS", url:"https://play.google.com/store/apps/details?id=com.nostalgiaemulators.wsfree"}
+    ]
+  },
+  { id:"wonderswancolor", name:"WonderSwan Color", icon:"https://i.postimg.cc/sxhHh6fv/Wonder-Sw-an-Color.png",
+    pc:[
+      {name:"Mednafen", url:"https://mednafen.github.io/releases/"},
+      {name:"Oswan", url:"http://oswan.work/"}
+    ],
+    android:[
+      {name:"Swan.emu", url:"https://play.google.com/store/apps/details?id=com.explusalpha.SwanEmu", github:"Rakashazi/emu-ex-plus-alpha"},
+      {name:"NostalgiaWS", url:"https://play.google.com/store/apps/details?id=com.nostalgiaemulators.wsfree"}
+    ]
+  },
+  { id:"dreamcast", name:"Sega Dreamcast", icon:"https://i.postimg.cc/DZfXvWxn/Sega-dreamcast-set.png",
+    pc:[
+      {name:"Redream", url:"https://redream.io/download", site:"https://redream.io/download"},
+      {name:"Flycast", url:"https://github.com/flyinghead/flycast/releases", github:"flyinghead/flycast"},
+      {name:"DEmul", url:"http://demul.emulation64.com/"},
+      {name:"NullDC", url:"https://nulldc.emucr.com/"},
+      {name:"Reicast", url:"https://reicast.com/"}
+    ],
+    android:[
+      {name:"Redream", url:"https://play.google.com/store/apps/details?id=io.recompiled.redream", playStore:"io.recompiled.redream"},
+      {name:"Flycast", url:"https://play.google.com/store/apps/details?id=com.flycast.emulator", github:"flyinghead/flycast", playStore:"com.flycast.emulator"},
+      {name:"Reicast", url:"https://play.google.com/store/apps/details?id=com.reicast.emulator", playStore:"com.reicast.emulator"},
+      {name:"RetroArch (Flycast)", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch", playStore:"com.retroarch"}
+    ]
+  },
+  { id:"gamecube", name:"Nintendo GameCube", icon:"https://i.postimg.cc/43QcRvbW/Game-Cube-Console-Set.png",
+    pc:[
+      {name:"Dolphin", url:"https://dolphin-emu.org/download/", github:"dolphin-emu/dolphin"},
+      {name:"Dolphin Dev (master)", url:"https://dolphin-emu.org/download/list/master/1/"},
+      {name:"Ishiiruka (legacy)", url:"https://github.com/Tinob/Ishiiruka", github:"Tinob/Ishiiruka"}
+    ],
+    android:[
+      {name:"Dolphin", url:"https://play.google.com/store/apps/details?id=org.dolphinemu.dolphinemu", github:"dolphin-emu/dolphin", playStore:"org.dolphinemu.dolphinemu"},
+      {name:"Dolphin MMJR2", url:"https://github.com/Bankaimaster999/Dolphin-MMJR2/releases", github:"Bankaimaster999/Dolphin-MMJR2"},
+      {name:"AetherSX2 fork", url:"https://github.com/Trixarian/Dolphin-Android", github:"Trixarian/Dolphin-Android"}
+    ]
+  },
+  { id:"wii", name:"Nintendo Wii", icon:"https://i.postimg.cc/0QDzyYgK/1024px-Wii-console.png",
+    pc:[
+      {name:"Dolphin", url:"https://dolphin-emu.org/download/", github:"dolphin-emu/dolphin"},
+      {name:"Dolphin Dev (master)", url:"https://dolphin-emu.org/download/list/master/1/"}
+    ],
+    android:[
+      {name:"Dolphin", url:"https://play.google.com/store/apps/details?id=org.dolphinemu.dolphinemu", github:"dolphin-emu/dolphin", playStore:"org.dolphinemu.dolphinemu"},
+      {name:"Dolphin MMJR2", url:"https://github.com/Bankaimaster999/Dolphin-MMJR2/releases", github:"Bankaimaster999/Dolphin-MMJR2"}
+    ]
+  },
+  { id:"wiiu", name:"Nintendo Wii U", icon:"https://i.postimg.cc/q7bYgpkb/Wii-U-Black-image.png",
+    pc:[
+      {name:"Cemu", url:"https://cemu.info/", github:"cemu-project/Cemu"},
+      {name:"Decaf", url:"https://github.com/decaf-emu/decaf-emu", github:"decaf-emu/decaf-emu"}
+    ],
+    android:[
+      {name:"Cemu (próximamente)", url:"https://cemu.info/"}
+    ]
+  },
+  { id:"ps1", name:"Sony PlayStation (PS1)", icon:"https://i.postimg.cc/2jcWt6Sv/PSX-Console-w-Controller.png",
+    pc:[
+      {name:"DuckStation", url:"https://www.duckstation.org/", github:"stenzek/duckstation"},
+      {name:"PCSX-Redux", url:"https://pcsx-redux.consoledev.net/", github:"grumpycoders/pcsx-redux"},
+      {name:"ePSXe", url:"https://www.epsxe.com/"},
+      {name:"Mednafen", url:"https://mednafen.github.io/releases/"},
+      {name:"RetroArch (Beetle PSX HW)", url:"https://www.retroarch.com/?page=platforms", github:"libretro/RetroArch"}
+    ],
+    android:[
+      {name:"DuckStation", url:"https://play.google.com/store/apps/details?id=com.github.stenzek.duckstation", github:"stenzek/duckstation", playStore:"com.github.stenzek.duckstation"},
+      {name:"ePSXe", url:"https://play.google.com/store/apps/details?id=com.epsxe.ePSXe", playStore:"com.epsxe.ePSXe"},
+      {name:"FPse", url:"https://play.google.com/store/apps/details?id=com.emulator.fpse", playStore:"com.emulator.fpse"},
+      {name:"RetroArch (Beetle PSX)", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch", playStore:"com.retroarch"}
+    ]
+  },
+  { id:"ps2", name:"Sony PlayStation 2 (PS2)", icon:"https://i.postimg.cc/C5QmMsHp/Play-Station-2.png",
+    pc:[
+      {name:"PCSX2", url:"https://pcsx2.net/downloads", github:"PCSX2/pcsx2"},
+      {name:"Play!", url:"https://www.purei.org/", github:"jpd002/Play-"},
+      {name:"RetroArch (LRPS2)", url:"https://www.retroarch.com/?page=platforms", github:"libretro/RetroArch"}
+    ],
+    android:[
+      {name:"AetherSX2", url:"https://www.aethersx2.com/", playStore:"xyz.aethersx2.android"},
+      {name:"NetherSX2 (mod)", url:"https://github.com/Trixarian/NetherSX2-patch", github:"Trixarian/NetherSX2-patch"},
+      {name:"Play!", url:"https://play.google.com/store/apps/details?id=com.virtualapplications.play", github:"jpd002/Play-", playStore:"com.virtualapplications.play"},
+      {name:"DamonPS2", url:"https://play.google.com/store/apps/details?id=com.damonplus.damonps2", playStore:"com.damonplus.damonps2"}
+    ]
+  },
+  { id:"ps3", name:"Sony PlayStation 3 (PS3)", icon:"https://i.postimg.cc/qMFqP2c5/ps3.png",
+    pc:[
+      {name:"RPCS3", url:"https://rpcs3.net/download", github:"RPCS3/rpcs3"}
+    ],
+    android:[
+      {name:"No disponible (usa PC)", url:"https://rpcs3.net/"}
+    ]
+  },
+  { id:"psp", name:"Sony PlayStation Portable (PSP)", icon:"https://i.postimg.cc/J0NvN4f6/PSP-1000.png",
+    pc:[
+      {name:"PPSSPP", url:"https://www.ppsspp.org/download", github:"hrydgard/ppsspp"},
+      {name:"JPCSP", url:"http://jpcsp.org/", github:"jpcsp/jpcsp"},
+      {name:"RetroArch (PPSSPP core)", url:"https://www.retroarch.com/?page=platforms", github:"libretro/RetroArch"}
+    ],
+    android:[
+      {name:"PPSSPP", url:"https://play.google.com/store/apps/details?id=org.ppsspp.ppsspp", github:"hrydgard/ppsspp", playStore:"org.ppsspp.ppsspp"},
+      {name:"PPSSPP Gold", url:"https://play.google.com/store/apps/details?id=org.ppsspp.ppssppgold", playStore:"org.ppsspp.ppssppgold"},
+      {name:"RetroArch (PPSSPP)", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch", playStore:"com.retroarch"}
+     ]
+   },
+  { id:"nds", name:"Nintendo DS", icon:"https://i.postimg.cc/CxTvnz0k/Nintendo-DS-Lite.png",
+    pc:[
+      {name:"DeSmuME", url:"https://desmume.org/download/", github:"TASEmulators/desmume"},
+      {name:"melonDS", url:"https://melonds.kuribo64.net/downloads.php", github:"melonDS-emu/melonDS"},
+      {name:"RetroArch (DeSmuME/melonDS)", url:"https://www.retroarch.com/?page=platforms", github:"libretro/RetroArch"}
+    ],
+    android:[
+      {name:"DraStic DS Emulator", url:"https://play.google.com/store/apps/details?id=com.dsemu.drastic"},
+      {name:"melonDS (Android)", url:"https://play.google.com/store/apps/details?id=me.magnum.melonds"},
+      {name:"RetroArch (DeSmuME)", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch"}
+    ]
+  },
+  { id:"n3ds", name:"Nintendo 3DS", icon:"https://i.postimg.cc/7YV4K8LC/Nintendo-3-DS-Aqua-Open.png",
+    pc:[
+      {name:"Citra (Canary/Nightly)", url:"https://citra-emulator.com/", github:"citra-emu/citra"},
+      {name:"Lime3DS", url:"https://github.com/Lime3DS/Lime3DS/releases", github:"Lime3DS/Lime3DS"},
+      {name:"Azahar", url:"https://github.com/azahar-emu/azahar/releases", github:"azahar-emu/azahar"},
+      {name:"Mandarine", url:"https://github.com/mandarine3ds/mandarine/releases", github:"mandarine3ds/mandarine"}
+    ],
+    android:[
+      {name:"Citra MMJ", url:"https://github.com/weihuoya/citra/releases", github:"weihuoya/citra"},
+      {name:"Lime3DS (Android)", url:"https://github.com/Lime3DS/Lime3DS/releases", github:"Lime3DS/Lime3DS"},
+      {name:"Azahar (Android)", url:"https://github.com/azahar-emu/azahar/releases", github:"azahar-emu/azahar"}
+    ]
+  },
+  { id:"segacd", name:"Sega CD / Mega CD", icon:"https://i.postimg.cc/Lsk9WCMB/segacd.png",
+    pc:[
+      {name:"Genesis Plus GX (RetroArch)", url:"https://www.retroarch.com/?page=platforms", github:"libretro/Genesis-Plus-GX"},
+      {name:"Kega Fusion", url:"https://www.carpeludum.com/kega-fusion/"},
+      {name:"BlastEm", url:"https://www.retrodev.com/blastem/"},
+      {name:"Gens/GS", url:"https://segaretro.org/Gens/GS"}
+    ],
+    android:[
+      {name:"MD.emu", url:"https://play.google.com/store/apps/details?id=com.explusalpha.MdEmu", github:"Rakashazi/emu-ex-plus-alpha"},
+      {name:"RetroArch (Genesis Plus GX)", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch"}
+    ]
+  },
+  { id:"gamewatch", name:"Game & Watch", icon:"https://i.postimg.cc/Y26vkNQK/Game-and-watch-ball.png",
+    pc:[
+      {name:"MAME", url:"https://www.mamedev.org/release.html", github:"mamedev/mame"},
+      {name:"MADrigal Simulators", url:"http://www.madrigaldesign.it/sim/"},
+      {name:"Multi Game & Watch (PICO-8/HTML5)", url:"https://www.pica-pic.com/"}
+    ],
+    android:[
+      {name:"MAME4droid (0.139u1)", url:"https://play.google.com/store/apps/details?id=com.seleuco.mame4all"},
+      {name:"MAME4droid 2024", url:"https://play.google.com/store/apps/details?id=com.seleuco.mame4d2024"},
+      {name:"RetroArch (MAME)", url:"https://play.google.com/store/apps/details?id=com.retroarch", github:"libretro/RetroArch"}
+    ]
+  },
+  { id:"xbox", name:"Xbox", icon:"https://i.postimg.cc/4N9cnP1p/Xbox-Console-Set.png",
+    pc:[
+      {name:"xemu", url:"https://xemu.app/", github:"xemu-project/xemu"},
+      {name:"Cxbx-Reloaded", url:"https://cxbx-reloaded.co.uk/", github:"Cxbx-Reloaded/Cxbx-Reloaded"},
+      {name:"XQEMU", url:"https://xqemu.com/"}
+    ],
+    android:[
+      {name:"Xemu (no oficial / WIP)", url:"https://xemu.app/"}
+    ]
+  },
+  { id:"xbox360", name:"Xbox 360", icon:"https://i.postimg.cc/50rJCwmC/Xbox-360-Pro.png",
+    pc:[
+      {name:"Xenia (Canary)", url:"https://github.com/xenia-canary/xenia-canary/releases", github:"xenia-canary/xenia-canary"},
+      {name:"Xenia (Master)", url:"https://xenia.jp/", github:"xenia-project/xenia"}
+    ],
+    android:[
+      {name:"Xenia Canary (Mobile)", url:"https://github.com/xenia-canary/xenia-canary-mobile/releases", github:"xenia-canary/xenia-canary-mobile"}
+    ]
+  }
+];
+
+/* ===== Render ===== */
+function escapeHtml(s){return s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+
+function renderItem(emu, idx, kind, cIdx){
+  const verAttrs = [];
+  if(emu.github)    verAttrs.push(`data-repo="${emu.github}"`);
+  if(emu.playStore) verAttrs.push(`data-play="${emu.playStore}"`);
+  if(emu.site)      verAttrs.push(`data-site="${emu.site}"`);
+  const verHtml = verAttrs.length
+    ? `<span class="ver loading" ${verAttrs.join(' ')}>…</span>`
+    : ``;
+  const ico = emu.icon || fav(emu.url);
+  const icoHtml = ico
+    ? `<img class="ico" src="${ico}" alt="" loading="lazy" onerror="this.onerror=null;this.src='${fav(emu.url)}';if(!this.src)this.style.display='none';">`
+    : '';
+  return `
+    <li class="emu-item">
+      <span class="name">${icoHtml}<span class="nm">${escapeHtml(emu.name)}</span> ${verHtml}</span>
+      <a class="dl" href="${emu.url}" target="_blank" rel="noopener">Descargar</a>
+    </li>`;
+}
+
+function renderConsole(c, idx){
+  const icon = c.icon || "https://i.postimg.cc/Cx35yNJ8/logo.png";
+  return `
+    <div class="emu-card" id="card-${c.id}" data-id="${c.id}" data-search="${escapeHtml((c.name + ' ' +
+       c.pc.map(e=>e.name).join(' ') + ' ' + c.android.map(e=>e.name).join(' ')).toLowerCase())}">
+      <div class="emu-head">
+        <img src="${icon}" alt="${escapeHtml(c.name)}" loading="lazy" onerror="this.style.visibility='hidden'">
+        <h3>${escapeHtml(c.name)}</h3>
+      </div>
+      <div class="emu-section">
+        <h4>💻 PC (Windows / Linux / macOS)</h4>
+        <ul class="emu-list">${c.pc.map((e,i)=>renderItem(e,i,'pc',idx)).join('')}</ul>
+      </div>
+      <div class="emu-section">
+        <h4>📱 Android</h4>
+        <ul class="emu-list">${c.android.map((e,i)=>renderItem(e,i,'and',idx)).join('')}</ul>
+      </div>
+    </div>`;
+}
+
+const grid = document.getElementById('emuGrid');
+grid.innerHTML = CONSOLES.map(renderConsole).join('');
+
+/* Populate dropdown */
+const sel = document.getElementById('consoleSelect');
+[...CONSOLES].sort((a,b)=>a.name.localeCompare(b.name,'es')).forEach(c=>{
+  const o = document.createElement('option');
+  o.value = c.id; o.textContent = c.name;
+  sel.appendChild(o);
+});
+
+let highlightTimer = null;
+function jumpToConsole(id){
+  if(!id){ resetPicker(); return; }
+  // ensure visible (clear search filter so card isn't hidden)
+  const input = document.getElementById('searchInput');
+  if(input.value){ input.value=''; filterEmu(); }
+  const card = document.getElementById('card-'+id);
+  if(!card) return;
+  card.scrollIntoView({behavior:'smooth', block:'start'});
+  document.querySelectorAll('.emu-card.highlight').forEach(el=>el.classList.remove('highlight'));
+  card.classList.add('highlight');
+  clearTimeout(highlightTimer);
+  highlightTimer = setTimeout(()=>card.classList.remove('highlight'), 2200);
+}
+function resetPicker(){
+  document.getElementById('consoleSelect').value = '';
+  document.querySelectorAll('.emu-card.highlight').forEach(el=>el.classList.remove('highlight'));
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+
+/* ===== Auto-fetch latest versions =====
+   Order of resolution per item:
+   1) GitHub Releases (data-repo)
+   2) Google Play Store (data-play)  -> via CORS proxy (r.jina.ai)
+   3) Página oficial (data-site)     -> regex de versión
+*/
+const verCache = new Map();
+
+async function fetchGithub(repo){
+  const r = await fetch(`https://api.github.com/repos/${repo}/releases/latest`, {cache:'no-store'});
+  if(!r.ok) throw new Error('gh '+r.status);
+  const j = await r.json();
+  return (j.tag_name || j.name || '').toString().trim();
+}
+
+async function fetchPlay(pkg){
+  // Proxy CORS de solo-lectura (texto). Si falla, lanzamos error.
+  const url = `https://r.jina.ai/https://play.google.com/store/apps/details?id=${pkg}&hl=en`;
+  const r = await fetch(url, {cache:'no-store'});
+  if(!r.ok) throw new Error('play '+r.status);
+  const text = await r.text();
+  // Busca "Current Version" o patrón de versión.
+  let m = text.match(/Current Version[\s\S]{0,80}?([0-9][0-9A-Za-z._-]{1,30})/i)
+       || text.match(/Versi[oó]n actual[\s\S]{0,80}?([0-9][0-9A-Za-z._-]{1,30})/i)
+       || text.match(/"softwareVersion"\s*:\s*"([^"]+)"/i)
+       || text.match(/\bv?(\d+\.\d+(?:\.\d+){0,2})\b/);
+  if(!m) throw new Error('play parse');
+  return 'v'+m[1].replace(/^v/i,'');
+}
+
+async function fetchSite(site){
+  const url = `https://r.jina.ai/${site}`;
+  const r = await fetch(url, {cache:'no-store'});
+  if(!r.ok) throw new Error('site '+r.status);
+  const text = await r.text();
+  const m = text.match(/\bv?(\d+\.\d+(?:\.\d+){0,2})\b/);
+  if(!m) throw new Error('site parse');
+  return 'v'+m[1].replace(/^v/i,'');
+}
+
+async function loadVersion(el){
+  const repo = el.dataset.repo;
+  const play = el.dataset.play;
+  const site = el.dataset.site;
+  const key = repo || play || site;
+  if(!key) return;
+  if(verCache.has(key)){
+    el.textContent = verCache.get(key); el.classList.remove('loading'); return;
+  }
+  try{
+    let v = '';
+    if(repo) v = await fetchGithub(repo);
+    else if(play) v = await fetchPlay(play);
+    else if(site) v = await fetchSite(site);
+    if(!v) throw new Error('empty');
+    verCache.set(key, v);
+    el.textContent = v;
+    el.classList.remove('loading');
+  }catch(e){
+    // fallback: si tiene play y falló github, intenta play
+    try{
+      if(repo && play){
+        const v = await fetchPlay(play);
+        verCache.set(key, v);
+        el.textContent = v; el.classList.remove('loading'); return;
+      }
+    }catch(_){}
+    el.textContent = 'oficial';
+    el.classList.remove('loading');
+    el.classList.add('err');
+    el.title = 'No se pudo obtener la versión, usa el botón Descargar (web oficial).';
+  }
+}
+function loadAllVersions(){
+  document.querySelectorAll('.ver.loading').forEach(loadVersion);
+}
+loadAllVersions();
+
+/* ===== Ordenar consolas A-Z / Z-A ===== */
+function sortConsoles(mode){
+  const grid = document.getElementById('emuGrid');
+  const cards = Array.from(grid.querySelectorAll('.emu-card'));
+  let ordered;
+  if(mode === 'az'){
+    ordered = cards.slice().sort((a,b)=>{
+      const na = a.querySelector('.emu-head h3').textContent;
+      const nb = b.querySelector('.emu-head h3').textContent;
+      return na.localeCompare(nb,'es');
+    });
+  } else if(mode === 'za'){
+    ordered = cards.slice().sort((a,b)=>{
+      const na = a.querySelector('.emu-head h3').textContent;
+      const nb = b.querySelector('.emu-head h3').textContent;
+      return nb.localeCompare(na,'es');
+    });
+  } else {
+    // orden por defecto: el del array CONSOLES
+    const idx = new Map(CONSOLES.map((c,i)=>[c.id,i]));
+    ordered = cards.slice().sort((a,b)=> (idx.get(a.dataset.id)??0) - (idx.get(b.dataset.id)??0));
+  }
+  ordered.forEach(c=>grid.appendChild(c));
+}
+/* ===== Search filter ===== */
+function filterEmu(){
+  const q = document.getElementById('searchInput').value.trim().toLowerCase();
+  document.getElementById('clearIcon').style.display = q ? 'inline' : 'none';
+  let visible = 0;
+  document.querySelectorAll('.emu-card').forEach(card=>{
+    const m = !q || card.dataset.search.includes(q);
+    card.style.display = m ? '' : 'none';
+    if(m) visible++;
+  });
+  document.getElementById('noResults').style.display = visible ? 'none' : 'block';
+}
+function clearEmu(){
+  const i = document.getElementById('searchInput');
+  i.value=''; filterEmu(); i.focus();
+}
+
+/* ===== Theme + Menu (mismos helpers que el resto del sitio) ===== */
+function toggleTheme(){
+  const cur = document.documentElement.getAttribute('data-theme') || 'dark';
+  const next = cur === 'dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', next);
+  localStorage.setItem('theme', next);
+}
+function openMenu(){ document.getElementById('sideMenu').style.width = '260px'; }
+function closeMenu(){ document.getElementById('sideMenu').style.width = '0'; }
+</script>
+
+<!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-content"></div>
+    <center>
+
+    </center>
+  </footer>
+
+</body>
+</html>
