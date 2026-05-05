@@ -111,7 +111,7 @@
     <input type="checkbox" id="toggleBoxart" onchange="toggleBoxartVisibility()"> Mostrar boxart (carátulas)
   </label>
   <br>
-  <span style="font-size:11px;color:gray;">Al estar activada puede consumir datos</span>
+  <span style="font-size:11px;color:gray;">Al estar activada puede consumir datos, se recomienda WI-FI</span>
 </div>
 </center>
 
@@ -139,7 +139,6 @@
     <div class="footer-content"></div>
     <center>
 
-    <script id="_wauybp">var _wau = _wau || []; _wau.push(["small", "2zboycmjti", "ybp"]);</script><script async src="//waust.at/s.js"></script>
 
     </center>
   </footer>
@@ -179,55 +178,46 @@ document.addEventListener('DOMContentLoaded', updateToggleIcon);
   }
 </script>
 <script>
-function toggleBoxartVisibility() {
-  var checked = document.getElementById('toggleBoxart').checked;
-  var imgs = document.querySelectorAll('#romBody img');
-  imgs.forEach(function(img) {
-    if (checked) {
-      // Activar: cargar imagen
-      if (img.dataset.src) {
-        img.src = img.dataset.src;
-        img.removeAttribute('data-src');
-      }
-      img.style.display = '';
-    } else {
-      // Desactivar: quitar src para no consumir datos
-      if (img.src) {
-        img.dataset.src = img.src;
-        img.removeAttribute('src');
-      }
-      img.style.display = 'none';
-    }
-  });
-  window._boxartVisible = checked;
-}
-document.addEventListener('DOMContentLoaded', function() {
-  var origRender = window.renderTable;
-  if (!origRender) return;
-  // Observe new rows: if boxart off, remove src from new images
-  var observer = new MutationObserver(function() {
-    if (!window._boxartVisible) {
-      document.querySelectorAll('#romBody img').forEach(function(img) {
-        if (img.src) {
-          img.dataset.src = img.src;
-          img.removeAttribute('src');
-        }
+(function(){
+  var KEY = 'boxartVisible';
+  function getPref(){ return localStorage.getItem(KEY) === '1'; }
+  function setPref(v){ localStorage.setItem(KEY, v ? '1' : '0'); }
+  function applyState(checked){
+    var cb = document.getElementById('toggleBoxart');
+    if (cb) cb.checked = checked;
+    var imgs = document.querySelectorAll('#romBody img');
+    imgs.forEach(function(img){
+      if (checked){
+        if (img.dataset.src){ img.src = img.dataset.src; img.removeAttribute('data-src'); }
+        img.style.display = '';
+      } else {
+        if (img.src){ img.dataset.src = img.src; img.removeAttribute('src'); }
         img.style.display = 'none';
+      }
+    });
+    window._boxartVisible = checked;
+  }
+  window.toggleBoxartVisibility = function(){
+    var checked = document.getElementById('toggleBoxart').checked;
+    setPref(checked);
+    applyState(checked);
+  };
+  document.addEventListener('DOMContentLoaded', function(){
+    var checked = getPref();
+    applyState(checked);
+    var romBody = document.getElementById('romBody');
+    if (romBody){
+      var observer = new MutationObserver(function(){
+        applyState(window._boxartVisible);
       });
+      observer.observe(romBody, {childList: true});
     }
   });
-  var romBody = document.getElementById('romBody');
-  if (romBody) observer.observe(romBody, {childList: true});
-  // Initial: hide and remove src
-  document.querySelectorAll('#romBody img').forEach(function(img) {
-    if (img.src) {
-      img.dataset.src = img.src;
-      img.removeAttribute('src');
-    }
-    img.style.display = 'none';
+  window.addEventListener('storage', function(e){
+    if (e.key === KEY) applyState(getPref());
   });
-});
-window._boxartVisible = false;
+  window._boxartVisible = getPref();
+})();
 </script>
 </body>
 </html>
