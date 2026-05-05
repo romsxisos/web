@@ -1,11 +1,40 @@
 <!DOCTYPE html>
-<html translate="no">
+<html lang="es" translate="no">
 <head>
+<script>
+(function(){
+  var t = localStorage.getItem('theme') || 'dark';
+  document.documentElement.setAttribute('data-theme', t);
+})();
+</script>
+
 	<title>Rom Patcher JS</title>
 	<meta http-equiv="content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
 	<meta name="description" content="An online web-based ROM patcher. Supported formats: IPS, BPS, UPS, APS, RUP, EBP, PPF and xdelta."/>
 	<meta name="keywords" content="ips,ups,aps,bps,rup,ninja,ebp,ppf,xdelta,patcher,online,html5,web,rom,patch,hack,translation"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+
+	<!-- Estilos del sitio (de index.html) -->
+	<link rel="stylesheet" href="styles/styles_home.css">
+	<link rel="stylesheet" href="styles/styles.css">
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-GJDZT6DWBJ"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'G-GJDZT6DWBJ');
+	</script>
+
+	<!-- Iconos del sitio (de index.html) -->
+	<link rel="icon" type="image/png" href="icon/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/svg+xml" href="icon/favicon.svg" />
+	<link rel="shortcut icon" href="icon/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png" />
+	<link rel="manifest" href="icon/site.webmanifest" />
+
+	<!-- Manifest e iconos originales de Rom Patcher -->
 	<link rel="manifest" href="./manifest.json"/>
 	<link rel="shortcut icon" href="./webapp/app_icon_16.png" type="image/png" sizes="16x16"/>
 	<link rel="shortcut icon" href="./webapp/app_icon_192.png" type="image/png" sizes="192x192"/>
@@ -17,11 +46,14 @@
 	<link rel="apple-touch-icon" href="./webapp/app_icon_192.png" />
 
 	<!-- cache -->
-	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate" />
 	<meta http-equiv="Pragma" content="no-cache" />
 	<meta http-equiv="Expires" content="0" />
 
-	<!-- social network metatags -->	
+	<meta name="robots" content="noindex, nofollow">
+	<meta name="author" content="RomsXISOs">
+
+	<!-- social network metatags -->
 	<meta name="twitter:site" content="@marc_robledo">
 	<meta name="twitter:creator" content="@marc_robledo">
 	<meta name="twitter:domain" content="marcrobledo.com">
@@ -32,12 +64,39 @@
 	<meta name="twitter:image" content="https://www.marcrobledo.com/RomPatcher.js/webapp/thumbnail.jpg">
 	<meta name="twitter:card" content="photo">
 
+	<!-- Estilos y scripts originales de Rom Patcher -->
 	<link type="text/css" rel="stylesheet" href="./webapp/style.css" media="all"/>
-
 	<script type="text/javascript" src="./rom-patcher-js/RomPatcher.webapp.js"></script>
 	<script type="text/javascript" src="./webapp/webapp.js"></script>
+	<style>
+		.theme-toggle{min-width:0 !important;padding:0 !important;margin:0 !important;background:none !important;border:2px solid var(--border-color) !important;border-radius:50% !important;width:38px !important;height:38px !important;box-sizing:border-box !important;}
+		.theme-toggle:hover{border-color:var(--accent-cyan) !important;box-shadow:var(--glow-cyan) !important;transform:rotate(30deg) !important;background:none !important;}
+	</style>
 </head>
-<body><div id="column">
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+	<div class="menu-icon" onclick="openMenu()">☰</div>
+	<a href="#" class="navbar-logo">
+		<img src="https://i.postimg.cc/Cx35yNJ8/logo.png" alt="Logo del sitio" class="logo-img" />
+	</a>
+	<button class="theme-toggle" onclick="toggleTheme()" title="Cambiar tema">🌙</button>
+</div>
+
+<!-- SIDE MENU -->
+<div id="sideMenu" class="side-menu">
+	<span class="closebtn" onclick="closeMenu()">×</span>
+	<a href="index.html">Inicio</a>
+	<a href="emuladores.html">Emuladores</a>
+	<a href="bios.html">BIOS</a>
+	<a href="rom-parcher.html" class="active">ROM Parcher</a>
+	<a href="novedades.html">Novedades</a>
+	<a href="reportar-problema.html">¿Algún Problema o Falta Algún Juego?</a>
+	<a href="acerca-del-sitio.html">Acerca del Sitio Web</a>
+</div>
+
+<div id="column">
 
 
 <!-- HEADER -->
@@ -150,8 +209,7 @@
 
 
 
-
-<!-- FOOTER -->
+<!-- FOOTER (Rom Patcher) -->
 <footer>
 	<div>
 		<button id="button-settings" class="btn-transparent"><img src="./webapp/icon_settings.svg" loading="lazy" class="icon settings" /> <span data-localize="yes">Settings</span></button>
@@ -206,7 +264,58 @@
 		<div><label data-localize="yes" for="settings-light-theme">Light theme</label></div>
 		<div class="text-right"><input type="checkbox" id="settings-light-theme" class="styled" /></div>
 	</div>
+</dialog>
+
 </div>
 
 
-</body></html>
+<!-- FOOTER del sitio (de index.html) -->
+<footer class="footer">
+	<div class="footer-content"></div>
+	<center>
+	</center>
+</footer>
+
+
+<!-- Scripts del sitio (menú lateral y tema) -->
+<script>
+  const sideMenu = document.getElementById("sideMenu");
+
+  function openMenu() {
+    sideMenu.style.width = "250px";
+    document.body.addEventListener("click", outsideClickListener);
+  }
+
+  function closeMenu() {
+    sideMenu.style.width = "0";
+    document.body.removeEventListener("click", outsideClickListener);
+  }
+
+  function outsideClickListener(event) {
+    const isClickInside = sideMenu.contains(event.target) || event.target.classList.contains("menu-icon");
+    if (!isClickInside) {
+      closeMenu();
+    }
+  }
+</script>
+
+<script>
+function toggleTheme() {
+  var html = document.documentElement;
+  var current = html.getAttribute('data-theme') || 'dark';
+  var next = current === 'dark' ? 'light' : 'dark';
+  html.setAttribute('data-theme', next);
+  localStorage.setItem('theme', next);
+  updateToggleIcon();
+}
+function updateToggleIcon() {
+  var btn = document.querySelector('.theme-toggle');
+  if (!btn) return;
+  var t = document.documentElement.getAttribute('data-theme') || 'dark';
+  btn.textContent = t === 'dark' ? '☀️' : '🌙';
+}
+document.addEventListener('DOMContentLoaded', updateToggleIcon);
+</script>
+
+</body>
+</html>
