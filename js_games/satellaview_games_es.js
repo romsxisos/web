@@ -99,56 +99,56 @@ const roms = [
   },
   {
     name: "BS F-Zero Grand Prix 2 - Practice (Japan) (10-23)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/BS%20F-Zero%20Grand%20Prix%202%20-%20Practice%20%28Japan%29%20%2810-23%29.png",
     size: "410 KB",
     link1: "https://drive.google.com/file/d/1hFUf7xqyQy4cNpgbY7Kl7Pjzugn41wYF/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "BS F-Zero Grand Prix 2 - Practice (Japan) (12-6)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/BS%20F-Zero%20Grand%20Prix%202%20-%20Practice%20%28Japan%29%20%2812-6%29.png",
     size: "411 KB",
     link1: "https://drive.google.com/file/d/1YMAXn2A5txaFJ5r4_geCk7-MKZGV0iCc/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "BS Fire Emblem - Akaneia Senki Hen - Dai-1-wa - Palace Kanraku (Japan) (4-4) (SoundLink)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/BS%20Fire%20Emblem%20-%20Akaneia%20Senki%20Hen%20-%20Dai-1-wa%20-%20Palace%20Kanraku%20%28Japan%29%20%284-4%29%20%28SoundLink%29.png",
     size: "549 KB",
     link1: "https://drive.google.com/file/d/1M_YqGE7R6KKoIXa10FwU4X6U2YVkZ0pL/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "BS Fire Emblem - Akaneia Senki Hen - Dai-1-wa - Palace Kanraku (Japan) (9-29) (SoundLink)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/BS%20Fire%20Emblem%20-%20Akaneia%20Senki%20Hen%20-%20Dai-1-wa%20-%20Palace%20Kanraku%20%28Japan%29%20%289-29%29%20%28SoundLink%29.png",
     size: "549 KB",
     link1: "https://drive.google.com/file/d/1KaWFkY2sQu29jNynwfDd3ofsCiqeuQGL/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "BS Fire Emblem - Akaneia Senki Hen - Dai-2-wa - Akai Ryuu Kishi (Japan) (SoundLink)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/BS%20Fire%20Emblem%20-%20Akaneia%20Senki%20Hen%20-%20Dai-2-wa%20-%20Akai%20Ryuu%20Kishi%20%28Japan%29%20%28SoundLink%29.png",
     size: "415 KB",
     link1: "https://drive.google.com/file/d/12EQx3lP49WuwbtYdiokEu9Ars7bNck6L/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "BS Fire Emblem - Akaneia Senki Hen - Dai-3-wa - Seigi no Touzokudan (Japan) (SoundLink)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/BS%20Fire%20Emblem%20-%20Akaneia%20Senki%20Hen%20-%20Dai-3-wa%20-%20Seigi%20no%20Touzokudan%20%28Japan%29%20%28SoundLink%29.png",
     size: "549 KB",
     link1: "https://drive.google.com/file/d/1a9_TlYRqUPynMtNshaBo1W_RdTS3wEjf/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "BS Fire Emblem - Akaneia Senki Hen - Dai-4-wa - Hajimari no Toki (Japan) (4-28) (SoundLink)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/BS%20Fire%20Emblem%20-%20Akaneia%20Senki%20Hen%20-%20Dai-4-wa%20-%20Hajimari%20no%20Toki%20%28Japan%29%20%284-28%29%20%28SoundLink%29.png",
     size: "550 KB",
     link1: "https://drive.google.com/file/d/1HjCouhafNGRiIwADTbH65UQCdCl2vr0j/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "BS Fire Emblem - Akaneia Senki Hen - Dai-4-wa - Hajimari no Toki (Japan) (4-29) (SoundLink)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/BS%20Fire%20Emblem%20-%20Akaneia%20Senki%20Hen%20-%20Dai-4-wa%20-%20Hajimari%20no%20Toki%20%28Japan%29%20%284-29%29%20%28SoundLink%29.png",
     size: "550 KB",
     link1: "https://drive.google.com/file/d/1cy86gQYhp7a7rYFwXAavCgjxeigMNEs5/view?usp=drivesdk",
     link2: ""
@@ -351,7 +351,7 @@ const roms = [
   },
   {
     name: "BS Tantei Club - Yuki ni Kieta Kako - Chuuhen (Japan) (SoundLink)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/BS%20Tantei%20Club%20-%20Yuki%20ni%20Kieta%20Kako%20-%20Chuuhen%20%28Japan%29%20%28SoundLink%29.png",
     size: "333 KB",
     link1: "https://drive.google.com/file/d/18-XdrtXB5M5jRcCp7Ouf8V73gupLrj19/view?usp=drivesdk",
     link2: ""
@@ -386,28 +386,28 @@ const roms = [
   },
   {
     name: "BS Zelda no Densetsu - Inishie no Sekiban - Dai-1-wa (Japan) (SoundLink)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/BS%20Zelda%20no%20Densetsu%20-%20Inishie%20no%20Sekiban%20-%20Dai-1-wa%20%28Japan%29%20%28SoundLink%29.png",
     size: "587 KB",
     link1: "https://drive.google.com/file/d/1Lz3303lrxDoWoIP0rGUg5r90IfHrLdSE/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "BS Zelda no Densetsu - Inishie no Sekiban - Dai-2-wa (Japan) (SoundLink)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/BS%20Zelda%20no%20Densetsu%20-%20Inishie%20no%20Sekiban%20-%20Dai-2-wa%20%28Japan%29%20%28SoundLink%29.png",
     size: "590 KB",
     link1: "https://drive.google.com/file/d/1TrgVDOWR8bIDo4lkXGPmKZE7XgmYOZor/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "BS Zelda no Densetsu - Inishie no Sekiban - Dai-3-wa (Japan) (SoundLink)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/BS%20Zelda%20no%20Densetsu%20-%20Inishie%20no%20Sekiban%20-%20Dai-3-wa%20%28Japan%29%20%28SoundLink%29.png",
     size: "598 KB",
     link1: "https://drive.google.com/file/d/1mEWdVLncH49uEI3PxcgmNFLHgRVe5yjv/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "BS Zelda no Densetsu - Inishie no Sekiban - Dai-4-wa (Japan) (SoundLink)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/BS%20Zelda%20no%20Densetsu%20-%20Inishie%20no%20Sekiban%20-%20Dai-4-wa%20%28Japan%29%20%28SoundLink%29.png",
     size: "610 KB",
     link1: "https://drive.google.com/file/d/1qq0eRJwIO2jZsT6JH6bhiHa2oy_U-5LF/view?usp=drivesdk",
     link2: ""
@@ -533,21 +533,21 @@ const roms = [
   },
   {
     name: "Cu-On-Pa BS Ban (Japan) (10-27)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/Cu-On-Pa%20BS%20Ban%20%28Japan%29%20%286-25%29.png",
     size: "420 KB",
     link1: "https://drive.google.com/file/d/1WNwXT0NJsN2OaVRZNKFsjvNemAsDnht_/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Cu-On-Pa BS Ban (Japan) (5-31)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/Cu-On-Pa%20BS%20Ban%20%28Japan%29%20%286-25%29.png",
     size: "420 KB",
     link1: "https://drive.google.com/file/d/1aD9CFAXUQ6DOJeLKxk48cCyQsOwDhd6g/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Cu-On-Pa BS Ban (Japan) (6-15)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/Cu-On-Pa%20BS%20Ban%20%28Japan%29%20%286-25%29.png",
     size: "420 KB",
     link1: "https://drive.google.com/file/d/1004jwZ5Bh_WF7dR5F1mmJIiQTXoaogwl/view?usp=drivesdk",
     link2: ""
@@ -596,7 +596,7 @@ const roms = [
   },
   {
     name: "Darius Force (Japan)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/Darius%20Force%20%28Japan%29.png",
     size: "501 KB",
     link1: "https://drive.google.com/file/d/1VtJYOXu7jgjs8gaRW0a8gptKjYjJ1k5Q/view?usp=drivesdk",
     link2: ""
@@ -610,7 +610,7 @@ const roms = [
   },
   {
     name: "Dezaemon BSX Version - BS-X Shooting (Japan) (En)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/Dezaemon%20BSX%20Version%20-%20BS-X%20Shooting%20%28Japan%29%20%28En%29.png",
     size: "501 KB",
     link1: "https://drive.google.com/file/d/1olgtCngWGNGkbYCQEl6HQaArtZj1Xb-1/view?usp=drivesdk",
     link2: ""
@@ -701,63 +701,63 @@ const roms = [
   },
   {
     name: "Dragon Slayer - Eiyuu Densetsu (Japan)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/Dragon%20Slayer%20-%20Eiyuu%20Densetsu%20%28Japan%29.png",
     size: "563 KB",
     link1: "https://drive.google.com/file/d/18TUmOa2fjIa5roNREbRRx_36RIqLzLfe/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Dynami Tracer (Japan)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/Dynami%20Tracer%20%28Japan%29.png",
     size: "655 KB",
     link1: "https://drive.google.com/file/d/1_tNxFoovCMQkjhQrWPmxaVEkArACt-BG/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Excitebike - Bunbun Mario Battle - Stadium 1 (Japan) (SoundLink)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/Excitebike%20-%20Bunbun%20Mario%20Battle%20-%20Stadium%201%20%28Japan%29%20%286-29%29%20%28SoundLink%29.png",
     size: "478 KB",
     link1: "https://drive.google.com/file/d/1bsb06OQTAzb7syWQKIERX9QMFzvhiOEi/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Excitebike - Bunbun Mario Battle - Stadium 2 (Japan) (5-18) (SoundLink)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/Excitebike%20-%20Bunbun%20Mario%20Battle%20-%20Stadium%202%20%28Japan%29%20%285-18%29%20%28SoundLink%29.png",
     size: "349 KB",
     link1: "https://drive.google.com/file/d/1lD3Vf6ZBGtOYb_xTPdJyTS4Ec4fqPe_s/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Excitebike - Bunbun Mario Battle - Stadium 2 (Japan) (7-6) (SoundLink)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/Excitebike%20-%20Bunbun%20Mario%20Battle%20-%20Stadium%202%20%28Japan%29%20%287-6%29%20%28SoundLink%29.png",
     size: "478 KB",
     link1: "https://drive.google.com/file/d/1YTay__WuGqwjdVBJ2Lxy3n6-WnjgbIaJ/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Excitebike - Bunbun Mario Battle - Stadium 3 (Japan) (01-11) (SoundLink) [b]",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/Excitebike%20-%20Bunbun%20Mario%20Battle%20-%20Stadium%203%20%28Japan%29%20%2811-5%29%20%28SoundLink%29.png",
     size: "685 KB",
     link1: "https://drive.google.com/file/d/1TDbrnZdwr1MaKh-N8IpQhxrhLiF69hZ9/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Excitebike - Bunbun Mario Battle - Stadium 3 (Japan) (02-08) (SoundLink)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/Excitebike%20-%20Bunbun%20Mario%20Battle%20-%20Stadium%203%20%28Japan%29%20%2811-5%29%20%28SoundLink%29.png",
     size: "681 KB",
     link1: "https://drive.google.com/file/d/1rmQhdPiJe8kTPjzflVdNi1PU4y7fBDXC/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Excitebike - Bunbun Mario Battle - Stadium 3 (Japan) (11-05) (SoundLink)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/Excitebike%20-%20Bunbun%20Mario%20Battle%20-%20Stadium%203%20%28Japan%29%20%2811-5%29%20%28SoundLink%29.png",
     size: "711 KB",
     link1: "https://drive.google.com/file/d/1iDZdx05vZauE87_gOpIyWlXSs11pKKRF/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Excitebike - Bunbun Mario Battle - Stadium 4 (Japan) (SoundLink)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/Excitebike%20-%20Bunbun%20Mario%20Battle%20-%20Stadium%204%20%28Japan%29%20%282-17%29%20%28SoundLink%29.png",
     size: "683 KB",
     link1: "https://drive.google.com/file/d/1rVYIVtWmh4EG5qgM5auKu6g1eVyp4Y9U/view?usp=drivesdk",
     link2: ""
@@ -883,7 +883,7 @@ const roms = [
   },
   {
     name: "Golf Daisuki! O.B. Club (Japan)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/Golf%20Daisuki%21%20O.B.%20Club%20%28Japan%29.png",
     size: "659 KB",
     link1: "https://drive.google.com/file/d/1f_PggWZw9V5JMtLKcLPlNxRAp65OqHLh/view?usp=drivesdk",
     link2: ""
@@ -946,7 +946,7 @@ const roms = [
   },
   {
     name: "Kaizou Choujin Shubibinman Zero (Japan)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/Kaizou%20Choujin%20Shubibinman%20Zero%20%28Japan%29.png",
     size: "598 KB",
     link1: "https://drive.google.com/file/d/14zSLhW6YKGOx4Nedpo4WzD1Xy5bKx17e/view?usp=drivesdk",
     link2: ""
@@ -981,7 +981,7 @@ const roms = [
   },
   {
     name: "Kirby no Omochabako - Baseball (Japan)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/Kirby%20no%20Omochabako%20-%20Baseball%20%28Japan%29%20%282-9%29.png",
     size: "159 KB",
     link1: "https://drive.google.com/file/d/1hcIaPBB2vuEsSqeJ4b6YXOPAot7lKzPh/view?usp=drivesdk",
     link2: ""
@@ -1044,14 +1044,14 @@ const roms = [
   },
   {
     name: "Koi wa Balance - Tatoeba K-kun no Tabou na Ichinichi Hen (Japan)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/Koi%20wa%20Balance%20-%20Tatoeba%20K-kun%20no%20Tabou%20na%20Ichinichi%20Hen%20%28Japan%29.png",
     size: "642 KB",
     link1: "https://drive.google.com/file/d/1HRHxlzwTocGPhkQY1Nri9kmfWVNSR7ll/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Konae-chan no Dokidoki Penguin Kazoku (Japan)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/Konae-chan%20no%20Dokidoki%20Penguin%20Kazoku%20%28Japan%29.png",
     size: "82 KB",
     link1: "https://drive.google.com/file/d/1ajTIYs5oUGtOlH8HZqbOphSFgROOKZWJ/view?usp=drivesdk",
     link2: ""
@@ -1205,14 +1205,14 @@ const roms = [
   },
   {
     name: "Panel de Pon - Event '98 (Japan) (1-11)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/Panel%20de%20Pon%20-%20Event%20%2798%20%28Japan%29%20%281-11%29.png",
     size: "714 KB",
     link1: "https://drive.google.com/file/d/1c52EYmoJhXGWDJKhhXN7v-KJEiE9NF2o/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Panel de Pon - Event '98 (Japan) (12-28)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/Panel%20de%20Pon%20-%20Event%20%2798%20%28Japan%29%20%2812-28%29.png",
     size: "714 KB",
     link1: "https://drive.google.com/file/d/1WRaAjw73sC6vrQQ3sgVnd4UZiVmfMD5U/view?usp=drivesdk",
     link2: ""
@@ -1226,7 +1226,7 @@ const roms = [
   },
   {
     name: "Radical Dreamers - Nusume Nai Houseki (Japan)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/Radical%20Dreamers%20-%20Nusume%20Nai%20Houseki%20%28Japan%29%20%282-24%29.png",
     size: "786 KB",
     link1: "https://drive.google.com/file/d/1rDH3BR2LRg2W1dun_HR3RUsNfX0SYfQJ/view?usp=drivesdk",
     link2: ""
@@ -1247,35 +1247,35 @@ const roms = [
   },
   {
     name: "SD Gundam G-Next - Map Data (Japan) (2-15) (Data Pack)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/SD%20Gundam%20G%20Next%20-%20Map%20Data%20%28Japan%29%20%282-15%29%20%28Data%20Pack%29.png",
     size: "238 KB",
     link1: "https://drive.google.com/file/d/1AC_KM49B4jc08iSFKvAtSGLACdxVK1vH/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "SD Gundam G-Next - Map Data (Japan) (3-16) (Data Pack)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/SD%20Gundam%20G%20Next%20-%20Map%20Data%20%28Japan%29%20%283-16%29%20%28Data%20Pack%29.png",
     size: "238 KB",
     link1: "https://drive.google.com/file/d/1T2342O4qloYGcxZqDm1nlSCgzc0Rsa5F/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "SD Gundam G-Next - Map Data (Japan) (3-25) (Data Pack)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/SD%20Gundam%20G%20Next%20-%20Map%20Data%20%28Japan%29%20%283-25%29%20%28Data%20Pack%29.png",
     size: "238 KB",
     link1: "https://drive.google.com/file/d/1llbh_E4F7imFVNqPvwUxW60igtYWk_kp/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Same Game - Chara Cassette (Japan) (ROM) [b]",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/Same%20Game%20-%20Chara%20Cassette%20%28Japan%29%20%28ROM%29.png",
     size: "170 KB",
     link1: "https://drive.google.com/file/d/1oAE9NGTdOKTyJjhZeY0MqA4RFsWqYX9m/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Same Game - Chara Data Shuu (Japan) (ROM)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/Same%20Game%20-%20Chara%20Data%20Shuu%20%28Japan%29%20%28ROM%29.png",
     size: "137 KB",
     link1: "https://drive.google.com/file/d/1arsIoeXo6FG01dzUaOcn9Na1MnYbh1yu/view?usp=drivesdk",
     link2: ""
@@ -1289,7 +1289,7 @@ const roms = [
   },
   {
     name: "Satella Walker 2 - Dai-1-wa - Mokumoku Kemuri Panic (Japan) (SoundLink)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/Satella%20Walker%202%20-%20Dai-1-wa%20-%20Mokumoku%20Kemuri%20Panic%20%28Japan%29%20%28SoundLink%29.png",
     size: "478 KB",
     link1: "https://drive.google.com/file/d/1R6GUwNYIXzePTIswxyPFDFVJ8iACXKY7/view?usp=drivesdk",
     link2: ""
@@ -1345,7 +1345,7 @@ const roms = [
   },
   {
     name: "Special Tee Shot (Japan)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/Special%20Tee%20Shot%20%28Japan%29.png",
     size: "559 KB",
     link1: "https://drive.google.com/file/d/1Q4ZzkX-X5tnAFmnOl2U70kLFLCtzUBO0/view?usp=drivesdk",
     link2: ""
@@ -1499,7 +1499,7 @@ const roms = [
   },
   {
     name: "Sutte Hakkun - 98 Fuyu Event Version (Japan)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/Sutte%20Hakkun%20-%2098%20Fuyu%20Event%20Version%20%28Japan%29.png",
     size: "393 KB",
     link1: "https://drive.google.com/file/d/1LBxmrh9DOmg3qqfL2HNiYmMZ02MtEpkO/view?usp=drivesdk",
     link2: ""
@@ -1520,7 +1520,7 @@ const roms = [
   },
   {
     name: "Sutte Hakkun - Event Version (Japan)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/Sutte%20Hakkun%20-%20Event%20Version%20%28Japan%29.png",
     size: "439 KB",
     link1: "https://drive.google.com/file/d/1KIatQOEX_2-4R02Lo8vLFYmdy5gY0QkX/view?usp=drivesdk",
     link2: ""
@@ -1569,7 +1569,7 @@ const roms = [
   },
   {
     name: "Treasure Conflix (Japan)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/Treasure%20Conflix%20%28Japan%29.png",
     size: "685 KB",
     link1: "https://drive.google.com/file/d/1s3jfy6AnxVg4R26DdnzKheWJIBWWW-WT/view?usp=drivesdk",
     link2: ""
@@ -1625,7 +1625,7 @@ const roms = [
   },
   {
     name: "Wizardry V - Saika no Chuushin (Japan)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/Wizardry%20V%20-%20Saika%20no%20Chuushin%20%28Japan%29.png",
     size: "846 KB",
     link1: "https://drive.google.com/file/d/1usDweJ6VRqJgE21cyGfk17aM2z1r6HPV/view?usp=drivesdk",
     link2: ""
@@ -1681,14 +1681,14 @@ const roms = [
   },
   {
     name: "Zelda no Densetsu - Kamigami no Triforce (Japan) (11-30)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/Zelda%20no%20Densetsu%20-%20Kamigami%20no%20Triforce%20%28Japan%29%20%2811-30%29.png",
     size: "689 KB",
     link1: "https://drive.google.com/file/d/1NGdYh0_OLjuKSqoaF9sfDSHT6ggddWJT/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Zelda no Densetsu - Kamigami no Triforce (Japan) (5-21)",
-    image: "https://i.postimg.cc/xCtjnYFY/Satellaview-logo.png",
+    image: "https://thumbnails.libretro.com/Nintendo%20-%20Satellaview/Named_Boxarts/Zelda%20no%20Densetsu%20-%20Kamigami%20no%20Triforce%20%28Japan%29%20%285-21%29.png",
     size: "689 KB",
     link1: "https://drive.google.com/file/d/1HGVjgg_zfpF8bhNkx4FzuCeSq6m_I5af/view?usp=drivesdk",
     link2: ""
@@ -1717,7 +1717,7 @@ const romBody = document.getElementById("romBody");
     data.forEach(rom => {
       const tr = document.createElement("tr");
       tr.innerHTML = `
-        <td><img src="${rom.image}" alt="${rom.name}"></td>
+        <td><img ${window._boxartVisible ? 'src="' + rom.image + '"' : 'data-src="' + rom.image + '"'} alt="${rom.name}"></td>
         <td>${rom.name}</td>
         <td>${rom.link1 ? `<a href="${rom.link1}" target="_blank">Opción #1</a>` : '-'}</td>
         <td>${rom.link2 ? `<a href="${rom.link2}" target="_blank">Opción #2</a>` : '-'}</td>

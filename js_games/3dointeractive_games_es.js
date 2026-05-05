@@ -1,308 +1,308 @@
 const roms = [
     {
       name: "Alone in the Dark (1994) (Interplay) (US) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Alone%20in%20the%20Dark%20%28USA%29.png",
       size: "141.4M",
       link1: "https://archive.org/download/rr-3do/usa/Alone%20in%20the%20Dark%20%281994%29%20%28Interplay%29%20%28US%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "AutoBahn Tokio (1995) (Matsushita) (Jp)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/AutoBahn%20Tokio%20%28Japan%29.png",
       size: "57.8M",
       link1: "https://archive.org/download/rr-3do/japan/AutoBahn%20Tokio%20%281995%29%20%28Matsushita%29%20%28Jp%29.7z",
       link2: ""
     },
     {
       name: "Ballz - The Director's Cut (1995) (Panasonic) (US) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Ballz%20-%20The%20Director%27s%20Cut%20%28USA%2C%20Japan%29%20%28En%2CJa%29.png",
       size: "93.3M",
       link1: "https://archive.org/download/rr-3do/usa/Ballz%20-%20The%20Director%27s%20Cut%20%281995%29%20%28Panasonic%29%20%28US%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Battle Chess (1993) (Interplay) (US) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Battle%20Chess%20%28USA%29.png",
       size: "74.7M",
       link1: "https://archive.org/download/rr-3do/usa/Battle%20Chess%20%281993%29%20%28Interplay%29%20%28US%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "BattleSport (1995) (Studio 3DO) (Eu) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/BattleSport%20%28USA%29.png",
       size: "255.5M",
       link1: "https://archive.org/download/rr-3do/europe/BattleSport%20%281995%29%20%28Studio%203DO%29%20%28Eu%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "BattleSport (1995) (Studio 3DO) (US)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/BattleSport%20%28USA%29.png",
       size: "255.5M",
       link1: "https://archive.org/download/rr-3do/usa/BattleSport%20%281995%29%20%28Studio%203DO%29%20%28US%29.7z",
       link2: ""
     },
     {
       name: "BladeForce (1995) (3DO Company) (Eu) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/BladeForce%20%28Europe%29.png",
       size: "117.0M",
       link1: "https://archive.org/download/rr-3do/europe/BladeForce%20%281995%29%20%283DO%20Company%29%20%28Eu%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "BladeForce (1995) (3DO Company) (US)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/BladeForce%20%28Europe%29.png",
       size: "117.0M",
       link1: "https://archive.org/download/rr-3do/usa/BladeForce%20%281995%29%20%283DO%20Company%29%20%28US%29.7z",
       link2: ""
     },
     {
       name: "Burning Soldier (1994) (Panasonic) (Eu) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Burning%20Soldier%20%28USA%29.png",
       size: "268.7M",
       link1: "https://archive.org/download/rr-3do/europe/Burning%20Soldier%20%281994%29%20%28Panasonic%29%20%28Eu%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Cannon Fodder (1994) (Virgin) (Eu)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Cannon%20Fodder%20%28USA%29.png",
       size: "120.3M",
       link1: "https://archive.org/download/rr-3do/europe/Cannon%20Fodder%20%281994%29%20%28Virgin%29%20%28Eu%29.7z",
       link2: ""
     },
     {
       name: "Captain Quazar (1995) (Studio 3DO) (Eu) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Captain%20Quazar%20%28USA%29.png",
       size: "296.4M",
       link1: "https://archive.org/download/rr-3do/europe/Captain%20Quazar%20%281995%29%20%28Studio%203DO%29%20%28Eu%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Captain Quazar (1996) (Studio 3DO) (US)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Captain%20Quazar%20%28USA%29.png",
       size: "296.4M",
       link1: "https://archive.org/download/rr-3do/usa/Captain%20Quazar%20%281996%29%20%28Studio%203DO%29%20%28US%29.7z",
       link2: ""
     },
     {
       name: "Club 3DO - Station Invasion (1994) (Studio 3DO) (US) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Club%203DO%20-%20Station%20Invasion%20%28USA%29.png",
       size: "387.5M",
       link1: "https://archive.org/download/rr-3do/usa/Club%203DO%20-%20Station%20Invasion%20%281994%29%20%28Studio%203DO%29%20%28US%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Corpse Killer (1994) (Digital Pictures) (US) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Corpse%20Killer%20%28USA%29.png",
       size: "458.1M",
       link1: "https://archive.org/download/rr-3do/usa/Corpse%20Killer%20%281994%29%20%28Digital%20Pictures%29%20%28US%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Crash 'n Burn (1993) (Crystal Dynamics) (US) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Crash%20%27n%20Burn%20%28USA%29%20%28Not%20for%20Resale%29.png",
       size: "151.6M",
       link1: "https://archive.org/download/rr-3do/usa/Crash%20%27n%20Burn%20%281993%29%20%28Crystal%20Dynamics%29%20%28US%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Crime Patrol (1994) (American Laser Games) (US) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Crime%20Patrol%20%28USA%29%20%283DO%20Developer%20Services%29.png",
       size: "315.5M",
       link1: "https://archive.org/download/rr-3do/usa/Crime%20Patrol%20%281994%29%20%28American%20Laser%20Games%29%20%28US%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "D (1995) (Panasonic) (Eu) (Disc 1 of 2)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/D%20%28USA%2C%20Europe%29%20%28Disc%201%29.png",
       size: "316.6M",
       link1: "https://archive.org/download/rr-3do/europe/D%20%281995%29%20%28Panasonic%29%20%28Eu%29%20%28Disc%201%20of%202%29.7z",
       link2: ""
     },
     {
       name: "D (1995) (Panasonic) (Eu) (Disc 2 of 2)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/D%20%28USA%2C%20Europe%29%20%28Disc%201%29.png",
       size: "275.8M",
       link1: "https://archive.org/download/rr-3do/europe/D%20%281995%29%20%28Panasonic%29%20%28Eu%29%20%28Disc%202%20of%202%29.7z",
       link2: ""
     },
     {
       name: "Daedalus Encounter, The (1995) (Panasonic) (US) (Disc 1 of 4) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Daedalus%20Encounter%2C%20The%20%28USA%29%20%28Disc%201%29.png",
       size: "337.8M",
       link1: "https://archive.org/download/rr-3do/usa/Daedalus%20Encounter%2C%20The%20%281995%29%20%28Panasonic%29%20%28US%29%20%28Disc%201%20of%204%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Daedalus Encounter, The (1995) (Panasonic) (US) (Disc 2 of 4) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Daedalus%20Encounter%2C%20The%20%28USA%29%20%28Disc%201%29.png",
       size: "304.8M",
       link1: "https://archive.org/download/rr-3do/usa/Daedalus%20Encounter%2C%20The%20%281995%29%20%28Panasonic%29%20%28US%29%20%28Disc%202%20of%204%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Daedalus Encounter, The (1995) (Panasonic) (US) (Disc 3 of 4) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Daedalus%20Encounter%2C%20The%20%28USA%29%20%28Disc%201%29.png",
       size: "310.5M",
       link1: "https://archive.org/download/rr-3do/usa/Daedalus%20Encounter%2C%20The%20%281995%29%20%28Panasonic%29%20%28US%29%20%28Disc%203%20of%204%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Daedalus Encounter, The (1995) (Panasonic) (US) (Disc 4 of 4) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Daedalus%20Encounter%2C%20The%20%28USA%29%20%28Disc%201%29.png",
       size: "303.4M",
       link1: "https://archive.org/download/rr-3do/usa/Daedalus%20Encounter%2C%20The%20%281995%29%20%28Panasonic%29%20%28US%29%20%28Disc%204%20of%204%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Dragon Lore - The Legend Begins (1995) (Mindscape) (Eu) (Disc 1 of 3) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Dragon%20Lore%20-%20The%20Legend%20Begins%20%28USA%2C%20Europe%29%20%28Disc%201%29.png",
       size: "343.1M",
       link1: "https://archive.org/download/rr-3do/europe/Dragon%20Lore%20-%20The%20Legend%20Begins%20%281995%29%20%28Mindscape%29%20%28Eu%29%20%28Disc%201%20of%203%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Dragon Lore - The Legend Begins (1995) (Mindscape) (Eu) (Disc 2 of 3) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Dragon%20Lore%20-%20The%20Legend%20Begins%20%28USA%2C%20Europe%29%20%28Disc%201%29.png",
       size: "390.4M",
       link1: "https://archive.org/download/rr-3do/europe/Dragon%20Lore%20-%20The%20Legend%20Begins%20%281995%29%20%28Mindscape%29%20%28Eu%29%20%28Disc%202%20of%203%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Dragon Lore - The Legend Begins (1995) (Mindscape) (Eu) (Disc 3 of 3) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Dragon%20Lore%20-%20The%20Legend%20Begins%20%28USA%2C%20Europe%29%20%28Disc%201%29.png",
       size: "419.4M",
       link1: "https://archive.org/download/rr-3do/europe/Dragon%20Lore%20-%20The%20Legend%20Begins%20%281995%29%20%28Mindscape%29%20%28Eu%29%20%28Disc%203%20of%203%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Drug Wars (1995) (American Laser Games) (US) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Drug%20Wars%20%28USA%29.png",
       size: "335.6M",
       link1: "https://archive.org/download/rr-3do/usa/Drug%20Wars%20%281995%29%20%28American%20Laser%20Games%29%20%28US%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Escape from Monster Manor - A Terrifying Hunt for the Undead (1993) (Electronic Arts) (US) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Escape%20From%20Monster%20Manor%20-%20A%20Terrifying%20Hunt%20for%20the%20Undead%20%28USA%29.png",
       size: "324.4M",
       link1: "https://archive.org/download/rr-3do/usa/Escape%20from%20Monster%20Manor%20-%20A%20Terrifying%20Hunt%20for%20the%20Undead%20%281993%29%20%28Electronic%20Arts%29%20%28US%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Family Feud (1994) (Gametek) (US) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Family%20Feud%20%28USA%29.png",
       size: "267.5M",
       link1: "https://archive.org/download/rr-3do/usa/Family%20Feud%20%281994%29%20%28Gametek%29%20%28US%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "FIFA International Soccer (1994) (Electronic Arts) (Eu) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/FIFA%20International%20Soccer%20%28USA%29.png",
       size: "339.1M",
       link1: "https://archive.org/download/rr-3do/europe/FIFA%20International%20Soccer%20%281994%29%20%28Electronic%20Arts%29%20%28Eu%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "FIFA International Soccer (1994) (Electronic Arts) (US)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/FIFA%20International%20Soccer%20%28USA%29.png",
       size: "339.1M",
       link1: "https://archive.org/download/rr-3do/usa/FIFA%20International%20Soccer%20%281994%29%20%28Electronic%20Arts%29%20%28US%29.7z",
       link2: ""
     },
     {
       name: "Flying Nightmares (1995) (Domark) (Eu) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Flying%20Nightmares%20%28USA%29.png",
       size: "102.7M",
       link1: "https://archive.org/download/rr-3do/europe/Flying%20Nightmares%20%281995%29%20%28Domark%29%20%28Eu%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Foes of Ali (1995) (Electronic Arts) (US)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Foes%20of%20Ali%20%28USA%29.png",
       size: "79.5M",
       link1: "https://archive.org/download/rr-3do/usa/Foes%20of%20Ali%20%281995%29%20%28Electronic%20Arts%29%20%28US%29.7z",
       link2: ""
     },
     {
       name: "Gex (1995) (Crystal Dynamics) (Eu)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Gex%20%28USA%2C%20Europe%29.png",
       size: "87.0M",
       link1: "https://archive.org/download/rr-3do/europe/Gex%20%281995%29%20%28Crystal%20Dynamics%29%20%28Eu%29.7z",
       link2: ""
     },
     {
       name: "Guardian War (1994) (Panasonic) (US) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Guardian%20War%20%28USA%29.png",
       size: "127.5M",
       link1: "https://archive.org/download/rr-3do/usa/Guardian%20War%20%281994%29%20%28Panasonic%29%20%28US%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Hell - A Cyberpunk Thriller (1994) (Take 2) (US) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Hell%20-%20A%20Cyberpunk%20Thriller%20%28USA%29.png",
       size: "249.7M",
       link1: "https://archive.org/download/rr-3do/usa/Hell%20-%20A%20Cyberpunk%20Thriller%20%281994%29%20%28Take%202%29%20%28US%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Horde, The (1994) (Crystal Dynamics) (Eu)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Horde%2C%20The%20%28USA%29%20%28RCB%29.png",
       size: "497.8M",
       link1: "https://archive.org/download/rr-3do/europe/Horde%2C%20The%20%281994%29%20%28Crystal%20Dynamics%29%20%28Eu%29.7z",
       link2: ""
     },
     {
       name: "Horde, The (1994) (Crystal Dynamics) (US) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Horde%2C%20The%20%28USA%29%20%28RCB%29.png",
       size: "497.7M",
       link1: "https://archive.org/download/rr-3do/usa/Horde%2C%20The%20%281994%29%20%28Crystal%20Dynamics%29%20%28US%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Icebreaker (1995) (Panasonic) (US) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Icebreaker%20%28USA%29.png",
       size: "38.6M",
       link1: "https://archive.org/download/rr-3do/usa/Icebreaker%20%281995%29%20%28Panasonic%29%20%28US%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Immercenary (1995) (Electronic Arts) (Eu) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Immercenary%20%28USA%29.png",
       size: "318.4M",
       link1: "https://archive.org/download/rr-3do/europe/Immercenary%20%281995%29%20%28Electronic%20Arts%29%20%28Eu%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Immercenary (1995) (Electronic Arts) (US) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Immercenary%20%28USA%29.png",
       size: "318.4M",
       link1: "https://archive.org/download/rr-3do/usa/Immercenary%20%281995%29%20%28Electronic%20Arts%29%20%28US%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Incredible Machine, The (1994) (Dynamix) (US)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Incredible%20Machine%2C%20The%20%28USA%29.png",
       size: "222.4M",
       link1: "https://archive.org/download/rr-3do/usa/Incredible%20Machine%2C%20The%20%281994%29%20%28Dynamix%29%20%28US%29.7z",
       link2: ""
     },
     {
       name: "Iron Angel of The Apocalypse (1994) (Panasonic) (Eu)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Iron%20Angel%20of%20the%20Apocalypse%20%28USA%29.png",
       size: "162.1M",
       link1: "https://archive.org/download/rr-3do/europe/Iron%20Angel%20of%20The%20Apocalypse%20%281994%29%20%28Panasonic%29%20%28Eu%29.7z",
       link2: ""
     },
     {
       name: "John Madden NFL Football (1994) (Electronic Arts) (Eu) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/John%20Madden%20NFL%20Football%20%28Europe%29.png",
       size: "151.6M",
       link1: "https://archive.org/download/rr-3do/europe/John%20Madden%20NFL%20Football%20%281994%29%20%28Electronic%20Arts%29%20%28Eu%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Jurassic Park Interactive (1994) (Universal) (US) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Jurassic%20Park%20Interactive%20%28USA%29.png",
       size: "146.7M",
       link1: "https://archive.org/download/rr-3do/usa/Jurassic%20Park%20Interactive%20%281994%29%20%28Universal%29%20%28US%29%20%5B%21%5D.7z",
       link2: ""
@@ -316,91 +316,91 @@ const roms = [
     },
     {
       name: "Killing Time (1995) (Studio 3DO) (US) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Killing%20Time%20%28USA%29%20%28RE1%29.png",
       size: "346.8M",
       link1: "https://archive.org/download/rr-3do/usa/Killing%20Time%20%281995%29%20%28Studio%203DO%29%20%28US%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Kingdom - The Far Reaches (1994) (Interplay) (Eu)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Kingdom%20-%20The%20Far%20Reaches%20%28USA%29.png",
       size: "282.7M",
       link1: "https://archive.org/download/rr-3do/europe/Kingdom%20-%20The%20Far%20Reaches%20%281994%29%20%28Interplay%29%20%28Eu%29.7z",
       link2: ""
     },
     {
       name: "Lost Files of Sherlock Holmes, The (1994) (Electronic Arts) (US)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Lost%20Files%20of%20Sherlock%20Holmes%2C%20The%20%28USA%29.png",
       size: "413.2M",
       link1: "https://archive.org/download/rr-3do/usa/Lost%20Files%20of%20Sherlock%20Holmes%2C%20The%20%281994%29%20%28Electronic%20Arts%29%20%28US%29.7z",
       link2: ""
     },
     {
       name: "Mad Dog II - the Lost Gold (1994) (American Laser Games) (US) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Mad%20Dog%20II%20-%20the%20Lost%20Gold%20%28USA%29.png",
       size: "303.0M",
       link1: "https://archive.org/download/rr-3do/usa/Mad%20Dog%20II%20-%20the%20Lost%20Gold%20%281994%29%20%28American%20Laser%20Games%29%20%28US%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Mahjong Kyou Jidai - AV Gal Seifuku Hen (1994) (Micronet) (Jp)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Mahjong-kyou%20Jidai%20-%20AV%20Gal%20Seifuku-hen%20%28Japan%29.png",
       size: "190.7M",
       link1: "https://archive.org/download/rr-3do/japan/Mahjong%20Kyou%20Jidai%20-%20AV%20Gal%20Seifuku%20Hen%20%281994%29%20%28Micronet%29%20%28Jp%29.7z",
       link2: ""
     },
     {
       name: "Mazer (1995) (American Laser Games) (US)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Mazer%20%28USA%29.png",
       size: "142.4M",
       link1: "https://archive.org/download/rr-3do/usa/Mazer%20%281995%29%20%28American%20Laser%20Games%29%20%28US%29.7z",
       link2: ""
     },
     {
       name: "MegaRace (1994) (Mindscape) (US)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/MegaRace%20%28USA%29.png",
       size: "418.6M",
       link1: "https://archive.org/download/rr-3do/usa/MegaRace%20%281994%29%20%28Mindscape%29%20%28US%29.7z",
       link2: ""
     },
     {
       name: "MegaRace (1994) (Software Toolworks) (Eu)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/MegaRace%20%28USA%29.png",
       size: "418.6M",
       link1: "https://archive.org/download/rr-3do/europe/MegaRace%20%281994%29%20%28Software%20Toolworks%29%20%28Eu%29.7z",
       link2: ""
     },
     {
       name: "Microcosm (1994) (Psygnosis) (US) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Microcosm%20%28USA%29.png",
       size: "228.1M",
       link1: "https://archive.org/download/rr-3do/usa/Microcosm%20%281994%29%20%28Psygnosis%29%20%28US%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Myst (1994) (Panasonic) (US)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Myst%20%28USA%29.png",
       size: "174.4M",
       link1: "https://archive.org/download/rr-3do/usa/Myst%20%281994%29%20%28Panasonic%29%20%28US%29.7z",
       link2: ""
     },
     {
       name: "Need for Speed, The (1994) (Electronic Arts) (US)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Need%20For%20Speed%2C%20The%20%28USA%29.png",
       size: "298.1M",
       link1: "https://archive.org/download/rr-3do/usa/Need%20for%20Speed%2C%20The%20%281994%29%20%28Electronic%20Arts%29%20%28US%29.7z",
       link2: ""
     },
     {
       name: "Novastorm (1994) (Psygnosis) (US) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Novastorm%20%28USA%29.png",
       size: "377.8M",
       link1: "https://archive.org/download/rr-3do/usa/Novastorm%20%281994%29%20%28Psygnosis%29%20%28US%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Off-World Interceptor (1994) (Crystal Dynamics) (Eu) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Off-World%20Interceptor%20%28USA%29.png",
       size: "356.1M",
       link1: "https://archive.org/download/rr-3do/europe/Off-World%20Interceptor%20%281994%29%20%28Crystal%20Dynamics%29%20%28Eu%29%20%5B%21%5D.7z",
       link2: ""
@@ -414,28 +414,28 @@ const roms = [
     },
     {
       name: "Panzer General (1995) (Mindscape) (Eu)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Panzer%20General%20%28USA%29.png",
       size: "83.4M",
       link1: "https://archive.org/download/rr-3do/europe/Panzer%20General%20%281995%29%20%28Mindscape%29%20%28Eu%29.7z",
       link2: ""
     },
     {
       name: "PaTaank (1994) (PF.Magic) (US)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/PaTaank%20%28USA%2C%20Europe%29.png",
       size: "122.3M",
       link1: "https://archive.org/download/rr-3do/usa/PaTaank%20%281994%29%20%28PF.Magic%29%20%28US%29.7z",
       link2: ""
     },
     {
       name: "Pebble Beach Golf Links (1993) (Panasonic) (US) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Pebble%20Beach%20Golf%20Links%20%28USA%29.png",
       size: "158.2M",
       link1: "https://archive.org/download/rr-3do/usa/Pebble%20Beach%20Golf%20Links%20%281993%29%20%28Panasonic%29%20%28US%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Pebble Beach Golf Links (1994) (Panasonic) (Eu) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Pebble%20Beach%20Golf%20Links%20%28USA%29.png",
       size: "163.4M",
       link1: "https://archive.org/download/rr-3do/europe/Pebble%20Beach%20Golf%20Links%20%281994%29%20%28Panasonic%29%20%28Eu%29%20%5B%21%5D.7z",
       link2: ""
@@ -449,21 +449,21 @@ const roms = [
     },
     {
       name: "PGA Tour 96 (1995) (Electronic Arts) (Eu) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/PGA%20Tour%2096%20%28USA%29%20%28RE-1%29.png",
       size: "120.2M",
       link1: "https://archive.org/download/rr-3do/europe/PGA%20Tour%2096%20%281995%29%20%28Electronic%20Arts%29%20%28Eu%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Phoenix 3 (1995) (Studio 3DO) (Eu)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Phoenix%203%20%28USA%29.png",
       size: "351.5M",
       link1: "https://archive.org/download/rr-3do/europe/Phoenix%203%20%281995%29%20%28Studio%203DO%29%20%28Eu%29.7z",
       link2: ""
     },
     {
       name: "PO'ed (1995) (Studio 3DO) (Eu) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/PO%27ed%20%28USA%2C%20Europe%29.png",
       size: "45.4M",
       link1: "https://archive.org/download/rr-3do/europe/PO%27ed%20%281995%29%20%28Studio%203DO%29%20%28Eu%29%20%5B%21%5D.7z",
       link2: ""
@@ -477,126 +477,126 @@ const roms = [
     },
     {
       name: "Powers Kingdom (1994) (Panasonic) (Eu) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Powers%20Kingdom%20%28Europe%29.png",
       size: "127.0M",
       link1: "https://archive.org/download/rr-3do/europe/Powers%20Kingdom%20%281994%29%20%28Panasonic%29%20%28Eu%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Primal Rage (1995) (GoldStar) (Eu)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Primal%20Rage%20%28USA%2C%20Europe%29.png",
       size: "129.8M",
       link1: "https://archive.org/download/rr-3do/europe/Primal%20Rage%20%281995%29%20%28GoldStar%29%20%28Eu%29.7z",
       link2: ""
     },
     {
       name: "Psychic Detective (1995) (Electronic Arts) (Eu) (Disc 1 of 3) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Psychic%20Detective%20%28USA%29%20%28Disc%201%29.png",
       size: "439.0M",
       link1: "https://archive.org/download/rr-3do/europe/Psychic%20Detective%20%281995%29%20%28Electronic%20Arts%29%20%28Eu%29%20%28Disc%201%20of%203%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Psychic Detective (1995) (Electronic Arts) (Eu) (Disc 2 of 3) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Psychic%20Detective%20%28USA%29%20%28Disc%201%29.png",
       size: "344.0M",
       link1: "https://archive.org/download/rr-3do/europe/Psychic%20Detective%20%281995%29%20%28Electronic%20Arts%29%20%28Eu%29%20%28Disc%202%20of%203%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Psychic Detective (1995) (Electronic Arts) (Eu) (Disc 3 of 3) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Psychic%20Detective%20%28USA%29%20%28Disc%201%29.png",
       size: "417.8M",
       link1: "https://archive.org/download/rr-3do/europe/Psychic%20Detective%20%281995%29%20%28Electronic%20Arts%29%20%28Eu%29%20%28Disc%203%20of%203%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Psychic Detective (1995) (Electronic Arts) (US) (Disc 1 of 3) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Psychic%20Detective%20%28USA%29%20%28Disc%201%29.png",
       size: "439.0M",
       link1: "https://archive.org/download/rr-3do/usa/Psychic%20Detective%20%281995%29%20%28Electronic%20Arts%29%20%28US%29%20%28Disc%201%20of%203%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Psychic Detective (1995) (Electronic Arts) (US) (Disc 2 of 3) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Psychic%20Detective%20%28USA%29%20%28Disc%201%29.png",
       size: "344.0M",
       link1: "https://archive.org/download/rr-3do/usa/Psychic%20Detective%20%281995%29%20%28Electronic%20Arts%29%20%28US%29%20%28Disc%202%20of%203%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Psychic Detective (1995) (Electronic Arts) (US) (Disc 3 of 3) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Psychic%20Detective%20%28USA%29%20%28Disc%201%29.png",
       size: "417.8M",
       link1: "https://archive.org/download/rr-3do/usa/Psychic%20Detective%20%281995%29%20%28Electronic%20Arts%29%20%28US%29%20%28Disc%203%20of%203%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Quarantine (1994) (Gametek) (US) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Quarantine%20%28USA%29%20%28En%2CFr%2CDe%2CEs%29%20%28RE%29.png",
       size: "51.7M",
       link1: "https://archive.org/download/rr-3do/usa/Quarantine%20%281994%29%20%28Gametek%29%20%28US%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Quarantine (1994) (Gametek) (US)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Quarantine%20%28USA%29%20%28En%2CFr%2CDe%2CEs%29%20%28RE%29.png",
       size: "53.1M",
       link1: "https://archive.org/download/rr-3do/usa/Quarantine%20%281994%29%20%28Gametek%29%20%28US%29.7z",
       link2: ""
     },
     {
       name: "Real Pinball (1994) (Panasonic) (Eu)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Real%20Pinball%20%28USA%29.png",
       size: "13.8M",
       link1: "https://archive.org/download/rr-3do/europe/Real%20Pinball%20%281994%29%20%28Panasonic%29%20%28Eu%29.7z",
       link2: ""
     },
     {
       name: "Return Fire (1994) (Silent) (Eu)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Return%20Fire%20%28USA%29.png",
       size: "209.7M",
       link1: "https://archive.org/download/rr-3do/europe/Return%20Fire%20%281994%29%20%28Silent%29%20%28Eu%29.7z",
       link2: ""
     },
     {
       name: "Return Fire (1995) (Prolific) (US) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Return%20Fire%20%28USA%29.png",
       size: "192.3M",
       link1: "https://archive.org/download/rr-3do/usa/Return%20Fire%20%281995%29%20%28Prolific%29%20%28US%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Rise of the Robots (1995) (Time Warner Interactive) (Eu)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Rise%20of%20the%20Robots%20%28USA%29.png",
       size: "278.9M",
       link1: "https://archive.org/download/rr-3do/europe/Rise%20of%20the%20Robots%20%281995%29%20%28Time%20Warner%20Interactive%29%20%28Eu%29.7z",
       link2: ""
     },
     {
       name: "Road Rash (1994) (Electronic Arts) (Eu) [a]",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Road%20Rash%20%28USA%29.png",
       size: "433.5M",
       link1: "https://archive.org/download/rr-3do/europe/Road%20Rash%20%281994%29%20%28Electronic%20Arts%29%20%28Eu%29%20%5Ba%5D.7z",
       link2: ""
     },
     {
       name: "Road Rash (1994) (Electronic Arts) (Eu)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Road%20Rash%20%28USA%29.png",
       size: "433.5M",
       link1: "https://archive.org/download/rr-3do/europe/Road%20Rash%20%281994%29%20%28Electronic%20Arts%29%20%28Eu%29.7z",
       link2: ""
     },
     {
       name: "Samurai Shodown (1994) (Crystal Dynamics) (US) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Samurai%20Shodown%20%28USA%29.png",
       size: "193.3M",
       link1: "https://archive.org/download/rr-3do/usa/Samurai%20Shodown%20%281994%29%20%28Crystal%20Dynamics%29%20%28US%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Scramble Cobra (1994) (Panasonic) (Eu)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Scramble%20Cobra%20%28USA%29.png",
       size: "147.9M",
       link1: "https://archive.org/download/rr-3do/europe/Scramble%20Cobra%20%281994%29%20%28Panasonic%29%20%28Eu%29.7z",
       link2: ""
@@ -610,14 +610,14 @@ const roms = [
     },
     {
       name: "Shanghai - Triple-Threat (1994) (Activision) (US) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Shanghai%20-%20Triple-Threat%20%28USA%29%20%283DO%20Action%20Pak%29.png",
       size: "60.0M",
       link1: "https://archive.org/download/rr-3do/usa/Shanghai%20-%20Triple-Threat%20%281994%29%20%28Activision%29%20%28US%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Shanghai - Triple-Threat (1994) (Activision) (US)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Shanghai%20-%20Triple-Threat%20%28USA%29%20%283DO%20Action%20Pak%29.png",
       size: "60.0M",
       link1: "https://archive.org/download/rr-3do/usa/Shanghai%20-%20Triple-Threat%20%281994%29%20%28Activision%29%20%28US%29.7z",
       link2: ""
@@ -645,49 +645,49 @@ const roms = [
     },
     {
       name: "Shockwave 2 - Beyond the Gate (1995) (Electronic Arts) (Eu) (Disc 1 of 2) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Shockwave%202%20-%20Beyond%20the%20Gate%20%28USA%29%20%28Disc%2001%29.png",
       size: "310.3M",
       link1: "https://archive.org/download/rr-3do/europe/Shockwave%202%20-%20Beyond%20the%20Gate%20%281995%29%20%28Electronic%20Arts%29%20%28Eu%29%20%28Disc%201%20of%202%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Shockwave 2 - Beyond the Gate (1995) (Electronic Arts) (Eu) (Disc 2 of 2) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Shockwave%202%20-%20Beyond%20the%20Gate%20%28USA%29%20%28Disc%2001%29.png",
       size: "313.9M",
       link1: "https://archive.org/download/rr-3do/europe/Shockwave%202%20-%20Beyond%20the%20Gate%20%281995%29%20%28Electronic%20Arts%29%20%28Eu%29%20%28Disc%202%20of%202%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Slam 'N Jam '95 (1994) (Crystal Dynamics) (Eu) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Slam%20%27n%20Jam%20%2795%20%28USA%29%20%28Alt%29.png",
       size: "38.7M",
       link1: "https://archive.org/download/rr-3do/europe/Slam%20%27N%20Jam%20%2795%20%281994%29%20%28Crystal%20Dynamics%29%20%28Eu%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Slam 'N Jam '95 (1995) (Crystal Dynamics) (US)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Slam%20%27n%20Jam%20%2795%20%28USA%29%20%28Alt%29.png",
       size: "38.7M",
       link1: "https://archive.org/download/rr-3do/usa/Slam%20%27N%20Jam%20%2795%20%281995%29%20%28Crystal%20Dynamics%29%20%28US%29.7z",
       link2: ""
     },
     {
       name: "Slayer (1994) (Mindscape) (Eu)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Slayer%20%28USA%29%20%283DO%20Action%20Pak%29.png",
       size: "184.1M",
       link1: "https://archive.org/download/rr-3do/europe/Slayer%20%281994%29%20%28Mindscape%29%20%28Eu%29.7z",
       link2: ""
     },
     {
       name: "Slayer (1994) (SSI) (US) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Slayer%20%28USA%29%20%283DO%20Action%20Pak%29.png",
       size: "184.1M",
       link1: "https://archive.org/download/rr-3do/usa/Slayer%20%281994%29%20%28SSI%29%20%28US%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Slayer (1994) (SSI) (US)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Slayer%20%28USA%29%20%283DO%20Action%20Pak%29.png",
       size: "184.1M",
       link1: "https://archive.org/download/rr-3do/usa/Slayer%20%281994%29%20%28SSI%29%20%28US%29.7z",
       link2: ""
@@ -708,238 +708,238 @@ const roms = [
     },
     {
       name: "Soccer Kid (1994) (Studio 3DO) (US)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Soccer%20Kid%20%28USA%29.png",
       size: "317.7M",
       link1: "https://archive.org/download/rr-3do/usa/Soccer%20Kid%20%281994%29%20%28Studio%203DO%29%20%28US%29.7z",
       link2: ""
     },
     {
       name: "Space Hulk - Vengeance of the Blood Angels (1995) (Electronic Arts) (Eu) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Space%20Hulk%20-%20Vengeance%20of%20the%20Blood%20Angels%20%28USA%29.png",
       size: "137.4M",
       link1: "https://archive.org/download/rr-3do/europe/Space%20Hulk%20-%20Vengeance%20of%20the%20Blood%20Angels%20%281995%29%20%28Electronic%20Arts%29%20%28Eu%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Space Pirates (1994) (American Laser Games) (US)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Space%20Pirates%20%28USA%29.png",
       size: "301.8M",
       link1: "https://archive.org/download/rr-3do/usa/Space%20Pirates%20%281994%29%20%28American%20Laser%20Games%29%20%28US%29.7z",
       link2: ""
     },
     {
       name: "Star Fighter (1995) (Studio 3DO) (Eu) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Star%20Fighter%20%28USA%2C%20Europe%29.png",
       size: "258.1M",
       link1: "https://archive.org/download/rr-3do/europe/Star%20Fighter%20%281995%29%20%28Studio%203DO%29%20%28Eu%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Star Wars - Rebel Assault (1993) (LucasArts) (US) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Star%20Wars%20-%20Rebel%20Assault%20%28USA%2C%20Europe%29.png",
       size: "118.7M",
       link1: "https://archive.org/download/rr-3do/usa/Star%20Wars%20-%20Rebel%20Assault%20%281993%29%20%28LucasArts%29%20%28US%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "StarBlade (1994) (Panasonic) (Eu) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Starblade%20%28USA%29.png",
       size: "221.6M",
       link1: "https://archive.org/download/rr-3do/europe/StarBlade%20%281994%29%20%28Panasonic%29%20%28Eu%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "StarBlade (1994) (Panasonic) (US)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Starblade%20%28USA%29.png",
       size: "224.4M",
       link1: "https://archive.org/download/rr-3do/usa/StarBlade%20%281994%29%20%28Panasonic%29%20%28US%29.7z",
       link2: ""
     },
     {
       name: "Stellar 7 - Draxon's Revenge (1993) (Dynamix) (US)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Stellar%207%20-%20Draxon%27s%20Revenge%20%28USA%29.png",
       size: "191.8M",
       link1: "https://archive.org/download/rr-3do/usa/Stellar%207%20-%20Draxon%27s%20Revenge%20%281993%29%20%28Dynamix%29%20%28US%29.7z",
       link2: ""
     },
     {
       name: "Strahl (1995) (Panasonic) (US)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Strahl%20%28USA%29.png",
       size: "357.2M",
       link1: "https://archive.org/download/rr-3do/usa/Strahl%20%281995%29%20%28Panasonic%29%20%28US%29.7z",
       link2: ""
     },
     {
       name: "Striker - World Cup Special (1995) (Panasonic) (Eu) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Striker%20-%20World%20Cup%20Special%20%28Europe%29.png",
       size: "143.3M",
       link1: "https://archive.org/download/rr-3do/europe/Striker%20-%20World%20Cup%20Special%20%281995%29%20%28Panasonic%29%20%28Eu%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Super Real Mahjong PIV + Aishou Shindan (1994) (Naxat) (Jp)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Super%20Real%20Mahjong%20PIV%20%2B%20Aishou%20Shindan%20%28Japan%29.png",
       size: "37.5M",
       link1: "https://archive.org/download/rr-3do/japan/Super%20Real%20Mahjong%20PIV%20%2B%20Aishou%20Shindan%20%281994%29%20%28Naxat%29%20%28Jp%29.7z",
       link2: ""
     },
     {
       name: "Super Street Fighter II Turbo (1994) (Panasonic) (US)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Super%20Street%20Fighter%20II%20Turbo%20%28USA%29%20%28RE2%29.png",
       size: "184.5M",
       link1: "https://archive.org/download/rr-3do/usa/Super%20Street%20Fighter%20II%20Turbo%20%281994%29%20%28Panasonic%29%20%28US%29.7z",
       link2: ""
     },
     {
       name: "Super Wing Commander (1994) (Origin) (Eu)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Super%20Wing%20Commander%20%28USA%29.png",
       size: "243.3M",
       link1: "https://archive.org/download/rr-3do/europe/Super%20Wing%20Commander%20%281994%29%20%28Origin%29%20%28Eu%29.7z",
       link2: ""
     },
     {
       name: "Super Wing Commander (1994) (Origin) (US) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Super%20Wing%20Commander%20%28USA%29.png",
       size: "234.5M",
       link1: "https://archive.org/download/rr-3do/usa/Super%20Wing%20Commander%20%281994%29%20%28Origin%29%20%28US%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Supreme Warrior (1994) (Digital Pictures) (US) (Disc 1 of 2) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Supreme%20Warrior%20%28USA%29%20%28Disc%201%29%20%28Fire%20_%20Earth%29.png",
       size: "400.8M",
       link1: "https://archive.org/download/rr-3do/usa/Supreme%20Warrior%20%281994%29%20%28Digital%20Pictures%29%20%28US%29%20%28Disc%201%20of%202%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Supreme Warrior (1994) (Digital Pictures) (US) (Disc 2 of 2) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Supreme%20Warrior%20%28USA%29%20%28Disc%201%29%20%28Fire%20_%20Earth%29.png",
       size: "357.8M",
       link1: "https://archive.org/download/rr-3do/usa/Supreme%20Warrior%20%281994%29%20%28Digital%20Pictures%29%20%28US%29%20%28Disc%202%20of%202%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Syndicate (1995) (Electronic Arts) (Eu)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Syndicate%20%28USA%29.png",
       size: "47.1M",
       link1: "https://archive.org/download/rr-3do/europe/Syndicate%20%281995%29%20%28Electronic%20Arts%29%20%28Eu%29.7z",
       link2: ""
     },
     {
       name: "Syndicate (1995) (Electronic Arts) (US) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Syndicate%20%28USA%29.png",
       size: "47.1M",
       link1: "https://archive.org/download/rr-3do/usa/Syndicate%20%281995%29%20%28Electronic%20Arts%29%20%28US%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Theme Park (1994) (Electronic Arts) (Eu) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Theme%20Park%20%28USA%29.png",
       size: "82.6M",
       link1: "https://archive.org/download/rr-3do/europe/Theme%20Park%20%281994%29%20%28Electronic%20Arts%29%20%28Eu%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Theme Park (1994) (Electronic Arts) (US) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Theme%20Park%20%28USA%29.png",
       size: "82.6M",
       link1: "https://archive.org/download/rr-3do/usa/Theme%20Park%20%281994%29%20%28Electronic%20Arts%29%20%28US%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Total Eclipse (1993) (Crystal Dynamics) (US) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Total%20Eclipse%20%28USA%29.png",
       size: "170.1M",
       link1: "https://archive.org/download/rr-3do/usa/Total%20Eclipse%20%281993%29%20%28Crystal%20Dynamics%29%20%28US%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Total Eclipse (1993) (Crystal Dynamics) (US)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Total%20Eclipse%20%28USA%29.png",
       size: "196.2M",
       link1: "https://archive.org/download/rr-3do/usa/Total%20Eclipse%20%281993%29%20%28Crystal%20Dynamics%29%20%28US%29.7z",
       link2: ""
     },
     {
       name: "Total Eclipse (1994) (Crystal Dynamics) (US)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Total%20Eclipse%20%28USA%29.png",
       size: "170.1M",
       link1: "https://archive.org/download/rr-3do/usa/Total%20Eclipse%20%281994%29%20%28Crystal%20Dynamics%29%20%28US%29.7z",
       link2: ""
     },
     {
       name: "Twisted - The Game Show (1993) (Electronic Arts) (US)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Twisted%20-%20The%20Game%20Show%20%28USA%29%20%28Alt%29.png",
       size: "239.2M",
       link1: "https://archive.org/download/rr-3do/usa/Twisted%20-%20The%20Game%20Show%20%281993%29%20%28Electronic%20Arts%29%20%28US%29.7z",
       link2: ""
     },
     {
       name: "Virtuoso (1994) (Elite) (Eu) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Virtuoso%20%28USA%29.png",
       size: "221.6M",
       link1: "https://archive.org/download/rr-3do/europe/Virtuoso%20%281994%29%20%28Elite%29%20%28Eu%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "VR Stalker (1994) (American Laser Games) (US) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/VR%20Stalker%20%28USA%29.png",
       size: "54.4M",
       link1: "https://archive.org/download/rr-3do/usa/VR%20Stalker%20%281994%29%20%28American%20Laser%20Games%29%20%28US%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Waialae Country Club (1994) (Panasonic) (US) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Waialae%20Country%20Club%20%28USA%29.png",
       size: "193.8M",
       link1: "https://archive.org/download/rr-3do/usa/Waialae%20Country%20Club%20%281994%29%20%28Panasonic%29%20%28US%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Way of the Warrior (1994) (Interplay) (Eu) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Way%20of%20the%20Warrior%20%28USA%29.png",
       size: "162.6M",
       link1: "https://archive.org/download/rr-3do/europe/Way%20of%20the%20Warrior%20%281994%29%20%28Interplay%29%20%28Eu%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Wing Commander III - Heart of the Tiger (1995) (Origin) (Eu-US) (Disc 1 of 4) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Wing%20Commander%20III%20-%20Heart%20of%20the%20Tiger%20%28USA%29%20%28Disc%201%29.png",
       size: "514.7M",
       link1: "https://archive.org/download/rr-3do/usa/Wing%20Commander%20III%20-%20Heart%20of%20the%20Tiger%20%281995%29%20%28Origin%29%20%28Eu-US%29%20%28Disc%201%20of%204%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Wing Commander III - Heart of the Tiger (1995) (Origin) (Eu-US) (Disc 2 of 4) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Wing%20Commander%20III%20-%20Heart%20of%20the%20Tiger%20%28USA%29%20%28Disc%201%29.png",
       size: "476.1M",
       link1: "https://archive.org/download/rr-3do/usa/Wing%20Commander%20III%20-%20Heart%20of%20the%20Tiger%20%281995%29%20%28Origin%29%20%28Eu-US%29%20%28Disc%202%20of%204%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Wing Commander III - Heart of the Tiger (1995) (Origin) (Eu-US) (Disc 3 of 4) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Wing%20Commander%20III%20-%20Heart%20of%20the%20Tiger%20%28USA%29%20%28Disc%201%29.png",
       size: "512.5M",
       link1: "https://archive.org/download/rr-3do/usa/Wing%20Commander%20III%20-%20Heart%20of%20the%20Tiger%20%281995%29%20%28Origin%29%20%28Eu-US%29%20%28Disc%203%20of%204%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Wing Commander III - Heart of the Tiger (1995) (Origin) (Eu-US) (Disc 4 of 4) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Wing%20Commander%20III%20-%20Heart%20of%20the%20Tiger%20%28USA%29%20%28Disc%201%29.png",
       size: "510.0M",
       link1: "https://archive.org/download/rr-3do/usa/Wing%20Commander%20III%20-%20Heart%20of%20the%20Tiger%20%281995%29%20%28Origin%29%20%28Eu-US%29%20%28Disc%204%20of%204%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "World Cup Golf - Hyatt Dorado Beach (1994) (U.S. Gold) (Eu) ",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/World%20Cup%20Golf%20-%20Hyatt%20Dorado%20Beach%20%28USA%29.png",
       size: "426.8M",
       link1: "https://archive.org/download/rr-3do/europe/World%20Cup%20Golf%20-%20Hyatt%20Dorado%20Beach%20%281994%29%20%28U.S.%20Gold%29%20%28Eu%29%20%5B%21%5D.7z",
       link2: ""
     },
     {
       name: "Yu Yu Hakusho (1994) (Tomy) (Jp)",
-      image: "https://i.postimg.cc/ZnN7kGq8/3-DO-Logo-svg.png",
+      image: "https://thumbnails.libretro.com/The%203DO%20Company%20-%203DO/Named_Boxarts/Yu%20Yu%20Hakusho%20%28Japan%29.png",
       size: "222.3M",
       link1: "https://archive.org/download/rr-3do/japan/Yu%20Yu%20Hakusho%20%281994%29%20%28Tomy%29%20%28Jp%29.7z",
       link2: ""
@@ -954,7 +954,7 @@ function renderTable(data) {
   data.forEach(rom => {
     const tr = document.createElement("tr");
     tr.innerHTML = `
-      <td><img src="${rom.image}" alt="${rom.name}"></td>
+      <td><img ${window._boxartVisible ? 'src="' + rom.image + '"' : 'data-src="' + rom.image + '"'} alt="${rom.name}"></td>
       <td>${rom.name}</td>
       <td>${rom.link1 ? `<a href="${rom.link1}" target="_blank">Opción #1</a>` : '-'}</td>
       <td>${rom.link2 ? `<a href="${rom.link2}" target="_blank">Opción #2</a>` : '-'}</td>

@@ -8,7 +8,7 @@ const roms = [
   },
   {
     name: "Dark Eyes - Battle Gate (J) [!]",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Dark%20Eyes%20-%20Battle%20Gate%20%28Japan%29.png",
     size: "1311 KB",
     link1: "https://drive.google.com/file/d/1AaXO8eXKM4xFe-az_y_x9RQa2OZgDc-t/view?usp=drivesdk",
     link2: ""
@@ -36,21 +36,21 @@ const roms = [
   },
   {
     name: "Digimon Tamers - Brave Tamer (J) [!]",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Digimon%20Tamers%20-%20Brave%20Tamer%20%28Japan%29%20%28Rev%201%29.png",
     size: "1976 KB",
     link1: "https://drive.google.com/file/d/1q2ycE0W8Xy5ETpGSaapbTHPViwRv-gSN/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Digimon Tamers - Digimon Medley (J) [!]",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Digimon%20Tamers%20-%20Digimon%20Medley%20%28Japan%29%20%28Rev%201%29.png",
     size: "1548 KB",
     link1: "https://drive.google.com/file/d/1TJT6HIzarPo4AgLQFxdGPMlz518dNNeH/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Digimon Tamers - Digimon Medley (J) [f1]",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Digimon%20Tamers%20-%20Digimon%20Medley%20%28Japan%29%20%28Rev%201%29.png",
     size: "1548 KB",
     link1: "https://drive.google.com/file/d/1IuQaxXQNS7-yUyVwAFwvyc0CxQrgJMSE/view?usp=drivesdk",
     link2: ""
@@ -71,14 +71,14 @@ const roms = [
   },
   {
     name: "Final Fantasy (J) [!]",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Final%20Fantasy%20%28Japan%29.png",
     size: "2032 KB",
     link1: "https://drive.google.com/file/d/19DEvz-fSZOeeJktUVj_bPJQEu3PxYkQ_/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Final Fantasy (J) [T+Eng0.91_Kalas]",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Final%20Fantasy%20%28Japan%29.png",
     size: "2032 KB",
     link1: "https://drive.google.com/file/d/10g8Myw2axiJxEvhLbL1n-OhziDuq1nmX/view?usp=drivesdk",
     link2: ""
@@ -92,28 +92,28 @@ const roms = [
   },
   {
     name: "Final Fantasy II (J) [!]",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Final%20Fantasy%20II%20%28Japan%29.png",
     size: "2314 KB",
     link1: "https://drive.google.com/file/d/1hXePBpSDAIuwWskOevJwg20O_rj4T7H5/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Final Fantasy II (J) [T+Eng010]",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Final%20Fantasy%20II%20%28Japan%29.png",
     size: "2312 KB",
     link1: "https://drive.google.com/file/d/1CuDj4lQ5poOn1irA08TqbfNs-eFSywVO/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Final Fantasy II (J) [T+Eng097_RPGOne]",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Final%20Fantasy%20II%20%28Japan%29.png",
     size: "2309 KB",
     link1: "https://drive.google.com/file/d/1qSGnERyWM0oF3V-fGqFj_KfiI8Ndm3iK/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Final Fantasy II (J) [T-Eng095_RPGOne]",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Final%20Fantasy%20II%20%28Japan%29.png",
     size: "2310 KB",
     link1: "https://drive.google.com/file/d/1gCUg8wb15hj2hNwjeKJsc5y9WkN-LbM-/view?usp=drivesdk",
     link2: ""
@@ -134,28 +134,28 @@ const roms = [
   },
   {
     name: "Flash - Koibito Kun (J) [!]",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Flash%20Koibito-kun%20%28Japan%29.png",
     size: "529 KB",
     link1: "https://drive.google.com/file/d/1APGQYHMAAo_0XwJdrcEU6_62wLZAlTwG/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Flash - Koibito Kun (J) [f1]",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Flash%20Koibito-kun%20%28Japan%29.png",
     size: "529 KB",
     link1: "https://drive.google.com/file/d/1AEYYQTc5kGsbT2GTIhnTo-hVxklN2MzG/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "From TV Animation - One Piece - Niji no Shima Densetsu (J) [!]",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/From%20TV%20Animation%20One%20Piece%20-%20Niji%20no%20Shima%20Densetsu%20%28Japan%29.png",
     size: "2352 KB",
     link1: "https://drive.google.com/file/d/1e-TE5Epu9YdG0CvUinw2qEtP3nW3KOkj/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Front Mission (J)",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Front%20Mission%20%28Japan%29.png",
     size: "2472 KB",
     link1: "https://drive.google.com/file/d/1sVUqrahaxzWpp5zQkTEsjRNBQhktUybe/view?usp=drivesdk",
     link2: ""
@@ -176,42 +176,42 @@ const roms = [
   },
   {
     name: "Golden Axe (J) [!]",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Golden%20Axe%20%28Japan%29.png",
     size: "554 KB",
     link1: "https://drive.google.com/file/d/1IAiXlpkfjtHLHohwm6ArekpMHjJcoTSi/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Golden Axe (J) [t1]",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Golden%20Axe%20%28Japan%29.png",
     size: "574 KB",
     link1: "https://drive.google.com/file/d/1SS1S3QP6uud5HS4Kywh2Dc1teUoZEN39/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Guilty Gear Petit (J)",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Guilty%20Gear%20Petit%20%28Japan%29.png",
     size: "672 KB",
     link1: "https://drive.google.com/file/d/1Zq23a8gilMhNtztn5Z-WwNzlBpTHYTfu/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Guilty Gear Petit 2 (J) [t1]",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Guilty%20Gear%20Petit%202%20%28Japan%29.png",
     size: "1487 KB",
     link1: "https://drive.google.com/file/d/1-L6RviUHyJ1HVVkltP2qfSVP2e42fSZV/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "GunPey Ex (J) [!]",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/GunPey%20EX%20%28Japan%29.png",
     size: "377 KB",
     link1: "https://drive.google.com/file/d/1My3n-z998eEtAtMp65uAxEaNajXvlFJV/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "GunPey Ex (J) [f1]",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/GunPey%20EX%20%28Japan%29.png",
     size: "377 KB",
     link1: "https://drive.google.com/file/d/1NTZwj-7J2zZQhbkczXymzEqHn7xvuoIu/view?usp=drivesdk",
     link2: ""
@@ -225,14 +225,14 @@ const roms = [
   },
   {
     name: "Hataraku Chocobo (J) [!]",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Hataraku%20Chocobo%20%28Japan%29.png",
     size: "310 KB",
     link1: "https://drive.google.com/file/d/1a1FPAbcjbDRQdFNVCE4HKFzPl2tnKhNi/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Hunter X Hunter - Greed Island (J)",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Hunter%20X%20Hunter%20-%20Greed%20Island%20%28Japan%29%20%28Rev%201%29.png",
     size: "3175 KB",
     link1: "https://drive.google.com/file/d/1Nwth7hnk6SReeHC2PASzAUtmVMwHK9-a/view?usp=drivesdk",
     link2: ""
@@ -253,14 +253,14 @@ const roms = [
   },
   {
     name: "Hunter X Hunter - Sorezore no Ketsui (J) [!]",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Hunter%20X%20Hunter%20-%20Sorezore%20no%20Ketsui%20%28Japan%29.png",
     size: "2408 KB",
     link1: "https://drive.google.com/file/d/1XjVM8wC_cEFR3_8x9UOdgjfl2cRAgEHU/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Hunter X Hunter - Sorezore no Ketsui (J) [f1]",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Hunter%20X%20Hunter%20-%20Sorezore%20no%20Ketsui%20%28Japan%29.png",
     size: "2408 KB",
     link1: "https://drive.google.com/file/d/1_eKzfSmvFOmQRt0EMZl-yCRlci6AnsrI/view?usp=drivesdk",
     link2: ""
@@ -281,21 +281,21 @@ const roms = [
   },
   {
     name: "Kidou Senshi Gundam Seed (J)",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Kidou%20Senshi%20Gundam%20Seed%20%28Japan%29.png",
     size: "1404 KB",
     link1: "https://drive.google.com/file/d/1dM7wwhTm_tD6x_gS9YArU2rTXOMEGdmS/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Kidou Senshi Gundam Seed (J) [T+Chi_amuro]",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Kidou%20Senshi%20Gundam%20Seed%20%28Japan%29.png",
     size: "1405 KB",
     link1: "https://drive.google.com/file/d/1GwkMSEJ2LuUnHpHLgfny6O9cE8S1ZAzs/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Kidou Senshi Gundam Vol.1 -Side 7- (J) [!]",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Kidou%20Senshi%20Gundam%20Vol.%201%20-%20Side%207%20%28Japan%29.png",
     size: "2179 KB",
     link1: "https://drive.google.com/file/d/1-extMFSox3pR-Z2C674d7BBsvF7dEk6I/view?usp=drivesdk",
     link2: ""
@@ -316,28 +316,28 @@ const roms = [
   },
   {
     name: "Kurupara! (J) [!]",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Kurupara%21%20%28Japan%29%20%28Rev%201%29.png",
     size: "922 KB",
     link1: "https://drive.google.com/file/d/18QafIIiCkHxEhUCA3fJ49Ho3ydZEdjnx/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Last Alive (J)",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Last%20Alive%20%28Japan%29.png",
     size: "3360 KB",
     link1: "https://drive.google.com/file/d/1vIp9JBwRf7anjpwj-SxyX9meQ04tIFeo/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Last Alive (J) [f1]",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Last%20Alive%20%28Japan%29.png",
     size: "3360 KB",
     link1: "https://drive.google.com/file/d/1rG5vDMzwXtYEa14hKYdGuGvXsncnC_yN/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Makai Toushi Sa-Ga (J) [!]",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Makai%20Toushi%20Sa-Ga%20%28Japan%29.png",
     size: "1476 KB",
     link1: "https://drive.google.com/file/d/1dXwzpwR-FzL-KC1PHfBfgNmpDqIroQiA/view?usp=drivesdk",
     link2: ""
@@ -379,7 +379,7 @@ const roms = [
   },
   {
     name: "Mr. Driller (J) [!]",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Mr.%20Driller%20%28Japan%29.png",
     size: "249 KB",
     link1: "https://drive.google.com/file/d/1RGPdhm-D6xUhc7Q9SgaaPWryCX4ICBwy/view?usp=drivesdk",
     link2: ""
@@ -400,28 +400,28 @@ const roms = [
   },
   {
     name: "Pocket no Naka no Doraemon (J)",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Pocket%20no%20Naka%20no%20Doraemon%20%28Japan%29.png",
     size: "2369 KB",
     link1: "https://drive.google.com/file/d/1Cq1X-kfPbLJwZhT2P8Xkv_HZwaJXVIVl/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Pocket no Naka no Doraemon (J) [f1]",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Pocket%20no%20Naka%20no%20Doraemon%20%28Japan%29.png",
     size: "2369 KB",
     link1: "https://drive.google.com/file/d/1Sq6kAAKq3Tmkk2s1kCRYjFJXYYETaX4Q/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Raku Jongg (J) [!]",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Raku%20Jongg%20%28Japan%29.png",
     size: "419 KB",
     link1: "https://drive.google.com/file/d/1XPyminqAjfOwz8GDoPbQ9yI1oZ2ChN4Y/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Raku Jongg (J) [f1]",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Raku%20Jongg%20%28Japan%29.png",
     size: "420 KB",
     link1: "https://drive.google.com/file/d/1lLGm7og0T5hAoT_hpxLGC1qrE1F799_c/view?usp=drivesdk",
     link2: ""
@@ -442,7 +442,7 @@ const roms = [
   },
   {
     name: "Rockman EXE WS (J)",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Rockman%20EXE%20WS%20%28Japan%29.png",
     size: "932 KB",
     link1: "https://drive.google.com/file/d/1MxT7XzCrq9qQdue3EaIy_uH15TWP4cfl/view?usp=drivesdk",
     link2: ""
@@ -456,28 +456,28 @@ const roms = [
   },
   {
     name: "SD Gundam - Operation U.C. (J)",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/SD%20Gundam%20-%20Operation%20U.C.%20%28Japan%29.png",
     size: "686 KB",
     link1: "https://drive.google.com/file/d/12A-WFKYzybzWEObV1o167YXOjfIioznV/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "SD Gundam G Generation - Gather Beat 2 (J) [!]",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/SD%20Gundam%20G%20Generation%20-%20Gather%20Beat%202%20%28Japan%29.png",
     size: "3407 KB",
     link1: "https://drive.google.com/file/d/1BkQTS0ify8QmqX5YnHGGEnRJLhb4lXtV/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "SD Gundam G Generation - Mono-Eye Gundams (J)",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/SD%20Gundam%20G%20Generation%20-%20Mono-Eye%20Gundams%20%28Japan%29%20%28Rev%202%29.png",
     size: "3821 KB",
     link1: "https://drive.google.com/file/d/1aJxZoEgyxdFeDqZ6FoTrzRUd0C6xgtMc/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Saint Seiya - Ougon Densetsu Hen Perfect Edition (J)",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Saint%20Seiya%20-%20Ougon%20Densetsu%20Hen%20-%20Perfect%20Edition%20%28Japan%29.png",
     size: "654 KB",
     link1: "https://drive.google.com/file/d/10C6VuElHsZpFvo7SHYHnbfmu2vG6LbqW/view?usp=drivesdk",
     link2: ""
@@ -519,21 +519,21 @@ const roms = [
   },
   {
     name: "Super Robot Taisen Compact 3 (J)",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Super%20Robot%20Taisen%20Compact%203%20%28Japan%29%20%28Rev%205%29.png",
     size: "3596 KB",
     link1: "https://drive.google.com/file/d/1t7vsLdyxMBqfRBgvNevdUy3WIiUADe4l/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Terrors 2 (J) [!]",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Terrors%202%20%28Japan%29.png",
     size: "3027 KB",
     link1: "https://drive.google.com/file/d/1eM8K14guYhIgjKAK0olpJMera-gERl7v/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Terrors 2 (J) [f1]",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Terrors%202%20%28Japan%29.png",
     size: "3027 KB",
     link1: "https://drive.google.com/file/d/1POWiN60lz-s_x6c5k2TKVV--ubvJ4qtT/view?usp=drivesdk",
     link2: ""
@@ -561,49 +561,49 @@ const roms = [
   },
   {
     name: "Uchuu Senkan Yamato (J) [!]",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Uchuu%20Senkan%20Yamato%20%28Japan%29.png",
     size: "1868 KB",
     link1: "https://drive.google.com/file/d/17bkF5zRgl7jLF0nUhH1LkwYbee9Y0r-U/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Ultraman - Hikari no Kuni no Shisha (J)",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Ultraman%20-%20Hikari%20no%20Kuni%20no%20Shisha%20%28Japan%29.png",
     size: "1321 KB",
     link1: "https://drive.google.com/file/d/11zEu_dzyUKKX5y5P692KhyHR8lEDbVKB/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Wild Card (J) [!]",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/Wild%20Card%20%28Japan%29.png",
     size: "1155 KB",
     link1: "https://drive.google.com/file/d/1KYe-nULqHUt7Pod8yP7iiriCBeH-fKGf/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "With You Mitsumete Itai (J) [!]",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/With%20You%20-%20Mitsumete%20Itai%20%28Japan%29.png",
     size: "1745 KB",
     link1: "https://drive.google.com/file/d/1pMDIx_Xoa1qU8HcCZ6gr3OFnDSaS3bjK/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "With You Mitsumete Itai (J) [f1]",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/With%20You%20-%20Mitsumete%20Itai%20%28Japan%29.png",
     size: "1745 KB",
     link1: "https://drive.google.com/file/d/1So0t8d9yO0gJPIaRXT24Xc_GEkvdW-j5/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "X Card of Fate (TV Animation X) (J) [!]",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/X%20-%20Card%20of%20Fate%20%28Japan%29.png",
     size: "2377 KB",
     link1: "https://drive.google.com/file/d/13mj0Arsr90ohxVrOBRLZVuv75QjyFlfi/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "XI (Sai) Little (J)",
-    image: "https://i.postimg.cc/mDq6hfsv/Wondersw-an-Color-Logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan%20Color/Named_Boxarts/XI%20Little%20%28Japan%29.png",
     size: "897 KB",
     link1: "https://drive.google.com/file/d/1ODH3USqgnfK2SkpzbP-6QePIwBj-wDLR/view?usp=drivesdk",
     link2: ""
@@ -625,7 +625,7 @@ const romBody = document.getElementById("romBody");
     data.forEach(rom => {
       const tr = document.createElement("tr");
       tr.innerHTML = `
-        <td><img src="${rom.image}" alt="${rom.name}"></td>
+        <td><img ${window._boxartVisible ? 'src="' + rom.image + '"' : 'data-src="' + rom.image + '"'} alt="${rom.name}"></td>
         <td>${rom.name}</td>
         <td>${rom.link1 ? `<a href="${rom.link1}" target="_blank">Opción #1</a>` : '-'}</td>
         <td>${rom.link2 ? `<a href="${rom.link2}" target="_blank">Opción #2</a>` : '-'}</td>

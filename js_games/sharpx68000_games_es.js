@@ -30,14 +30,14 @@ const roms = [
   },
   {
     name: "2096 AD (1991)(Home Data)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/2096%20AD%20%281991%29%28Home%20Data%29%28Disk%201%20of%203%29%28Disk%20A%29.png",
     size: "1.8M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/2096%20AD%20%281991%29%28Home%20Data%29.zip",
     link2: ""
   },
   {
     name: "3 Danhenkei Meka Fuzzy (19xx)(Login)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/3%20Danhenkei%20Meka%20Fuzzy%20%2819xx%29%28Login%29%28Disk%201%20of%202%29.png",
     size: "191.6K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/3%20Danhenkei%20Meka%20Fuzzy%20%2819xx%29%28Login%29.zip",
     link2: ""
@@ -58,7 +58,7 @@ const roms = [
   },
   {
     name: "38 Man Kilo No Kokuu (1989)(System Sacom)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/38%20Man%20Kilo%20No%20Kokuu%20%281989%29%28System%20Sacom%29%28Disk%201%20of%204%29.png",
     size: "3.5M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/38%20Man%20Kilo%20No%20Kokuu%20%281989%29%28System%20Sacom%29.zip",
     link2: ""
@@ -72,21 +72,21 @@ const roms = [
   },
   {
     name: "A-Jax (1989)(Konami)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/A-Jax%20%281989%29%28Konami%29%28Disk%201%20of%203%29%28Program%29.png",
     size: "1,008.7K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/A-Jax%20%281989%29%28Konami%29.zip",
     link2: ""
   },
   {
     name: "Aakushu Youen No Jidai Wo Koete (1990)(Wolf Team)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Aakushu%20Youen%20No%20Jidai%20Wo%20Koete%20%281990%29%28Wolf%20Team%29.png",
     size: "797.5K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Aakushu%20Youen%20No%20Jidai%20Wo%20Koete%20%281990%29%28Wolf%20Team%29.zip",
     link2: ""
   },
   {
     name: "Abunai Tengoku Densetsu (1989)(Alice Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Abunai%20Tengoku%20Densetsu%20%281989%29%28Alice%20Soft%29.png",
     size: "742.5K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Abunai%20Tengoku%20Densetsu%20%281989%29%28Alice%20Soft%29.zip",
     link2: ""
@@ -121,7 +121,7 @@ const roms = [
   },
   {
     name: "Afterburner II (1989)(Dempa)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Afterburner%20II%20%281989%29%28Dempa%29%28Disk%201%20of%202%29.png",
     size: "425.3K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Afterburner%20II%20%281989%29%28Dempa%29.zip",
     link2: ""
@@ -135,7 +135,7 @@ const roms = [
   },
   {
     name: "Air Combat II Yuugekiou II (1990)(System Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Air%20Combat%20II%20Yuugekiou%20II%20%281990%29%28System%20Soft%29%28Disk%201%20of%202%29%28System%29.png",
     size: "611.7K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Air%20Combat%20II%20Yuugekiou%20II%20%281990%29%28System%20Soft%29.zip",
     link2: ""
@@ -149,7 +149,7 @@ const roms = [
   },
   {
     name: "Air Management (19xx)(Koei)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Air%20Management%20%2819xx%29%20%28Koei%29%20%28Disk%201%20of%202%29%20%28Disk%20A%29.png",
     size: "1.1M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Air%20Management%20%2819xx%29%28Koei%29.zip",
     link2: ""
@@ -170,21 +170,21 @@ const roms = [
   },
   {
     name: "Akiko (1993)(Ides)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Akiko%20%281993%29%28Ides%29%28Disk%201%20of%203%29.png",
     size: "2.0M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Akiko%20%281993%29%28Ides%29.zip",
     link2: ""
   },
   {
     name: "Akumajou Dracula (1993)(Konami)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Akumajou%20Dracula.png",
     size: "1.7M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Akumajou%20Dracula%20%281993%29%28Konami%29.zip",
     link2: ""
   },
   {
     name: "Alfaim (1989)(Zainsoft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Alfaim%20%281989%29%28Zainsoft%29%28Disk%201%20of%205%29%28Disk%20A%29.png",
     size: "645.3K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Alfaim%20%281989%29%28Zainsoft%29.zip",
     link2: ""
@@ -226,7 +226,7 @@ const roms = [
   },
   {
     name: "Alien Syndrome (1992)(Dempa)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Alien%20Syndrome%20%281992%29%28Dempa%29.png",
     size: "595.2K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Alien%20Syndrome%20%281992%29%28Dempa%29.zip",
     link2: ""
@@ -240,7 +240,7 @@ const roms = [
   },
   {
     name: "Alshark",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Alshark%20%281991%29%28Right%20Stuff%29%28Disk%201%20of%205%29%28System%29.png",
     size: "4.4M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Alshark.zip",
     link2: ""
@@ -261,7 +261,7 @@ const roms = [
   },
   {
     name: "Ambivalenz (1994)(Alice Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Ambivalenz%20%281994%29%28Alice%20Soft%29%28Disk%201%20of%207%29.png",
     size: "4.8M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Ambivalenz%20%281994%29%28Alice%20Soft%29.zip",
     link2: ""
@@ -352,42 +352,42 @@ const roms = [
   },
   {
     name: "Aoki Ookami To Shiroki Meshika Genchou Hishi (1993)(Koei)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Aoki%20Ookami%20To%20Shiroki%20Meshika%20Genchou%20Hishi%20%28Koei%29%20%28Disk%201%20of%203%29.png",
     size: "2.2M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Aoki%20Ookami%20To%20Shiroki%20Meshika%20Genchou%20Hishi%20%281993%29%28Koei%29.zip",
     link2: ""
   },
   {
     name: "Aoki Ookami To Shiroki Meshika Genghis Khan (1989)(Koei)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Aoki%20Ookami%20To%20Shiroki%20Meshika%20Genghis%20Khan%20%28Koei%29%20%28Disk%201%20of%203%29.png",
     size: "1.5M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Aoki%20Ookami%20To%20Shiroki%20Meshika%20Genghis%20Khan%20%281989%29%28Koei%29.zip",
     link2: ""
   },
   {
     name: "Aquales",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Aquales%20%281991%29%28Exact%29%28Disk%201%20of%203%29.png",
     size: "2.2M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Aquales.zip",
     link2: ""
   },
   {
     name: "Arcus II Silent Symphany (19xx)(Wolf Team)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Arcus%20II%20Silent%20Symphany%20%2819xx%29%20%28Disk%201%20of%204%29.png",
     size: "3.1M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Arcus%20II%20Silent%20Symphany%20%2819xx%29%28Wolf%20Team%29.zip",
     link2: ""
   },
   {
     name: "Arcus Odyssey (1991) (Wolf Team)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Arcus%20Odyssey%20%281991%29%28Wolf%20Team%29%28Disk%201%20of%202%29.png",
     size: "1.8M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Arcus%20Odyssey%20%281991%29%20%28Wolf%20Team%29.zip",
     link2: ""
   },
   {
     name: "Arcus Pro 68k (1989)(Wolf Team)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Arcus%20Pro%2068k%20%281989%29%28Wolf%20Team%29%28Disk%201%20of%205%29.png",
     size: "1.7M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Arcus%20Pro%2068k%20%281989%29%28Wolf%20Team%29.zip",
     link2: ""
@@ -401,7 +401,7 @@ const roms = [
   },
   {
     name: "Argos No Senshi (1994)(Dempa)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Argos%20No%20Senshi%20%281994%29%28Dempa%29.png",
     size: "805.3K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Argos%20No%20Senshi%20%281994%29%28Dempa%29.zip",
     link2: ""
@@ -415,14 +415,14 @@ const roms = [
   },
   {
     name: "Arkanoid Revenge of Doh (1987)(Sharp - SPS)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Arkanoid%20Revenge%20of%20Doh%20%281987%29%28Sharp%20-%20SPS%29.png",
     size: "247.1K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Arkanoid%20Revenge%20of%20Doh%20%281987%29%28Sharp%20-%20SPS%29.zip",
     link2: ""
   },
   {
     name: "Armored Trooper Votoms Dead Ash (1991)(Family Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Armored%20Trooper%20Votoms%20Dead%20Ash%20%281991%29%28Family%20Soft%29%28Disk%201%20of%202%29%28Disk%20A%29.png",
     size: "490.2K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Armored%20Trooper%20Votoms%20Dead%20Ash%20%281991%29%28Family%20Soft%29.zip",
     link2: ""
@@ -436,14 +436,14 @@ const roms = [
   },
   {
     name: "Artemis (1993)(X-Works)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Artemis%20%281993%29%28X-Works%29.png",
     size: "899.6K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Artemis%20%281993%29%28X-Works%29.zip",
     link2: ""
   },
   {
     name: "Artemis (199x)(Birdy Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Artemis%20%281993%29%28X-Works%29.png",
     size: "2.3M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Artemis%20%28199x%29%28Birdy%20Soft%29.zip",
     link2: ""
@@ -471,21 +471,21 @@ const roms = [
   },
   {
     name: "Asuka 120 Percent Burning Fest (1994)(Family Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Asuka%20120%20Percent%20Burning%20Fest%20%281994%29%28Family%20Soft%29%28Disk%201%20of%202%29.png",
     size: "1.9M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Asuka%20120%20Percent%20Burning%20Fest%20%281994%29%28Family%20Soft%29.zip",
     link2: ""
   },
   {
     name: "Atomic Robo-Kid (1990)(System Sacom)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Atomic%20Robo-Kid.png",
     size: "939.6K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Atomic%20Robo-Kid%20%281990%29%28System%20Sacom%29.zip",
     link2: ""
   },
   {
     name: "Atomic Runner Chelnov (1993)(Dempa)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Atomic%20Runner%20Chelnov%20%281993%29%28Dempa%29.png",
     size: "497.5K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Atomic%20Runner%20Chelnov%20%281993%29%28Dempa%29.zip",
     link2: ""
@@ -576,7 +576,7 @@ const roms = [
   },
   {
     name: "Baraduke (1995)(Dempa)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Baraduke%20%281995%29%28Dempa%29.png",
     size: "333.8K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Baraduke%20%281995%29%28Dempa%29.zip",
     link2: ""
@@ -597,7 +597,7 @@ const roms = [
   },
   {
     name: "Baruusa No Fukushuu (1991)(Zain Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Baruusa%20No%20Fukushuu%20%281991%29%28Zain%20Soft%29%28Disk%201%20of%203%29%28Disk%20A%29.png",
     size: "1.2M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Baruusa%20No%20Fukushuu%20%281991%29%28Zain%20Soft%29.zip",
     link2: ""
@@ -611,7 +611,7 @@ const roms = [
   },
   {
     name: "Battle Chess (1989)(Pack-In-Video)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Battle%20Chess%20%281989%29%28Pack-In-Video%29%28Disk%201%20of%202%29%28Disk%20A%29.png",
     size: "856.7K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Battle%20Chess%20%281989%29%28Pack-In-Video%29.zip",
     link2: ""
@@ -646,7 +646,7 @@ const roms = [
   },
   {
     name: "Battletech (1992)(Crossmedia)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Battletech%20%281992%29%28Crossmedia%29%28Disk%201%20of%203%29%28Disk%20A%29.png",
     size: "1.5M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Battletech%20%281992%29%28Crossmedia%29.zip",
     link2: ""
@@ -674,14 +674,14 @@ const roms = [
   },
   {
     name: "Binbin Mahjongg Peach Angel (1994)(Takeru Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Binbin%20Mahjongg%20Peach%20Angel%20%28Takeru%20Soft%29%20%28Alt%201%29.png",
     size: "419.6K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Binbin%20Mahjongg%20Peach%20Angel%20%281994%29%28Takeru%20Soft%29.zip",
     link2: ""
   },
   {
     name: "Binbin Mahjongg Peach Angel (1994)(Takeru Soft)[a]",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Binbin%20Mahjongg%20Peach%20Angel%20%28Takeru%20Soft%29%20%28Alt%201%29.png",
     size: "419.6K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Binbin%20Mahjongg%20Peach%20Angel%20%281994%29%28Takeru%20Soft%29%5Ba%5D.zip",
     link2: ""
@@ -695,7 +695,7 @@ const roms = [
   },
   {
     name: "Bishoujo Noriko (19xx)(System House Oh!)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Bishoujo%20Noriko%20%2819xx%29%20%28System%20House%20Oh%21%29.png",
     size: "423.0K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Bishoujo%20Noriko%20%2819xx%29%28System%20House%20Oh%21%29.zip",
     link2: ""
@@ -807,7 +807,7 @@ const roms = [
   },
   {
     name: "Blodia (19xx)(Broderbund)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Blodia%20%2819xx%29%20%28Broderbund%29%20%28Disk%201%20of%202%29%20%28Disk%20A%29.png",
     size: "1.5M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Blodia%20%2819xx%29%28Broderbund%29.zip",
     link2: ""
@@ -842,14 +842,14 @@ const roms = [
   },
   {
     name: "Bomber Man (1990)(System Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Bomber%20Man%20%281990%29%28System%20Soft%29.png",
     size: "970.9K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Bomber%20Man%20%281990%29%28System%20Soft%29.zip",
     link2: ""
   },
   {
     name: "Bonanza Bros (1991)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Bonanza%20Bros%20%281991%29%28Sharp%20-%20SPS%29%28Disk%201%20of%202%29%28Disk%20A%29.png",
     size: "826.6K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Bonanza%20Bros%20%281991%29.zip",
     link2: ""
@@ -877,7 +877,7 @@ const roms = [
   },
   {
     name: "Bosconian (1988)(Dempa)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Bosconian%20%281988%29%28Dempa%29.png",
     size: "447.7K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Bosconian%20%281988%29%28Dempa%29.zip",
     link2: ""
@@ -905,7 +905,7 @@ const roms = [
   },
   {
     name: "Branmarker (1991)(DO)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Branmarker%20%281991%29%28DO%29%28Disk%201%20of%208%29%28Disk%20A%29.png",
     size: "3.5M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Branmarker%20%281991%29%28DO%29.zip",
     link2: ""
@@ -926,7 +926,7 @@ const roms = [
   },
   {
     name: "Bretonne Lais (1990)(System Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Bretonne%20Lais%20%281990%29%28System%20Soft%29%28Disk%201%20of%203%29%28Opening%29.png",
     size: "4.9M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Bretonne%20Lais%20%281990%29%28System%20Soft%29.zip",
     link2: ""
@@ -940,7 +940,7 @@ const roms = [
   },
   {
     name: "Bubble Bobble (1989)(Dempa)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Bubble%20Bobble%20%281989%29%28Dempa%29.png",
     size: "569.0K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Bubble%20Bobble%20%281989%29%28Dempa%29.zip",
     link2: ""
@@ -954,7 +954,7 @@ const roms = [
   },
   {
     name: "Butasan (1993)(Dempa)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Butasan%20%281993%29%28Dempa%29.png",
     size: "447.1K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Butasan%20%281993%29%28Dempa%29.zip",
     link2: ""
@@ -989,7 +989,7 @@ const roms = [
   },
   {
     name: "Cal 2 (1991)(Birdy Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Cal%202%20%281991%29%28Birdy%20Soft%29%28Disk%201%20of%204%29.png",
     size: "3.8M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Cal%202%20%281991%29%28Birdy%20Soft%29.zip",
     link2: ""
@@ -1003,14 +1003,14 @@ const roms = [
   },
   {
     name: "Cameltry (1991)(Denpa)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Cameltry%20%281991%29%28Denpa%29.png",
     size: "686.0K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Cameltry%20%281991%29%28Denpa%29.zip",
     link2: ""
   },
   {
     name: "Can Can Bunny ++",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Can%20Can%20Bunny%20%28Cocktail%20Soft%29%20%28Disk%201%20of%202%29%20%28Disk%20A%29%20%28Alt%201%29.png",
     size: "11.1M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Can%20Can%20Bunny%20%2B%2B.zip",
     link2: ""
@@ -1024,14 +1024,14 @@ const roms = [
   },
   {
     name: "Carat (1992)(Custom)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Carat%20%281992%29%28Custom%29%28Disk%201%20of%202%29%28Disk%20A%29.png",
     size: "1.5M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Carat%20%281992%29%28Custom%29.zip",
     link2: ""
   },
   {
     name: "Caroll (1990)(System House Oh!)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Caroll%20%28System%20House%20Oh%21%29.png",
     size: "471.5K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Caroll%20%281990%29%28System%20House%20Oh%21%29.zip",
     link2: ""
@@ -1045,14 +1045,14 @@ const roms = [
   },
   {
     name: "Castles (199x)(Crossmedia)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Castles%20%28199x%29%20%28Crossmedia%29%20%28Disk%201%20of%202%29%20%28System%29.png",
     size: "1.2M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Castles%20%28199x%29%28Crossmedia%29.zip",
     link2: ""
   },
   {
     name: "Cat's Part-1 (1993)(Cat's Pro)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Cat%27s%20Part-1%20%281993%29%28Cat%27s%20Pro%29%28Disk%201%20of%203%29%28Disk%20A%29.png",
     size: "2.3M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Cat%27s%20Part-1%20%281993%29%28Cat%27s%20Pro%29.zip",
     link2: ""
@@ -1115,14 +1115,14 @@ const roms = [
   },
   {
     name: "Chaos Strikes Back (1990)(FTL)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Chaos%20Strikes%20Back%20%281990%29%28FTL%29.png",
     size: "816.0K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Chaos%20Strikes%20Back%20%281990%29%28FTL%29.zip",
     link2: ""
   },
   {
     name: "Chase H.Q. (1992)(Tierheit)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Chase%20H.Q.%20%281992%29%28Tierheit%29%28Disk%201%20of%202%29%28Disk%20A%29.png",
     size: "1,006.8K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Chase%20H.Q.%20%281992%29%28Tierheit%29.zip",
     link2: ""
@@ -1143,7 +1143,7 @@ const roms = [
   },
   {
     name: "Chinmoku No Kantai (1993)(Gam)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Chinmoku%20No%20Kantai%20%281993%29%28G.A.M.%29.png",
     size: "1.9M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Chinmoku%20No%20Kantai%20%281993%29%28Gam%29.zip",
     link2: ""
@@ -1178,21 +1178,21 @@ const roms = [
   },
   {
     name: "Chourensha 68K v1.01 (1995)(Famibe No Yosshin)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Chourensha%2068K%20v1.01%20%281995%29%28Famibe%20No%20Yosshin%29.png",
     size: "599.7K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Chourensha%2068K%20v1.01%20%281995%29%28Famibe%20No%20Yosshin%29.zip",
     link2: ""
   },
   {
     name: "Chuka Taisen (1991)(Sharp - SPS)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Chuka%20Taisen%20%281991%29%28Sharp%20-%20SPS%29.png",
     size: "566.7K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Chuka%20Taisen%20%281991%29%28Sharp%20-%20SPS%29.zip",
     link2: ""
   },
   {
     name: "Cinderella Perudue (1988)(Studio Angel)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Cinderella%20Perudue%20%28Studio%20Angel%29.png",
     size: "242.1K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Cinderella%20Perudue%20%281988%29%28Studio%20Angel%29.zip",
     link2: ""
@@ -1227,7 +1227,7 @@ const roms = [
   },
   {
     name: "Cockpit, The (1988)(Compac)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Cockpit%2C%20The%20%281988%29%28Compac%29.png",
     size: "636.0K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Cockpit%2C%20The%20%281988%29%28Compac%29.zip",
     link2: ""
@@ -1241,21 +1241,21 @@ const roms = [
   },
   {
     name: "Code-Zero (1991)(Enix)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Code-Zero%20%281991%29%28Enix%29%28Disk%201%20of%202%29%28Disk%20A%29.png",
     size: "1.5M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Code-Zero%20%281991%29%28Enix%29.zip",
     link2: ""
   },
   {
     name: "Collector D Bangaihen (199x)(DO)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Collector%20D%20Bangaihen%20%28199x%29%20%28DO%29%20%28Disk%201%20of%206%29%20%28System%29.png",
     size: "3.9M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Collector%20D%20Bangaihen%20%28199x%29%28DO%29.zip",
     link2: ""
   },
   {
     name: "Columns",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Columns%20%281991%29%28System%20Soft%29.png",
     size: "714.7K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Columns.zip",
     link2: ""
@@ -1269,14 +1269,14 @@ const roms = [
   },
   {
     name: "Continental (1992)(Technopolis)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Continental%20%28Technopolis%29%20%28Disk%201%20of%204%29%20%28Disk%20A%29.png",
     size: "2.9M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Continental%20%281992%29%28Technopolis%29.zip",
     link2: ""
   },
   {
     name: "Cosmic Psyco (1991)(Cocktail Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Cosmic%20Psyco%20%28Cocktail%20Soft%29%20%28Disk%201%20of%204%29%20%28Disk%20A%29%20%28Alt%201%29.png",
     size: "2.3M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Cosmic%20Psyco%20%281991%29%28Cocktail%20Soft%29.zip",
     link2: ""
@@ -1290,7 +1290,7 @@ const roms = [
   },
   {
     name: "Cotton Fantastic Night Dreams (1993)(Victor)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Cotton%20Fantastic%20Night%20Dreams%20%281993%29%28Victor%29%28Disk%201%20of%202%29.png",
     size: "1.5M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Cotton%20Fantastic%20Night%20Dreams%20%281993%29%28Victor%29.zip",
     link2: ""
@@ -1311,14 +1311,14 @@ const roms = [
   },
   {
     name: "Crescent (199x)(Silky's)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Crescent%20%28199x%29%20%28Silky%27s%29%20%28Disk%201%20of%204%29%20%28Disk%20A%29.png",
     size: "2.7M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Crescent%20%28199x%29%28Silky%27s%29.zip",
     link2: ""
   },
   {
     name: "Crescent Moon Girl (1989)(Alice Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Crescent%20Moon%20Girl%20%28Alice%20Soft%29%20%28Disk%201%20of%203%29%20%28Disk%20A%29.png",
     size: "1.5M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Crescent%20Moon%20Girl%20%281989%29%28Alice%20Soft%29.zip",
     link2: ""
@@ -1353,7 +1353,7 @@ const roms = [
   },
   {
     name: "Cube Runner (1990)(SPS)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Cube%20Runner%20%281990%29%28SPS%29.png",
     size: "302.5K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Cube%20Runner%20%281990%29%28SPS%29.zip",
     link2: ""
@@ -1367,7 +1367,7 @@ const roms = [
   },
   {
     name: "Cyber Core (1991)(SPS)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Cyber%20Core%20%281991%29%28SPS%29.png",
     size: "529.2K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Cyber%20Core%20%281991%29%28SPS%29.zip",
     link2: ""
@@ -1388,7 +1388,7 @@ const roms = [
   },
   {
     name: "Cyberblock Metal Orange EX (1993)(Custom)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Cyberblock%20Metal%20Orange%20EX%20%281993%29%28Custom%29%28Disk%201%20of%202%29%28Disk%20A%29.png",
     size: "1.8M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Cyberblock%20Metal%20Orange%20EX%20%281993%29%28Custom%29.zip",
     link2: ""
@@ -1416,7 +1416,7 @@ const roms = [
   },
   {
     name: "D-Return (1989)(Nichikonren Kikaku)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/D-Return%20%281989%29%28Nichikonren%20Kikaku%29%28Disk%201%20of%202%29%28Disk%200%29.png",
     size: "505.2K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/D-Return%20%281989%29%28Nichikonren%20Kikaku%29.zip",
     link2: ""
@@ -1437,14 +1437,14 @@ const roms = [
   },
   {
     name: "Daikoukai Jidai (19xx)(Koei)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Daikoukai%20Jidai%20%2819xx%29%20%28Koei%29%20%28Disk%201%20of%202%29%20%28Mai%29%20%28Alt%201%29.png",
     size: "1.2M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Daikoukai%20Jidai%20%2819xx%29%28Koei%29.zip",
     link2: ""
   },
   {
     name: "Daimakaimura (1994)(Capcom)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Daimakaimura%20%281994%29%28Capcom%29%28Disk%201%20of%202%29%28System%29.png",
     size: "1.8M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Daimakaimura%20%281994%29%28Capcom%29.zip",
     link2: ""
@@ -1458,7 +1458,7 @@ const roms = [
   },
   {
     name: "Dalk (1993)(Alice Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Dalk%20%28Alice%20Soft%29%20%28Disk%201%20of%206%29%20%28Disk%20A%29.png",
     size: "4.0M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Dalk%20%281993%29%28Alice%20Soft%29.zip",
     link2: ""
@@ -1521,7 +1521,7 @@ const roms = [
   },
   {
     name: "Dash Yarou (1991)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Dash%20Yarou%20%281991%29%28Sharp%20-%20SPS%29%28Disk%201%20of%202%29%28Disk%20A%29.png",
     size: "681.1K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Dash%20Yarou%20%281991%29.zip",
     link2: ""
@@ -1535,7 +1535,7 @@ const roms = [
   },
   {
     name: "Datenshi Kyouko Part I (19xx)(System House Oh!)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Datenshi%20Kyouko%20Part%20I%20%2819xx%29%20%28System%20House%20Oh%21%29.png",
     size: "582.2K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Datenshi%20Kyouko%20Part%20I%20%2819xx%29%28System%20House%20Oh%21%29.zip",
     link2: ""
@@ -1556,28 +1556,28 @@ const roms = [
   },
   {
     name: "De Ja (1990)(Elf)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/De%20Ja%20%28Elf%29%20%28Disk%201%20of%203%29%20%28Disk%20A%29%20%28Alt%201%29.png",
     size: "2.4M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/De%20Ja%20%281990%29%28Elf%29.zip",
     link2: ""
   },
   {
     name: "Dead of the Brain (1992)(Fairytale)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Dead%20of%20the%20Brain%20%28Fairytale%29%20%28Disk%201%20of%205%29.png",
     size: "3.3M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Dead%20of%20the%20Brain%20%281992%29%28Fairytale%29.zip",
     link2: ""
   },
   {
     name: "Death Brade (1992)(Shuuwa - SPS)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Death%20Brade%20%281992%29%28Shuuwa%20-%20SPS%29%28Disk%201%20of%205%29%28System%29.png",
     size: "4.3M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Death%20Brade%20%281992%29%28Shuuwa%20-%20SPS%29.zip",
     link2: ""
   },
   {
     name: "Death Bringer (1989)(Telnet)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Death%20Bringer%20%281989%29%28Telnet%29%28Disk%201%20of%203%29%28Disk%20A%29.png",
     size: "2.1M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Death%20Bringer%20%281989%29%28Telnet%29.zip",
     link2: ""
@@ -1605,7 +1605,7 @@ const roms = [
   },
   {
     name: "Deflektor (1989)(BPS)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Deflektor%20%281989%29%28BPS%29.png",
     size: "705.0K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Deflektor%20%281989%29%28BPS%29.zip",
     link2: ""
@@ -1647,7 +1647,7 @@ const roms = [
   },
   {
     name: "Detana! Twin Bee (1991)(Konami)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Detana%21%20Twin%20Bee%20%281991%29%28Konami%29%28Disk%201%20of%202%29%28Disk%20A%29.png",
     size: "3.2M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Detana%21%20Twin%20Bee%20%281991%29%28Konami%29.zip",
     link2: ""
@@ -1689,7 +1689,7 @@ const roms = [
   },
   {
     name: "Dino Land (1991)(Wolf Team)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Dino%20Land%20%281991%29%28Wolf%20Team%29%28Disk%201%20of%202%29.png",
     size: "534.1K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Dino%20Land%20%281991%29%28Wolf%20Team%29.zip",
     link2: ""
@@ -1703,7 +1703,7 @@ const roms = [
   },
   {
     name: "Dios (1990)(Zain Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Dios%20%28Zain%20Soft%29%20%28Disk%201%20of%204%29%20%28Disk%20A%29.png",
     size: "916.6K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Dios%20%281990%29%28Zain%20Soft%29.zip",
     link2: ""
@@ -1752,14 +1752,14 @@ const roms = [
   },
   {
     name: "Doki Doki Card League (1990)(Great)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Doki%20Doki%20Card%20League%20%28Great%29%20%28Disk%201%20of%202%29%20%28Disk%20A%29.png",
     size: "657.0K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Doki%20Doki%20Card%20League%20%281990%29%28Great%29.zip",
     link2: ""
   },
   {
     name: "Dome (1988)(System Sacom)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Dome%20%281988%29%28System%20Sacom%29%28Disk%201%20of%205%29.png",
     size: "3.6M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Dome%20%281988%29%28System%20Sacom%29.zip",
     link2: ""
@@ -1801,7 +1801,7 @@ const roms = [
   },
   {
     name: "Double Eagle (1989)(Artdink)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Double%20Eagle%20%281989%29%28Artdink%29%28Disk%201%20of%202%29%28Disk%20A%29.png",
     size: "737.3K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Double%20Eagle%20%281989%29%28Artdink%29.zip",
     link2: ""
@@ -1815,21 +1815,21 @@ const roms = [
   },
   {
     name: "Douke Shisatsujin Jiken (19xx)(Thinking Rabbit)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Douke%20Shisatsujin%20Jiken%20%2819xx%29%20%28Thinking%20Rabbit%29%20%28Disk%201%20of%202%29%20%28Disk%200%29.png",
     size: "1.1M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Douke%20Shisatsujin%20Jiken%20%2819xx%29%28Thinking%20Rabbit%29.zip",
     link2: ""
   },
   {
     name: "Doukyuusei (1992)(Elf)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Doukyuusei%20%281992%29%28Elf%29%28Disk%201%20of%209%29%28Disk%20A%29.png",
     size: "6.9M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Doukyuusei%20%281992%29%28Elf%29.zip",
     link2: ""
   },
   {
     name: "Downtown Nekketsu Monogatari (1990)(Sharp - SPS)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Downtown%20Nekketsu%20Monogatari%20%281990%29%28Sharp%20-%20SPS%29%28Disk%201%20of%202%29%28Disk%20A%29.png",
     size: "1.2M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Downtown%20Nekketsu%20Monogatari%20%281990%29%28Sharp%20-%20SPS%29.zip",
     link2: ""
@@ -1850,35 +1850,35 @@ const roms = [
   },
   {
     name: "Dr. Stop (1992)(Alice Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Dr.%20Stop%20%28Alice%20Soft%29%20%28Disk%201%20of%202%29%20%28Disk%20A%29%20%28Alt%201%29.png",
     size: "1.1M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Dr.%20Stop%20%281992%29%28Alice%20Soft%29.zip",
     link2: ""
   },
   {
     name: "Dracula Hakushaku (1992)(Fairy Tale)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Dracula%20Hakushaku%20%28Fairy%20Tale%29%20%28Disk%201%20of%204%29.png",
     size: "3.1M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Dracula%20Hakushaku%20%281992%29%28Fairy%20Tale%29.zip",
     link2: ""
   },
   {
     name: "Dragon (1989)(Log)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Dragon%20%28Log%29.png",
     size: "442.1K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Dragon%20%281989%29%28Log%29.zip",
     link2: ""
   },
   {
     name: "Dragon Buster (1993)(Dempa)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Dragon%20Buster%20%281993%29%28Dempa%29.png",
     size: "521.6K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Dragon%20Buster%20%281993%29%28Dempa%29.zip",
     link2: ""
   },
   {
     name: "Dragon City (19xx)(Fairytale)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Dragon%20City%20%2819xx%29%20%28Fairytale%29%20%28Disk%201%20of%203%29%20%28Disk%20A%29%20%28Alt%201%29.png",
     size: "1.6M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Dragon%20City%20%2819xx%29%28Fairytale%29.zip",
     link2: ""
@@ -1892,7 +1892,7 @@ const roms = [
   },
   {
     name: "Dragon Eyes (1991)(Technopolis)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Dragon%20Eyes%20%281991%29%28Technopolis%29%28Disk%201%20of%203%29%28Disk%20A%29.png",
     size: "2.0M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Dragon%20Eyes%20%281991%29%28Technopolis%29.zip",
     link2: ""
@@ -1927,35 +1927,35 @@ const roms = [
   },
   {
     name: "Dragon Slayer +(1992)(SPS)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Dragon%20Slayer%20%281992%29%28SPS%29%28Disk%201%20of%203%29%28Event%29.png",
     size: "2.1M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Dragon%20Slayer%20%2B%281992%29%28SPS%29.zip",
     link2: ""
   },
   {
     name: "Dragon Spirit (1988)(Dempa)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Dragon%20Spirit.png",
     size: "1.0M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Dragon%20Spirit%20%281988%29%28Dempa%29.zip",
     link2: ""
   },
   {
     name: "Dragon Strike (1992)(Pony Canyon)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Dragon%20Strike%20%281992%29%28Pony%20Canyon%29%28Disk%201%20of%202%29%28Disk%20A%29.png",
     size: "1.3M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Dragon%20Strike%20%281992%29%28Pony%20Canyon%29.zip",
     link2: ""
   },
   {
     name: "Dragon Wars (1990)(Starcraft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Dragon%20Wars%20%28Starcraft%29%20%28Disk%201%20of%203%29%20%28Kidou%29%20%28Alt%201%29.png",
     size: "787.4K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Dragon%20Wars%20%281990%29%28Starcraft%29.zip",
     link2: ""
   },
   {
     name: "Drakkhen (1991)(Epic)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Drakkhen%20%281991%29%28Epic%29%28Disk%201%20of%202%29%28Program%29.png",
     size: "1.5M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Drakkhen%20%281991%29%28Epic%29.zip",
     link2: ""
@@ -1976,7 +1976,7 @@ const roms = [
   },
   {
     name: "Dungeon Master (1989)(FTL)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Dungeon%20Master%20%281989%29%28FTL%29%28Disk%201%20of%202%29%28System%29.png",
     size: "390.9K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Dungeon%20Master%20%281989%29%28FTL%29.zip",
     link2: ""
@@ -1997,7 +1997,7 @@ const roms = [
   },
   {
     name: "Dynamite Duke (1990)(Hertz)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Dynamite%20Duke%20%281990%29%28Hertz%29%28Disk%201%20of%203%29%28System%29.png",
     size: "2.4M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Dynamite%20Duke%20%281990%29%28Hertz%29.zip",
     link2: ""
@@ -2018,7 +2018,7 @@ const roms = [
   },
   {
     name: "Eikan Ha Kimi Ni Koukou Yakyuu Zenkokutaikai (1990)(Artdink)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Eikan%20Ha%20Kimi%20Ni%20Koukou%20Yakyuu%20Zenkokutaikai%20%28Artdink%29%20%28Disk%201%20of%203%29%20%28System%29%20%28Alt%201%29.png",
     size: "1.3M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Eikan%20Ha%20Kimi%20Ni%20Koukou%20Yakyuu%20Zenkokutaikai%20%281990%29%28Artdink%29.zip",
     link2: ""
@@ -2039,7 +2039,7 @@ const roms = [
   },
   {
     name: "Elle (1991)(Elf)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Elle%20%28Elf%29%20%28Disk%201%20of%204%29%20%28Disk%20A%29%20%28Alt%201%29.png",
     size: "2.8M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Elle%20%281991%29%28Elf%29.zip",
     link2: ""
@@ -2060,7 +2060,7 @@ const roms = [
   },
   {
     name: "Emerald Dragon (1990)(Glodia)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Emerald%20Dragon%20%281990%29%28Glodia%29%28Disk%201%20of%206%29%28System%29.png",
     size: "3.3M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Emerald%20Dragon%20%281990%29%28Glodia%29.zip",
     link2: ""
@@ -2074,7 +2074,7 @@ const roms = [
   },
   {
     name: "Entfuhrer (19xx)(Zenryuutsuu)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Entfuhrer%20%2819xx%29%20%28Zenryuutsuu%29.png",
     size: "284.0K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Entfuhrer%20%2819xx%29%28Zenryuutsuu%29.zip",
     link2: ""
@@ -2088,14 +2088,14 @@ const roms = [
   },
   {
     name: "Etoile Princess",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Etoile%20Princess.png",
     size: "4.8M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Etoile%20Princess.zip",
     link2: ""
   },
   {
     name: "Europe Sensen (1992)(Koei)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Europe%20Sensen%20%28Koei%29%20%28Disk%201%20of%203%29%20%28Disk%20A%29.png",
     size: "1.5M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Europe%20Sensen%20%281992%29%28Koei%29.zip",
     link2: ""
@@ -2116,7 +2116,7 @@ const roms = [
   },
   {
     name: "Exciting Hour Jusse Oozumou (1994)(Dempa)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Exciting%20Hour%20Jusse%20Oozumou%20%281994%29%28Dempa%29.png",
     size: "647.1K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Exciting%20Hour%20Jusse%20Oozumou%20%281994%29%28Dempa%29.zip",
     link2: ""
@@ -2130,7 +2130,7 @@ const roms = [
   },
   {
     name: "Exterlian (1990)(DO)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Exterlian%20%28DO%29%20%28Disk%201%20of%203%29%20%28Disk%20A%29.png",
     size: "1.9M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Exterlian%20%281990%29%28DO%29.zip",
     link2: ""
@@ -2151,14 +2151,14 @@ const roms = [
   },
   {
     name: "F-15 Strike Eagle II (1991)(Microprose)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/F-15%20Strike%20Eagle%20II%20%281991%29%28Microprose%29%28Disk%201%20of%202%29%28Disk%20A%29.png",
     size: "511.1K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/F-15%20Strike%20Eagle%20II%20%281991%29%28Microprose%29.zip",
     link2: ""
   },
   {
     name: "Fairyland Story, The (1991)(SPS)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Fairyland%20Story%2C%20The%20%281991%29%28SPS%29%28Disk%201%20of%202%29%28Disk%20A%29.png",
     size: "678.0K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Fairyland%20Story%2C%20The%20%281991%29%28SPS%29.zip",
     link2: ""
@@ -2193,7 +2193,7 @@ const roms = [
   },
   {
     name: "Fantasy Zone (1989) (Sega-Dempa)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Fantasy%20Zone.png",
     size: "935.7K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Fantasy%20Zone%20%281989%29%20%28Sega-Dempa%29.zip",
     link2: ""
@@ -2221,7 +2221,7 @@ const roms = [
   },
   {
     name: "Final Fight (1992)(Capcom)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Final%20Fight%20%281992%29%28Capcom%29%28Disk%201%20of%202%29.png",
     size: "1.6M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Final%20Fight%20%281992%29%28Capcom%29.zip",
     link2: ""
@@ -2270,7 +2270,7 @@ const roms = [
   },
   {
     name: "First Queen II (19xx)(KSK)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/First%20Queen%20II%20%2819xx%29%20%28KSK%29%20%28Disk%201%20of%203%29.png",
     size: "1.4M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/First%20Queen%20II%20%2819xx%29%28KSK%29.zip",
     link2: ""
@@ -2291,7 +2291,7 @@ const roms = [
   },
   {
     name: "Flappy 2 Blue Star Fukkatsu No Hi (1989)(dB-Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Flappy%202%20Blue%20Star%20Fukkatsu%20No%20Hi%20%281989%29%28dB-Soft%29.png",
     size: "268.4K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Flappy%202%20Blue%20Star%20Fukkatsu%20No%20Hi%20%281989%29%28dB-Soft%29.zip",
     link2: ""
@@ -2368,7 +2368,7 @@ const roms = [
   },
   {
     name: "Foxy 2 (1991)(Elf)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Foxy%202%20%281991%29%28Elf%29%28Disk%201%20of%204%29.png",
     size: "2.3M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Foxy%202%20%281991%29%28Elf%29.zip",
     link2: ""
@@ -2403,7 +2403,7 @@ const roms = [
   },
   {
     name: "Fruits Fields (1988)(Compac)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Fruits%20Fields%20%281988%29%28Compac%29.png",
     size: "384.6K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Fruits%20Fields%20%281988%29%28Compac%29.zip",
     link2: ""
@@ -2417,7 +2417,7 @@ const roms = [
   },
   {
     name: "Full Throttle (1988)(Sharp - SPS)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Full%20Throttle%20%281988%29%28Sharp%20-%20SPS%29%28Disk%201%20of%202%29%28Disk%20A%29.png",
     size: "357.6K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Full%20Throttle%20%281988%29%28Sharp%20-%20SPS%29.zip",
     link2: ""
@@ -2438,28 +2438,28 @@ const roms = [
   },
   {
     name: "Fushigi No Umi No Nadia (1992)(Gainax)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Fushigi%20No%20Umi%20No%20Nadia%20%281992%29%28Gainax%29%28Disk%201%20of%209%29%28Disk%20A%29.png",
     size: "6.8M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Fushigi%20No%20Umi%20No%20Nadia%20%281992%29%28Gainax%29.zip",
     link2: ""
   },
   {
     name: "Future Wars (19xx)(Starcraft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Future%20Wars%20%2819xx%29%20%28Starcraft%29.png",
     size: "1.0M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Future%20Wars%20%2819xx%29%28Starcraft%29.zip",
     link2: ""
   },
   {
     name: "FZ Senki Axis (1990)(Wolf Team)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/FZ%20Senki%20Axis%20%281990%29%28Wolf%20Team%29%28Disk%201%20of%203%29.png",
     size: "1.3M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/FZ%20Senki%20Axis%20%281990%29%28Wolf%20Team%29.zip",
     link2: ""
   },
   {
     name: "G.R. Gravity Responce (1992)(Tenshindou)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/G.R.%20Gravity%20Responce%20%28Tenshindou%29%20%28Disk%201%20of%203%29%20%28Momotarou%29.png",
     size: "1.6M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/G.R.%20Gravity%20Responce%20%281992%29%28Tenshindou%29.zip",
     link2: ""
@@ -2487,14 +2487,14 @@ const roms = [
   },
   {
     name: "Gakuen Bomber (1994)(Active)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Gakuen%20Bomber%20%28Active%29%20%28Disk%201%20of%203%29%20%28Disk%20A%29.png",
     size: "2.5M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Gakuen%20Bomber%20%281994%29%28Active%29.zip",
     link2: ""
   },
   {
     name: "Gakuen Toshi Z (199x)(Striker)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Gakuen%20Toshi%20Z%20%28199x%29%20%28Striker%29%20%28Disk%201%20of%203%29%20%28Disk%20A%29.png",
     size: "1.6M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Gakuen%20Toshi%20Z%20%28199x%29%28Striker%29.zip",
     link2: ""
@@ -2508,7 +2508,7 @@ const roms = [
   },
   {
     name: "Galaga '88 (1990)(Dempa)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Galaga%20%2788%20%281990%29%28Dempa%29%28Disk%201%20of%202%29%28Disk%20A%29.png",
     size: "1.1M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Galaga%20%2788%20%281990%29%28Dempa%29.zip",
     link2: ""
@@ -2571,7 +2571,7 @@ const roms = [
   },
   {
     name: "Gamma Planet (1989)(Compac)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Gamma%20Planet%20%281989%29%28Compac%29.png",
     size: "479.9K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Gamma%20Planet%20%281989%29%28Compac%29.zip",
     link2: ""
@@ -2599,7 +2599,7 @@ const roms = [
   },
   {
     name: "Gaudi Barcelona No Kaze (19xx)(Wolf Team)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Gaudi%20Barcelona%20No%20Kaze%20%2819xx%29%28Wolf%20Team%29%28Disk%201%20of%203%29.png",
     size: "1.3M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Gaudi%20Barcelona%20No%20Kaze%20%2819xx%29%28Wolf%20Team%29.zip",
     link2: ""
@@ -2627,7 +2627,7 @@ const roms = [
   },
   {
     name: "Gemini Wing (1990)(System Sacom)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Gemini%20Wing%20%281990%29%28System%20Sacom%29%28Disk%201%20of%202%29%28Disk%20A%29.png",
     size: "639.9K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Gemini%20Wing%20%281990%29%28System%20Sacom%29.zip",
     link2: ""
@@ -2648,14 +2648,14 @@ const roms = [
   },
   {
     name: "Genpei Toumaden (1988)(Dempa)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Genpei%20Toumaden%20%281988%29%28Dempa%29.png",
     size: "637.8K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Genpei%20Toumaden%20%281988%29%28Dempa%29.zip",
     link2: ""
   },
   {
     name: "Geograph Seal (1994)(Exact)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Geograph%20Seal%20%281994%29%28Exact%29%28Disk%201%20of%202%29%28System%29.png",
     size: "1.4M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Geograph%20Seal%20%281994%29%28Exact%29.zip",
     link2: ""
@@ -2683,7 +2683,7 @@ const roms = [
   },
   {
     name: "Ginga Eiyuu Densetsu ++",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Ginga%20Eiyuu%20Densetsu%20%28Bothtec%29%20%28Disk%201%20of%203%29%20%28Disk%20A%29%20%28Alt%201%29.png",
     size: "5.0M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Ginga%20Eiyuu%20Densetsu%20%2B%2B.zip",
     link2: ""
@@ -2711,7 +2711,7 @@ const roms = [
   },
   {
     name: "Go Kichikun (1988)(Gam)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Go%20Kichikun%20%28Gam%29.png",
     size: "270.1K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Go%20Kichikun%20%281988%29%28Gam%29.zip",
     link2: ""
@@ -2746,7 +2746,7 @@ const roms = [
   },
   {
     name: "Gram Cats 2 (1993)(Dot Kikaku)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Gram%20Cats%202%20%28Dot%20Kikaku%29%20%28Disk%201%20of%204%29%20%28Disk%20A%29.png",
     size: "1.8M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Gram%20Cats%202%20%281993%29%28Dot%20Kikaku%29.zip",
     link2: ""
@@ -2760,7 +2760,7 @@ const roms = [
   },
   {
     name: "Grandi Florum Mischeif of Iveris (1990)(Compac)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Grandi%20Florum%20Mischeif%20of%20Iveris%20%28Compac%29%20%28Disk%201%20of%202%29%20%28Disk%20A%29.png",
     size: "895.8K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Grandi%20Florum%20Mischeif%20of%20Iveris%20%281990%29%28Compac%29.zip",
     link2: ""
@@ -2781,14 +2781,14 @@ const roms = [
   },
   {
     name: "Ground Master (19xx)(Zain Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Ground%20Master%20%2819xx%29%20%28Zain%20Soft%29%20%28Disk%201%20of%202%29%20%28Disk%20A%29.png",
     size: "371.3K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Ground%20Master%20%2819xx%29%28Zain%20Soft%29.zip",
     link2: ""
   },
   {
     name: "Group X (1991)(Compac)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Group%20X%20%281991%29%28Compac%29%28Disk%201%20of%202%29.png",
     size: "790.5K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Group%20X%20%281991%29%28Compac%29.zip",
     link2: ""
@@ -2809,14 +2809,14 @@ const roms = [
   },
   {
     name: "Guerriere Lyeward (1990)(Technopolis)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Guerriere%20Lyeward%20%281990%29%28Technopolis%29%28Disk%201%20of%202%29%28Disk%20A%29.png",
     size: "622.4K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Guerriere%20Lyeward%20%281990%29%28Technopolis%29.zip",
     link2: ""
   },
   {
     name: "Gunship (1990)(Microprose)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Gunship%20%281990%29%28Microprose%29.png",
     size: "415.7K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Gunship%20%281990%29%28Microprose%29.zip",
     link2: ""
@@ -2851,7 +2851,7 @@ const roms = [
   },
   {
     name: "Half Mind (19xx)(Pasoket)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Half%20Mind%20%2819xx%29%28Pasoket%29.png",
     size: "423.1K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Half%20Mind%20%2819xx%29%28Pasoket%29.zip",
     link2: ""
@@ -2865,7 +2865,7 @@ const roms = [
   },
   {
     name: "Hanafuda Hourouki (1988)(Dot Kikaku)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Hanafuda%20Hourouki%20%28Dot%20Kikaku%29%20%28Disk%201%20of%202%29%20%28Disk%20A%29.png",
     size: "758.7K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Hanafuda%20Hourouki%20%281988%29%28Dot%20Kikaku%29.zip",
     link2: ""
@@ -2879,7 +2879,7 @@ const roms = [
   },
   {
     name: "Hanafuda Tengoku (1990)(Junk)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Hanafuda%20Tengoku%20%28Junk%29%20%28Alt%201%29.png",
     size: "285.6K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Hanafuda%20Tengoku%20%281990%29%28Junk%29.zip",
     link2: ""
@@ -2893,7 +2893,7 @@ const roms = [
   },
   {
     name: "Hare Nochi Oosawagi (1989)(Cocktail Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Hare%20Nochi%20Oosawagi%20%281989%29%28Cocktail%20Soft%29%28Disk%201%20of%202%29.png",
     size: "801.2K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Hare%20Nochi%20Oosawagi%20%281989%29%28Cocktail%20Soft%29.zip",
     link2: ""
@@ -2921,7 +2921,7 @@ const roms = [
   },
   {
     name: "Heavy Nova (1991)(Micronet)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Heavy%20Nova%20%28Micronet%29.png",
     size: "726.6K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Heavy%20Nova%20%281991%29%28Micronet%29.zip",
     link2: ""
@@ -2935,7 +2935,7 @@ const roms = [
   },
   {
     name: "Hellhound (1994) (Breakthrough)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Hellhound%20%281997%20Full%20Set%29.png",
     size: "1.8M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Hellhound%20%281994%29%20%28Breakthrough%29.zip",
     link2: ""
@@ -3033,7 +3033,7 @@ const roms = [
   },
   {
     name: "Himitsu No Hanazono (1992)(Technopolis)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Himitsu%20No%20Hanazono%20%281992%29%28Technopolis%29%28Disk%201%20of%203%29%28Disk%20A%29.png",
     size: "1.5M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Himitsu%20No%20Hanazono%20%281992%29%28Technopolis%29.zip",
     link2: ""
@@ -3047,7 +3047,7 @@ const roms = [
   },
   {
     name: "Hishouzame Flying Shark (1991)(Kaneko)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Hishouzame%20Flying%20Shark%20%281991%29%28Kaneko%29.png",
     size: "315.4K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Hishouzame%20Flying%20Shark%20%281991%29%28Kaneko%29.zip",
     link2: ""
@@ -3061,7 +3061,7 @@ const roms = [
   },
   {
     name: "History of Elthlead (19xx)(NCS - Masaya)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/History%20of%20Elthlead%20%2819xx%29%20%28NCS%20-%20Masaya%29%20%28Disk%201%20of%203%29%20%28Alt%201%29.png",
     size: "826.5K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/History%20of%20Elthlead%20%2819xx%29%28NCS%20-%20Masaya%29.zip",
     link2: ""
@@ -3117,7 +3117,7 @@ const roms = [
   },
   {
     name: "Hotel Wars (19xx)(Bothtec)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Hotel%20Wars%20%2819xx%29%20%28Bothtec%29%20%28Disk%201%20of%202%29%20%28Disk%20A%29.png",
     size: "534.8K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Hotel%20Wars%20%2819xx%29%28Bothtec%29.zip",
     link2: ""
@@ -3145,7 +3145,7 @@ const roms = [
   },
   {
     name: "How Many Robot (1988)(Artdink)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/How%20Many%20Robot%20%28Artdink%29.png",
     size: "143.8K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/How%20Many%20Robot%20%281988%29%28Artdink%29.zip",
     link2: ""
@@ -3194,21 +3194,21 @@ const roms = [
   },
   {
     name: "Illumina (1991)(Cocktail Soft)(Disk 1 of 3)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Illumina%20%281991%29%28Cocktail%20Soft%29%28Disk%201%20of%203%29%28Disk%20A%29.png",
     size: "1.5M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Illumina%20%281991%29%28Cocktail%20Soft%29%28Disk%201%20of%203%29.zip",
     link2: ""
   },
   {
     name: "Image (1992)(Software House Parsley)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Image%20%28Software%20House%20Parsley%29%20%28Disk%201%20of%203%29.png",
     size: "1.5M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Image%20%281992%29%28Software%20House%20Parsley%29.zip",
     link2: ""
   },
   {
     name: "Image Fight (1990)(Irem)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Image%20Fight%20%281990%29%28Irem%29%28Disk%201%20of%202%29.png",
     size: "1.3M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Image%20Fight%20%281990%29%28Irem%29.zip",
     link2: ""
@@ -3236,7 +3236,7 @@ const roms = [
   },
   {
     name: "Inindou Datou Nobunaga (199x)(Koei)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Inindou%20Datou%20Nobunaga%20%28199x%29%20%28Koei%29%20%28Disk%201%20of%203%29%20%28Disk%20A%29.png",
     size: "1.4M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Inindou%20Datou%20Nobunaga%20%28199x%29%28Koei%29.zip",
     link2: ""
@@ -3264,7 +3264,7 @@ const roms = [
   },
   {
     name: "Ishin No Arashi (1990)(Koei)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Ishin%20No%20Arashi%20%28Koei%29%20%28Disk%201%20of%203%29%20%28Disk%20A%29.png",
     size: "972.5K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Ishin%20No%20Arashi%20%281990%29%28Koei%29.zip",
     link2: ""
@@ -3278,7 +3278,7 @@ const roms = [
   },
   {
     name: "Jack Nicklaus' Golf + (19xx)(Crossmedia)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Jack%20Nicklaus%27%20Golf%20%28Crossmedia%29%20%28Disk%201%20of%202%29%20%28System%29.png",
     size: "2.5M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Jack%20Nicklaus%27%20Golf%20%2B%20%2819xx%29%28Crossmedia%29.zip",
     link2: ""
@@ -3299,7 +3299,7 @@ const roms = [
   },
   {
     name: "Jan Jaka Jan (1992)(Elf)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Jan%20Jaka%20Jan%20%281992%29%28Elf%29%28Disk%201%20of%205%29%28Disk%20A%29.png",
     size: "3.8M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Jan%20Jaka%20Jan%20%281992%29%28Elf%29.zip",
     link2: ""
@@ -3313,7 +3313,7 @@ const roms = [
   },
   {
     name: "Jane (1990)(System House Oh!)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Jane%20%281990%29%28System%20House%20Oh%21%29.png",
     size: "604.5K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Jane%20%281990%29%28System%20House%20Oh%21%29.zip",
     link2: ""
@@ -3327,7 +3327,7 @@ const roms = [
   },
   {
     name: "Janshin Quest (1994)(SPS)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Janshin%20Quest%20%28SPS%29%20%28Disk%201%20of%202%29%20%28System%29%20%28Alt%201%29.png",
     size: "2.8M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Janshin%20Quest%20%281994%29%28SPS%29.zip",
     link2: ""
@@ -3355,7 +3355,7 @@ const roms = [
   },
   {
     name: "Jissen Billiards (1990)(Pack-In-Video)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Jissen%20Billiards%20%281990%29%28Pack-In-Video%29%28Disk%201%20of%203%29%28Disk%20A%29.png",
     size: "1.4M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Jissen%20Billiards%20%281990%29%28Pack-In-Video%29.zip",
     link2: ""
@@ -3369,7 +3369,7 @@ const roms = [
   },
   {
     name: "Joshua (1992)(Panther Software)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Joshua%20%28Panther%20Software%29%20%28Disk%201%20of%205%29%20%28System%29.png",
     size: "3.4M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Joshua%20%281992%29%28Panther%20Software%29.zip",
     link2: ""
@@ -3404,7 +3404,7 @@ const roms = [
   },
   {
     name: "Kaerimichi Ha Kiken Ga Ippai (1990)(DO)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Kaerimichi%20Ha%20Kiken%20Ga%20Ippai%20%28DO%29%20%28Disk%201%20of%204%29%20%28Disk%20A%29.png",
     size: "1.8M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Kaerimichi%20Ha%20Kiken%20Ga%20Ippai%20%281990%29%28DO%29.zip",
     link2: ""
@@ -3432,7 +3432,7 @@ const roms = [
   },
   {
     name: "Karei Naru Jinsei Minasan No Okage Desu (1992)(Fairy Tale)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Karei%20Naru%20Jinsei%20Minasan%20No%20Okage%20Desu%20%28Fairy%20Tale%29%20%28Disk%201%20of%203%29%20%28Disk%20A%29.png",
     size: "1.8M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Karei%20Naru%20Jinsei%20Minasan%20No%20Okage%20Desu%20%281992%29%28Fairy%20Tale%29.zip",
     link2: ""
@@ -3474,21 +3474,21 @@ const roms = [
   },
   {
     name: "Keeper (1993)(Success - ASCII)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Keeper%20%281993%29%28Success%20-%20ASCII%29.png",
     size: "1.0M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Keeper%20%281993%29%28Success%20-%20ASCII%29.zip",
     link2: ""
   },
   {
     name: "Kera Kera Hoshi (1993)(Cocktail Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Kera%20Kera%20Hoshi%20%28Cocktail%20Soft%29%20%28Disk%201%20of%202%29%20%28Disk%20A%29%20%28Alt%201%29.png",
     size: "1.6M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Kera%20Kera%20Hoshi%20%281993%29%28Cocktail%20Soft%29.zip",
     link2: ""
   },
   {
     name: "Kibun Ha Pastel Touch (19xx)(Great)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Kibun%20Ha%20Pastel%20Touch%20%2819xx%29%20%28Great%29%20%28Disk%201%20of%204%29%20%28Disk%20A%29.png",
     size: "990.9K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Kibun%20Ha%20Pastel%20Touch%20%2819xx%29%28Great%29.zip",
     link2: ""
@@ -3509,21 +3509,21 @@ const roms = [
   },
   {
     name: "Kikou Shidan (1990)(Artdink)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Kikou%20Shidan%20%28Artdink%29%20%28Disk%201%20of%203%29%20%28System%29.png",
     size: "1.1M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Kikou%20Shidan%20%281990%29%28Artdink%29.zip",
     link2: ""
   },
   {
     name: "Kimi Dake Ni Ai Wo (1991)(Technopolis)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Kimi%20Dake%20Ni%20Ai%20Wo%20%281991%29%28Technopolis%29%28Disk%201%20of%203%29%28Disk%20A%29.png",
     size: "1.6M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Kimi%20Dake%20Ni%20Ai%20Wo%20%281991%29%28Technopolis%29.zip",
     link2: ""
   },
   {
     name: "King of Chicago, The (1988)(Master Designer)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/King%20of%20Chicago%2C%20The%20%28Master%20Designer%29%20%28Disk%201%20of%202%29%20%28Disk%20A%29.png",
     size: "664.6K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/King%20of%20Chicago%2C%20The%20%281988%29%28Master%20Designer%29.zip",
     link2: ""
@@ -3551,7 +3551,7 @@ const roms = [
   },
   {
     name: "Kitahei 68K (1992)(SPS)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Kitahei%2068K%20%28SPS%29%20%28Disk%202%20of%202%29%20%28Jouseki%29.png",
     size: "1.1M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Kitahei%2068K%20%281992%29%28SPS%29.zip",
     link2: ""
@@ -3565,14 +3565,14 @@ const roms = [
   },
   {
     name: "Klax (1990)(Hudson)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Klax%20%281990%29%28Hudson%29.png",
     size: "336.3K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Klax%20%281990%29%28Hudson%29.zip",
     link2: ""
   },
   {
     name: "Klax (1990)(Project M)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Klax%20%281990%29%28Hudson%29.png",
     size: "81.2K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Klax%20%281990%29%28Project%20M%29.zip",
     link2: ""
@@ -3614,77 +3614,77 @@ const roms = [
   },
   {
     name: "Konya Mo Asa Made Powerful Mahjongg 2 (1989)(dB-Soft)(Disk 1 of 6)(System)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Konya%20Mo%20Asa%20Made%20Powerful%20Mahjongg%202%20%28dB-Soft%29%20%28Disk%201%20of%206%29%20%28System%29%20%28Alt%201%29.png",
     size: "238.6K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Konya%20Mo%20Asa%20Made%20Powerful%20Mahjongg%202%20%281989%29%28dB-Soft%29%28Disk%201%20of%206%29%28System%29.zip",
     link2: ""
   },
   {
     name: "Konya Mo Asa Made Powerful Mahjongg 2 (1989)(dB-Soft)(Disk 1 of 6)(System)[a2]",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Konya%20Mo%20Asa%20Made%20Powerful%20Mahjongg%202%20%28dB-Soft%29%20%28Disk%201%20of%206%29%20%28System%29%20%28Alt%201%29.png",
     size: "236.0K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Konya%20Mo%20Asa%20Made%20Powerful%20Mahjongg%202%20%281989%29%28dB-Soft%29%28Disk%201%20of%206%29%28System%29%5Ba2%5D.zip",
     link2: ""
   },
   {
     name: "Konya Mo Asa Made Powerful Mahjongg 2 (1989)(dB-Soft)(Disk 1 of 6)(System)[a]",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Konya%20Mo%20Asa%20Made%20Powerful%20Mahjongg%202%20%28dB-Soft%29%20%28Disk%201%20of%206%29%20%28System%29%20%28Alt%201%29.png",
     size: "238.9K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Konya%20Mo%20Asa%20Made%20Powerful%20Mahjongg%202%20%281989%29%28dB-Soft%29%28Disk%201%20of%206%29%28System%29%5Ba%5D.zip",
     link2: ""
   },
   {
     name: "Konya Mo Asa Made Powerful Mahjongg 2 (1989)(dB-Soft)(Disk 2 of 6)(User)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Konya%20Mo%20Asa%20Made%20Powerful%20Mahjongg%202%20%28dB-Soft%29%20%28Disk%201%20of%206%29%20%28System%29%20%28Alt%201%29.png",
     size: "3.3K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Konya%20Mo%20Asa%20Made%20Powerful%20Mahjongg%202%20%281989%29%28dB-Soft%29%28Disk%202%20of%206%29%28User%29.zip",
     link2: ""
   },
   {
     name: "Konya Mo Asa Made Powerful Mahjongg 2 (1989)(dB-Soft)(Disk 2 of 6)(User)[a]",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Konya%20Mo%20Asa%20Made%20Powerful%20Mahjongg%202%20%28dB-Soft%29%20%28Disk%201%20of%206%29%20%28System%29%20%28Alt%201%29.png",
     size: "2.5K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Konya%20Mo%20Asa%20Made%20Powerful%20Mahjongg%202%20%281989%29%28dB-Soft%29%28Disk%202%20of%206%29%28User%29%5Ba%5D.zip",
     link2: ""
   },
   {
     name: "Konya Mo Asa Made Powerful Mahjongg 2 (1989)(dB-Soft)(Disk 3 of 6)(Excite)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Konya%20Mo%20Asa%20Made%20Powerful%20Mahjongg%202%20%28dB-Soft%29%20%28Disk%201%20of%206%29%20%28System%29%20%28Alt%201%29.png",
     size: "224.9K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Konya%20Mo%20Asa%20Made%20Powerful%20Mahjongg%202%20%281989%29%28dB-Soft%29%28Disk%203%20of%206%29%28Excite%29.zip",
     link2: ""
   },
   {
     name: "Konya Mo Asa Made Powerful Mahjongg 2 (1989)(dB-Soft)(Disk 3 of 6)(Excite)[a]",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Konya%20Mo%20Asa%20Made%20Powerful%20Mahjongg%202%20%28dB-Soft%29%20%28Disk%201%20of%206%29%20%28System%29%20%28Alt%201%29.png",
     size: "337.1K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Konya%20Mo%20Asa%20Made%20Powerful%20Mahjongg%202%20%281989%29%28dB-Soft%29%28Disk%203%20of%206%29%28Excite%29%5Ba%5D.zip",
     link2: ""
   },
   {
     name: "Konya Mo Asa Made Powerful Mahjongg 2 (1989)(dB-Soft)(Disk 4 of 6)(Sasurai)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Konya%20Mo%20Asa%20Made%20Powerful%20Mahjongg%202%20%28dB-Soft%29%20%28Disk%201%20of%206%29%20%28System%29%20%28Alt%201%29.png",
     size: "2.4K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Konya%20Mo%20Asa%20Made%20Powerful%20Mahjongg%202%20%281989%29%28dB-Soft%29%28Disk%204%20of%206%29%28Sasurai%29.zip",
     link2: ""
   },
   {
     name: "Konya Mo Asa Made Powerful Mahjongg 2 (1989)(dB-Soft)(Disk 4 of 6)(Sasurai)[a]",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Konya%20Mo%20Asa%20Made%20Powerful%20Mahjongg%202%20%28dB-Soft%29%20%28Disk%201%20of%206%29%20%28System%29%20%28Alt%201%29.png",
     size: "224.1K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Konya%20Mo%20Asa%20Made%20Powerful%20Mahjongg%202%20%281989%29%28dB-Soft%29%28Disk%204%20of%206%29%28Sasurai%29%5Ba%5D.zip",
     link2: ""
   },
   {
     name: "Konya Mo Asa Made Powerful Mahjongg 2 (1989)(dB-Soft)(Disk 5 of 6)(Data 1 Ane)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Konya%20Mo%20Asa%20Made%20Powerful%20Mahjongg%202%20%28dB-Soft%29%20%28Disk%201%20of%206%29%20%28System%29%20%28Alt%201%29.png",
     size: "353.0K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Konya%20Mo%20Asa%20Made%20Powerful%20Mahjongg%202%20%281989%29%28dB-Soft%29%28Disk%205%20of%206%29%28Data%201%20Ane%29.zip",
     link2: ""
   },
   {
     name: "Konya Mo Asa Made Powerful Mahjongg 2 (1989)(dB-Soft)(Disk 6 of 6)(Data 2 Ane)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Konya%20Mo%20Asa%20Made%20Powerful%20Mahjongg%202%20%28dB-Soft%29%20%28Disk%201%20of%206%29%20%28System%29%20%28Alt%201%29.png",
     size: "318.7K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Konya%20Mo%20Asa%20Made%20Powerful%20Mahjongg%202%20%281989%29%28dB-Soft%29%28Disk%206%20of%206%29%28Data%202%20Ane%29.zip",
     link2: ""
@@ -3705,21 +3705,21 @@ const roms = [
   },
   {
     name: "Koube Renai Monogatari (1989)(Zain Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Koube%20Renai%20Monogatari%20%28Zain%20Soft%29%20%28Disk%201%20of%203%29%20%28Disk%20A%29.png",
     size: "936.6K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Koube%20Renai%20Monogatari%20%281989%29%28Zain%20Soft%29.zip",
     link2: ""
   },
   {
     name: "Kounai Shasei (1992)(Fairytale)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Kounai%20Shasei%20%28Fairytale%29%20%28Disk%201%20of%206%29%20%28Disk%20A%29.png",
     size: "4.1M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Kounai%20Shasei%20%281992%29%28Fairytale%29.zip",
     link2: ""
   },
   {
     name: "Kouryuuki (1993)(Koei)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Kouryuuki%20%28Koei%29%20%28Disk%201%20of%204%29%20%28Disk%20A%29.png",
     size: "2.2M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Kouryuuki%20%281993%29%28Koei%29.zip",
     link2: ""
@@ -3733,7 +3733,7 @@ const roms = [
   },
   {
     name: "Ku2 +Front Row",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Ku2%20Front%20Row%20%28Panther%20Software%29%20%28Disk%201%20of%202%29%20%28Disk%20A%29.png",
     size: "2.9M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Ku2%20%2BFront%20Row.zip",
     link2: ""
@@ -3754,7 +3754,7 @@ const roms = [
   },
   {
     name: "Kurutta Kajitsu (1992)(Fairy Tale)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Kurutta%20Kajitsu%20%28Fairy%20Tale%29%20%28Disk%201%20of%203%29%20%28Disk%20A%29%20%28Alt%201%29.png",
     size: "2.3M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Kurutta%20Kajitsu%20%281992%29%28Fairy%20Tale%29.zip",
     link2: ""
@@ -3782,14 +3782,14 @@ const roms = [
   },
   {
     name: "Kyuukyoku Tiger (1993)(Kaneko)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Kyuukyoku%20Tiger%20%281993%29%28Kaneko%29%28Disk%201%20of%202%29%28Disk%20A%29.png",
     size: "922.3K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Kyuukyoku%20Tiger%20%281993%29%28Kaneko%29.zip",
     link2: ""
   },
   {
     name: "L'Empereur (19xx)(Koei)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/L%27Empereur%20%2819xx%29%20%28Koei%29%20%28Disk%201%20of%203%29%20%28Disk%20A%29.png",
     size: "1.3M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/L%27Empereur%20%2819xx%29%28Koei%29.zip",
     link2: ""
@@ -3803,7 +3803,7 @@ const roms = [
   },
   {
     name: "Lagoon (1990)(Zoom)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Lagoon.png",
     size: "2.0M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Lagoon%20%281990%29%28Zoom%29.zip",
     link2: ""
@@ -3817,7 +3817,7 @@ const roms = [
   },
   {
     name: "Laplace No Ma (1990)(Hummingbird Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Laplace%20No%20Ma%20%281990%29%28Hummingbird%20Soft%29%28Disk%201%20of%203%29%28System%29.png",
     size: "2.1M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Laplace%20No%20Ma%20%281990%29%28Hummingbird%20Soft%29.zip",
     link2: ""
@@ -3831,14 +3831,14 @@ const roms = [
   },
   {
     name: "Last Armageddon (1991)(Brain Grey)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Last%20Armageddon%20%281991%29%28Brain%20Grey%29%28Disk%201%20of%207%29%28Disk%20A%29.png",
     size: "2.5M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Last%20Armageddon%20%281991%29%28Brain%20Grey%29.zip",
     link2: ""
   },
   {
     name: "Last Batallion (1991)(Sting)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Last%20Batallion%20%281991%29%28Sting%29%28Disk%201%20of%202%29%28Disk%20A%29.png",
     size: "1,022.3K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Last%20Batallion%20%281991%29%28Sting%29.zip",
     link2: ""
@@ -3866,21 +3866,21 @@ const roms = [
   },
   {
     name: "Leading Company (1992)(Koei)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Leading%20Company%20%28Koei%29%20%28Disk%201%20of%202%29%20%28Disk%20A%29.png",
     size: "970.5K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Leading%20Company%20%281992%29%28Koei%29.zip",
     link2: ""
   },
   {
     name: "Lemmings (1991)(Imagineer)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Lemmings%20%281991%29%28Imagineer%29.png",
     size: "949.8K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Lemmings%20%281991%29%28Imagineer%29.zip",
     link2: ""
   },
   {
     name: "Lenam (1989)(Hertz)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Lenam%20%28Hertz%29%20%28Disk%202%20of%206%29%20%28Disk%20A%29.png",
     size: "5.6M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Lenam%20%281989%29%28Hertz%29.zip",
     link2: ""
@@ -3901,7 +3901,7 @@ const roms = [
   },
   {
     name: "Libble Rabble",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Libble%20Rabble%20%281993%29%28Dempa%29.png",
     size: "836.6K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Libble%20Rabble.zip",
     link2: ""
@@ -3922,14 +3922,14 @@ const roms = [
   },
   {
     name: "Life and Death (1992)(Ving - Takeru)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Life%20and%20Death%20%28Ving%20-%20Takeru%29%20%28Disk%201%20of%202%29%20%28Alt%201%29.png",
     size: "1.3M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Life%20and%20Death%20%281992%29%28Ving%20-%20Takeru%29.zip",
     link2: ""
   },
   {
     name: "Lightning Bacchus (1989)(NCS - Masnya)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Lightning%20Bacchus%20%281989%29%28NCS%20-%20Masnya%29%28Disk%201%20of%202%29.png",
     size: "792.0K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Lightning%20Bacchus%20%281989%29%28NCS%20-%20Masnya%29.zip",
     link2: ""
@@ -3985,14 +3985,14 @@ const roms = [
   },
   {
     name: "Loop Eraser (1991)(Nichikonren Kikaku)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Loop%20Eraser%20%28Nichikonren%20Kikaku%29%20%28Disk%202%20of%202%29%20%28Data%29.png",
     size: "676.5K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Loop%20Eraser%20%281991%29%28Nichikonren%20Kikaku%29.zip",
     link2: ""
   },
   {
     name: "Loopz (199x)(Cygnus)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Loopz%20%28199x%29%20%28Cygnus%29.png",
     size: "341.3K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Loopz%20%28199x%29%28Cygnus%29.zip",
     link2: ""
@@ -4006,21 +4006,21 @@ const roms = [
   },
   {
     name: "Lovely Horror Ochame Na Yuurei (19xx)(Zenryuutsuu)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Lovely%20Horror%20Ochame%20Na%20Yuurei%20%2819xx%29%20%28Zenryuutsuu%29.png",
     size: "420.7K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Lovely%20Horror%20Ochame%20Na%20Yuurei%20%2819xx%29%28Zenryuutsuu%29.zip",
     link2: ""
   },
   {
     name: "Lua (1993)(Inter Heart)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Lua%20%28Inter%20Heart%29%20%28Disk%201%20of%204%29%20%28Disk%20A%29.png",
     size: "2.9M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Lua%20%281993%29%28Inter%20Heart%29.zip",
     link2: ""
   },
   {
     name: "Lucky Shot (1990)(Softec)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Lucky%20Shot%20%281990%29%28Softec%29.png",
     size: "292.0K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Lucky%20Shot%20%281990%29%28Softec%29.zip",
     link2: ""
@@ -4076,7 +4076,7 @@ const roms = [
   },
   {
     name: "Mad Stalker Full Metal Worth (1994)(Family Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Mad%20Stalker%20Full%20Metal%20Worth.png",
     size: "1.6M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Mad%20Stalker%20Full%20Metal%20Worth%20%281994%29%28Family%20Soft%29.zip",
     link2: ""
@@ -4104,7 +4104,7 @@ const roms = [
   },
   {
     name: "Magical Shot (1991)(MNM Software)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Magical%20Shot%20%281991%29%28MNM%20Software%29.png",
     size: "334.0K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Magical%20Shot%20%281991%29%28MNM%20Software%29.zip",
     link2: ""
@@ -4118,70 +4118,70 @@ const roms = [
   },
   {
     name: "Mahjongg Clinic Zoukangou (1991)(Home Data)(Disk 1 of 2)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Mahjongg%20Clinic%20Zoukangou%20%28Home%20Data%29%20%28Disk%201%20of%202%29%20%28Alt%201%29.png",
     size: "581.5K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Mahjongg%20Clinic%20Zoukangou%20%281991%29%28Home%20Data%29%28Disk%201%20of%202%29.zip",
     link2: ""
   },
   {
     name: "Mahjongg Clinic Zoukangou (1991)(Home Data)(Disk 1 of 2)[a]",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Mahjongg%20Clinic%20Zoukangou%20%28Home%20Data%29%20%28Disk%201%20of%202%29%20%28Alt%201%29.png",
     size: "581.3K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Mahjongg%20Clinic%20Zoukangou%20%281991%29%28Home%20Data%29%28Disk%201%20of%202%29%5Ba%5D.zip",
     link2: ""
   },
   {
     name: "Mahjongg Clinic Zoukangou (1991)(Home Data)(Disk 2 of 2)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Mahjongg%20Clinic%20Zoukangou%20%28Home%20Data%29%20%28Disk%201%20of%202%29%20%28Alt%201%29.png",
     size: "808.6K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Mahjongg%20Clinic%20Zoukangou%20%281991%29%28Home%20Data%29%28Disk%202%20of%202%29.zip",
     link2: ""
   },
   {
     name: "Mahjongg Clinic Zoukangou (1991)(Home Data)(Disk 2 of 2)[a]",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Mahjongg%20Clinic%20Zoukangou%20%28Home%20Data%29%20%28Disk%201%20of%202%29%20%28Alt%201%29.png",
     size: "808.6K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Mahjongg%20Clinic%20Zoukangou%20%281991%29%28Home%20Data%29%28Disk%202%20of%202%29%5Ba%5D.zip",
     link2: ""
   },
   {
     name: "Mahjongg Gensou Kyoku (1992)(Active)(Disk 1 of 4)(Disk A)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Mahjongg%20Gensou%20Kyoku%20%28Active%29%20%28Disk%201%20of%204%29%20%28Disk%20A%29.png",
     size: "293.6K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Mahjongg%20Gensou%20Kyoku%20%281992%29%28Active%29%28Disk%201%20of%204%29%28Disk%20A%29.zip",
     link2: ""
   },
   {
     name: "Mahjongg Gensou Kyoku (1992)(Active)(Disk 2 of 4)(Disk B)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Mahjongg%20Gensou%20Kyoku%20%28Active%29%20%28Disk%201%20of%204%29%20%28Disk%20A%29.png",
     size: "933.5K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Mahjongg%20Gensou%20Kyoku%20%281992%29%28Active%29%28Disk%202%20of%204%29%28Disk%20B%29.zip",
     link2: ""
   },
   {
     name: "Mahjongg Gensou Kyoku (1992)(Active)(Disk 3 of 4)(Disk C)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Mahjongg%20Gensou%20Kyoku%20%28Active%29%20%28Disk%201%20of%204%29%20%28Disk%20A%29.png",
     size: "937.0K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Mahjongg%20Gensou%20Kyoku%20%281992%29%28Active%29%28Disk%203%20of%204%29%28Disk%20C%29.zip",
     link2: ""
   },
   {
     name: "Mahjongg Gensou Kyoku (1992)(Active)(Disk 4 of 4)(Disk D)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Mahjongg%20Gensou%20Kyoku%20%28Active%29%20%28Disk%201%20of%204%29%20%28Disk%20A%29.png",
     size: "875.6K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Mahjongg%20Gensou%20Kyoku%20%281992%29%28Active%29%28Disk%204%20of%204%29%28Disk%20D%29.zip",
     link2: ""
   },
   {
     name: "Mahjongg Kyou Jidai Special (1988)(Micronet)(Disk 1 of 2)(System)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Mahjongg%20Kyou%20Jidai%20Special%20%28Micronet%29%20%28Disk%201%20of%202%29%20%28System%29.png",
     size: "547.4K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Mahjongg%20Kyou%20Jidai%20Special%20%281988%29%28Micronet%29%28Disk%201%20of%202%29%28System%29.zip",
     link2: ""
   },
   {
     name: "Mahjongg Kyou Jidai Special (1988)(Micronet)(Disk 2 of 2)(Data)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Mahjongg%20Kyou%20Jidai%20Special%20%28Micronet%29%20%28Disk%201%20of%202%29%20%28System%29.png",
     size: "618.6K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Mahjongg%20Kyou%20Jidai%20Special%20%281988%29%28Micronet%29%28Disk%202%20of%202%29%28Data%29.zip",
     link2: ""
@@ -4223,14 +4223,14 @@ const roms = [
   },
   {
     name: "Mahjongg Saikyou Musashi (1989)(Cosmos Computer)(Disk 1 of 2)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Mahjongg%20Saikyou%20Musashi%20%28Cosmos%20Computer%29%20%28Disk%201%20of%202%29.png",
     size: "242.8K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Mahjongg%20Saikyou%20Musashi%20%281989%29%28Cosmos%20Computer%29%28Disk%201%20of%202%29.zip",
     link2: ""
   },
   {
     name: "Mahjongg Saikyou Musashi (1989)(Cosmos Computer)(Disk 2 of 2)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Mahjongg%20Saikyou%20Musashi%20%28Cosmos%20Computer%29%20%28Disk%201%20of%202%29.png",
     size: "86.5K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Mahjongg%20Saikyou%20Musashi%20%281989%29%28Cosmos%20Computer%29%28Disk%202%20of%202%29.zip",
     link2: ""
@@ -4244,70 +4244,70 @@ const roms = [
   },
   {
     name: "Mahjongg Yuuenchi (1991)(Home Data)(Disk 1 of 3)(Disk A)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Mahjongg%20Yuuenchi%20%28Home%20Data%29%20%28Disk%201%20of%203%29%20%28Disk%20A%29%20%28Alt%201%29.png",
     size: "1.0M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Mahjongg%20Yuuenchi%20%281991%29%28Home%20Data%29%28Disk%201%20of%203%29%28Disk%20A%29.zip",
     link2: ""
   },
   {
     name: "Mahjongg Yuuenchi (1991)(Home Data)(Disk 1 of 3)(Disk A)[a2]",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Mahjongg%20Yuuenchi%20%28Home%20Data%29%20%28Disk%201%20of%203%29%20%28Disk%20A%29%20%28Alt%201%29.png",
     size: "1.0M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Mahjongg%20Yuuenchi%20%281991%29%28Home%20Data%29%28Disk%201%20of%203%29%28Disk%20A%29%5Ba2%5D.zip",
     link2: ""
   },
   {
     name: "Mahjongg Yuuenchi (1991)(Home Data)(Disk 1 of 3)(Disk A)[a]",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Mahjongg%20Yuuenchi%20%28Home%20Data%29%20%28Disk%201%20of%203%29%20%28Disk%20A%29%20%28Alt%201%29.png",
     size: "1.0M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Mahjongg%20Yuuenchi%20%281991%29%28Home%20Data%29%28Disk%201%20of%203%29%28Disk%20A%29%5Ba%5D.zip",
     link2: ""
   },
   {
     name: "Mahjongg Yuuenchi (1991)(Home Data)(Disk 2 of 3)(Disk B)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Mahjongg%20Yuuenchi%20%28Home%20Data%29%20%28Disk%201%20of%203%29%20%28Disk%20A%29%20%28Alt%201%29.png",
     size: "1,023.6K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Mahjongg%20Yuuenchi%20%281991%29%28Home%20Data%29%28Disk%202%20of%203%29%28Disk%20B%29.zip",
     link2: ""
   },
   {
     name: "Mahjongg Yuuenchi (1991)(Home Data)(Disk 2 of 3)(Disk B)[a2]",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Mahjongg%20Yuuenchi%20%28Home%20Data%29%20%28Disk%201%20of%203%29%20%28Disk%20A%29%20%28Alt%201%29.png",
     size: "1,021.6K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Mahjongg%20Yuuenchi%20%281991%29%28Home%20Data%29%28Disk%202%20of%203%29%28Disk%20B%29%5Ba2%5D.zip",
     link2: ""
   },
   {
     name: "Mahjongg Yuuenchi (1991)(Home Data)(Disk 2 of 3)(Disk B)[a]",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Mahjongg%20Yuuenchi%20%28Home%20Data%29%20%28Disk%201%20of%203%29%20%28Disk%20A%29%20%28Alt%201%29.png",
     size: "1,021.6K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Mahjongg%20Yuuenchi%20%281991%29%28Home%20Data%29%28Disk%202%20of%203%29%28Disk%20B%29%5Ba%5D.zip",
     link2: ""
   },
   {
     name: "Mahjongg Yuuenchi (1991)(Home Data)(Disk 3 of 3)(Disk C)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Mahjongg%20Yuuenchi%20%28Home%20Data%29%20%28Disk%201%20of%203%29%20%28Disk%20A%29%20%28Alt%201%29.png",
     size: "1.0M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Mahjongg%20Yuuenchi%20%281991%29%28Home%20Data%29%28Disk%203%20of%203%29%28Disk%20C%29.zip",
     link2: ""
   },
   {
     name: "Mahjongg Yuuenchi (1991)(Home Data)(Disk 3 of 3)(Disk C)[a2]",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Mahjongg%20Yuuenchi%20%28Home%20Data%29%20%28Disk%201%20of%203%29%20%28Disk%20A%29%20%28Alt%201%29.png",
     size: "1.0M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Mahjongg%20Yuuenchi%20%281991%29%28Home%20Data%29%28Disk%203%20of%203%29%28Disk%20C%29%5Ba2%5D.zip",
     link2: ""
   },
   {
     name: "Mahjongg Yuuenchi (1991)(Home Data)(Disk 3 of 3)(Disk C)[a]",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Mahjongg%20Yuuenchi%20%28Home%20Data%29%20%28Disk%201%20of%203%29%20%28Disk%20A%29%20%28Alt%201%29.png",
     size: "1.0M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Mahjongg%20Yuuenchi%20%281991%29%28Home%20Data%29%28Disk%203%20of%203%29%28Disk%20C%29%5Ba%5D.zip",
     link2: ""
   },
   {
     name: "Mahou Daisakusen (1994)(Electronic Arts - Victor)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Mahou%20Daisakusen%20%281994%29%28Electronic%20Arts%20-%20Victor%29%28Disk%201%20of%203%29.png",
     size: "2.4M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Mahou%20Daisakusen%20%281994%29%28Electronic%20Arts%20-%20Victor%29.zip",
     link2: ""
@@ -4335,21 +4335,21 @@ const roms = [
   },
   {
     name: "Mai (1992)(Fairytale)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Mai%20%28Fairytale%29%20%28Disk%201%20of%204%29.png",
     size: "2.5M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Mai%20%281992%29%28Fairytale%29.zip",
     link2: ""
   },
   {
     name: "Maison Ikkoku Kanketsuhen Special (1989)(Micro Cabin)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Maison%20Ikkoku%20Kanketsuhen%20Special%20%281989%29%28Micro%20Cabin%29%28Disk%201%20of%205%29%28Disk%200%29.png",
     size: "2.5M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Maison%20Ikkoku%20Kanketsuhen%20Special%20%281989%29%28Micro%20Cabin%29.zip",
     link2: ""
   },
   {
     name: "Majinguu (1987)(Xain Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Majinguu%20%28Xain%20Soft%29%20%28Disk%201%20of%202%29%20%28System%29.png",
     size: "352.8K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Majinguu%20%281987%29%28Xain%20Soft%29.zip",
     link2: ""
@@ -4363,14 +4363,14 @@ const roms = [
   },
   {
     name: "Makenshi Kumiko (19xx)(System House Oh!)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Makenshi%20Kumiko%20%2819xx%29%20%28System%20House%20Oh%21%29.png",
     size: "736.1K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Makenshi%20Kumiko%20%2819xx%29%28System%20House%20Oh%21%29.zip",
     link2: ""
   },
   {
     name: "Man I Love, The (19xx)(Thinking Rabbit)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Man%20I%20Love%2C%20The%20%2819xx%29%20%28Thinking%20Rabbit%29.png",
     size: "726.2K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Man%20I%20Love%2C%20The%20%2819xx%29%28Thinking%20Rabbit%29.zip",
     link2: ""
@@ -4384,7 +4384,7 @@ const roms = [
   },
   {
     name: "Marble Madness (1991)(Home Data)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Marble%20Madness%20%281991%29%28Home%20Data%29.png",
     size: "430.2K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Marble%20Madness%20%281991%29%28Home%20Data%29.zip",
     link2: ""
@@ -4419,28 +4419,28 @@ const roms = [
   },
   {
     name: "Marchen Maze",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Marchen%20Maze%20%281991%29%28SPS%29%28Disk%201%20of%202%29%28Disk%20A%29.png",
     size: "1.2M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Marchen%20Maze.zip",
     link2: ""
   },
   {
     name: "Marchen Paradise (1990)(Great)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Marchen%20Paradise%20%281990%29%28Great%29%28Disk%201%20of%203%29%28Disk%20A%29.png",
     size: "733.2K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Marchen%20Paradise%20%281990%29%28Great%29.zip",
     link2: ""
   },
   {
     name: "Marine Buster (1993)(Silky's)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Marine%20Buster%20%281993%29%28Silky%27s%29%28Disk%201%20of%202%29%28Disk%20A%29.png",
     size: "1.3M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Marine%20Buster%20%281993%29%28Silky%27s%29.zip",
     link2: ""
   },
   {
     name: "Mario Bros. (19xx)(-)[p]",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Mario%20Bros.%20%2819xx%29%28-%29%5Bp%5D.png",
     size: "608.6K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Mario%20Bros.%20%2819xx%29%28-%29%5Bp%5D.zip",
     link2: ""
@@ -4468,7 +4468,7 @@ const roms = [
   },
   {
     name: "Martial Age (1992)(Tenshindou)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Martial%20Age%20%28Tenshindou%29%20%28Disk%201%20of%203%29%20%28Disk%20A%29.png",
     size: "1.9M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Martial%20Age%20%281992%29%28Tenshindou%29.zip",
     link2: ""
@@ -4489,7 +4489,7 @@ const roms = [
   },
   {
     name: "Mayumi (1992)(Cocktail Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Mayumi%20%28Cocktail%20Soft%29%20%28Disk%201%20of%202%29%20%28Disk%20A%29.png",
     size: "1.5M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Mayumi%20%281992%29%28Cocktail%20Soft%29.zip",
     link2: ""
@@ -4517,7 +4517,7 @@ const roms = [
   },
   {
     name: "Megalomania (1993)(Imagineer)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Megalomania%20%28Imagineer%29%20%28Disk%201%20of%202%29.png",
     size: "922.1K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Megalomania%20%281993%29%28Imagineer%29.zip",
     link2: ""
@@ -4545,21 +4545,21 @@ const roms = [
   },
   {
     name: "Mercury (19xx)(Maxima)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Mercury%20%2819xx%29%20%28Maxima%29%20%28Disk%201%20of%202%29%20%28System%29.png",
     size: "972.4K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Mercury%20%2819xx%29%28Maxima%29.zip",
     link2: ""
   },
   {
     name: "Metal Eye (199x)(Elf)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Metal%20Eye%20%28199x%29%20%28Elf%29%20%28Disk%201%20of%207%29%20%28Disk%20A%29.png",
     size: "4.5M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Metal%20Eye%20%28199x%29%28Elf%29.zip",
     link2: ""
   },
   {
     name: "Metal Sight (1989)(System Sacom)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Metal%20Sight%20%28System%20Sacom%29%20%28Disk%201%20of%205%29%20%28Alt%201%29.png",
     size: "1.6M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Metal%20Sight%20%281989%29%28System%20Sacom%29.zip",
     link2: ""
@@ -4573,7 +4573,7 @@ const roms = [
   },
   {
     name: "Mid-Garts + Gold (1989)(Wolf Team)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Mid-Garts%20Gold%20%281989%29%28Wolf%20Team%29%28Disk%201%20of%204%29.png",
     size: "5.3M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Mid-Garts%20%2B%20Gold%20%281989%29%28Wolf%20Team%29.zip",
     link2: ""
@@ -4587,7 +4587,7 @@ const roms = [
   },
   {
     name: "Milk Time (1991)(System House Oh!)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Milk%20Time%20%281991%29%28System%20House%20Oh%21%29%28Disk%201%20of%203%29.png",
     size: "1.8M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Milk%20Time%20%281991%29%28System%20House%20Oh%21%29.zip",
     link2: ""
@@ -4608,7 +4608,7 @@ const roms = [
   },
   {
     name: "Mirage (1992)(Discovery Software)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Mirage%20%28Discovery%20Software%29%20%28Disk%201%20of%205%29%20%28Disk%20A%29.png",
     size: "3.8M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Mirage%20%281992%29%28Discovery%20Software%29.zip",
     link2: ""
@@ -4636,7 +4636,7 @@ const roms = [
   },
   {
     name: "Mobile Suit Gundam Classic Operation (1991)(Family Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Mobile%20Suit%20Gundam%20Classic%20Operation%20%28Family%20Soft%29%20%28Disk%201%20of%203%29%20%28Disk%20A%29%20%28Alt%201%29.png",
     size: "806.9K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Mobile%20Suit%20Gundam%20Classic%20Operation%20%281991%29%28Family%20Soft%29.zip",
     link2: ""
@@ -4671,7 +4671,7 @@ const roms = [
   },
   {
     name: "Momotarou Densetsu (1988)(Hudson Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Momotarou%20Densetsu%20%281988%29%28Hudson%20Soft%29.png",
     size: "1.0M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Momotarou%20Densetsu%20%281988%29%28Hudson%20Soft%29.zip",
     link2: ""
@@ -4713,7 +4713,7 @@ const roms = [
   },
   {
     name: "Moon Light Chan Rin Shan (1993)(DO)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Moon%20Light%20Chan%20Rin%20Shan%20%281993%29%28DO%29%28Disk%201%20of%205%29%28System%29.png",
     size: "4.0M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Moon%20Light%20Chan%20Rin%20Shan%20%281993%29%28DO%29.zip",
     link2: ""
@@ -4734,7 +4734,7 @@ const roms = [
   },
   {
     name: "Morita Shougi II (1989)(Enix)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Morita%20Shougi%20II%20%28Enix%29.png",
     size: "310.8K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Morita%20Shougi%20II%20%281989%29%28Enix%29.zip",
     link2: ""
@@ -4748,7 +4748,7 @@ const roms = [
   },
   {
     name: "Motos (1989)(Dempa)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Motos%20%281989%29%28Dempa%29.png",
     size: "241.1K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Motos%20%281989%29%28Dempa%29.zip",
     link2: ""
@@ -4769,7 +4769,7 @@ const roms = [
   },
   {
     name: "Mugen Senshi Valis II (1989)(Telenet)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Mugen%20Senshi%20Valis%20II%20%281989%29%28Telenet%29%28Disk%201%20of%205%29%28Disk%20A%29.png",
     size: "5.9M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Mugen%20Senshi%20Valis%20II%20%281989%29%28Telenet%29.zip",
     link2: ""
@@ -4783,7 +4783,7 @@ const roms = [
   },
   {
     name: "My Eyes (199x)(Birdy Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/My%20Eyes%20%28199x%29%20%28Birdy%20Soft%29%20%28Disk%201%20of%204%29%20%28Disk%20A%29.png",
     size: "2.0M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/My%20Eyes%20%28199x%29%28Birdy%20Soft%29.zip",
     link2: ""
@@ -4804,14 +4804,14 @@ const roms = [
   },
   {
     name: "Naious (1990)(Exact)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Naious.png",
     size: "932.9K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Naious%20%281990%29%28Exact%29.zip",
     link2: ""
   },
   {
     name: "Namachuukei 68 (1991)(Konami)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Namachuukei%2068%20%281991%29%28Konami%29%28Disk%201%20of%202%29%28Disk%20A%29.png",
     size: "972.1K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Namachuukei%2068%20%281991%29%28Konami%29.zip",
     link2: ""
@@ -4832,7 +4832,7 @@ const roms = [
   },
   {
     name: "Nectaris (1992)(System Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Nectaris%20%281992%29%28System%20Soft%29.png",
     size: "459.7K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Nectaris%20%281992%29%28System%20Soft%29.zip",
     link2: ""
@@ -4860,7 +4860,7 @@ const roms = [
   },
   {
     name: "Neural Gear (1990)(Crossmedia)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Neural%20Gear.png",
     size: "650.4K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Neural%20Gear%20%281990%29%28Crossmedia%29.zip",
     link2: ""
@@ -4874,7 +4874,7 @@ const roms = [
   },
   {
     name: "New Zealand Story, The (1989)(Sharp - SPS)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/New%20Zealand%20Story%2C%20The%20%281989%29%28Sharp%20-%20SPS%29%28Disk%201%20of%202%29%28Disk%20A%29.png",
     size: "552.9K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/New%20Zealand%20Story%2C%20The%20%281989%29%28Sharp%20-%20SPS%29.zip",
     link2: ""
@@ -4895,7 +4895,7 @@ const roms = [
   },
   {
     name: "Niko Niko (1991)(Wolf Team)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Niko%20Niko.png",
     size: "565.0K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Niko%20Niko%20%281991%29%28Wolf%20Team%29.zip",
     link2: ""
@@ -4923,7 +4923,7 @@ const roms = [
   },
   {
     name: "Noah (1992)(MNM Software)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Noah%20%281992%29%28MNM%20Software%29.png",
     size: "273.5K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Noah%20%281992%29%28MNM%20Software%29.zip",
     link2: ""
@@ -4951,7 +4951,7 @@ const roms = [
   },
   {
     name: "Nostalgia 1907 (1991)(Sur De' Wave)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Nostalgia%201907%20%28Sur%20De%27%20Wave%29%20%28Disk%201%20of%204%29%20%28System%29%20%28Alt%201%29.png",
     size: "2.8M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Nostalgia%201907%20%281991%29%28Sur%20De%27%20Wave%29.zip",
     link2: ""
@@ -4986,7 +4986,7 @@ const roms = [
   },
   {
     name: "Oh! Pai (199x)(Silky's)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Oh%21%20Pai%20%28199x%29%20%28Silky%27s%29%20%28Disk%201%20of%205%29%20%28Disk%20A%29.png",
     size: "3.3M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Oh%21%20Pai%20%28199x%29%28Silky%27s%29.zip",
     link2: ""
@@ -5000,7 +5000,7 @@ const roms = [
   },
   {
     name: "Okumanchouja (19xx)(Cosmos Computer)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Okumanchouja%20%2819xx%29%20%28Cosmos%20Computer%29.png",
     size: "254.2K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Okumanchouja%20%2819xx%29%28Cosmos%20Computer%29.zip",
     link2: ""
@@ -5021,7 +5021,7 @@ const roms = [
   },
   {
     name: "Orange Iro No Biyaku (1989)(System House Oh!)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Orange%20Iro%20No%20Biyaku%20%28System%20House%20Oh%21%29.png",
     size: "202.2K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Orange%20Iro%20No%20Biyaku%20%281989%29%28System%20House%20Oh%21%29.zip",
     link2: ""
@@ -5063,14 +5063,14 @@ const roms = [
   },
   {
     name: "Ougon No Rashinban (1989)(Riverhill Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Ougon%20No%20Rashinban%20%281989%29%28Riverhill%20Soft%29%28Disk%201%20of%203%29%28System%29.png",
     size: "2.0M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Ougon%20No%20Rashinban%20%281989%29%28Riverhill%20Soft%29.zip",
     link2: ""
   },
   {
     name: "Overtake (1992)(Zoom)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Overtake%20%281992%29%28Zoom%29%28Disk%201%20of%206%29%28System%29.png",
     size: "5.0M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Overtake%20%281992%29%28Zoom%29.zip",
     link2: ""
@@ -5105,7 +5105,7 @@ const roms = [
   },
   {
     name: "Parodius Da! (1991)(Konami)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Parodius%20Da%21.png",
     size: "1.8M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Parodius%20Da%21%20%281991%29%28Konami%29.zip",
     link2: ""
@@ -5182,7 +5182,7 @@ const roms = [
   },
   {
     name: "Phalanx",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Phalanx.png",
     size: "2.0M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Phalanx.zip",
     link2: ""
@@ -5203,7 +5203,7 @@ const roms = [
   },
   {
     name: "Pias (19xx)(Birdy Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Pias%20%2819xx%29%20%28Birdy%20Soft%29%20%28Disk%201%20of%202%29%20%28Disk%20A%29.png",
     size: "1.5M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Pias%20%2819xx%29%28Birdy%20Soft%29.zip",
     link2: ""
@@ -5217,7 +5217,7 @@ const roms = [
   },
   {
     name: "Pinball Pinball (1990)(Softec)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Pinball%20Pinball%20%281990%29%28Softec%29.png",
     size: "387.2K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Pinball%20Pinball%20%281990%29%28Softec%29.zip",
     link2: ""
@@ -5238,7 +5238,7 @@ const roms = [
   },
   {
     name: "Pipe Dream (1989)(BPS)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Pipe%20Dream%20%281989%29%28BPS%29%28Disk%201%20of%202%29%28Program%29.png",
     size: "1,010.9K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Pipe%20Dream%20%281989%29%28BPS%29.zip",
     link2: ""
@@ -5252,7 +5252,7 @@ const roms = [
   },
   {
     name: "Pitapat (1992)(Victor)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Pitapat%20%281992%29%28Victor%29%28Disk%201%20of%202%29%28Disk%20A%29.png",
     size: "1.2M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Pitapat%20%281992%29%28Victor%29.zip",
     link2: ""
@@ -5294,7 +5294,7 @@ const roms = [
   },
   {
     name: "Ponyon (1992)(Ponytail Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Ponyon%20%28Ponytail%20Soft%29%20%28Disk%201%20of%204%29%20%28Disk%20A%29.png",
     size: "1.5M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Ponyon%20%281992%29%28Ponytail%20Soft%29.zip",
     link2: ""
@@ -5322,7 +5322,7 @@ const roms = [
   },
   {
     name: "Populous Promised Land (19xx)(Imagineer)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Populous%20Promised%20Land%20%2819xx%29%20%28Imagineer%29.png",
     size: "229.2K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Populous%20Promised%20Land%20%2819xx%29%28Imagineer%29.zip",
     link2: ""
@@ -5350,7 +5350,7 @@ const roms = [
   },
   {
     name: "Power League (1988)(Hudson)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Power%20League%20%281988%29%28Hudson%29.png",
     size: "185.9K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Power%20League%20%281988%29%28Hudson%29.zip",
     link2: ""
@@ -5364,7 +5364,7 @@ const roms = [
   },
   {
     name: "Powermonger (1991)(Imagineer)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Powermonger%20%281991%29%28Imagineer%29.png",
     size: "893.3K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Powermonger%20%281991%29%28Imagineer%29.zip",
     link2: ""
@@ -5385,7 +5385,7 @@ const roms = [
   },
   {
     name: "Pretty Doll (1991)(System House Oh!)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Pretty%20Doll%20%28System%20House%20Oh%21%29%20%28Disk%201%20of%203%29.png",
     size: "1.6M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Pretty%20Doll%20%281991%29%28System%20House%20Oh%21%29.zip",
     link2: ""
@@ -5399,7 +5399,7 @@ const roms = [
   },
   {
     name: "Prince of Persia (1991)(Broderbund)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Prince%20of%20Persia%20%281991%29%28Broderbund%29%28Disk%201%20of%203%29%28Disk%20A%29.png",
     size: "1.8M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Prince%20of%20Persia%20%281991%29%28Broderbund%29.zip",
     link2: ""
@@ -5413,49 +5413,49 @@ const roms = [
   },
   {
     name: "Princess Ha Street Girl (19xx)(Zenryuutsuu)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Princess%20Ha%20Street%20Girl%20%2819xx%29%20%28Zenryuutsuu%29.png",
     size: "481.5K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Princess%20Ha%20Street%20Girl%20%2819xx%29%28Zenryuutsuu%29.zip",
     link2: ""
   },
   {
     name: "Pro Soccer 68 (1991)(Anco)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Pro%20Soccer%2068%20%281991%29%28Anco%29.png",
     size: "311.3K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Pro%20Soccer%2068%20%281991%29%28Anco%29.zip",
     link2: ""
   },
   {
     name: "Pro Student G (1993)(Alice Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Pro%20Student%20G%20%281993%29%28Alice%20Soft%29%28Disk%201%20of%207%29%28Disk%20A%29.png",
     size: "4.6M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Pro%20Student%20G%20%281993%29%28Alice%20Soft%29.zip",
     link2: ""
   },
   {
     name: "Pro Tennis World Court (1990)(SPS)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Pro%20Tennis%20World%20Court%20%28SPS%29%20%28Disk%201%20of%202%29%20%28Disk%20A%29.png",
     size: "689.3K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Pro%20Tennis%20World%20Court%20%281990%29%28SPS%29.zip",
     link2: ""
   },
   {
     name: "Pro Yakkyuu World Stadium (1990)(SPS)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Pro%20Yakkyuu%20World%20Stadium%20%281990%29%28SPS%29%28Disk%201%20of%202%29%28Disk%20A%29.png",
     size: "745.9K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Pro%20Yakkyuu%20World%20Stadium%20%281990%29%28SPS%29.zip",
     link2: ""
   },
   {
     name: "Production Manager (1989)(Compac)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Production%20Manager%20%281989%29%28Compac%29%28Disk%201%20of%202%29%28Disk%20A%29.png",
     size: "957.9K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Production%20Manager%20%281989%29%28Compac%29.zip",
     link2: ""
   },
   {
     name: "Professional Mahjongg Gokuu (1988)(Chatnoir)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Professional%20Mahjongg%20Gokuu%20%28Chatnoir%29.png",
     size: "162.5K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Professional%20Mahjongg%20Gokuu%20%281988%29%28Chatnoir%29.zip",
     link2: ""
@@ -5553,7 +5553,7 @@ const roms = [
   },
   {
     name: "Puyo Puyo (1994)(SPS)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Puyo%20Puyo%20%281994%29%28SPS%29.png",
     size: "622.6K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Puyo%20Puyo%20%281994%29%28SPS%29.zip",
     link2: ""
@@ -5567,7 +5567,7 @@ const roms = [
   },
   {
     name: "Puzznick (1990)(Broderbund)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Puzznick%20%281990%29%28Broderbund%29.png",
     size: "368.8K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Puzznick%20%281990%29%28Broderbund%29.zip",
     link2: ""
@@ -5581,14 +5581,14 @@ const roms = [
   },
   {
     name: "Quarth (1990)(Konami)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Quarth%20%281990%29%28Konami%29.png",
     size: "280.1K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Quarth%20%281990%29%28Konami%29.zip",
     link2: ""
   },
   {
     name: "Queen of Duelists Gaiden Alpha+ (1994)(Agumix)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Queen%20of%20Duelists%20Gaiden%20Alpha%2B%20%28Agumix%29%20%28Disk%201%20of%207%29%20%28Disk%20A%29.png",
     size: "6.1M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Queen%20of%20Duelists%20Gaiden%20Alpha%2B%20%281994%29%28Agumix%29.zip",
     link2: ""
@@ -5630,7 +5630,7 @@ const roms = [
   },
   {
     name: "Quintia Road (1991)(Great)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Quintia%20Road%20%281991%29%28Great%29%28Disk%201%20of%204%29%28Disk%20A%29.png",
     size: "2.4M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Quintia%20Road%20%281991%29%28Great%29.zip",
     link2: ""
@@ -5714,14 +5714,14 @@ const roms = [
   },
   {
     name: "R+R",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/R%2BR%20%281995%29%20%28NIN-NIKI%29.png",
     size: "2.5M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/R%2BR.zip",
     link2: ""
   },
   {
     name: "R-Type (1989)(Irem)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/R-Type%20%281989%29%28Irem%29%5Ba%5D.png",
     size: "371.6K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/R-Type%20%281989%29%28Irem%29.zip",
     link2: ""
@@ -5777,7 +5777,7 @@ const roms = [
   },
   {
     name: "Ray Gun (1990)(Elf)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Ray%20Gun%20%281990%29%28Elf%29%28Disk%201%20of%203%29%28Disk%20A%29.png",
     size: "2.1M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Ray%20Gun%20%281990%29%28Elf%29.zip",
     link2: ""
@@ -5812,21 +5812,21 @@ const roms = [
   },
   {
     name: "Reichsritter (1991)(Enix)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Reichsritter%20%28Enix%29%20%28Disk%201%20of%203%29%20%28Disk%20A%29.png",
     size: "1.8M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Reichsritter%20%281991%29%28Enix%29.zip",
     link2: ""
   },
   {
     name: "Reinforcer (1990)(Zain Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Reinforcer%20%281990%29%28Zain%20Soft%29%28Disk%201%20of%204%29%28Disk%201%29.png",
     size: "1.4M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Reinforcer%20%281990%29%28Zain%20Soft%29.zip",
     link2: ""
   },
   {
     name: "Relics Ankoku Yousai (19xx)(Bothec)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Relics%20Ankoku%20Yousai%20%2819xx%29%20%28Bothec%29.png",
     size: "488.3K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Relics%20Ankoku%20Yousai%20%2819xx%29%28Bothec%29.zip",
     link2: ""
@@ -5840,14 +5840,14 @@ const roms = [
   },
   {
     name: "Return of Ishtar, The (1989)(SPS)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Return%20of%20Ishtar%2C%20The%20%281989%29%28SPS%29.png",
     size: "230.0K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Return%20of%20Ishtar%2C%20The%20%281989%29%28SPS%29.zip",
     link2: ""
   },
   {
     name: "Review Jashin Fukkastu (1991)(Orange House)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Review%20Jashin%20Fukkastu%20%28Orange%20House%29%20%28Disk%201%20of%202%29%20%28Disk%20A%29.png",
     size: "1.1M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Review%20Jashin%20Fukkastu%20%281991%29%28Orange%20House%29.zip",
     link2: ""
@@ -5868,7 +5868,7 @@ const roms = [
   },
   {
     name: "Rinne Tensei Reversible Game Tanba (1988)(Micronet)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Rinne%20Tensei%20Reversible%20Game%20Tanba%20%28Micronet%29%20%28Alt%201%29.png",
     size: "706.0K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Rinne%20Tensei%20Reversible%20Game%20Tanba%20%281988%29%28Micronet%29.zip",
     link2: ""
@@ -5882,7 +5882,7 @@ const roms = [
   },
   {
     name: "Rising Sun (199x)(Crossmedia)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Rising%20Sun%20%28199x%29%20%28Crossmedia%29%20%28Disk%201%20of%203%29.png",
     size: "1.1M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Rising%20Sun%20%28199x%29%28Crossmedia%29.zip",
     link2: ""
@@ -5910,35 +5910,35 @@ const roms = [
   },
   {
     name: "Rouge (19xx)(Birdy Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Rouge%20%2819xx%29%20%28Birdy%20Soft%29%20%28Disk%201%20of%202%29%20%28Disk%20A%29.png",
     size: "1,022.2K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Rouge%20%2819xx%29%28Birdy%20Soft%29.zip",
     link2: ""
   },
   {
     name: "Royal Blood (19xx)(Koei)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Royal%20Blood%20%2819xx%29%20%28Koei%29%20%28Disk%201%20of%203%29%20%28Disk%20A%29.png",
     size: "1.4M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Royal%20Blood%20%2819xx%29%28Koei%29.zip",
     link2: ""
   },
   {
     name: "Rune Worth Kokui No Kikoushi (1990)(T&E Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Rune%20Worth%20Kokui%20No%20Kikoushi%20%281990%29%28T%26amp%3BE%20Soft%29%28Disk%201%20of%203%29%28Program%29.png",
     size: "1.8M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Rune%20Worth%20Kokui%20No%20Kikoushi%20%281990%29%28T%26E%20Soft%29.zip",
     link2: ""
   },
   {
     name: "Ryu Naki No Ryuu Yori (1991)(Wolf Team)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Ryu%20Naki%20No%20Ryuu%20Yori%20%281991%29%28Wolf%20Team%29%28Disk%201%20of%204%29.png",
     size: "2.9M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Ryu%20Naki%20No%20Ryuu%20Yori%20%281991%29%28Wolf%20Team%29.zip",
     link2: ""
   },
   {
     name: "Ryuu Kyuu (1989)(Login)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Ryuu%20Kyuu%20%281989%29%28Login%29.png",
     size: "681.8K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Ryuu%20Kyuu%20%281989%29%28Login%29.zip",
     link2: ""
@@ -5952,7 +5952,7 @@ const roms = [
   },
   {
     name: "Sabnack (1991)(Kogado)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Sabnack%20%28Kogado%29%20%28Disk%201%20of%202%29%20%28Game%29.png",
     size: "693.0K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Sabnack%20%281991%29%28Kogado%29.zip",
     link2: ""
@@ -6001,7 +6001,7 @@ const roms = [
   },
   {
     name: "Salamander (1988)(Sharp - SPS)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Salamander%20%281988%29%28Sharp%20-%20SPS%29.png",
     size: "442.9K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Salamander%20%281988%29%28Sharp%20-%20SPS%29.zip",
     link2: ""
@@ -6022,14 +6022,14 @@ const roms = [
   },
   {
     name: "Santakun (199x)(Active)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Santakun%20%28199x%29%28Active%29.png",
     size: "671.6K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Santakun%20%28199x%29%28Active%29.zip",
     link2: ""
   },
   {
     name: "Saori Bishoujotachi No Yakata (1991)(Fairytale)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Saori%20Bishoujotachi%20No%20Yakata%20%281991%29%28Fairytale%29%28Disk%201%20of%202%29%28Disk%20A%29.png",
     size: "1.7M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Saori%20Bishoujotachi%20No%20Yakata%20%281991%29%28Fairytale%29.zip",
     link2: ""
@@ -6085,14 +6085,14 @@ const roms = [
   },
   {
     name: "Schwarzschild Kyouran No Ginga (19xx)(Kogado)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Schwarzschild%20Kyouran%20No%20Ginga%20%2819xx%29%20%28Kogado%29%20%28Disk%201%20of%203%29%20%28Disk%20A%29.png",
     size: "752.0K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Schwarzschild%20Kyouran%20No%20Ginga%20%2819xx%29%28Kogado%29.zip",
     link2: ""
   },
   {
     name: "Scorpius (1991)(Shinseisha)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Scorpius%20%281991%29%28Shinseisha%29%5Ba%5D.png",
     size: "530.5K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Scorpius%20%281991%29%28Shinseisha%29.zip",
     link2: ""
@@ -6225,7 +6225,7 @@ const roms = [
   },
   {
     name: "Shanghai (1987)(System Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Shanghai%20%281987%29%28System%20Soft%29.png",
     size: "218.4K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Shanghai%20%281987%29%28System%20Soft%29.zip",
     link2: ""
@@ -6239,7 +6239,7 @@ const roms = [
   },
   {
     name: "Shanghai II (1989)(Hudson)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Shanghai%20II%20%28Hudson%29.png",
     size: "414.1K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Shanghai%20II%20%281989%29%28Hudson%29.zip",
     link2: ""
@@ -6358,7 +6358,7 @@ const roms = [
   },
   {
     name: "Shoot Range (1992)(Bit2)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Shoot%20Range%20%281992%29%28Bit2%29%28Disk%201%20of%202%29%28Disk%20A%29.png",
     size: "516.1K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Shoot%20Range%20%281992%29%28Bit2%29.zip",
     link2: ""
@@ -6386,14 +6386,14 @@ const roms = [
   },
   {
     name: "Shuffle Puck Cafe (1989)(Broderbund)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Shuffle%20Puck%20Cafe%20%281989%29%28Broderbund%29%28Disk%201%20of%202%29%28Disk%20A%29.png",
     size: "869.9K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Shuffle%20Puck%20Cafe%20%281989%29%28Broderbund%29.zip",
     link2: ""
   },
   {
     name: "Signatory (1991)(NCS)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Signatory%20%281991%29%28NCS%29%28Disk%201%20of%205%29%28System%29.png",
     size: "3.4M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Signatory%20%281991%29%28NCS%29.zip",
     link2: ""
@@ -6435,21 +6435,21 @@ const roms = [
   },
   {
     name: "Sim Ant (1993)(Imagineer)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Sim%20Ant%20%28Imagineer%29.png",
     size: "471.5K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Sim%20Ant%20%281993%29%28Imagineer%29.zip",
     link2: ""
   },
   {
     name: "Sim City",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Sim%20City%20%281990%29%28Imagineer%29.png",
     size: "1.3M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Sim%20City.zip",
     link2: ""
   },
   {
     name: "Sim Earth (19xx)(Imagineer)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Sim%20Earth%20%2819xx%29%20%28Imagineer%29.png",
     size: "586.8K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Sim%20Earth%20%2819xx%29%28Imagineer%29.zip",
     link2: ""
@@ -6470,7 +6470,7 @@ const roms = [
   },
   {
     name: "Slimyer (1990)(Hot B)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Slimyer%20%28Hot%20B%29.png",
     size: "389.1K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Slimyer%20%281990%29%28Hot%20B%29.zip",
     link2: ""
@@ -6512,7 +6512,7 @@ const roms = [
   },
   {
     name: "Sol-Feace",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Sol-Feace.png",
     size: "3.9M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Sol-Feace.zip",
     link2: ""
@@ -6533,7 +6533,7 @@ const roms = [
   },
   {
     name: "Sonic Linker (1993)(May-Be Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Sonic%20Linker%20%281993%29%28May-Be%20Soft%29%28Disk%201%20of%202%29%28Disk%20A%29.png",
     size: "1.7M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Sonic%20Linker%20%281993%29%28May-Be%20Soft%29.zip",
     link2: ""
@@ -6554,14 +6554,14 @@ const roms = [
   },
   {
     name: "Sotsugyou Graduation (1993)(JHV)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Sotsugyou%20Graduation%20%28JHV%29%20%28Disk%201%20of%207%29%20%28Disk%20A%29%20%28Alt%201%29.png",
     size: "4.5M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Sotsugyou%20Graduation%20%281993%29%28JHV%29.zip",
     link2: ""
   },
   {
     name: "Sotsugyou Shashin with Biki (1992)(Cocktail Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Sotsugyou%20Shashin%20with%20Biki%20%28Cocktail%20Soft%29%20%28Disk%201%20of%203%29%20%28Disk%20A%29.png",
     size: "1.5M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Sotsugyou%20Shashin%20with%20Biki%20%281992%29%28Cocktail%20Soft%29.zip",
     link2: ""
@@ -6589,7 +6589,7 @@ const roms = [
   },
   {
     name: "Space Harrier (1987)(Dempa)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Space%20Harrier%20%281987%29%28Dempa%29.png",
     size: "265.7K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Space%20Harrier%20%281987%29%28Dempa%29.zip",
     link2: ""
@@ -6610,7 +6610,7 @@ const roms = [
   },
   {
     name: "Space Rogue (1989)(Wave Train)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Space%20Rogue%20%281989%29%28Wave%20Train%29%28Disk%201%20of%202%29%28Disk%20A%29.png",
     size: "1.2M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Space%20Rogue%20%281989%29%28Wave%20Train%29.zip",
     link2: ""
@@ -6652,7 +6652,7 @@ const roms = [
   },
   {
     name: "Square Resort (1992)(Family Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Square%20Resort%20%281992%29%28Family%20Soft%29%28Disk%201%20of%202%29%28System%29.png",
     size: "1.2M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Square%20Resort%20%281992%29%28Family%20Soft%29.zip",
     link2: ""
@@ -6673,7 +6673,7 @@ const roms = [
   },
   {
     name: "Star Cruiser (1989)(Arsys)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Star%20Cruiser%20%281989%29%28Arsys%29%28Disk%201%20of%202%29%28Disk%20A%29.png",
     size: "753.0K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Star%20Cruiser%20%281989%29%28Arsys%29.zip",
     link2: ""
@@ -6694,21 +6694,21 @@ const roms = [
   },
   {
     name: "Star Force (1993)(Dempa)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Star%20Force%20%281993%29%28Dempa%29.png",
     size: "179.3K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Star%20Force%20%281993%29%28Dempa%29.zip",
     link2: ""
   },
   {
     name: "Star Luster",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Star%20Luster%20%281994%29%28Dempa%29.png",
     size: "1.1M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Star%20Luster.zip",
     link2: ""
   },
   {
     name: "Star Mobile (1991)(MNM Software)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Star%20Mobile%20%28MNM%20Software%29.png",
     size: "429.8K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Star%20Mobile%20%281991%29%28MNM%20Software%29.zip",
     link2: ""
@@ -6722,7 +6722,7 @@ const roms = [
   },
   {
     name: "Star Trader",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Star%20Trader.png",
     size: "823.6K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Star%20Trader.zip",
     link2: ""
@@ -6743,14 +6743,14 @@ const roms = [
   },
   {
     name: "Star Wars Attack On The Death Star",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Star%20Wars%20Attack%20On%20The%20Death%20Star%20%281991%29%28MNM%20Software%29%28Disk%201%20of%202%29%28Disk%20A%29.png",
     size: "1.1M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Star%20Wars%20Attack%20On%20The%20Death%20Star.zip",
     link2: ""
   },
   {
     name: "Starship Rendezvous (19xx)(Scap Trust)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Starship%20Rendezvous%20%2819xx%29%20%28Scap%20Trust%29%20%28Disk%201%20of%202%29%20%28Disk%20A%29.png",
     size: "938.1K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Starship%20Rendezvous%20%2819xx%29%28Scap%20Trust%29.zip",
     link2: ""
@@ -6771,7 +6771,7 @@ const roms = [
   },
   {
     name: "Street Fighter II Champion Edition (1993)(SPS)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Street%20Fighter%20II%20Champion%20Edition%20%281993%29%28SPS%29%28Disk%201%20of%204%29%28System%29.png",
     size: "3.6M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Street%20Fighter%20II%20Champion%20Edition%20%281993%29%28SPS%29.zip",
     link2: ""
@@ -6792,7 +6792,7 @@ const roms = [
   },
   {
     name: "Strider Hiryuu (1992)(Capcom)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Strider%20Hiryuu%20%281992%29%28Capcom%29%28Disk%201%20of%203%29%28System%29.png",
     size: "2.9M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Strider%20Hiryuu%20%281992%29%28Capcom%29.zip",
     link2: ""
@@ -6813,7 +6813,7 @@ const roms = [
   },
   {
     name: "Suikoden Tenmei No Chikai (1989)(Koei)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Suikoden%20Tenmei%20No%20Chikai%20%28Koei%29%20%28Disk%201%20of%203%29%20%28Disk%20A%29.png",
     size: "1.6M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Suikoden%20Tenmei%20No%20Chikai%20%281989%29%28Koei%29.zip",
     link2: ""
@@ -6834,7 +6834,7 @@ const roms = [
   },
   {
     name: "Super Artemis",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Super%20Artemis%20%28199x%29%20%28-%29%20%28Disk%201%20of%202%29%20%28Disk%20A%29.png",
     size: "1.2M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Super%20Artemis.zip",
     link2: ""
@@ -6848,7 +6848,7 @@ const roms = [
   },
   {
     name: "Super D.P.S +",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Super%20D.P.S.%20%281992%29%28Alice%20Soft%29%28Disk%201%20of%206%29%28System%29.png",
     size: "8.2M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Super%20D.P.S%20%2B.zip",
     link2: ""
@@ -6862,7 +6862,7 @@ const roms = [
   },
   {
     name: "Super Daisenryaku 68K (1989)(System Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Super%20Daisenryaku%2068K%20%28System%20Soft%29%20%28Disk%201%20of%202%29%20%28System%29.png",
     size: "489.2K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Super%20Daisenryaku%2068K%20%281989%29%28System%20Soft%29.zip",
     link2: ""
@@ -6890,7 +6890,7 @@ const roms = [
   },
   {
     name: "Super Hang-On (1989)(Sharp - SPS)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Super%20Hang-On%20%281989%29%28Sharp%20-%20SPS%29%28Disk%201%20of%202%29%28Disk%20A%29.png",
     size: "503.7K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Super%20Hang-On%20%281989%29%28Sharp%20-%20SPS%29.zip",
     link2: ""
@@ -6911,7 +6911,7 @@ const roms = [
   },
   {
     name: "Super Mario Bros. (19xx)(-)[p]",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Super%20Mario%20Bros.%20%2819xx%29%28-%29%5Bp%5D.png",
     size: "636.0K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Super%20Mario%20Bros.%20%2819xx%29%28-%29%5Bp%5D.zip",
     link2: ""
@@ -6932,14 +6932,14 @@ const roms = [
   },
   {
     name: "Super Shanghai Dragon's Eye (1991)(Hot B)(Disk 1 of 2)(System)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Super%20Shanghai%20Dragon%27s%20Eye%20%28Hot%20B%29%20%28Disk%201%20of%202%29%20%28System%29.png",
     size: "837.6K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Super%20Shanghai%20Dragon%27s%20Eye%20%281991%29%28Hot%20B%29%28Disk%201%20of%202%29%28System%29.zip",
     link2: ""
   },
   {
     name: "Super Shanghai Dragon's Eye (1991)(Hot B)(Disk 2 of 2)(Data)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Super%20Shanghai%20Dragon%27s%20Eye%20%28Hot%20B%29%20%28Disk%201%20of%202%29%20%28System%29.png",
     size: "918.6K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Super%20Shanghai%20Dragon%27s%20Eye%20%281991%29%28Hot%20B%29%28Disk%202%20of%202%29%28Data%29.zip",
     link2: ""
@@ -7121,210 +7121,210 @@ const roms = [
   },
   {
     name: "Superior Mahjongg PIV (1994)(Ving)(Disk 1 of 9)(System)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%201%20of%209%29%28System%29.png",
     size: "881.8K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%201%20of%209%29%28System%29.zip",
     link2: ""
   },
   {
     name: "Superior Mahjongg PIV (1994)(Ving)(Disk 1 of 9)(System)[a2]",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%201%20of%209%29%28System%29.png",
     size: "875.1K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%201%20of%209%29%28System%29%5Ba2%5D.zip",
     link2: ""
   },
   {
     name: "Superior Mahjongg PIV (1994)(Ving)(Disk 1 of 9)(System)[a3]",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%201%20of%209%29%28System%29.png",
     size: "942.9K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%201%20of%209%29%28System%29%5Ba3%5D.zip",
     link2: ""
   },
   {
     name: "Superior Mahjongg PIV (1994)(Ving)(Disk 1 of 9)(System)[a]",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%201%20of%209%29%28System%29.png",
     size: "810.7K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%201%20of%209%29%28System%29%5Ba%5D.zip",
     link2: ""
   },
   {
     name: "Superior Mahjongg PIV (1994)(Ving)(Disk 2 of 9)(Data 1)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%201%20of%209%29%28System%29.png",
     size: "1,009.8K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%202%20of%209%29%28Data%201%29.zip",
     link2: ""
   },
   {
     name: "Superior Mahjongg PIV (1994)(Ving)(Disk 2 of 9)(Data 1)[a2]",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%201%20of%209%29%28System%29.png",
     size: "1.0M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%202%20of%209%29%28Data%201%29%5Ba2%5D.zip",
     link2: ""
   },
   {
     name: "Superior Mahjongg PIV (1994)(Ving)(Disk 2 of 9)(Data 1)[a]",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%201%20of%209%29%28System%29.png",
     size: "989.6K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%202%20of%209%29%28Data%201%29%5Ba%5D.zip",
     link2: ""
   },
   {
     name: "Superior Mahjongg PIV (1994)(Ving)(Disk 3 of 9)(Data 2)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%201%20of%209%29%28System%29.png",
     size: "1.1M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%203%20of%209%29%28Data%202%29.zip",
     link2: ""
   },
   {
     name: "Superior Mahjongg PIV (1994)(Ving)(Disk 3 of 9)(Data 2)[a2]",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%201%20of%209%29%28System%29.png",
     size: "1.1M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%203%20of%209%29%28Data%202%29%5Ba2%5D.zip",
     link2: ""
   },
   {
     name: "Superior Mahjongg PIV (1994)(Ving)(Disk 3 of 9)(Data 2)[a]",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%201%20of%209%29%28System%29.png",
     size: "1.1M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%203%20of%209%29%28Data%202%29%5Ba%5D.zip",
     link2: ""
   },
   {
     name: "Superior Mahjongg PIV (1994)(Ving)(Disk 4 of 9)(Data 3)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%201%20of%209%29%28System%29.png",
     size: "825.9K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%204%20of%209%29%28Data%203%29.zip",
     link2: ""
   },
   {
     name: "Superior Mahjongg PIV (1994)(Ving)(Disk 4 of 9)(Data 3)[a2]",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%201%20of%209%29%28System%29.png",
     size: "1,013.9K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%204%20of%209%29%28Data%203%29%5Ba2%5D.zip",
     link2: ""
   },
   {
     name: "Superior Mahjongg PIV (1994)(Ving)(Disk 4 of 9)(Data 3)[a]",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%201%20of%209%29%28System%29.png",
     size: "825.9K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%204%20of%209%29%28Data%203%29%5Ba%5D.zip",
     link2: ""
   },
   {
     name: "Superior Mahjongg PIV (1994)(Ving)(Disk 5 of 9)(Data 4)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%201%20of%209%29%28System%29.png",
     size: "1,008.5K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%205%20of%209%29%28Data%204%29.zip",
     link2: ""
   },
   {
     name: "Superior Mahjongg PIV (1994)(Ving)(Disk 5 of 9)(Data 4)[a2]",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%201%20of%209%29%28System%29.png",
     size: "1.1M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%205%20of%209%29%28Data%204%29%5Ba2%5D.zip",
     link2: ""
   },
   {
     name: "Superior Mahjongg PIV (1994)(Ving)(Disk 5 of 9)(Data 4)[a]",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%201%20of%209%29%28System%29.png",
     size: "1,008.6K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%205%20of%209%29%28Data%204%29%5Ba%5D.zip",
     link2: ""
   },
   {
     name: "Superior Mahjongg PIV (1994)(Ving)(Disk 6 of 9)(Data 5)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%201%20of%209%29%28System%29.png",
     size: "952.3K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%206%20of%209%29%28Data%205%29.zip",
     link2: ""
   },
   {
     name: "Superior Mahjongg PIV (1994)(Ving)(Disk 6 of 9)(Data 5)[a2]",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%201%20of%209%29%28System%29.png",
     size: "1,012.8K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%206%20of%209%29%28Data%205%29%5Ba2%5D.zip",
     link2: ""
   },
   {
     name: "Superior Mahjongg PIV (1994)(Ving)(Disk 6 of 9)(Data 5)[a]",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%201%20of%209%29%28System%29.png",
     size: "952.3K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%206%20of%209%29%28Data%205%29%5Ba%5D.zip",
     link2: ""
   },
   {
     name: "Superior Mahjongg PIV (1994)(Ving)(Disk 7 of 9)(Data 6)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%201%20of%209%29%28System%29.png",
     size: "1.1M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%207%20of%209%29%28Data%206%29.zip",
     link2: ""
   },
   {
     name: "Superior Mahjongg PIV (1994)(Ving)(Disk 7 of 9)(Data 6)[a2]",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%201%20of%209%29%28System%29.png",
     size: "1.1M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%207%20of%209%29%28Data%206%29%5Ba2%5D.zip",
     link2: ""
   },
   {
     name: "Superior Mahjongg PIV (1994)(Ving)(Disk 7 of 9)(Data 6)[a]",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%201%20of%209%29%28System%29.png",
     size: "1.1M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%207%20of%209%29%28Data%206%29%5Ba%5D.zip",
     link2: ""
   },
   {
     name: "Superior Mahjongg PIV (1994)(Ving)(Disk 8 of 9)(Data 7)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%201%20of%209%29%28System%29.png",
     size: "940.7K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%208%20of%209%29%28Data%207%29.zip",
     link2: ""
   },
   {
     name: "Superior Mahjongg PIV (1994)(Ving)(Disk 8 of 9)(Data 7)[a2]",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%201%20of%209%29%28System%29.png",
     size: "1,014.4K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%208%20of%209%29%28Data%207%29%5Ba2%5D.zip",
     link2: ""
   },
   {
     name: "Superior Mahjongg PIV (1994)(Ving)(Disk 8 of 9)(Data 7)[a]",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%201%20of%209%29%28System%29.png",
     size: "940.7K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%208%20of%209%29%28Data%207%29%5Ba%5D.zip",
     link2: ""
   },
   {
     name: "Superior Mahjongg PIV (1994)(Ving)(Disk 9 of 9)(Data 8)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%201%20of%209%29%28System%29.png",
     size: "987.9K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%209%20of%209%29%28Data%208%29.zip",
     link2: ""
   },
   {
     name: "Superior Mahjongg PIV (1994)(Ving)(Disk 9 of 9)(Data 8)[a2]",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%201%20of%209%29%28System%29.png",
     size: "1.0M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%209%20of%209%29%28Data%208%29%5Ba2%5D.zip",
     link2: ""
   },
   {
     name: "Superior Mahjongg PIV (1994)(Ving)(Disk 9 of 9)(Data 8)[a]",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%201%20of%209%29%28System%29.png",
     size: "988.0K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Superior%20Mahjongg%20PIV%20%281994%29%28Ving%29%28Disk%209%20of%209%29%28Data%208%29%5Ba%5D.zip",
     link2: ""
   },
   {
     name: "Sweet Angel (1992)(Active)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Sweet%20Angel%20%28Active%29%20%28Disk%201%20of%202%29.png",
     size: "1.6M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Sweet%20Angel%20%281992%29%28Active%29.zip",
     link2: ""
   },
   {
     name: "Sweet Emotion (1991)(Discovery Software)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Sweet%20Emotion%20%28Discovery%20Software%29%20%28Disk%201%20of%203%29%20%28Disk%20A%29%20%28Alt%201%29.png",
     size: "1.6M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Sweet%20Emotion%20%281991%29%28Discovery%20Software%29.zip",
     link2: ""
@@ -7345,7 +7345,7 @@ const roms = [
   },
   {
     name: "Syvalion (1990)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Syvalion%20%281990%29%28Sharp%20-%20SPS%29%28Disk%201%20of%202%29%28Disk%20A%29.png",
     size: "926.9K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Syvalion%20%281990%29.zip",
     link2: ""
@@ -7366,7 +7366,7 @@ const roms = [
   },
   {
     name: "Taiheiyou No Arashi DX (1989)(Gam)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Taiheiyou%20No%20Arashi%20DX%20%28Gam%29%20%28Disk%201%20of%205%29%20%28Alt%201%29.png",
     size: "761.9K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Taiheiyou%20No%20Arashi%20DX%20%281989%29%28Gam%29.zip",
     link2: ""
@@ -7387,7 +7387,7 @@ const roms = [
   },
   {
     name: "Taikou Risshiden (1992)(Koei)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Taikou%20Risshiden%20%28Koei%29%20%28Disk%201%20of%203%29%20%28Disk%20A%29.png",
     size: "2.1M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Taikou%20Risshiden%20%281992%29%28Koei%29.zip",
     link2: ""
@@ -7464,14 +7464,14 @@ const roms = [
   },
   {
     name: "TDF (1987)(Data West)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/TDF%20%28Data%20West%29.png",
     size: "315.7K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/TDF%20%281987%29%28Data%20West%29.zip",
     link2: ""
   },
   {
     name: "Teitoku No Ketsudan (1990)(Koei)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Teitoku%20No%20Ketsudan%20%281990%29%28Koei%29%28Disk%201%20of%203%29%28Disk%20A%29.png",
     size: "1.5M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Teitoku%20No%20Ketsudan%20%281990%29%28Koei%29.zip",
     link2: ""
@@ -7499,14 +7499,14 @@ const roms = [
   },
   {
     name: "Tenka Touitsu (1990)(System Soft - Arsys)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Tenka%20Touitsu%20%28System%20Soft%20-%20Arsys%29%20%28Disk%201%20of%202%29%20%28Alt%201%29.png",
     size: "1.1M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Tenka%20Touitsu%20%281990%29%28System%20Soft%20-%20Arsys%29.zip",
     link2: ""
   },
   {
     name: "Tenkyuuhai (19xx)(Panther Software)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Tenkyuuhai%20%2819xx%29%20%28Panther%20Software%29%20%28Disk%201%20of%202%29%20%28Disk%20A%29.png",
     size: "821.1K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Tenkyuuhai%20%2819xx%29%28Panther%20Software%29.zip",
     link2: ""
@@ -7520,7 +7520,7 @@ const roms = [
   },
   {
     name: "Tenshin Ranma (1992)(Elf)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Tenshin%20Ranma%20%28Elf%29%20%28Disk%201%20of%205%29%20%28Disk%20A%29.png",
     size: "4.0M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Tenshin%20Ranma%20%281992%29%28Elf%29.zip",
     link2: ""
@@ -7548,14 +7548,14 @@ const roms = [
   },
   {
     name: "Tesera (1992)(Technopolis)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Tesera%20%28Technopolis%29%20%28Disk%201%20of%206%29%20%28Disk%20A%29.png",
     size: "3.6M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Tesera%20%281992%29%28Technopolis%29.zip",
     link2: ""
   },
   {
     name: "Tetris",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Tetris%20%281988%29%28BPS%29.png",
     size: "3.3M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Tetris.zip",
     link2: ""
@@ -7583,7 +7583,7 @@ const roms = [
   },
   {
     name: "Thanatos (1991)(Birdy Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Thanatos%20%28Birdy%20Soft%29%20%28Disk%201%20of%202%29%20%28Disk%20A%29.png",
     size: "1.2M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Thanatos%20%281991%29%28Birdy%20Soft%29.zip",
     link2: ""
@@ -7597,21 +7597,21 @@ const roms = [
   },
   {
     name: "Thrice (1990)(MNM Software)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Thrice%20%281990%29%28MNM%20Software%29.png",
     size: "568.9K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Thrice%20%281990%29%28MNM%20Software%29.zip",
     link2: ""
   },
   {
     name: "Thunder Blade (1990)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Thunder%20Blade%20%281990%29%28Sharp%20-%20SPS%29%28Disk%201%20of%203%29%28Disk%20A%29.png",
     size: "840.0K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Thunder%20Blade%20%281990%29.zip",
     link2: ""
   },
   {
     name: "Thunder Force II (1988)(Technosoft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Thunder%20Force%20II%20%281988%29%28Technosoft%29%28Disk%201%20of%202%29.png",
     size: "1.4M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Thunder%20Force%20II%20%281988%29%28Technosoft%29.zip",
     link2: ""
@@ -7674,7 +7674,7 @@ const roms = [
   },
   {
     name: "Tokimeki Cherry Box (19xx)(DO)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Tokimeki%20Cherry%20Box%20%2819xx%29%20%28DO%29%20%28Disk%201%20of%202%29%20%28Disk%20A%29.png",
     size: "576.3K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Tokimeki%20Cherry%20Box%20%2819xx%29%28DO%29.zip",
     link2: ""
@@ -7709,7 +7709,7 @@ const roms = [
   },
   {
     name: "Tokushu Koudou Keisatsu Sap (1991)(Great)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Tokushu%20Koudou%20Keisatsu%20Sap%20%281991%29%28Great%29%28Disk%201%20of%203%29%28Game%29.png",
     size: "1.2M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Tokushu%20Koudou%20Keisatsu%20Sap%20%281991%29%28Great%29.zip",
     link2: ""
@@ -7751,7 +7751,7 @@ const roms = [
   },
   {
     name: "Toushin Toshi (1991)(Alice Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Toushin%20Toshi%20%28Alice%20Soft%29%20%28Disk%201%20of%205%29%20%28Disk%20A%29%20%28Alt%201%29.png",
     size: "3.4M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Toushin%20Toshi%20%281991%29%28Alice%20Soft%29.zip",
     link2: ""
@@ -7786,7 +7786,7 @@ const roms = [
   },
   {
     name: "Trilogy Kukiyoukashinden (19xx)(Hard)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Trilogy%20Kukiyoukashinden%20%2819xx%29%20%28Hard%29%20%28Disk%201%20of%202%29%20%28Disk%20A%29.png",
     size: "804.5K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Trilogy%20Kukiyoukashinden%20%2819xx%29%28Hard%29.zip",
     link2: ""
@@ -7828,7 +7828,7 @@ const roms = [
   },
   {
     name: "Twin Bee (1988)(Sharp - SPS)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Twin%20Bee%20%281988%29%28Sharp%20-%20SPS%29.png",
     size: "240.5K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Twin%20Bee%20%281988%29%28Sharp%20-%20SPS%29.zip",
     link2: ""
@@ -7849,14 +7849,14 @@ const roms = [
   },
   {
     name: "U.S. Championship Beach Volley V'ball (1989)(Sharp - SPS)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/U.S.%20Championship%20Beach%20Volley%20V%27ball%20%281989%29%28Sharp%20-%20SPS%29.png",
     size: "520.1K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/U.S.%20Championship%20Beach%20Volley%20V%27ball%20%281989%29%28Sharp%20-%20SPS%29.zip",
     link2: ""
   },
   {
     name: "Uchuu Kaitou Funny Bee (1994)(Alice Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Uchuu%20Kaitou%20Funny%20Bee%20%28Alice%20Soft%29%20%28Disk%201%20of%207%29%20%28Disk%20A%29.png",
     size: "4.8M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Uchuu%20Kaitou%20Funny%20Bee%20%281994%29%28Alice%20Soft%29.zip",
     link2: ""
@@ -7919,7 +7919,7 @@ const roms = [
   },
   {
     name: "Urotsuki Douji (199x)(Fairy Tale)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Urotsuki%20Douji%20%28199x%29%20%28Fairy%20Tale%29%20%28Disk%201%20of%202%29%20%28Disk%20A%29%20%28Alt%201%29.png",
     size: "1.3M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Urotsuki%20Douji%20%28199x%29%28Fairy%20Tale%29.zip",
     link2: ""
@@ -7954,7 +7954,7 @@ const roms = [
   },
   {
     name: "Vampire Highschool (1993)(Inter Heart)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Vampire%20Highschool%20%28Inter%20Heart%29%20%28Disk%201%20of%205%29%20%28Disk%20A%29.png",
     size: "3.8M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Vampire%20Highschool%20%281993%29%28Inter%20Heart%29.zip",
     link2: ""
@@ -7968,14 +7968,14 @@ const roms = [
   },
   {
     name: "Versnag Senran (1993)(Family Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Versnag%20Senran%20%281993%29%28Family%20Soft%29%28Disk%201%20of%206%29%28Disk%20A%29.png",
     size: "1.8M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Versnag%20Senran%20%281993%29%28Family%20Soft%29.zip",
     link2: ""
   },
   {
     name: "View Point (1995)(Nexus)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/View%20Point%20%281995%29%28Nexus%29%28Disk%201%20of%202%29%28System%29.png",
     size: "1.9M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/View%20Point%20%281995%29%28Nexus%29.zip",
     link2: ""
@@ -7989,14 +7989,14 @@ const roms = [
   },
   {
     name: "Virgin Angel (1995)(Crystal Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Virgin%20Angel%20%28Crystal%20Soft%29.png",
     size: "1.0M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Virgin%20Angel%20%281995%29%28Crystal%20Soft%29.zip",
     link2: ""
   },
   {
     name: "Virus No Dengon (199x)(Cocktail Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Virus%20No%20Dengon%20%28199x%29%28Cocktail%20Soft%29%28Disk%201%20of%203%29%28Disk%20A%29.png",
     size: "1.7M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Virus%20No%20Dengon%20%28199x%29%28Cocktail%20Soft%29.zip",
     link2: ""
@@ -8038,14 +8038,14 @@ const roms = [
   },
   {
     name: "Wanderers (1994)(Crystal Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Wanderers%20%28Crystal%20Soft%29.png",
     size: "953.0K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Wanderers%20%281994%29%28Crystal%20Soft%29.zip",
     link2: ""
   },
   {
     name: "Warning Type 68 (19xx)(Cosmos Computer)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Warning%20Type%2068%20%2819xx%29%20%28Cosmos%20Computer%29%20%28Disk%201%20of%202%29%20%28Disk%20A%29.png",
     size: "537.0K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Warning%20Type%2068%20%2819xx%29%28Cosmos%20Computer%29.zip",
     link2: ""
@@ -8073,14 +8073,14 @@ const roms = [
   },
   {
     name: "Wings (1989)(Broderbund)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Wings%20%281989%29%28Broderbund%29.png",
     size: "345.8K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Wings%20%281989%29%28Broderbund%29.zip",
     link2: ""
   },
   {
     name: "Winning Post (1993)(Koei)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Winning%20Post%20%281993%29%28Koei%29.png",
     size: "1.6M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Winning%20Post%20%281993%29%28Koei%29.zip",
     link2: ""
@@ -8094,14 +8094,14 @@ const roms = [
   },
   {
     name: "Words Worth (199x)(Elf)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Words%20Worth%20%28199x%29%20%28Elf%29%20%28Disk%2001%20of%2012%29%20%28Disk%20A%29.png",
     size: "10.5M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Words%20Worth%20%28199x%29%28Elf%29.zip",
     link2: ""
   },
   {
     name: "World Golf III (1991)(Rhodes Office)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/World%20Golf%20III%20%28Rhodes%20Office%29%20%28Disk%201%20of%202%29%20%28Disk%20A%29.png",
     size: "683.4K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/World%20Golf%20III%20%281991%29%28Rhodes%20Office%29.zip",
     link2: ""
@@ -8150,7 +8150,7 @@ const roms = [
   },
   {
     name: "Xak (1990)(Micro Cabin)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Xak%20%281990%29%28Micro%20Cabin%29%28Disk%201%20of%204%29.png",
     size: "1.9M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Xak%20%281990%29%28Micro%20Cabin%29.zip",
     link2: ""
@@ -8164,21 +8164,21 @@ const roms = [
   },
   {
     name: "Xenon 2 Megablast (1990)(Imageworks)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Xenon%202%20Megablast%20%281990%29%28Imageworks%29%28Disk%201%20of%202%29%28Disk%20A%29.png",
     size: "1.1M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Xenon%202%20Megablast%20%281990%29%28Imageworks%29.zip",
     link2: ""
   },
   {
     name: "Xevious",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Xevious%20%281987%29%28Dempa%29.png",
     size: "1.2M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Xevious.zip",
     link2: ""
   },
   {
     name: "Xna (1991)(Fairytale)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Xna%20%281991%29%28Fairytale%29%28Disk%201%20of%204%29%28Disk%20A%29.png",
     size: "2.7M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Xna%20%281991%29%28Fairytale%29.zip",
     link2: ""
@@ -8199,14 +8199,14 @@ const roms = [
   },
   {
     name: "Yajiuma Pennant Race 1989 (1989)(Crossmedia Soft)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Yajiuma%20Pennant%20Race%201989%20%28Crossmedia%20Soft%29%20%28Disk%201%20of%203%29%20%28Disk%20A%29.png",
     size: "1.3M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Yajiuma%20Pennant%20Race%201989%20%281989%29%28Crossmedia%20Soft%29.zip",
     link2: ""
   },
   {
     name: "Yami No Ketsuzoku + Kanketsuhen (1990)(System Sacom)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Yami%20No%20Ketsuzoku%20Kanketsuhen%20%281990%29%28System%20Sacom%29%28Disk%201%20of%204%29.png",
     size: "4.2M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Yami%20No%20Ketsuzoku%20%2B%20Kanketsuhen%20%281990%29%28System%20Sacom%29.zip",
     link2: ""
@@ -8220,7 +8220,7 @@ const roms = [
   },
   {
     name: "Yesterday (1990)(System House Oh!)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Yesterday%20%281990%29%28System%20House%20Oh%21%29.png",
     size: "749.7K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Yesterday%20%281990%29%28System%20House%20Oh%21%29.zip",
     link2: ""
@@ -8241,7 +8241,7 @@ const roms = [
   },
   {
     name: "Yoru No Tenshitachi (1989)(Jast)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Yoru%20No%20Tenshitachi%20%28Jast%29%20%28Disk%201%20of%202%29.png",
     size: "700.6K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Yoru%20No%20Tenshitachi%20%281989%29%28Jast%29.zip",
     link2: ""
@@ -8255,7 +8255,7 @@ const roms = [
   },
   {
     name: "Youjuu Senki AD 2048 (199x)(DO)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Youjuu%20Senki%20AD%202048%20%28199x%29%20%28DO%29%20%28Disk%201%20of%205%29%20%28System%29.png",
     size: "3.9M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Youjuu%20Senki%20AD%202048%20%28199x%29%28DO%29.zip",
     link2: ""
@@ -8318,28 +8318,28 @@ const roms = [
   },
   {
     name: "Zan Kagerou No Toki (1989)(Wolf Team)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Zan%20Kagerou%20No%20Toki%20%281989%29%28Wolf%20Team%29%28Disk%201%20of%203%29%28System%29.png",
     size: "2.3M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Zan%20Kagerou%20No%20Toki%20%281989%29%28Wolf%20Team%29.zip",
     link2: ""
   },
   {
     name: "Zark Legend (1990)(Maxima)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Zark%20Legend%20%28Maxima%29%20%28Disk%201%20of%204%29%20%28Game%29.png",
     size: "2.2M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Zark%20Legend%20%281990%29%28Maxima%29.zip",
     link2: ""
   },
   {
     name: "Zavas (1989)(Glodia)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Zavas%20%281989%29%28Glodia%29%28Disk%201%20of%203%29%28System%29.png",
     size: "1.1M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Zavas%20%281989%29%28Glodia%29.zip",
     link2: ""
   },
   {
     name: "Zenkai Denshoku (1991)(Office Koukan)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Zenkai%20Denshoku%20%28Office%20Koukan%29%20%28Disk%201%20of%203%29%20%28Disk%20A%29.png",
     size: "1.2M",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Zenkai%20Denshoku%20%281991%29%28Office%20Koukan%29.zip",
     link2: ""
@@ -8388,7 +8388,7 @@ const roms = [
   },
   {
     name: "Zugya (1996)(Sprite)",
-    image: "https://i.postimg.cc/NjQWX7Vw/6800.png",
+    image: "https://thumbnails.libretro.com/Sharp%20-%20X68000/Named_Boxarts/Zugya%20%281996%29%28Sprite%29.png",
     size: "904.7K",
     link1: "https://archive.org/download/SharpX68000RomCollectionByGhostware/Zugya%20%281996%29%28Sprite%29.zip",
     link2: ""
@@ -8403,7 +8403,7 @@ function renderTable(data) {
   data.forEach(rom => {
     const tr = document.createElement("tr");
     tr.innerHTML = `
-      <td><img src="${rom.image}" alt="${rom.name}"></td>
+      <td><img ${window._boxartVisible ? 'src="' + rom.image + '"' : 'data-src="' + rom.image + '"'} alt="${rom.name}"></td>
       <td>${rom.name}</td>
       <td>${rom.link1 ? `<a href="${rom.link1}" target="_blank">Opción #1</a>` : '-'}</td>
       <td>${rom.link2 ? `<a href="${rom.link2}" target="_blank">Opción #2</a>` : '-'}</td>

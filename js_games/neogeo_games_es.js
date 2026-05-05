@@ -1,7 +1,7 @@
 const roms = [
   {
     "name": "2020 Super Baseball (set 1)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/2020%20Super%20Baseball%20%28set%201%29.png",
     "size": "2.8M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/2020bb.zip",
     "link2": ""
@@ -43,7 +43,7 @@ const roms = [
   },
   {
     "name": "Andro Dunos (NGM-049)(NGH-049)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Andro%20Dunos%20%28NGM-049%29%28NGH-049%29.png",
     "size": "1.7M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/androdun.zip",
     "link2": ""
@@ -85,35 +85,35 @@ const roms = [
   },
   {
     "name": "Bang Bead",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Bang%20Bead.png",
     "size": "19.6M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/bangbead.zip",
     "link2": ""
   },
   {
     "name": "Baseball Stars 2",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Baseball%20Stars%202.png",
     "size": "3.5M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/bstars2.zip",
     "link2": ""
   },
   {
     "name": "Baseball Stars Professional (NGM-002)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Baseball%20Stars%20Professional%20%28NGM-002%29.png",
     "size": "3.2M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/bstars.zip",
     "link2": ""
   },
   {
     "name": "Battle Flip Shot",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Battle%20Flip%20Shot.png",
     "size": "2.2M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/flipshot.zip",
     "link2": ""
   },
   {
     "name": "Blazing Star",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Blazing%20Star.png",
     "size": "20.6M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/blazstar.zip",
     "link2": ""
@@ -127,42 +127,42 @@ const roms = [
   },
   {
     "name": "Breakers",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Breakers.png",
     "size": "13.2M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/breakers.zip",
     "link2": ""
   },
   {
     "name": "Breakers Revenge",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Breakers%20Revenge.png",
     "size": "15.1M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/breakrev.zip",
     "link2": ""
   },
   {
     "name": "Burning Fight (NGM-018)(NGH-018)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Burning%20Fight%20%28NGM-018%29%28NGH-018%29.png",
     "size": "3.2M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/burningf.zip",
     "link2": ""
   },
   {
     "name": "Captain Tomaday",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Captain%20Tomaday.png",
     "size": "5.5M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/ctomaday.zip",
     "link2": ""
   },
   {
     "name": "Chibi Marukochan Deluxe Quiz",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Chibi%20Marukochan%20Deluxe%20Quiz.png",
     "size": "4.2M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/marukodq.zip",
     "link2": ""
   },
   {
     "name": "Choutetsu Brikin'ger - Iron clad (Prototype)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Choutetsu%20Brikin%27ger%20-%20Iron%20Clad%20%28prototype%29.png",
     "size": "11.6M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/ironclad.zip",
     "link2": ""
@@ -183,7 +183,7 @@ const roms = [
   },
   {
     "name": "Crossed Swords (ALM-002)(ALH-002)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Crossed%20Swords%20%28ALM-002%29%28ALH-002%29.png",
     "size": "2.6M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/crsword.zip",
     "link2": ""
@@ -197,7 +197,7 @@ const roms = [
   },
   {
     "name": "Cyber-Lip (NGM-010)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Cyber-Lip%20%28NGM-010%29.png",
     "size": "3.2M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/cyberlip.zip",
     "link2": ""
@@ -211,14 +211,14 @@ const roms = [
   },
   {
     "name": "Double Dragon (Neo-Geo)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Double%20Dragon%20%28Neo-Geo%29.png",
     "size": "9.1M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/doubledr.zip",
     "link2": ""
   },
   {
     "name": "Eight Man (NGM-025)(NGH-025)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Eight%20Man%20%28NGM-025%29%28NGH-025%29.png",
     "size": "2.8M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/eightman.zip",
     "link2": ""
@@ -260,14 +260,14 @@ const roms = [
   },
   {
     "name": "Fight Fever (set 1)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Fight%20Fever%20%28set%201%29.png",
     "size": "5.8M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/fightfev.zip",
     "link2": ""
   },
   {
     "name": "Football Frenzy (NGM-034)(NGH-034)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Football%20Frenzy%20%28NGM-034%29%28NGH-034%29.png",
     "size": "3.0M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/fbfrenzy.zip",
     "link2": ""
@@ -288,7 +288,7 @@ const roms = [
   },
   {
     "name": "Galaxy Fight - Universal Warriors",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Galaxy%20Fight%20-%20Universal%20Warriors.png",
     "size": "10.2M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/galaxyfg.zip",
     "link2": ""
@@ -302,42 +302,42 @@ const roms = [
   },
   {
     "name": "Garou - Mark of the Wolves (NGM-2530)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Garou%20-%20Mark%20of%20the%20Wolves%20%28NGM-2530%29.png",
     "size": "77.2M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/garou.zip",
     "link2": ""
   },
   {
     "name": "Ghost Pilots (NGM-020)(NGH-020)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Ghost%20Pilots%20%28NGM-020%29%28NGH-020%29.png",
     "size": "3.5M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/gpilots.zip",
     "link2": ""
   },
   {
     "name": "Ghostlop (prototype)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Ghostlop%20%28prototype%29.png",
     "size": "3.1M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/ghostlop.zip",
     "link2": ""
   },
   {
     "name": "Goal! Goal! Goal!",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Goal%21%20Goal%21%20Goal%21.png",
     "size": "4.7M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/goalx3.zip",
     "link2": ""
   },
   {
     "name": "Gururin",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Gururin.png",
     "size": "888.6K",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/gururin.zip",
     "link2": ""
   },
   {
     "name": "Jockey Grand Prix (set 1)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Jockey%20Grand%20Prix%20%28set%201%29.png",
     "size": "16.5M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/jockeygp.zip",
     "link2": ""
@@ -351,7 +351,7 @@ const roms = [
   },
   {
     "name": "Jyanshin Densetsu - Quest of Jongmaster",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Jyanshin%20Densetsu%20-%20Quest%20of%20Jongmaster.png",
     "size": "3.3M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/janshin.zip",
     "link2": ""
@@ -365,7 +365,7 @@ const roms = [
   },
   {
     "name": "King of the Monsters (set 1)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/King%20of%20the%20Monsters%20%28set%201%29.png",
     "size": "3.8M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/kotm.zip",
     "link2": ""
@@ -393,14 +393,14 @@ const roms = [
   },
   {
     "name": "Last Resort",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Last%20Resort.png",
     "size": "2.8M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/lresort.zip",
     "link2": ""
   },
   {
     "name": "League Bowling (NGM-019)(NGH-019)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/League%20Bowling%20%28NGM-019%29%28NGH-019%29.png",
     "size": "1.5M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/lbowling.zip",
     "link2": ""
@@ -414,35 +414,35 @@ const roms = [
   },
   {
     "name": "Magical Drop II",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Magical%20Drop%20II.png",
     "size": "3.5M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/magdrop2.zip",
     "link2": ""
   },
   {
     "name": "Magical Drop III",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Magical%20Drop%20III.png",
     "size": "8.2M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/magdrop3.zip",
     "link2": ""
   },
   {
     "name": "Magician Lord (NGM-005)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Magician%20Lord%20%28NGM-005%29.png",
     "size": "2.7M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/maglord.zip",
     "link2": ""
   },
   {
     "name": "Mahjong Kyo Retsuden (NGM-004)(NGH-004)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Mahjong%20Kyo%20Retsuden%20%28NGM-004%29%28NGH-004%29.png",
     "size": "2.9M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/mahretsu.zip",
     "link2": ""
   },
   {
     "name": "Metal Slug - Super Vehicle-001",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Metal%20Slug%20-%20Super%20Vehicle-001.png",
     "size": "12.6M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/mslug.zip",
     "link2": ""
@@ -456,21 +456,21 @@ const roms = [
   },
   {
     "name": "Metal Slug 3 (NGM-2560)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Metal%20Slug%203%20%28NGM-2560%29.png",
     "size": "76.7M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/mslug3.zip",
     "link2": ""
   },
   {
     "name": "Metal Slug 4 (NGM-2630)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Metal%20Slug%204%20%28NGM-2630%29.png",
     "size": "60.4M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/mslug4.zip",
     "link2": ""
   },
   {
     "name": "Metal Slug 5 (NGM-2680)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Metal%20Slug%205%20%28NGM-2680%29.png",
     "size": "77.4M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/mslug5.zip",
     "link2": ""
@@ -505,28 +505,28 @@ const roms = [
   },
   {
     "name": "Mutation Nation (NGM-014)(NGH-014)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Mutation%20Nation%20%28NGM-014%29%28NGH-014%29.png",
     "size": "3.6M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/mutnat.zip",
     "link2": ""
   },
   {
     "name": "NAM-1975 (NGM-001)(NGH-001)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/NAM-1975%20%28NGM-001%29%28NGH-001%29.png",
     "size": "3.0M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/nam1975.zip",
     "link2": ""
   },
   {
     "name": "Neo Bomberman",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Neo%20Bomberman.png",
     "size": "6.0M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/neobombe.zip",
     "link2": ""
   },
   {
     "name": "Neo Drift Out - New Technology",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Neo%20Drift%20Out%20-%20New%20Technology.png",
     "size": "8.2M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/neodrift.zip",
     "link2": ""
@@ -540,7 +540,7 @@ const roms = [
   },
   {
     "name": "Neo Mr. Do!",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Neo%20Mr.%20Do%21.png",
     "size": "1.5M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/neomrdo.zip",
     "link2": ""
@@ -575,7 +575,7 @@ const roms = [
   },
   {
     "name": "Neo-Geo Cup '98 - The Road to the Victory",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Neo-Geo%20Cup%20%2798%20-%20The%20Road%20to%20the%20Victory.png",
     "size": "9.5M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/neocup98.zip",
     "link2": ""
@@ -596,42 +596,42 @@ const roms = [
   },
   {
     "name": "Nightmare in the Dark",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Nightmare%20in%20the%20Dark.png",
     "size": "17.1M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/nitd.zip",
     "link2": ""
   },
   {
     "name": "Ninja Combat (NGM-009)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Ninja%20Combat%20%28NGM-009%29.png",
     "size": "2.9M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/ncombat.zip",
     "link2": ""
   },
   {
     "name": "Ninja Commando",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Ninja%20Commando.png",
     "size": "3.2M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/ncommand.zip",
     "link2": ""
   },
   {
     "name": "Ninja Master's - haoh-ninpo-cho",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Ninja%20Master%27s%20-%20haoh-ninpo-cho.png",
     "size": "17.2M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/ninjamas.zip",
     "link2": ""
   },
   {
     "name": "Over Top",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Over%20Top.png",
     "size": "11.7M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/overtop.zip",
     "link2": ""
   },
   {
     "name": "Panic Bomber",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Panic%20Bomber.png",
     "size": "2.5M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/panicbom.zip",
     "link2": ""
@@ -645,7 +645,7 @@ const roms = [
   },
   {
     "name": "Pochi and Nyaa",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Pochi%20and%20Nyaa%20%28Ver%202.00%29.png",
     "size": "20.1M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/pnyaa.zip",
     "link2": ""
@@ -666,7 +666,7 @@ const roms = [
   },
   {
     "name": "Power Spikes II (NGM-068)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Power%20Spikes%20II%20%28NGM-068%29.png",
     "size": "3.8M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/pspikes2.zip",
     "link2": ""
@@ -680,14 +680,14 @@ const roms = [
   },
   {
     "name": "Prehistoric Isle 2",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Prehistoric%20Isle%202.png",
     "size": "52.1M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/preisle2.zip",
     "link2": ""
   },
   {
     "name": "Pulstar",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Pulstar.png",
     "size": "17.9M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/pulstar.zip",
     "link2": ""
@@ -708,14 +708,14 @@ const roms = [
   },
   {
     "name": "Puzzle De Pon!",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Puzzle%20De%20Pon%21.png",
     "size": "750.7K",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/puzzledp.zip",
     "link2": ""
   },
   {
     "name": "Puzzle De Pon! R!",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Puzzle%20De%20Pon%21%20R%21.png",
     "size": "154.8K",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/puzzldpr.zip",
     "link2": ""
@@ -736,7 +736,7 @@ const roms = [
   },
   {
     "name": "Quiz King of Fighters (SAM-080)(SAH-080)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Quiz%20King%20of%20Fighters%20%28SAM-080%29%28SAH-080%29.png",
     "size": "8.2M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/quizkof.zip",
     "link2": ""
@@ -750,7 +750,7 @@ const roms = [
   },
   {
     "name": "Rage of the Dragons (NGM-264?)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Rage%20of%20the%20Dragons%20%28NGM-264_%29.png",
     "size": "73.0M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/rotd.zip",
     "link2": ""
@@ -785,14 +785,14 @@ const roms = [
   },
   {
     "name": "Riding Hero (NGM-006)(NGH-006)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Riding%20Hero%20%28NGM-006%29%28NGH-006%29.png",
     "size": "3.5M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/ridhero.zip",
     "link2": ""
   },
   {
     "name": "Robo Army",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Robo%20Army%20%28set%201%29.png",
     "size": "2.9M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/roboarmy.zip",
     "link2": ""
@@ -869,14 +869,14 @@ const roms = [
   },
   {
     "name": "Shock Troopers (set 1)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Shock%20Troopers%20%28set%201%29.png",
     "size": "18.8M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/shocktro.zip",
     "link2": ""
   },
   {
     "name": "Shock Troopers - 2nd Squad",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Shock%20Troopers%20-%202nd%20Squad.png",
     "size": "27.4M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/shocktr2.zip",
     "link2": ""
@@ -890,7 +890,7 @@ const roms = [
   },
   {
     "name": "Soccer Brawl (NGM-031)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Soccer%20Brawl%20%28NGM-031%29.png",
     "size": "2.8M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/socbrawl.zip",
     "link2": ""
@@ -911,7 +911,7 @@ const roms = [
   },
   {
     "name": "Stakes Winner 2",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Stakes%20Winner%202.png",
     "size": "10.3M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/stakwin2.zip",
     "link2": ""
@@ -925,7 +925,7 @@ const roms = [
   },
   {
     "name": "Strikers 1945 Plus",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Strikers%201945%20Plus.png",
     "size": "73.8M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/s1945p.zip",
     "link2": ""
@@ -967,28 +967,28 @@ const roms = [
   },
   {
     "name": "The King of Fighters '94 (NGM-055)(NGH-055)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/The%20King%20of%20Fighters%20%2794%20%28NGM-055%29%28NGH-055%29.png",
     "size": "12.2M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/kof94.zip",
     "link2": ""
   },
   {
     "name": "The King of Fighters '95 (NGM-084)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/The%20King%20of%20Fighters%20%2795%20%28NGM-084%29.png",
     "size": "15.4M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/kof95.zip",
     "link2": ""
   },
   {
     "name": "The King of Fighters '96 (NGM-214)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/The%20King%20of%20Fighters%20%2796%20%28NGM-214%29.png",
     "size": "22.5M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/kof96.zip",
     "link2": ""
   },
   {
     "name": "The King of Fighters '97 (NGM-2320)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/The%20King%20of%20Fighters%20%2797%20%28NGM-2320%29.png",
     "size": "27.4M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/kof97.zip",
     "link2": ""
@@ -1002,7 +1002,7 @@ const roms = [
   },
   {
     "name": "The King of Fighters '99 - Millennium Battle (NGM-2510|",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/The%20King%20of%20Fighters%20%2799%20-%20Millennium%20Battle%20%28NGM-2510%29.png",
     "size": "75.2M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/kof99.zip",
     "link2": ""
@@ -1016,7 +1016,7 @@ const roms = [
   },
   {
     "name": "The King of Fighters 2001 (NGM-262?)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/The%20King%20of%20Fighters%202001%20%28NGH-2621%29.png",
     "size": "76.1M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/kof2001.zip",
     "link2": ""
@@ -1030,7 +1030,7 @@ const roms = [
   },
   {
     "name": "The King of Fighters 2003 (NGM-2710)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/The%20King%20of%20Fighters%202003%20%28NGM-2710%29.png",
     "size": "80.2M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/kof2003.zip",
     "link2": ""
@@ -1051,7 +1051,7 @@ const roms = [
   },
   {
     "name": "The Super Spy (NGM-011)(NGH-011)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/The%20Super%20Spy%20%28NGM-011%29%28NGH-011%29.png",
     "size": "3.1M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/superspy.zip",
     "link2": ""
@@ -1065,7 +1065,7 @@ const roms = [
   },
   {
     "name": "Thrash Rally (ALM-003)(ALH-003)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Thrash%20Rally%20%28ALM-003%29%28ALH-003%29.png",
     "size": "2.7M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/trally.zip",
     "link2": ""
@@ -1079,7 +1079,7 @@ const roms = [
   },
   {
     "name": "Top Player's Golf (NGM-003)(NGH-003)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Top%20Player%27s%20Golf%20%28NGM-003%29%28NGH-003%29.png",
     "size": "3.6M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/tpgolf.zip",
     "link2": ""
@@ -1093,7 +1093,7 @@ const roms = [
   },
   {
     "name": "Twinkle Star Sprites",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Twinkle%20Star%20Sprites.png",
     "size": "8.7M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/twinspri.zip",
     "link2": ""
@@ -1107,14 +1107,14 @@ const roms = [
   },
   {
     "name": "V-Liner (set 1)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/V-Liner%20%28set%201%29.png",
     "size": "194.1K",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/vliner.zip",
     "link2": ""
   },
   {
     "name": "Viewpoint",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Viewpoint.png",
     "size": "3.9M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/viewpoin.zip",
     "link2": ""
@@ -1128,7 +1128,7 @@ const roms = [
   },
   {
     "name": "Waku Waku 7",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Waku%20Waku%207.png",
     "size": "13.0M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/wakuwak7.zip",
     "link2": ""
@@ -1142,28 +1142,28 @@ const roms = [
   },
   {
     "name": "World Heroes (ALM-005)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/World%20Heroes%20%28ALM-005%29.png",
     "size": "4.6M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/wh1.zip",
     "link2": ""
   },
   {
     "name": "World Heroes 2 (ALM-006)(ALH-006)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/World%20Heroes%202%20%28ALM-006%29%28ALH-006%29.png",
     "size": "8.6M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/wh2.zip",
     "link2": ""
   },
   {
     "name": "World Heroes 2 Jet (ADM-007)(ADH-007)",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/World%20Heroes%202%20Jet%20%28ADM-007%29%28ADH-007%29.png",
     "size": "10.4M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/wh2j.zip",
     "link2": ""
   },
   {
     "name": "World Heroes Perfect",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/World%20Heroes%20Perfect.png",
     "size": "14.3M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/whp.zip",
     "link2": ""
@@ -1184,7 +1184,7 @@ const roms = [
   },
   {
     "name": "Zupapa!",
-    "image": "https://i.postimg.cc/W4hWr1sj/Neo-Geo-logo.png",
+    "image": "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Boxarts/Zupapa%21.png",
     "size": "17.1M",
     "link1": "https://archive.org/download/neogeoaesmvscomplete/Neo%20Geo%20AES%20-%20MVS/Final%20Burn%20Neo%20romset/zupapa.zip",
     "link2": ""
@@ -1200,7 +1200,7 @@ const romBody = document.getElementById("romBody");
     data.forEach(rom => {
       const tr = document.createElement("tr");
       tr.innerHTML = `
-        <td><img src="${rom.image}" alt="${rom.name}"></td>
+        <td><img ${window._boxartVisible ? 'src="' + rom.image + '"' : 'data-src="' + rom.image + '"'} alt="${rom.name}"></td>
         <td>${rom.name}</td>
         <td>${rom.link1 ? `<a href="${rom.link1}" target="_blank">Opción #1</a>` : '-'}</td>
         <td>${rom.link2 ? `<a href="${rom.link2}" target="_blank">Opción #2</a>` : '-'}</td>

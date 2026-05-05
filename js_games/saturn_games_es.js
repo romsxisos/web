@@ -4,14 +4,14 @@ const roms = [
     "size": "162.2M",
     "link1": "https://archive.org/download/saturn.part1/3D%20Baseball.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/3D%20Baseball%20%28USA%29.png"
   },
   {
     "name": "A+M+O+K ",
     "size": "508.7M",
     "link1": "https://archive.org/download/saturn.part1/A%2BM%2BO%2BK.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/A%2BM%2BO%2BK%20%28USA%29.png"
   },
   {
     "name": "Albert Odyssey (v1.100) ",
@@ -25,7 +25,7 @@ const roms = [
     "size": "395.8M",
     "link1": "https://archive.org/download/saturn.part1/Alien%20Trilogy.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Alien%20Trilogy%20%28USA%29.png"
   },
   {
     "name": "All-Star Baseball 97 ",
@@ -46,7 +46,7 @@ const roms = [
     "size": "479.4M",
     "link1": "https://archive.org/download/saturn.part1/Andretti%20Racing.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Andretti%20Racing%20%28USA%29.png"
   },
   {
     "name": "Arcade's Greatest Hits - Atari ",
@@ -60,21 +60,21 @@ const roms = [
     "size": "275.0M",
     "link1": "https://archive.org/download/saturn.part1/Area%2051.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Area%2051%20%28USA%29.png"
   },
   {
     "name": "Astal ",
     "size": "540.3M",
     "link1": "https://archive.org/download/saturn.part1/Astal.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Astal%20%28USA%29%20%281S%29.png"
   },
   {
     "name": "Baku Baku ",
     "size": "494.4M",
     "link1": "https://archive.org/download/saturn.part1/Baku%20Baku.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Baku%20Baku%20%28USA%29.png"
   },
   {
     "name": "Bases Loaded '96 ",
@@ -88,112 +88,112 @@ const roms = [
     "size": "24.9M",
     "link1": "https://archive.org/download/saturn.part1/Batman%20Forever%20The%20Arcade%20Game.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Batman%20Forever%20-%20The%20Arcade%20Game%20%28USA%29.png"
   },
   {
     "name": "Battle Arena Toshinden Remix ",
     "size": "339.9M",
     "link1": "https://archive.org/download/saturn.part1/Battle%20Arena%20Toshinden%20Remix.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Battle%20Arena%20Toshinden%20Remix%20%28USA%29.png"
   },
   {
     "name": "Battle Arena Toshinden URA ",
     "size": "423.0M",
     "link1": "https://archive.org/download/saturn.part1/Battle%20Arena%20Toshinden%20URA.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Battle%20Arena%20Toshinden%20URA%20%28USA%29.png"
   },
   {
     "name": "Battle Monsters ",
     "size": "50.8M",
     "link1": "https://archive.org/download/saturn.part1/Battle%20Monsters.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Battle%20Monsters%20%28USA%29.png"
   },
   {
     "name": "Battle Stations ",
     "size": "476.2M",
     "link1": "https://archive.org/download/saturn.part1/Battle%20Stations.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Battle%20Stations%20%28USA%29.png"
   },
   {
     "name": "BattleSport ",
     "size": "428.2M",
     "link1": "https://archive.org/download/saturn.part1/BattleSport.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/BattleSport%20%28USA%29.png"
   },
   {
     "name": "Black Dawn ",
     "size": "363.6M",
     "link1": "https://archive.org/download/saturn.part1/Black%20Dawn.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Black%20Dawn%20%28USA%29.png"
   },
   {
     "name": "Black Fire ",
     "size": "254.6M",
     "link1": "https://archive.org/download/saturn.part1/Black%20Fire.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Black%20Fire%20%28USA%29.png"
   },
   {
     "name": "Blast Chamber ",
     "size": "422.4M",
     "link1": "https://archive.org/download/saturn.part1/Blast%20Chamber.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Blast%20Chamber%20%28USA%29.png"
   },
   {
     "name": "Blazing Dragons ",
     "size": "217.4M",
     "link1": "https://archive.org/download/saturn.part1/Blazing%20Dragons.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Blazing%20Dragons%20%28USA%29.png"
   },
   {
     "name": "Blazing Heroes ",
     "size": "136.6M",
     "link1": "https://archive.org/download/saturn.part1/Blazing%20Heroes.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Blazing%20Heroes%20%28USA%29.png"
   },
   {
     "name": "Bootleg Sampler (v1.006) ",
     "size": "358.3M",
     "link1": "https://archive.org/download/saturn.part1/Bootleg%20Sampler%20%20%28v1.006%29.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Bootleg%20Sampler%20%28USA%29%20%2815S%29.png"
   },
   {
     "name": "Bootleg Sampler (v2.009) ",
     "size": "404.7M",
     "link1": "https://archive.org/download/saturn.part1/Bootleg%20Sampler%20%20%28v2.009%29.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Bootleg%20Sampler%20%28USA%29%20%2815S%29.png"
   },
   {
     "name": "Bottom of the 9th ",
     "size": "312.2M",
     "link1": "https://archive.org/download/saturn.part1/Bottom%20of%20the%209th.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Bottom%20of%20the%209th%20%28USA%29.png"
   },
   {
     "name": "Brain Dead 13 ",
     "size": "530.5M",
     "link1": "https://archive.org/download/saturn.part1/Brain%20Dead%2013.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Brain%20Dead%2013%20%28USA%29.png"
   },
   {
     "name": "Break Point Tennis ",
     "size": "119.2M",
     "link1": "https://archive.org/download/saturn.part1/Break%20Point%20Tennis.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Break%20Point%20Tennis%20%28USA%29.png"
   },
   {
     "name": "Bubble Bobble ",
@@ -207,14 +207,14 @@ const roms = [
     "size": "563.0M",
     "link1": "https://archive.org/download/saturn.part1/Bug%20Too%21.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Bug%20Too%21%20%28USA%29.png"
   },
   {
     "name": "Bug! ",
     "size": "166.6M",
     "link1": "https://archive.org/download/saturn.part1/Bug%21.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Bug%21%20%28USA%29%20%28R%29.png"
   },
   {
     "name": "Bug! Playable Preview ",
@@ -228,63 +228,63 @@ const roms = [
     "size": "320.6M",
     "link1": "https://archive.org/download/saturn.part1/Burning%20Rangers.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Burning%20Rangers%20%28USA%29.png"
   },
   {
     "name": "Bust-A-Move 2 Arcade Edition ",
     "size": "287.2M",
     "link1": "https://archive.org/download/saturn.part1/Bust-A-Move%202%20Arcade%20Edition.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Bust-A-Move%202%20-%20Arcade%20Edition%20%28USA%29.png"
   },
   {
     "name": "Bust-A-Move 3 ",
     "size": "267.5M",
     "link1": "https://archive.org/download/saturn.part1/Bust-A-Move%203.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Bust-A-Move%203%20%28USA%29.png"
   },
   {
     "name": "Casper ",
     "size": "222.7M",
     "link1": "https://archive.org/download/saturn.part1/Casper.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Casper%20%28USA%29.png"
   },
   {
     "name": "Center Ring Boxing ",
     "size": "137.7M",
     "link1": "https://archive.org/download/saturn.part1/Center%20Ring%20Boxing.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Center%20Ring%20Boxing%20%28USA%29.png"
   },
   {
     "name": "Christmas Nights Into Dreams ",
     "size": "573.1M",
     "link1": "https://archive.org/download/saturn.part1/Christmas%20Nights%20Into%20Dreams.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Christmas%20NiGHTS%20into%20Dreams...%20%28USA%29.png"
   },
   {
     "name": "Clockwork Knight ",
     "size": "195.4M",
     "link1": "https://archive.org/download/saturn.part1/Clockwork%20Knight.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Clockwork%20Knight%20%28USA%29.png"
   },
   {
     "name": "Clockwork Knight 2 ",
     "size": "371.3M",
     "link1": "https://archive.org/download/saturn.part1/Clockwork%20Knight%202.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Clockwork%20Knight%202%20%28USA%29.png"
   },
   {
     "name": "College Slam ",
     "size": "254.2M",
     "link1": "https://archive.org/download/saturn.part1/College%20Slam.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/College%20Slam%20%28USA%29.png"
   },
   {
     "name": "Command & Conquer (Disc 1 of 2) (GDI) ",
@@ -312,7 +312,7 @@ const roms = [
     "size": "380.0M",
     "link1": "https://archive.org/download/saturn.part1/Contra%20-%20Legacy%20of%20War.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Contra%20-%20Legacy%20of%20War%20%28USA%29.png"
   },
   {
     "name": "Corpse Killer (Disc 1 of 2) ",
@@ -333,126 +333,126 @@ const roms = [
     "size": "235.9M",
     "link1": "https://archive.org/download/saturn.part1/Courier%20Crisis.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Courier%20Crisis%20%28USA%29.png"
   },
   {
     "name": "Creature Shock (Disc 1 of 2) ",
     "size": "459.6M",
     "link1": "https://archive.org/download/saturn.part1/Creature%20Shock%20%28Disc%201%20of%202%29.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Creature%20Shock%20%28Disc%201%29%20%28USA%29.png"
   },
   {
     "name": "Creature Shock (Disc 2 of 2) ",
     "size": "466.1M",
     "link1": "https://archive.org/download/saturn.part1/Creature%20Shock%20%28Disc%202%20of%202%29.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Creature%20Shock%20%28Disc%201%29%20%28USA%29.png"
   },
   {
     "name": "Crime Wave ",
     "size": "63.6M",
     "link1": "https://archive.org/download/saturn.part1/Crime%20Wave.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Crime%20Wave%20%28USA%29.png"
   },
   {
     "name": "Criticom ",
     "size": "352.4M",
     "link1": "https://archive.org/download/saturn.part1/Criticom.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Criticom%20%28USA%29.png"
   },
   {
     "name": "Croc - Legend of the Gobbos ",
     "size": "479.7M",
     "link1": "https://archive.org/download/saturn.part1/Croc%20-%20Legend%20of%20the%20Gobbos.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Croc%20-%20Legend%20of%20the%20Gobbos%20%28USA%29.png"
   },
   {
     "name": "Crusader - No Remorse ",
     "size": "422.8M",
     "link1": "https://archive.org/download/saturn.part1/Crusader%20-%20No%20Remorse.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Crusader%20-%20No%20Remorse%20%28USA%29.png"
   },
   {
     "name": "Crypt Killer ",
     "size": "393.6M",
     "link1": "https://archive.org/download/saturn.part1/Crypt%20Killer.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Crypt%20Killer%20%28USA%29.png"
   },
   {
     "name": "Cyber Speedway ",
     "size": "395.9M",
     "link1": "https://archive.org/download/saturn.part1/Cyber%20Speedway.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Cyber%20Speedway%20%28USA%29.png"
   },
   {
     "name": "Cyberia ",
     "size": "324.7M",
     "link1": "https://archive.org/download/saturn.part1/Cyberia.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Cyberia%20%28USA%29%20%28En%2CFr%2CDe%29.png"
   },
   {
     "name": "D (Disc 1 of 2) ",
     "size": "474.6M",
     "link1": "https://archive.org/download/saturn.part1/D%20%28Disc%201%20of%202%29.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/D%20%28Disc%201%29%20%28USA%29.png"
   },
   {
     "name": "D (Disc 2 of 2) ",
     "size": "427.1M",
     "link1": "https://archive.org/download/saturn.part1/D%20%28Disc%202%20of%202%29.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/D%20%28Disc%201%29%20%28USA%29.png"
   },
   {
     "name": "Darius Gaiden ",
     "size": "359.8M",
     "link1": "https://archive.org/download/saturn.part1/Darius%20Gaiden.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Darius%20Gaiden%20%28USA%29.png"
   },
   {
     "name": "Dark Legend ",
     "size": "538.7M",
     "link1": "https://archive.org/download/saturn.part1/Dark%20Legend.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Dark%20Legend%20%28USA%29.png"
   },
   {
     "name": "Dark Savior ",
     "size": "306.9M",
     "link1": "https://archive.org/download/saturn.part1/Dark%20Savior.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Dark%20Savior%20%28USA%29.png"
   },
   {
     "name": "Darklight Conflict ",
     "size": "381.6M",
     "link1": "https://archive.org/download/saturn.part1/Darklight%20Conflict.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Darklight%20Conflict%20%28USA%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CSv%29.png"
   },
   {
     "name": "Daytona USA ",
     "size": "384.7M",
     "link1": "https://archive.org/download/saturn.part1/Daytona%20USA.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Daytona%20USA%20%28USA%29.png"
   },
   {
     "name": "Daytona USA - Championship Circuit Edition ",
     "size": "476.0M",
     "link1": "https://archive.org/download/saturn.part1/Daytona%20USA%20-%20Championship%20Circuit%20Edition.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Daytona%20USA%20-%20Championship%20Circuit%20Edition%20%28USA%29.png"
   },
   {
     "name": "Daytona USA CCE - Netlink Edition ",
@@ -466,70 +466,70 @@ const roms = [
     "size": "121.7M",
     "link1": "https://archive.org/download/saturn.part1/Decathlete.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Decathlete%20%28USA%29.png"
   },
   {
     "name": "Deep Fear (Disc 1 of 2) (Lost & Found V3) ",
     "size": "492.1M",
     "link1": "https://archive.org/download/saturn.part1/Deep%20Fear%20%28Disc%201%20of%202%29%20%20%28Lost%20%26%20Found%20V3%29.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Deep%20Fear%20%28USA%29%28Unl%29.png"
   },
   {
     "name": "Deep Fear (Disc 2 of 2) (Lost & Found V3) ",
     "size": "468.4M",
     "link1": "https://archive.org/download/saturn.part1/Deep%20Fear%20%28Disc%202%20of%202%29%20%20%28Lost%20%26%20Found%20V3%29.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Deep%20Fear%20%28USA%29%28Unl%29.png"
   },
   {
     "name": "Defcon 5 ",
     "size": "261.6M",
     "link1": "https://archive.org/download/saturn.part1/Defcon%205.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Defcon%205%20%28USA%29.png"
   },
   {
     "name": "Die Hard Arcade ",
     "size": "530.7M",
     "link1": "https://archive.org/download/saturn.part1/Die%20Hard%20Arcade.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Die%20Hard%20Arcade%20%28USA%29.png"
   },
   {
     "name": "Die Hard Trilogy ",
     "size": "442.9M",
     "link1": "https://archive.org/download/saturn.part1/Die%20Hard%20Trilogy.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Die%20Hard%20Trilogy%20%28USA%29.png"
   },
   {
     "name": "Doom ",
     "size": "574.0M",
     "link1": "https://archive.org/download/saturn.part1/Doom.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Doom%20%28USA%29.png"
   },
   {
     "name": "Double Switch (Disc 1 of 2) ",
     "size": "548.7M",
     "link1": "https://archive.org/download/saturn.part1/Double%20Switch%20%28Disc%201%20of%202%29.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Double%20Switch%20%28Disc%201%29%20%28USA%29.png"
   },
   {
     "name": "Double Switch (Disc 2 of 2) ",
     "size": "461.4M",
     "link1": "https://archive.org/download/saturn.part1/Double%20Switch%20%28Disc%202%20of%202%29.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Double%20Switch%20%28Disc%201%29%20%28USA%29.png"
   },
   {
     "name": "Dragon Force ",
     "size": "280.4M",
     "link1": "https://archive.org/download/saturn.part1/Dragon%20Force.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Dragon%20Force%20%28USA%29.png"
   },
   {
     "name": "Dragonheart - Fire & Steel ",
@@ -543,49 +543,49 @@ const roms = [
     "size": "496.5M",
     "link1": "https://archive.org/download/saturn.part1/Duke%20Nukem%203D.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Duke%20Nukem%203D%20%28USA%29.png"
   },
   {
     "name": "Earthworm Jim 2 ",
     "size": "339.2M",
     "link1": "https://archive.org/download/saturn.part1/Earthworm%20Jim%202.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Earthworm%20Jim%202%20%28USA%29.png"
   },
   {
     "name": "Enemy Zero (Disc 0 of 4) ",
     "size": "255.0M",
     "link1": "https://archive.org/download/saturn.part1/Enemy%20Zero%20%28Disc%200%20of%204%29.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Enemy%20Zero%20%28Disc%201%29%20%28USA%29.png"
   },
   {
     "name": "Enemy Zero (Disc 1 of 4) ",
     "size": "488.8M",
     "link1": "https://archive.org/download/saturn.part1/Enemy%20Zero%20%28Disc%201%20of%204%29.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Enemy%20Zero%20%28Disc%201%29%20%28USA%29.png"
   },
   {
     "name": "Enemy Zero (Disc 2 of 4) ",
     "size": "565.4M",
     "link1": "https://archive.org/download/saturn.part1/Enemy%20Zero%20%28Disc%202%20of%204%29.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Enemy%20Zero%20%28Disc%201%29%20%28USA%29.png"
   },
   {
     "name": "Enemy Zero (Disc 3 of 4) ",
     "size": "403.4M",
     "link1": "https://archive.org/download/saturn.part1/Enemy%20Zero%20%28Disc%203%20of%204%29.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Enemy%20Zero%20%28Disc%201%29%20%28USA%29.png"
   },
   {
     "name": "F1 Challenge ",
     "size": "391.1M",
     "link1": "https://archive.org/download/saturn.part1/F1%20Challenge.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/F1%20Challenge%20%28USA%29.png"
   },
   {
     "name": "FIFA 98 - Road To World Cup ",
@@ -599,112 +599,112 @@ const roms = [
     "size": "517.7M",
     "link1": "https://archive.org/download/saturn.part1/FIFA%20Soccer%2096.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/FIFA%20Soccer%2096%20%28USA%29.png"
   },
   {
     "name": "FIFA Soccer 97 ",
     "size": "519.9M",
     "link1": "https://archive.org/download/saturn.part1/FIFA%20Soccer%2097.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/FIFA%20Soccer%2097%20%28USA%29.png"
   },
   {
     "name": "Fighters Megamix ",
     "size": "557.3M",
     "link1": "https://archive.org/download/saturn.part1/Fighters%20Megamix.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Fighters%20Megamix%20%28USA%29%20%28RE%29.png"
   },
   {
     "name": "Fighting Vipers ",
     "size": "374.8M",
     "link1": "https://archive.org/download/saturn.part1/Fighting%20Vipers.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Fighting%20Vipers%20%28USA%29%20%285S%29.png"
   },
   {
     "name": "Frank Thomas Big Hurt Baseball ",
     "size": "271.5M",
     "link1": "https://archive.org/download/saturn.part1/Frank%20Thomas%20Big%20Hurt%20Baseball.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Frank%20Thomas%20Big%20Hurt%20Baseball%20%28USA%29.png"
   },
   {
     "name": "Galactic Attack ",
     "size": "476.4M",
     "link1": "https://archive.org/download/saturn.part1/Galactic%20Attack.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Galactic%20Attack%20%28USA%29.png"
   },
   {
     "name": "Galaxy Fight ",
     "size": "555.4M",
     "link1": "https://archive.org/download/saturn.part1/Galaxy%20Fight.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Galaxy%20Fight%20%28USA%29.png"
   },
   {
     "name": "Gex ",
     "size": "198.0M",
     "link1": "https://archive.org/download/saturn.part1/Gex.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Gex%20%28USA%29.png"
   },
   {
     "name": "Ghen War ",
     "size": "374.0M",
     "link1": "https://archive.org/download/saturn.part1/Ghen%20War.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Ghen%20War%20%28USA%29.png"
   },
   {
     "name": "Golden Axe - The Duel ",
     "size": "508.7M",
     "link1": "https://archive.org/download/saturn.part1/Golden%20Axe%20-%20The%20Duel.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Golden%20Axe%20-%20The%20Duel%20%28USA%29.png"
   },
   {
     "name": "Grand Slam ",
     "size": "105.4M",
     "link1": "https://archive.org/download/saturn.part1/Grand%20Slam.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Grand%20Slam%20%28USA%29.png"
   },
   {
     "name": "Grid Runner ",
     "size": "438.8M",
     "link1": "https://archive.org/download/saturn.part1/Grid%20Runner.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Grid%20Runner%20%28USA%29.png"
   },
   {
     "name": "Guardian Heroes ",
     "size": "497.3M",
     "link1": "https://archive.org/download/saturn.part1/Guardian%20Heroes.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Guardian%20Heroes%20%28USA%29.png"
   },
   {
     "name": "Gungriffon ",
     "size": "453.8M",
     "link1": "https://archive.org/download/saturn.part1/Gungriffon.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Gungriffon%20%28USA%29.png"
   },
   {
     "name": "Hang-On GP ",
     "size": "449.0M",
     "link1": "https://archive.org/download/saturn.part1/Hang-On%20GP.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Hang-On%20GP%20%28USA%29.png"
   },
   {
     "name": "Hardcore 4x4 ",
     "size": "327.2M",
     "link1": "https://archive.org/download/saturn.part1/Hardcore%204x4.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Hardcore%204x4%20%28Europe%29%20%28En%2CFr%2CDe%29.png"
   },
   {
     "name": "Heir of Zendor ",
@@ -718,21 +718,21 @@ const roms = [
     "size": "438.9M",
     "link1": "https://archive.org/download/saturn.part1/Herc%27s%20Adventures.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Herc%27s%20Adventures%20%28USA%29%20%28RE%29.png"
   },
   {
     "name": "Hexen ",
     "size": "526.0M",
     "link1": "https://archive.org/download/saturn.part1/Hexen.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Hexen%20%28USA%29.png"
   },
   {
     "name": "Hi-Octane - The Track Fights Back! ",
     "size": "316.0M",
     "link1": "https://archive.org/download/saturn.part1/Hi-Octane%20-%20The%20Track%20Fights%20Back%21.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Hi-Octane%20-%20The%20Track%20Fights%20Back%21%20%28USA%29%20%28En%2CFr%2CDe%2CEs%29.png"
   },
   {
     "name": "High Velocity ",
@@ -746,77 +746,77 @@ const roms = [
     "size": "350.5M",
     "link1": "https://archive.org/download/saturn.part1/Highway%202000.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Highway%202000%20%28USA%29.png"
   },
   {
     "name": "House of the Dead, The ",
     "size": "381.8M",
     "link1": "https://archive.org/download/saturn.part1/House%20of%20the%20Dead%2C%20The.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/House%20of%20the%20Dead%2C%20The%20%28USA%29.png"
   },
   {
     "name": "Hyper 3-D Pinball ",
     "size": "208.3M",
     "link1": "https://archive.org/download/saturn.part1/Hyper%203-D%20Pinball.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Hyper%203-D%20Pinball%20%28USA%29.png"
   },
   {
     "name": "Impact Racing ",
     "size": "474.2M",
     "link1": "https://archive.org/download/saturn.part1/Impact%20Racing.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Impact%20Racing%20%28USA%29.png"
   },
   {
     "name": "In the Hunt ",
     "size": "443.9M",
     "link1": "https://archive.org/download/saturn.part1/In%20the%20Hunt.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/In%20the%20Hunt%20%28USA%29.png"
   },
   {
     "name": "Independence Day ",
     "size": "356.1M",
     "link1": "https://archive.org/download/saturn.part1/Independence%20Day.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Independence%20Day%20%28USA%29.png"
   },
   {
     "name": "Iron Man X-O Manowar in Heavy Metal ",
     "size": "436.4M",
     "link1": "https://archive.org/download/saturn.part1/Iron%20Man%20X-O%20Manowar%20in%20Heavy%20Metal.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Iron%20Man%20X-O%20Manowar%20in%20Heavy%20Metal%20%28USA%29.png"
   },
   {
     "name": "Iron Storm ",
     "size": "288.6M",
     "link1": "https://archive.org/download/saturn.part1/Iron%20Storm.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Iron%20Storm%20%28USA%29.png"
   },
   {
     "name": "Johnny Bazookatone ",
     "size": "491.0M",
     "link1": "https://archive.org/download/saturn.part1/Johnny%20Bazookatone.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Johnny%20Bazookatone%20%28USA%29.png"
   },
   {
     "name": "Last Bronx ",
     "size": "376.1M",
     "link1": "https://archive.org/download/saturn.part1/Last%20Bronx.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Last%20Bronx%20%28USA%29.png"
   },
   {
     "name": "Last Gladiators Digital Pinball ",
     "size": "501.1M",
     "link1": "https://archive.org/download/saturn.part1/Last%20Gladiators%20Digital%20Pinball.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Last%20Gladiators%20-%20Digital%20Pinball%20%28USA%29%20%283S%29.png"
   },
   {
     "name": "Legend Of Oasis ",
@@ -830,7 +830,7 @@ const roms = [
     "size": "551.9M",
     "link1": "https://archive.org/download/saturn.part1/Loaded.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Loaded%20%28USA%29%20%28En%2CFr%29.png"
   },
   {
     "name": "Lost World - Jurassic Park ",
@@ -844,105 +844,105 @@ const roms = [
     "size": "541.1M",
     "link1": "https://archive.org/download/saturn.part1/Lunacy%20%28Disc%201%20of%202%29.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Lunacy%20%28Disc%201%29%20%28USA%29.png"
   },
   {
     "name": "Lunacy (Disc 2 of 2) ",
     "size": "556.8M",
     "link1": "https://archive.org/download/saturn.part1/Lunacy%20%28Disc%202%20of%202%29.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Lunacy%20%28Disc%201%29%20%28USA%29.png"
   },
   {
     "name": "Machine Head ",
     "size": "500.7M",
     "link1": "https://archive.org/download/saturn.part1/Machine%20Head.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Machine%20Head%20%28USA%29.png"
   },
   {
     "name": "Madden NFL 97 ",
     "size": "393.7M",
     "link1": "https://archive.org/download/saturn.part1/Madden%20NFL%2097.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Madden%20NFL%2097%20%28USA%29.png"
   },
   {
     "name": "Madden NFL 98 ",
     "size": "466.5M",
     "link1": "https://archive.org/download/saturn.part1/Madden%20NFL%2098.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Madden%20NFL%2098%20%28USA%29.png"
   },
   {
     "name": "Magic Carpet ",
     "size": "375.1M",
     "link1": "https://archive.org/download/saturn.part1/Magic%20Carpet.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Magic%20Carpet%20%28USA%29.png"
   },
   {
     "name": "Magic Knight Rayearth ",
     "size": "482.4M",
     "link1": "https://archive.org/download/saturn.part1/Magic%20Knight%20Rayearth.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Magic%20Knight%20Rayearth%20%28USA%29.png"
   },
   {
     "name": "Mansion of Hidden Souls, The ",
     "size": "364.9M",
     "link1": "https://archive.org/download/saturn.part1/Mansion%20of%20Hidden%20Souls%2C%20The.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Mansion%20of%20Hidden%20Souls%2C%20The%20%28USA%29.png"
   },
   {
     "name": "Manx TT Superbike ",
     "size": "256.7M",
     "link1": "https://archive.org/download/saturn.part1/Manx%20TT%20Superbike.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Manx%20TT%20SuperBike%20%28USA%29.png"
   },
   {
     "name": "Marvel Super Heroes ",
     "size": "506.3M",
     "link1": "https://archive.org/download/saturn.part1/Marvel%20Super%20Heroes.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Marvel%20Super%20Heroes%20%28USA%29.png"
   },
   {
     "name": "Mass Destruction ",
     "size": "413.8M",
     "link1": "https://archive.org/download/saturn.part1/Mass%20Destruction.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Mass%20Destruction%20%28USA%29.png"
   },
   {
     "name": "Maximum Force ",
     "size": "369.8M",
     "link1": "https://archive.org/download/saturn.part1/Maximum%20Force.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Maximum%20Force%20%28USA%29.png"
   },
   {
     "name": "Mechwarrior 2 ",
     "size": "329.9M",
     "link1": "https://archive.org/download/saturn.part1/Mechwarrior%202.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/MechWarrior%202%20%28Japan%29.png"
   },
   {
     "name": "Mega Man 8 ",
     "size": "263.9M",
     "link1": "https://archive.org/download/saturn.part1/Mega%20Man%208.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Mega%20Man%208%20%28USA%29.png"
   },
   {
     "name": "Megaman X4 ",
     "size": "452.5M",
     "link1": "https://archive.org/download/saturn.part1/Megaman%20X4.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Megaman%20X4%20%28USA%29.png"
   },
   {
     "name": "Midway presents Arcade's Greatest Hits ",
@@ -956,154 +956,154 @@ const roms = [
     "size": "410.5M",
     "link1": "https://archive.org/download/saturn.part1/Minnesota%20Fats%20-%20Pool%20Legend.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Minnesota%20Fats%20-%20Pool%20Legend%20%28USA%29%20%28R%29.png"
   },
   {
     "name": "Mortal Kombat II ",
     "size": "28.9M",
     "link1": "https://archive.org/download/saturn.part1/Mortal%20Kombat%20II.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Mortal%20Kombat%20II%20%28USA%29.png"
   },
   {
     "name": "Mortal Kombat Trilogy ",
     "size": "442.1M",
     "link1": "https://archive.org/download/saturn.part1/Mortal%20Kombat%20Trilogy.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Mortal%20Kombat%20Trilogy%20%28USA%29.png"
   },
   {
     "name": "Mr Bones (Disc 1 of 2) ",
     "size": "464.3M",
     "link1": "https://archive.org/download/saturn.part1/Mr%20Bones%20%28Disc%201%20of%202%29.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Mr.%20Bones%20%28Disc%201%29%20%28USA%29.png"
   },
   {
     "name": "Mr Bones (Disc 2 of 2) ",
     "size": "466.0M",
     "link1": "https://archive.org/download/saturn.part1/Mr%20Bones%20%28Disc%202%20of%202%29.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Mr.%20Bones%20%28Disc%201%29%20%28USA%29.png"
   },
   {
     "name": "Myst ",
     "size": "392.1M",
     "link1": "https://archive.org/download/saturn.part1/Myst.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Myst%20%28USA%29.png"
   },
   {
     "name": "Mystaria - The Realms of Lore ",
     "size": "249.4M",
     "link1": "https://archive.org/download/saturn.part1/Mystaria%20-%20The%20Realms%20of%20Lore.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Mystaria%20-%20The%20Realms%20of%20Lore%20%28USA%29.png"
   },
   {
     "name": "NBA Action ",
     "size": "394.8M",
     "link1": "https://archive.org/download/saturn.part1/NBA%20Action.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/NBA%20Action%20%28USA%29.png"
   },
   {
     "name": "NBA Action 98 ",
     "size": "252.7M",
     "link1": "https://archive.org/download/saturn.part1/NBA%20Action%2098.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/NBA%20Action%2098%20%28USA%29.png"
   },
   {
     "name": "NBA Jam Extreme ",
     "size": "131.5M",
     "link1": "https://archive.org/download/saturn.part1/NBA%20Jam%20Extreme.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/NBA%20Jam%20Extreme%20%28USA%29.png"
   },
   {
     "name": "NBA Jam Tournament Edition ",
     "size": "334.7M",
     "link1": "https://archive.org/download/saturn.part1/NBA%20Jam%20Tournament%20Edition.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/NBA%20Jam%20-%20Tournament%20Edition%20%28USA%29%20%283S%29.png"
   },
   {
     "name": "NBA Live 97 ",
     "size": "279.4M",
     "link1": "https://archive.org/download/saturn.part1/NBA%20Live%2097.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/NBA%20Live%2097%20%28USA%29.png"
   },
   {
     "name": "NBA Live 98 ",
     "size": "381.5M",
     "link1": "https://archive.org/download/saturn.part1/NBA%20Live%2098.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/NBA%20Live%2098%20%28USA%29.png"
   },
   {
     "name": "NFL 97 ",
     "size": "85.1M",
     "link1": "https://archive.org/download/saturn.part1/NFL%2097.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/NFL%20%2797%20%28USA%29%20%28Rev%20A%29.png"
   },
   {
     "name": "NFL Quarterback Club 96 ",
     "size": "118.3M",
     "link1": "https://archive.org/download/saturn.part1/NFL%20Quarterback%20Club%2096.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/NFL%20Quarterback%20Club%20%2796%20%28USA%29%20%285S%29.png"
   },
   {
     "name": "NFL Quarterback Club 97 ",
     "size": "117.9M",
     "link1": "https://archive.org/download/saturn.part1/NFL%20Quarterback%20Club%2097.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/NFL%20Quarterback%20Club%20%2797%20%28USA%29.png"
   },
   {
     "name": "NHL 97 ",
     "size": "429.6M",
     "link1": "https://archive.org/download/saturn.part1/NHL%2097.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/NHL%2097%20%28USA%29.png"
   },
   {
     "name": "NHL 98 ",
     "size": "416.9M",
     "link1": "https://archive.org/download/saturn.part1/NHL%2098.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/NHL%2098%20%28USA%29.png"
   },
   {
     "name": "NHL All-Star Hockey ",
     "size": "432.7M",
     "link1": "https://archive.org/download/saturn.part1/NHL%20All-Star%20Hockey.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/NHL%20All-Star%20Hockey%20%28USA%29%20%281S%29.png"
   },
   {
     "name": "NHL All-Star Hockey 98 ",
     "size": "211.7M",
     "link1": "https://archive.org/download/saturn.part1/NHL%20All-Star%20Hockey%2098.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/NHL%20All-Star%20Hockey%2098%20%28USA%29.png"
   },
   {
     "name": "NHL Powerplay '96 ",
     "size": "227.2M",
     "link1": "https://archive.org/download/saturn.part1/NHL%20Powerplay%20%2796.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/NHL%20Powerplay%20%2796%20%28USA%29.png"
   },
   {
     "name": "Nascar 98 ",
     "size": "344.8M",
     "link1": "https://archive.org/download/saturn.part1/Nascar%2098.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/NASCAR%20%2798%20%28USA%29.png"
   },
   {
     "name": "Need For Speed ",
@@ -1138,7 +1138,7 @@ const roms = [
     "size": "478.6M",
     "link1": "https://archive.org/download/saturn.part1/Nights%20Into%20Dreams.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/NiGHTS%20into%20Dreams...%20%28USA%29%20%28with%203D%20Control%20Pad%29%20%28RE%29.png"
   },
   {
     "name": "Nights Into Dreams Sampler ",
@@ -1159,14 +1159,14 @@ const roms = [
     "size": "362.6M",
     "link1": "https://archive.org/download/saturn.part1/Off-World%20Interceptor%20Extreme.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Off-World%20Interceptor%20Extreme%20%28USA%29.png"
   },
   {
     "name": "Olympic Soccer ",
     "size": "422.3M",
     "link1": "https://archive.org/download/saturn.part1/Olympic%20Soccer.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Olympic%20Soccer%20%28USA%29.png"
   },
   {
     "name": "P.T.O. II ",
@@ -1180,28 +1180,28 @@ const roms = [
     "size": "256.2M",
     "link1": "https://archive.org/download/saturn.part1/PGA%20Tour%2097.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/PGA%20Tour%2097%20%28USA%29.png"
   },
   {
     "name": "Pandemonium! ",
     "size": "73.0M",
     "link1": "https://archive.org/download/saturn.part1/Pandemonium%21.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Pandemonium%21%20%28USA%29.png"
   },
   {
     "name": "Panzer Dragoon ",
     "size": "543.6M",
     "link1": "https://archive.org/download/saturn.part1/Panzer%20Dragoon.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Panzer%20Dragoon%20%28USA%29%20%281S%29.png"
   },
   {
     "name": "Panzer Dragoon II Zwei ",
     "size": "399.6M",
     "link1": "https://archive.org/download/saturn.part1/Panzer%20Dragoon%20II%20Zwei.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Panzer%20Dragoon%20II%20Zwei%20%28USA%29.png"
   },
   {
     "name": "Panzer Dragoon Playable Preview ",
@@ -1215,84 +1215,84 @@ const roms = [
     "size": "486.6M",
     "link1": "https://archive.org/download/saturn.part1/Panzer%20Dragoon%20Saga%20%28Disc%201%20of%204%29.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Panzer%20Dragoon%20Saga%20%28Disc%201%29%20%28USA%29.png"
   },
   {
     "name": "Panzer Dragoon Saga (Disc 2 of 4) ",
     "size": "425.1M",
     "link1": "https://archive.org/download/saturn.part1/Panzer%20Dragoon%20Saga%20%28Disc%202%20of%204%29.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Panzer%20Dragoon%20Saga%20%28Disc%201%29%20%28USA%29.png"
   },
   {
     "name": "Panzer Dragoon Saga (Disc 3 of 4) ",
     "size": "479.0M",
     "link1": "https://archive.org/download/saturn.part1/Panzer%20Dragoon%20Saga%20%28Disc%203%20of%204%29.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Panzer%20Dragoon%20Saga%20%28Disc%201%29%20%28USA%29.png"
   },
   {
     "name": "Panzer Dragoon Saga (Disc 4 of 4) ",
     "size": "488.5M",
     "link1": "https://archive.org/download/saturn.part1/Panzer%20Dragoon%20Saga%20%28Disc%204%20of%204%29.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Panzer%20Dragoon%20Saga%20%28Disc%201%29%20%28USA%29.png"
   },
   {
     "name": "Pebble Beach Golf Links ",
     "size": "326.2M",
     "link1": "https://archive.org/download/saturn.part1/Pebble%20Beach%20Golf%20Links.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Pebble%20Beach%20Golf%20Links%20%28USA%29.png"
   },
   {
     "name": "Powerslave ",
     "size": "484.6M",
     "link1": "https://archive.org/download/saturn.part1/Powerslave.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Powerslave%20%28USA%29.png"
   },
   {
     "name": "Primal Rage ",
     "size": "313.1M",
     "link1": "https://archive.org/download/saturn.part1/Primal%20Rage.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Primal%20Rage%20%28USA%29.png"
   },
   {
     "name": "Pro Pinball ",
     "size": "288.7M",
     "link1": "https://archive.org/download/saturn.part1/Pro%20Pinball.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Pro%20Pinball%20%28USA%29.png"
   },
   {
     "name": "Quake ",
     "size": "538.1M",
     "link1": "https://archive.org/download/saturn.part1/Quake.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Quake%20%28USA%29.png"
   },
   {
     "name": "Quarterback Attack ",
     "size": "547.2M",
     "link1": "https://archive.org/download/saturn.part1/Quarterback%20Attack.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Quarterback%20Attack%20%28USA%29.png"
   },
   {
     "name": "Rampage World Tour ",
     "size": "109.1M",
     "link1": "https://archive.org/download/saturn.part1/Rampage%20World%20Tour.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Rampage%20-%20World%20Tour%20%28USA%29.png"
   },
   {
     "name": "Rayman ",
     "size": "478.5M",
     "link1": "https://archive.org/download/saturn.part1/Rayman.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Rayman%20%28USA%29%20%28R2%29.png"
   },
   {
     "name": "Rayman Playable Game Preview ",
@@ -1313,42 +1313,42 @@ const roms = [
     "size": "473.4M",
     "link1": "https://archive.org/download/saturn.part1/Resident%20Evil.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Resident%20Evil%20%28USA%29.png"
   },
   {
     "name": "Resurrection - Rise 2 ",
     "size": "407.3M",
     "link1": "https://archive.org/download/saturn.part1/Resurrection%20-%20Rise%202.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Resurrection%20-%20Rise%202%20%28USA%29.png"
   },
   {
     "name": "Revolution X ",
     "size": "554.7M",
     "link1": "https://archive.org/download/saturn.part1/Revolution%20X.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Revolution%20X%20%28USA%29.png"
   },
   {
     "name": "Road Rash ",
     "size": "485.7M",
     "link1": "https://archive.org/download/saturn.part1/Road%20Rash.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Road%20Rash%20%28USA%29.png"
   },
   {
     "name": "Robo Pit ",
     "size": "315.5M",
     "link1": "https://archive.org/download/saturn.part1/Robo%20Pit.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Robo%20Pit%20%28USA%29.png"
   },
   {
     "name": "Robotica ",
     "size": "111.4M",
     "link1": "https://archive.org/download/saturn.part1/Robotica.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Robotica%20%28USA%29.png"
   },
   {
     "name": "Romance of the Three Kingdoms IV ",
@@ -1362,14 +1362,14 @@ const roms = [
     "size": "491.9M",
     "link1": "https://archive.org/download/saturn.part1/Saturn%20Bomberman.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Saturn%20Bomberman%20%28USA%29%20%281S%29.png"
   },
   {
     "name": "Scorcher ",
     "size": "120.4M",
     "link1": "https://archive.org/download/saturn.part1/Scorcher.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Scorcher%20%28USA%29%20%28RE%29.png"
   },
   {
     "name": "Scud ",
@@ -1397,7 +1397,7 @@ const roms = [
     "size": "453.4M",
     "link1": "https://archive.org/download/saturn.part1/Sega%20Rally%20Championship.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Sega%20Rally%20Championship%20%28USA%29.png"
   },
   {
     "name": "Sega Saturn Choice Cuts (v1.000) ",
@@ -1425,28 +1425,28 @@ const roms = [
     "size": "452.5M",
     "link1": "https://archive.org/download/saturn.part1/Sega%20Touring%20Car%20Championship.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Sega%20Touring%20Car%20Championship%20%28USA%29.png"
   },
   {
     "name": "Sega Worldwide Soccer '97 ",
     "size": "508.9M",
     "link1": "https://archive.org/download/saturn.part1/Sega%20Worldwide%20Soccer%20%2797.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Sega%20Worldwide%20Soccer%20%2797%20%28USA%29.png"
   },
   {
     "name": "Shanghai Triple Threat ",
     "size": "7.9M",
     "link1": "https://archive.org/download/saturn.part1/Shanghai%20Triple%20Threat.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Shanghai%20-%20Triple%20Threat%20%28USA%29.png"
   },
   {
     "name": "Shellshock ",
     "size": "477.2M",
     "link1": "https://archive.org/download/saturn.part1/Shellshock.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Shellshock%20%28USA%29.png"
   },
   {
     "name": "Shining Force III - Scenario 1 ",
@@ -1460,28 +1460,28 @@ const roms = [
     "size": "57.8M",
     "link1": "https://archive.org/download/saturn.part1/Shining%20Wisdom.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Shining%20Wisdom%20%28USA%29.png"
   },
   {
     "name": "Shining the Holy Ark ",
     "size": "185.9M",
     "link1": "https://archive.org/download/saturn.part1/Shining%20the%20Holy%20Ark.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Shining%20the%20Holy%20Ark%20%28USA%29.png"
   },
   {
     "name": "Shinobi Legions ",
     "size": "401.1M",
     "link1": "https://archive.org/download/saturn.part1/Shinobi%20Legions.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Shinobi%20Legions%20%28USA%29.png"
   },
   {
     "name": "Shockwave Assault ",
     "size": "530.5M",
     "link1": "https://archive.org/download/saturn.part1/Shockwave%20Assault.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Shockwave%20Assault%20%28USA%29.png"
   },
   {
     "name": "Sim City 2000 ",
@@ -1495,14 +1495,14 @@ const roms = [
     "size": "426.9M",
     "link1": "https://archive.org/download/saturn.part1/Skeleton%20Warriors.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Skeleton%20Warriors%20%28USA%29.png"
   },
   {
     "name": "Sky Target ",
     "size": "509.8M",
     "link1": "https://archive.org/download/saturn.part1/Sky%20Target.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Sky%20Target%20%28USA%29.png"
   },
   {
     "name": "Slam 'n Jam '96 ",
@@ -1516,35 +1516,35 @@ const roms = [
     "size": "421.5M",
     "link1": "https://archive.org/download/saturn.part1/Solar%20Eclipse.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Solar%20Eclipse%20%28USA%29%20%282S%29.png"
   },
   {
     "name": "Sonic 3D Blast ",
     "size": "581.7M",
     "link1": "https://archive.org/download/saturn.part1/Sonic%203D%20Blast.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Sonic%203D%20Blast%20%28USA%29.png"
   },
   {
     "name": "Sonic Jam ",
     "size": "461.1M",
     "link1": "https://archive.org/download/saturn.part1/Sonic%20Jam.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Sonic%20Jam%20%28USA%29.png"
   },
   {
     "name": "Sonic R ",
     "size": "589.9M",
     "link1": "https://archive.org/download/saturn.part1/Sonic%20R.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Sonic%20R%20%28USA%2C%20Brazil%29.png"
   },
   {
     "name": "Soviet Strike ",
     "size": "540.9M",
     "link1": "https://archive.org/download/saturn.part1/Soviet%20Strike.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Soviet%20Strike%20%28USA%29.png"
   },
   {
     "name": "Space Hulk ",
@@ -1558,98 +1558,98 @@ const roms = [
     "size": "280.4M",
     "link1": "https://archive.org/download/saturn.part1/Space%20Jam.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Space%20Jam%20%28USA%29.png"
   },
   {
     "name": "Spot Goes To Hollywood ",
     "size": "519.8M",
     "link1": "https://archive.org/download/saturn.part1/Spot%20Goes%20To%20Hollywood.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Spot%20Goes%20To%20Hollywood%20%28USA%29.png"
   },
   {
     "name": "Star Fighter ",
     "size": "433.1M",
     "link1": "https://archive.org/download/saturn.part1/Star%20Fighter.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Star%20Fighter%20%28USA%29.png"
   },
   {
     "name": "Steep Slope Sliders ",
     "size": "348.6M",
     "link1": "https://archive.org/download/saturn.part1/Steep%20Slope%20Sliders.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Steep%20Slope%20Sliders%20%28USA%29.png"
   },
   {
     "name": "Street Fighter - The Movie ",
     "size": "535.2M",
     "link1": "https://archive.org/download/saturn.part1/Street%20Fighter%20-%20The%20Movie.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Street%20Fighter%20-%20The%20Movie%20%28USA%29.png"
   },
   {
     "name": "Street Fighter Alpha - Warriors' Dreams ",
     "size": "534.2M",
     "link1": "https://archive.org/download/saturn.part1/Street%20Fighter%20Alpha%20-%20Warriors%27%20Dreams.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Street%20Fighter%20Alpha%20-%20Warriors%27%20Dreams%20%28USA%29.png"
   },
   {
     "name": "Street Fighter Alpha 2 ",
     "size": "412.3M",
     "link1": "https://archive.org/download/saturn.part1/Street%20Fighter%20Alpha%202.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Street%20Fighter%20Alpha%202%20%28USA%29.png"
   },
   {
     "name": "Street Fighter Collection (Disc 1 of 2) ",
     "size": "567.2M",
     "link1": "https://archive.org/download/saturn.part1/Street%20Fighter%20Collection%20%28Disc%201%20of%202%29.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Street%20Fighter%20Collection%20%28Disc%201%29%20%28USA%29.png"
   },
   {
     "name": "Street Fighter Collection (Disc 2 of 2) ",
     "size": "430.6M",
     "link1": "https://archive.org/download/saturn.part1/Street%20Fighter%20Collection%20%28Disc%202%20of%202%29.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Street%20Fighter%20Collection%20%28Disc%201%29%20%28USA%29.png"
   },
   {
     "name": "Striker 96 ",
     "size": "286.3M",
     "link1": "https://archive.org/download/saturn.part1/Striker%2096.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Striker%20%2796%20%28USA%29.png"
   },
   {
     "name": "Super Puzzle Fighter II Turbo ",
     "size": "397.4M",
     "link1": "https://archive.org/download/saturn.part1/Super%20Puzzle%20Fighter%20II%20Turbo.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Super%20Puzzle%20Fighter%20II%20Turbo%20%28USA%29.png"
   },
   {
     "name": "Tempest 2000 ",
     "size": "527.9M",
     "link1": "https://archive.org/download/saturn.part1/Tempest%202000.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Tempest%202000%20%28USA%29.png"
   },
   {
     "name": "Ten Pin Alley ",
     "size": "453.7M",
     "link1": "https://archive.org/download/saturn.part1/Ten%20Pin%20Alley.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Ten%20Pin%20Alley%20%28USA%29.png"
   },
   {
     "name": "Tetris Plus ",
     "size": "508.0M",
     "link1": "https://archive.org/download/saturn.part1/Tetris%20Plus.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Tetris%20Plus%20%28USA%29.png"
   },
   {
     "name": "That Virtua Feeling (Audio CD) ",
@@ -1684,147 +1684,147 @@ const roms = [
     "size": "207.8M",
     "link1": "https://archive.org/download/saturn.part1/Theme%20Park.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Theme%20Park%20%28USA%29.png"
   },
   {
     "name": "Three Dirty Dwarves ",
     "size": "371.5M",
     "link1": "https://archive.org/download/saturn.part1/Three%20Dirty%20Dwarves.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Three%20Dirty%20Dwarves%20%28USA%29%20%28RE%29.png"
   },
   {
     "name": "Thunderstrike 2 (V1.000) ",
     "size": "414.7M",
     "link1": "https://archive.org/download/saturn.part1/Thunderstrike%202%20%20%28V1.000%29.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Thunderstrike%202%20%28USA%29%20%28Rev%20A%29.png"
   },
   {
     "name": "Thunderstrike 2 (V3.000) ",
     "size": "414.3M",
     "link1": "https://archive.org/download/saturn.part1/Thunderstrike%202%20%20%28V3.000%29.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Thunderstrike%202%20%28USA%29%20%28Rev%20A%29.png"
   },
   {
     "name": "Tomb Raider ",
     "size": "384.1M",
     "link1": "https://archive.org/download/saturn.part1/Tomb%20Raider.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Tomb%20Raider%20%28USA%29.png"
   },
   {
     "name": "True Pinball ",
     "size": "529.7M",
     "link1": "https://archive.org/download/saturn.part1/True%20Pinball.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/True%20Pinball%20%28USA%29.png"
   },
   {
     "name": "Tunnel B1 ",
     "size": "323.9M",
     "link1": "https://archive.org/download/saturn.part1/Tunnel%20B1.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Tunnel%20B1%20%28USA%29.png"
   },
   {
     "name": "Ultimate Mortal Kombat 3 ",
     "size": "342.7M",
     "link1": "https://archive.org/download/saturn.part1/Ultimate%20Mortal%20Kombat%203.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Ultimate%20Mortal%20Kombat%203%20%28USA%29.png"
   },
   {
     "name": "VR Golf '97 ",
     "size": "310.3M",
     "link1": "https://archive.org/download/saturn.part1/VR%20Golf%20%2797.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/VR%20Golf%20%2797%20%28USA%29.png"
   },
   {
     "name": "VR Soccer ",
     "size": "95.2M",
     "link1": "https://archive.org/download/saturn.part1/VR%20Soccer.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/VR%20Soccer%20%28USA%29.png"
   },
   {
     "name": "VR Virtua Racing ",
     "size": "239.4M",
     "link1": "https://archive.org/download/saturn.part1/VR%20Virtua%20Racing.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/VR%20Virtua%20Racing%20%28USA%29.png"
   },
   {
     "name": "Valora Valley Golf ",
     "size": "271.5M",
     "link1": "https://archive.org/download/saturn.part1/Valora%20Valley%20Golf.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Valora%20Valley%20Golf%20%28USA%29.png"
   },
   {
     "name": "Virtua Cop ",
     "size": "430.8M",
     "link1": "https://archive.org/download/saturn.part1/Virtua%20Cop.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Virtua%20Cop%20%28USA%29%20%285S%2C%206S%29.png"
   },
   {
     "name": "Virtua Cop 2 ",
     "size": "304.1M",
     "link1": "https://archive.org/download/saturn.part1/Virtua%20Cop%202.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Virtua%20Cop%202%20%28USA%29.png"
   },
   {
     "name": "Virtua Fighter ",
     "size": "506.7M",
     "link1": "https://archive.org/download/saturn.part1/Virtua%20Fighter.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Virtua%20Fighter%20%28USA%29.png"
   },
   {
     "name": "Virtua Fighter 2 ",
     "size": "580.5M",
     "link1": "https://archive.org/download/saturn.part1/Virtua%20Fighter%202.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Virtua%20Fighter%202%20%28USA%29%20%28RE%29.png"
   },
   {
     "name": "Virtua Fighter Kids ",
     "size": "476.0M",
     "link1": "https://archive.org/download/saturn.part1/Virtua%20Fighter%20Kids.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Virtua%20Fighter%20Kids%20%28USA%29.png"
   },
   {
     "name": "Virtua Fighter Remix ",
     "size": "508.8M",
     "link1": "https://archive.org/download/saturn.part1/Virtua%20Fighter%20Remix.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Virtua%20Fighter%20Remix%20%28USA%29.png"
   },
   {
     "name": "Virtual Casino ",
     "size": "384.9M",
     "link1": "https://archive.org/download/saturn.part1/Virtual%20Casino.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Virtual%20Casino%20%28USA%29.png"
   },
   {
     "name": "Virtual Hydlide ",
     "size": "317.9M",
     "link1": "https://archive.org/download/saturn.part1/Virtual%20Hydlide.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Virtual%20Hydlide%20%28USA%29%20%28P4H%29.png"
   },
   {
     "name": "Virtual On - Cyber Troopers ",
     "size": "335.1M",
     "link1": "https://archive.org/download/saturn.part1/Virtual%20On%20-%20Cyber%20Troopers.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Virtual%20On%20-%20Cyber%20Troopers%20%28USA%29.png"
   },
   {
     "name": "Virtual On - Cyber Troopers Netlink Edition ",
@@ -1838,14 +1838,14 @@ const roms = [
     "size": "494.8M",
     "link1": "https://archive.org/download/saturn.part1/Virtual%20Open%20Tennis.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Virtual%20Open%20Tennis%20%28USA%29.png"
   },
   {
     "name": "WWF In Your House ",
     "size": "399.2M",
     "link1": "https://archive.org/download/saturn.part1/WWF%20In%20Your%20House.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/WWF%20In%20Your%20House%20%28USA%29.png"
   },
   {
     "name": "WWF Wrestlemania ",
@@ -1866,28 +1866,28 @@ const roms = [
     "size": "383.3M",
     "link1": "https://archive.org/download/saturn.part1/Wing%20Arms.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Wing%20Arms%20%28USA%29%20%284S%29.png"
   },
   {
     "name": "Winning Post ",
     "size": "291.1M",
     "link1": "https://archive.org/download/saturn.part1/Winning%20Post.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Winning%20Post%20%28USA%29.png"
   },
   {
     "name": "Winter Heat ",
     "size": "350.5M",
     "link1": "https://archive.org/download/saturn.part1/Winter%20Heat.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Winter%20Heat%20%28USA%29.png"
   },
   {
     "name": "WipeOut ",
     "size": "555.8M",
     "link1": "https://archive.org/download/saturn.part1/WipeOut.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/WipEout%20%28USA%29.png"
   },
   {
     "name": "World Cup Golf ",
@@ -1901,21 +1901,21 @@ const roms = [
     "size": "88.1M",
     "link1": "https://archive.org/download/saturn.part1/World%20Series%20Baseball.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/World%20Series%20Baseball%20%28USA%29.png"
   },
   {
     "name": "World Series Baseball 98 ",
     "size": "336.3M",
     "link1": "https://archive.org/download/saturn.part1/World%20Series%20Baseball%2098.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/World%20Series%20Baseball%20%2798%20%28USA%29.png"
   },
   {
     "name": "World Series Baseball II ",
     "size": "267.1M",
     "link1": "https://archive.org/download/saturn.part1/World%20Series%20Baseball%20II.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/World%20Series%20Baseball%20II%20%28USA%29%20%281S%29.png"
   },
   {
     "name": "Worldwide Soccer ",
@@ -1929,21 +1929,21 @@ const roms = [
     "size": "349.6M",
     "link1": "https://archive.org/download/saturn.part1/Worldwide%20Soccer%20%2798.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Worldwide%20Soccer%20%2798%20%28USA%29%20%28En%2CFr%2CEs%29.png"
   },
   {
     "name": "Worms ",
     "size": "402.0M",
     "link1": "https://archive.org/download/saturn.part1/Worms.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Worms%20%28USA%29.png"
   },
   {
     "name": "X-Men - Children of the Atom ",
     "size": "541.2M",
     "link1": "https://archive.org/download/saturn.part1/X-Men%20-%20Children%20of%20the%20Atom.zip",
     "link2": "",
-    "image": "https://i.postimg.cc/L4Wby18r/SEGA-Saturn-logo.png"
+    "image": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/X-Men%20-%20Children%20of%20the%20Atom%20%28USA%29.png"
   }
 ];
 const romBody = document.getElementById("romBody");
@@ -1954,7 +1954,7 @@ const romBody = document.getElementById("romBody");
     data.forEach(rom => {
       const tr = document.createElement("tr");
       tr.innerHTML = `
-        <td><img src="${rom.image}" alt="${rom.name}"></td>
+        <td><img ${window._boxartVisible ? 'src="' + rom.image + '"' : 'data-src="' + rom.image + '"'} alt="${rom.name}"></td>
         <td>${rom.name}</td>
         <td>${rom.link1 ? `<a href="${rom.link1}" target="_blank">Opción #1</a>` : '-'}</td>
         <td>${rom.link2 ? `<a href="${rom.link2}" target="_blank">Opción #2</a>` : '-'}</td>

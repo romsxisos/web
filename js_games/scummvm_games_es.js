@@ -15,21 +15,21 @@ const roms = [
     },
     {
       name: "Beavis and Butt-head in Virtual Stupidity ",
-      image: "https://i.postimg.cc/yYvfMy1r/Scummvm-logo-svg.png",
+      image: "https://thumbnails.libretro.com/ScummVM/Named_Boxarts/Beavis%20and%20Butt-Head%20in%20Virtual%20Stupidity.png",
       size: "229.2M",
       link1: "https://archive.org/download/mini-romset-scummvm-espanol-42-juegos/Beavis%20and%20Butt-head%20in%20Virtual%20Stupidity.zip",
       link2: ""
     },
     {
       name: "Beneath a Steel Sky ",
-      image: "https://i.postimg.cc/yYvfMy1r/Scummvm-logo-svg.png",
+      image: "https://thumbnails.libretro.com/ScummVM/Named_Boxarts/Beneath%20a%20Steel%20Sky.png",
       size: "116.2M",
       link1: "https://archive.org/download/mini-romset-scummvm-espanol-42-juegos/Beneath%20a%20Steel%20Sky.zip",
       link2: ""
     },
     {
       name: "Blade Runner ",
-      image: "https://i.postimg.cc/yYvfMy1r/Scummvm-logo-svg.png",
+      image: "https://thumbnails.libretro.com/ScummVM/Named_Boxarts/Blade%20Runner.png",
       size: "1.1G",
       link1: "https://archive.org/download/mini-romset-scummvm-espanol-42-juegos/Blade%20Runner.zip",
       link2: ""
@@ -50,7 +50,7 @@ const roms = [
     },
     {
       name: "Bud Tucker in Double Trouble ",
-      image: "https://i.postimg.cc/yYvfMy1r/Scummvm-logo-svg.png",
+      image: "https://thumbnails.libretro.com/ScummVM/Named_Boxarts/Bud%20Tucker%20in%20Double%20Trouble.png",
       size: "63.0M",
       link1: "https://archive.org/download/mini-romset-scummvm-espanol-42-juegos/Bud%20Tucker%20in%20Double%20Trouble.zip",
       link2: ""
@@ -71,14 +71,14 @@ const roms = [
     },
     {
       name: "Discworld 2 ",
-      image: "https://i.postimg.cc/yYvfMy1r/Scummvm-logo-svg.png",
+      image: "https://thumbnails.libretro.com/ScummVM/Named_Boxarts/Discworld%202.png",
       size: "681.0M",
       link1: "https://archive.org/download/mini-romset-scummvm-espanol-42-juegos/Discworld%202.zip",
       link2: ""
     },
     {
       name: "DreamWeb ",
-      image: "https://i.postimg.cc/yYvfMy1r/Scummvm-logo-svg.png",
+      image: "https://thumbnails.libretro.com/ScummVM/Named_Boxarts/DreamWeb.png",
       size: "161.8M",
       link1: "https://archive.org/download/mini-romset-scummvm-espanol-42-juegos/DreamWeb.zip",
       link2: ""
@@ -99,14 +99,14 @@ const roms = [
     },
     {
       name: "Fascination ",
-      image: "https://i.postimg.cc/yYvfMy1r/Scummvm-logo-svg.png",
+      image: "https://thumbnails.libretro.com/ScummVM/Named_Boxarts/Fascination.png",
       size: "229.8M",
       link1: "https://archive.org/download/mini-romset-scummvm-espanol-42-juegos/Fascination.zip",
       link2: ""
     },
     {
       name: "Flight of the Amazon Queen ",
-      image: "https://i.postimg.cc/yYvfMy1r/Scummvm-logo-svg.png",
+      image: "https://thumbnails.libretro.com/ScummVM/Named_Boxarts/Flight%20of%20the%20Amazon%20Queen.png",
       size: "35.1M",
       link1: "https://archive.org/download/mini-romset-scummvm-espanol-42-juegos/Flight%20of%20the%20Amazon%20Queen.zip",
       link2: ""
@@ -127,21 +127,21 @@ const roms = [
     },
     {
       name: "Full Throttle ",
-      image: "https://i.postimg.cc/yYvfMy1r/Scummvm-logo-svg.png",
+      image: "https://thumbnails.libretro.com/ScummVM/Named_Boxarts/Full%20Throttle.png",
       size: "259.9M",
       link1: "https://archive.org/download/mini-romset-scummvm-espanol-42-juegos/Full%20Throttle.zip",
       link2: ""
     },
     {
       name: "Hopkins FBI ",
-      image: "https://i.postimg.cc/yYvfMy1r/Scummvm-logo-svg.png",
+      image: "https://thumbnails.libretro.com/ScummVM/Named_Boxarts/Hopkins%20FBI.png",
       size: "329.7M",
       link1: "https://archive.org/download/mini-romset-scummvm-espanol-42-juegos/Hopkins%20FBI.zip",
       link2: ""
     },
     {
       name: "I Have No Mouth and I Must Scream ",
-      image: "https://i.postimg.cc/yYvfMy1r/Scummvm-logo-svg.png",
+      image: "https://thumbnails.libretro.com/ScummVM/Named_Boxarts/I%20Have%20No%20Mouth%2C%20and%20I%20Must%20Scream.png",
       size: "293.4M",
       link1: "https://archive.org/download/mini-romset-scummvm-espanol-42-juegos/I%20Have%20No%20Mouth%20and%20I%20Must%20Scream.zip",
       link2: ""
@@ -225,7 +225,7 @@ const roms = [
     },
     {
       name: "Leisure Suit Larry in the Land of the Lounge Lizards ",
-      image: "https://i.postimg.cc/yYvfMy1r/Scummvm-logo-svg.png",
+      image: "https://thumbnails.libretro.com/ScummVM/Named_Boxarts/Leisure%20Suit%20Larry%20in%20the%20Land%20of%20the%20Lounge%20Lizards.png",
       size: "3.8M",
       link1: "https://archive.org/download/mini-romset-scummvm-espanol-42-juegos/Leisure%20Suit%20Larry%20in%20the%20Land%20of%20the%20Lounge%20Lizards.zip",
       link2: ""
@@ -239,7 +239,7 @@ const roms = [
     },
     {
       name: "Loom ",
-      image: "https://i.postimg.cc/yYvfMy1r/Scummvm-logo-svg.png",
+      image: "https://thumbnails.libretro.com/ScummVM/Named_Boxarts/Loom.png",
       size: "39.2M",
       link1: "https://archive.org/download/mini-romset-scummvm-espanol-42-juegos/Loom.zip",
       link2: ""
@@ -260,14 +260,14 @@ const roms = [
     },
     {
       name: "Lost in Time ",
-      image: "https://i.postimg.cc/yYvfMy1r/Scummvm-logo-svg.png",
+      image: "https://thumbnails.libretro.com/ScummVM/Named_Boxarts/Lost%20in%20Time.png",
       size: "34.6M",
       link1: "https://archive.org/download/mini-romset-scummvm-espanol-42-juegos/Lost%20in%20Time.zip",
       link2: ""
     },
     {
       name: "Maniac Mansion ",
-      image: "https://i.postimg.cc/yYvfMy1r/Scummvm-logo-svg.png",
+      image: "https://thumbnails.libretro.com/ScummVM/Named_Boxarts/Maniac%20Mansion.png",
       size: "328.3K",
       link1: "https://archive.org/download/mini-romset-scummvm-espanol-42-juegos/Maniac%20Mansion.zip",
       link2: ""
@@ -302,7 +302,7 @@ const roms = [
     },
     {
       name: "Rex Nebular and the Cosmic Gender Bender ",
-      image: "https://i.postimg.cc/yYvfMy1r/Scummvm-logo-svg.png",
+      image: "https://thumbnails.libretro.com/ScummVM/Named_Boxarts/Rex%20Nebular%20and%20the%20Cosmic%20Gender%20Bender%20%28DOS_English%29.png",
       size: "22.0M",
       link1: "https://archive.org/download/mini-romset-scummvm-espanol-42-juegos/Rex%20Nebular%20and%20the%20Cosmic%20Gender%20Bender.zip",
       link2: ""
@@ -330,7 +330,7 @@ const roms = [
     },
     {
       name: "Simon the Sorcerer ",
-      image: "https://i.postimg.cc/yYvfMy1r/Scummvm-logo-svg.png",
+      image: "https://thumbnails.libretro.com/ScummVM/Named_Boxarts/Simon%20the%20Sorcerer.png",
       size: "177.5M",
       link1: "https://archive.org/download/mini-romset-scummvm-espanol-42-juegos/Simon%20the%20Sorcerer.zip",
       link2: ""
@@ -358,28 +358,28 @@ const roms = [
     },
     {
       name: "The Curse of Monkey Island ",
-      image: "https://i.postimg.cc/yYvfMy1r/Scummvm-logo-svg.png",
+      image: "https://thumbnails.libretro.com/ScummVM/Named_Boxarts/The%20Curse%20of%20Monkey%20Island.png",
       size: "833.1M",
       link1: "https://archive.org/download/mini-romset-scummvm-espanol-42-juegos/The%20Curse%20of%20Monkey%20Island.zip",
       link2: ""
     },
     {
       name: "The Dig ",
-      image: "https://i.postimg.cc/yYvfMy1r/Scummvm-logo-svg.png",
+      image: "https://thumbnails.libretro.com/ScummVM/Named_Boxarts/The%20Dig.png",
       size: "464.0M",
       link1: "https://archive.org/download/mini-romset-scummvm-espanol-42-juegos/The%20Dig.zip",
       link2: ""
     },
     {
       name: "The Longest Journey ",
-      image: "https://i.postimg.cc/yYvfMy1r/Scummvm-logo-svg.png",
+      image: "https://thumbnails.libretro.com/ScummVM/Named_Boxarts/The%20Longest%20Journey%20%28GOG.com_Windows_English%29.png",
       size: "1.6G",
       link1: "https://archive.org/download/mini-romset-scummvm-espanol-42-juegos/The%20Longest%20Journey.zip",
       link2: ""
     },
     {
       name: "The Neverhood ",
-      image: "https://i.postimg.cc/yYvfMy1r/Scummvm-logo-svg.png",
+      image: "https://thumbnails.libretro.com/ScummVM/Named_Boxarts/The%20Neverhood.png",
       size: "594.5M",
       link1: "https://archive.org/download/mini-romset-scummvm-espanol-42-juegos/The%20Neverhood.zip",
       link2: ""
@@ -393,7 +393,7 @@ const roms = [
     },
     {
       name: "Toonstruck ",
-      image: "https://i.postimg.cc/yYvfMy1r/Scummvm-logo-svg.png",
+      image: "https://thumbnails.libretro.com/ScummVM/Named_Boxarts/Toonstruck.png",
       size: "874.4M",
       link1: "https://archive.org/download/mini-romset-scummvm-espanol-42-juegos/Toonstruck.zip",
       link2: ""
@@ -414,7 +414,7 @@ const roms = [
     },
     {
       name: "Urban Runner ",
-      image: "https://i.postimg.cc/yYvfMy1r/Scummvm-logo-svg.png",
+      image: "https://thumbnails.libretro.com/ScummVM/Named_Boxarts/Urban%20Runner.png",
       size: "1.5G",
       link1: "https://archive.org/download/mini-romset-scummvm-espanol-42-juegos/Urban%20Runner.zip",
       link2: ""
@@ -464,7 +464,7 @@ function renderTable(data) {
   data.forEach(rom => {
     const tr = document.createElement("tr");
     tr.innerHTML = `
-      <td><img src="${rom.image}" alt="${rom.name}"></td>
+      <td><img ${window._boxartVisible ? 'src="' + rom.image + '"' : 'data-src="' + rom.image + '"'} alt="${rom.name}"></td>
       <td>${rom.name}</td>
       <td>${rom.link1 ? `<a href="${rom.link1}" target="_blank">Opción #1</a>` : '-'}</td>
       <td>${rom.link2 ? `<a href="${rom.link2}" target="_blank">Opción #2</a>` : '-'}</td>

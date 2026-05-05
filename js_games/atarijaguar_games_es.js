@@ -1,14 +1,14 @@
 const roms = [
   {
     name: "Alien vs Predator (1994)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Alien%20vs%20Predator%20%28World%29%20%28Beta%29%20%281993-08-18%29.png",
     size: "4096 KB",
     link1: "https://drive.google.com/file/d/1HDRKRz2cEvneumucBPPh8VxDcAWbBLD2/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Alien vs Predator (Alpha)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Alien%20vs%20Predator%20%28World%29%20%28Beta%29%20%281993-08-18%29.png",
     size: "1597 KB",
     link1: "https://drive.google.com/file/d/10Y5wueXxh7gOijWLTMEc_4AGXkoWre4S/view?usp=drivesdk",
     link2: ""
@@ -50,14 +50,14 @@ const roms = [
   },
   {
     name: "Atari Karts (1995)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Atari%20Karts%20%28World%29%20%28Beta%29.png",
     size: "4096 KB",
     link1: "https://drive.google.com/file/d/1Sblk4BiLfQDeLc6WfoXoeyODH5mckAiN/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Attack of the Mutant Penguins (1996)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Attack%20of%20the%20Mutant%20Penguins%20%28World%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/1J4ITzIQ6L-CulkImV5sjK_05B9O8mU8F/view?usp=drivesdk",
     link2: ""
@@ -211,7 +211,7 @@ const roms = [
   },
   {
     name: "Brutal Sports Football (1994) (Telegames)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Brutal%20Sports%20Football%20%28World%29.png",
     size: "2049 KB",
     link1: "https://drive.google.com/file/d/1cQP1IeBSmO9dIcYhHJg1P78b3cAR1NsI/view?usp=drivesdk",
     link2: ""
@@ -232,14 +232,14 @@ const roms = [
   },
   {
     name: "Cannon Fodder (1995) (Computer West)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Cannon%20Fodder%20%28World%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/1ZzZBTQKopgFyTiqUKF1oRbv3Yr9PKAEE/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Checkered Flag (1994)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Checkered%20Flag%20%28World%29%20%28Beta%29%20%28CES%201993%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/1s7GWrUl6sKGC5Duy_41rjcU8-dKLvhhk/view?usp=drivesdk",
     link2: ""
@@ -274,14 +274,14 @@ const roms = [
   },
   {
     name: "Club Drive (1994)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Club%20Drive%20%28World%29%20%28Beta%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/1asr4wOxsjhDP13Oj8owdgydnhIVhXWMn/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Cybermorph (1993)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Cybermorph%20%28World%29%20%28Beta%29%20%281993-08-23%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/15zNyorYX8qr5PknNXVKb2UQcFhdsP2hK/view?usp=drivesdk",
     link2: ""
@@ -323,7 +323,7 @@ const roms = [
   },
   {
     name: "Defender 2000 (1996)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Defender%202000%20%28World%29%20%28Beta%29.png",
     size: "4096 KB",
     link1: "https://drive.google.com/file/d/1MjOjQkOpSP8mezx8Y-t0fpww4BjdV5zI/view?usp=drivesdk",
     link2: ""
@@ -344,7 +344,7 @@ const roms = [
   },
   {
     name: "Dragon - The Bruce Lee Story (1994)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Dragon%20-%20The%20Bruce%20Lee%20Story%20%28World%29%20%28Beta%29%20%281994-09-26%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/1U5SJKuImzMwCo0usqOZFcUpqek_xHeT4/view?usp=drivesdk",
     link2: ""
@@ -365,7 +365,7 @@ const roms = [
   },
   {
     name: "Evolution - Dino Dudes (1993)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Evolution%20-%20Dino%20Dudes%20%28World%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/1QALAYMkXaVvshpcigF4IhXA7yCDd95pt/view?usp=drivesdk",
     link2: ""
@@ -379,7 +379,7 @@ const roms = [
   },
   {
     name: "Fever Pitch Soccer (1995)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Fever%20Pitch%20Soccer%20%28World%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/14pXigVopU6qYOqGPDOI74mowbEx-PUvT/view?usp=drivesdk",
     link2: ""
@@ -414,7 +414,7 @@ const roms = [
   },
   {
     name: "Flip Out (1995)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Flip%20Out%21%20%28World%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/1hagjl2dHEPxImpnD5_opLNOUXDTu0B3M/view?usp=drivesdk",
     link2: ""
@@ -428,7 +428,7 @@ const roms = [
   },
   {
     name: "Hover Strike (1995)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Hover%20Strike%20%28World%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/12S5ULXBkAXLM_M1UEKJ2JPvifx4g82oV/view?usp=drivesdk",
     link2: ""
@@ -449,28 +449,28 @@ const roms = [
   },
   {
     name: "I-War (1995)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/I-War%20%28USA%2C%20Europe%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/1vX7t9FbhH-gAFLY7hEodnJ2jlqIYL6N7/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "International Sensible Soccer (1995)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/International%20Sensible%20Soccer%20%28World%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/1SBKqKv1q1k_y6D91pxWUjwH3NKjcZ-m0/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Iron Soldier (1994)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Iron%20Soldier%20%28World%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/11_hQVAj5Cwt56-qobeEfngAk09-pRpOK/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Iron Soldier (1994) [a1]",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Iron%20Soldier%20%28World%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/1k3a3Uucvsildr6q5DzZnk7331fRzhE5G/view?usp=drivesdk",
     link2: ""
@@ -673,14 +673,14 @@ const roms = [
   },
   {
     name: "Kasumi Ninja (1994)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Kasumi%20Ninja%20%28World%29%20%28Demo%29.png",
     size: "4096 KB",
     link1: "https://drive.google.com/file/d/1JLdNwQYJEDe7LPXkqQsKBQRqC8ed6IBl/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Kasumi Ninja (1994) [a1]",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Kasumi%20Ninja%20%28World%29%20%28Demo%29.png",
     size: "4096 KB",
     link1: "https://drive.google.com/file/d/18AEe8SQhlpBHLnchzvVlRxd-unquXK0i/view?usp=drivesdk",
     link2: ""
@@ -715,7 +715,7 @@ const roms = [
   },
   {
     name: "Missile Command 3D (1995)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Missile%20Command%203D%20%28World%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/1d152wghQMVeL-52y7zMYy75Wil6rI-sa/view?usp=drivesdk",
     link2: ""
@@ -778,28 +778,28 @@ const roms = [
   },
   {
     name: "Phase Zero (2000) (PD)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Phase%20Zero%20%28World%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/1OSRQkDZOQ9qdVuvNfPWS7D1dkTxUc30J/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Phase Zero (2000) (PD) [a1]",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Phase%20Zero%20%28World%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/1B5y9s00WDd7mSYZERcs2oMJ8WC-aV8MA/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Pinball Fantasies (1995) (Computer West)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Pinball%20Fantasies%20%28World%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/1RVSFvYkQ_ZhaqWkoBbuJej06baibiEwJ/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Pitfall - The Mayan Adventure (1995)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Pitfall%20-%20The%20Mayan%20Adventure%20%28USA%2C%20Europe%29.png",
     size: "4096 KB",
     link1: "https://drive.google.com/file/d/1n6ndI6tFSvqEJY0m_9o2P_jKzjbpjpWc/view?usp=drivesdk",
     link2: ""
@@ -813,7 +813,7 @@ const roms = [
   },
   {
     name: "Power Drive Rally (1995) (TWI)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Power%20Drive%20Rally%20%28World%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/1IUfhWWsfBN3NpHik8iIjHPlEU8OY_UYS/view?usp=drivesdk",
     link2: ""
@@ -827,14 +827,14 @@ const roms = [
   },
   {
     name: "Raiden (1994)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Raiden%20%28World%29%20%28Rev%20A%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/1DxhxzJlUQHxPdN34pWNjC9u6yTY51792/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Rayman (1995) (UBI Soft)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Rayman%20%28World%29%20%28Beta%201%29.png",
     size: "4096 KB",
     link1: "https://drive.google.com/file/d/1wMxYPOQHIFooS5v1ZmnMG7TiY3mOolJY/view?usp=drivesdk",
     link2: ""
@@ -848,7 +848,7 @@ const roms = [
   },
   {
     name: "Ruiner Pinball (1995)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Ruiner%20Pinball%20%28USA%2C%20Europe%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/1xdzoVr_vkgAvwt1NH7Tu4tykgw520dj3/view?usp=drivesdk",
     link2: ""
@@ -869,7 +869,7 @@ const roms = [
   },
   {
     name: "Super Burnout (1995)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Super%20Burnout%20%28World%29%20%28Demo%29%20%28WCES%201995%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/1RK47RzQ8dAq7zhsUF1cpdqE-JGELbFCF/view?usp=drivesdk",
     link2: ""
@@ -890,84 +890,84 @@ const roms = [
   },
   {
     name: "Syndicate (1995) (Ocean)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Syndicate%20%28World%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/1yPIrYxx6Zhpt0nIDKNB-C2KRByIN8AVN/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Tempest 2000 (1994)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Tempest%202000%20%28World%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/186xpHl01j7WmU9j63xVW3JNnYj4CywsX/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Theme Park (1995) (Ocean)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Theme%20Park%20%28World%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/1DLGU_MnmkgDNrfClB4QRos_3BXdgFcao/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Trevor McFur in the Crescent Galaxy (1993)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Trevor%20McFur%20in%20the%20Crescent%20Galaxy%20%28World%29%20%28Beta%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/1LEpXjpCXgYYiiNm6NPbcD2y1U123BA1j/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Troy Aikman NFL Football (1995) (Williams)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Troy%20Aikman%20NFL%20Football%20%28World%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/1SmrzBVr7G0FjfWeka2phOUPD4legBZ6_/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Ultra Vortek (1995)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Ultra%20Vortek%20%28World%29.png",
     size: "4096 KB",
     link1: "https://drive.google.com/file/d/1Z5ghZsB395c8QwioeDFP9Vz5s12wpbcj/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Ultra Vortek (Beta) (1995)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Ultra%20Vortek%20%28World%29.png",
     size: "4096 KB",
     link1: "https://drive.google.com/file/d/1DoomZtlyEfm9a8i3oW8WNv_tTLNC79nK/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Val D'Isere Skiing & Snowboarding (1994)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Val%20d%27Isere%20Skiing%20and%20Snowboarding%20%28World%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/1VgJbn5mbMy86sba5y0hrajMA6tKmwRic/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "White Men Can't Jump (1995)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/White%20Men%20Can%27t%20Jump%20%28USA%2C%20Europe%29.png",
     size: "4096 KB",
     link1: "https://drive.google.com/file/d/1KXhQve7bFtOIdBpDM17jrTxtsPjwVDx1/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Wolfenstein 3D (1994)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Wolfenstein%203D%20%28World%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/1m1K2aGUkkcGoT-TC02HyrKTYIUZiW3k1/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Zool 2 (1994)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Zool%202%20%28World%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/1HlOpaXSK-E022PG651zFx2JZ6oWors71/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Zoop! (1996)",
-    image: "https://i.postimg.cc/T3Gsqm37/Atari-Jaguar-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Atari%20-%20Jaguar/Named_Boxarts/Zoop%20%28USA%2C%20Europe%29.png",
     size: "1024 KB",
     link1: "https://drive.google.com/file/d/1cBrk_d_Rk3m-ANAIkQd9Ms9ys91y1bIo/view?usp=drivesdk",
     link2: ""
@@ -982,7 +982,7 @@ const romBody = document.getElementById("romBody");
     data.forEach(rom => {
       const tr = document.createElement("tr");
       tr.innerHTML = `
-        <td><img src="${rom.image}" alt="${rom.name}"></td>
+        <td><img ${window._boxartVisible ? 'src="' + rom.image + '"' : 'data-src="' + rom.image + '"'} alt="${rom.name}"></td>
         <td>${rom.name}</td>
         <td>${rom.link1 ? `<a href="${rom.link1}" target="_blank">Opción #1</a>` : '-'}</td>
         <td>${rom.link2 ? `<a href="${rom.link2}" target="_blank">Opción #2</a>` : '-'}</td>

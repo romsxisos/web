@@ -15,14 +15,14 @@ const roms = [
   },
   {
     name: "Armored Unit (J) [M]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Armored%20Unit%20%28Japan%29.png",
     size: "512 KB",
     link1: "https://drive.google.com/file/d/1__6fgTPcNeCFQiyf0F_fo2c24T__OZee/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Armored Unit (J) [M][f1]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Armored%20Unit%20%28Japan%29.png",
     size: "1024 KB",
     link1: "https://drive.google.com/file/d/1Nx-QNbb0Tpagtfn-U6OjdYgb6xySatb5/view?usp=drivesdk",
     link2: ""
@@ -57,14 +57,14 @@ const roms = [
   },
   {
     name: "Buffers Evolution (J) [M]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Buffers%20Evolution%20%28Japan%29.png",
     size: "4096 KB",
     link1: "https://drive.google.com/file/d/1Ni-83Z4SyA5k0EaK3ElEDExt7BGzTc_m/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Buffers Evolution (J) [M][f1]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Buffers%20Evolution%20%28Japan%29.png",
     size: "4096 KB",
     link1: "https://drive.google.com/file/d/1K4TUY9Wk4-wBWM5SSCZBFx4unVBva7Z_/view?usp=drivesdk",
     link2: ""
@@ -99,7 +99,7 @@ const roms = [
   },
   {
     name: "Chou Aniki - Otoko no Tamafuda (J) [M]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Chou%20Aniki%20-%20Otoko%20no%20Tamafuda%20%28Japan%29%20%28Rev%204%29.png",
     size: "1024 KB",
     link1: "https://drive.google.com/file/d/1ywISTDAxjwWg0yZFt8TQkbgQ15qJQFQ-/view?usp=drivesdk",
     link2: ""
@@ -120,7 +120,7 @@ const roms = [
   },
   {
     name: "Crazy Climber (J) [M][!]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Crazy%20Climber%20%28Japan%29.png",
     size: "512 KB",
     link1: "https://drive.google.com/file/d/13LJNsRnb55ZfCfJcLZ9eQ6_rWjkaaSVJ/view?usp=drivesdk",
     link2: ""
@@ -141,28 +141,28 @@ const roms = [
   },
   {
     name: "Densha de Go! (J) [M]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Densha%20de%20Go%21%20%28Japan%29%20%28Rev%201%29.png",
     size: "4096 KB",
     link1: "https://drive.google.com/file/d/1HKOpB0jkJGz4HoIfGVKExDlcTPsgIO9j/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Densha de Go! 2 (J) [M]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Densha%20de%20Go%21%202%20%28Japan%29.png",
     size: "4096 KB",
     link1: "https://drive.google.com/file/d/15JgWEgZ_n7rV-I4_itTl2CQMEzaeC0MJ/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Digimon Adventure - Anode Tamer (J) [M]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Digimon%20Adventure%20-%20Anode%20Tamer%20%28Japan%29%20%28Rev%201%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/1gRxpFQhaNR_EMIVYX8_Wdl3JCVPiDQUE/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Digimon Adventure - Cathode Tamer (J) [M]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Digimon%20Adventure%20-%20Cathode%20Tamer%20%28Japan%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/1sOMGLp4S8B9W2Q1IH5OX1EW5kp93VFfZ/view?usp=drivesdk",
     link2: ""
@@ -176,7 +176,7 @@ const roms = [
   },
   {
     name: "Digimon Adventure 02 - Tag Tamers (J) [M][!]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Digimon%20Adventure%2002%20-%20Tag%20Tamers%20%28Japan%29%20%28Rev%201%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/1nqz43SPP_aiuCqxnz9McU0wpMR45OXAd/view?usp=drivesdk",
     link2: ""
@@ -211,14 +211,14 @@ const roms = [
   },
   {
     name: "Digital Partner (J) [M][!]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Digital%20Partner%20%28Japan%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/1llMPPZTL6T9jsWxCw4a1SgFKvU68MV1Y/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Dokodemo Hamster (J) [M][!]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Dokodemo%20Hamster%20%28Japan%29.png",
     size: "1024 KB",
     link1: "https://drive.google.com/file/d/1pbD_VOG-8dg4EAvq3PnxN_X69QXZ8lGB/view?usp=drivesdk",
     link2: ""
@@ -253,14 +253,14 @@ const roms = [
   },
   {
     name: "Final Lap 2000 (J) [M][!]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Final%20Lap%202000%20%28Japan%29.png",
     size: "1024 KB",
     link1: "https://drive.google.com/file/d/19CshG6PVCo6t-Cmo0GBqH_DsdRlwzWV3/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Final Lap 2000 (J) [M][f1]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Final%20Lap%202000%20%28Japan%29.png",
     size: "1024 KB",
     link1: "https://drive.google.com/file/d/1Y5eM23Zpxtv2_eWpoqcPbIy5EcD_E3kO/view?usp=drivesdk",
     link2: ""
@@ -281,28 +281,28 @@ const roms = [
   },
   {
     name: "From TV Animation - One Piece - Mezase Kaizoku Ou (J) [M]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/From%20TV%20Animation%20One%20Piece%20-%20Mezase%20Kaizoku%20Ou%21%20%28Japan%29.png",
     size: "1024 KB",
     link1: "https://drive.google.com/file/d/120L4kT3P4CfcpjIgSY1fu024kfxCE4j6/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "From TV Animation - One Piece - Mezase Kaizoku Ou (J) [M][f1]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/From%20TV%20Animation%20One%20Piece%20-%20Mezase%20Kaizoku%20Ou%21%20%28Japan%29.png",
     size: "1024 KB",
     link1: "https://drive.google.com/file/d/1Xs-uy3TtYnWAQLpZMskh8To3Ss5SRPES/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Ganso Jajamaru Kun (J) [M][!]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Ganso%20Jajamaru-kun%20%28Japan%29.png",
     size: "512 KB",
     link1: "https://drive.google.com/file/d/1bi0pkGH19qYJNuLTOWBXSmv0qS8tK2lS/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Glocal Hexcite (J) [M][!]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Glocal%20Hexcite%20%28Japan%29.png",
     size: "512 KB",
     link1: "https://drive.google.com/file/d/19NTAzQOtvYpr_yo5iUgwRFEo8VtlmVTr/view?usp=drivesdk",
     link2: ""
@@ -330,14 +330,14 @@ const roms = [
   },
   {
     name: "GunPey (J) [M]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/GunPey%20%28Japan%29.png",
     size: "1024 KB",
     link1: "https://drive.google.com/file/d/14yGjJo1b2uiEjQzmK-J_oR30SgX5QFtc/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "GunPey (J) [M][f1]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/GunPey%20%28Japan%29.png",
     size: "1024 KB",
     link1: "https://drive.google.com/file/d/1C1US4HnY2qh4Zv-N2Yb3tO2A9rC2Qg-q/view?usp=drivesdk",
     link2: ""
@@ -351,7 +351,7 @@ const roms = [
   },
   {
     name: "Harobots (J) [M][!]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Harobots%20%28Japan%29%20%28Rev%201%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/1rDHZLhdkRkF9veYPlyaEJoEZOhbsvfDz/view?usp=drivesdk",
     link2: ""
@@ -393,14 +393,14 @@ const roms = [
   },
   {
     name: "Kaze no Klonoa - Moonlight Museum (J) [M]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Kaze%20no%20Klonoa%20-%20Moonlight%20Museum%20%28Japan%29.png",
     size: "1024 KB",
     link1: "https://drive.google.com/file/d/1WjXMVa_RFcRD16AOHqj5vs1cnvzy1Pgo/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Kaze no Klonoa - Moonlight Museum (J) [M][t1]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Kaze%20no%20Klonoa%20-%20Moonlight%20Museum%20%28Japan%29.png",
     size: "1024 KB",
     link1: "https://drive.google.com/file/d/1MTQ3EjWJUKVs8A30f5JZzEfdwvHrWYx5/view?usp=drivesdk",
     link2: ""
@@ -414,7 +414,7 @@ const roms = [
   },
   {
     name: "Kiss Yori... - Seaside Serenade (J) [M]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Kiss%20Yori...%20-%20Seaside%20Serenade%20%28Japan%29%20%28Rev%202%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/1brik0Ikp6sxUIP_b5S6NOK7RxjMUS7iH/view?usp=drivesdk",
     link2: ""
@@ -456,7 +456,7 @@ const roms = [
   },
   {
     name: "Mahjong Touryuumon (J) [M][!]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Mahjong%20Touryuumon%20%28Japan%29%20%28Rev%201%29.png",
     size: "1024 KB",
     link1: "https://drive.google.com/file/d/1Nq3L2cPtPLv7uDU7HJtH6R4tHfguVIV0/view?usp=drivesdk",
     link2: ""
@@ -477,28 +477,28 @@ const roms = [
   },
   {
     name: "Medarot - Perfect Edition Kabuto Version (J) [M][!]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Medarot%20Perfect%20Edition%20-%20Kabuto%20Version%20%28Japan%29.png",
     size: "1024 KB",
     link1: "https://drive.google.com/file/d/1dLUkO4A2SU6Ven3JFkK2tUkjAt-MeuoS/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Medarot - Perfect Edition Kuwagata Version (J) [M][!]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Medarot%20Perfect%20Edition%20-%20Kuwagata%20Version%20%28Japan%29.png",
     size: "1024 KB",
     link1: "https://drive.google.com/file/d/17Uk-2VeG1ge__0XkSXqpGoznoO8KWpyA/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Meitantei Conan - Majutsushi no Chousenjou! (J) [M][!]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Meitantei%20Conan%20-%20Majutsushi%20no%20Chousenjou%21%20%28Japan%29.png",
     size: "1024 KB",
     link1: "https://drive.google.com/file/d/1HXxJsxRwb3anUuDz3BAUnBB4O7hSX4p4/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Meitantei Conan - Nishi no Meitantei Saidai no Kiki! (J) [M]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Meitantei%20Conan%20-%20Nishi%20no%20Meitantei%20Saidai%20no%20Kiki%21%20%28Japan%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/1XKe7Y3hE5dIdxOkQ61PTE9yyPmAioNOu/view?usp=drivesdk",
     link2: ""
@@ -512,14 +512,14 @@ const roms = [
   },
   {
     name: "Mingle Magnet (J) [M]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Mingle%20Magnet%20%28Japan%29%20%28En%2CJa%29%20%28Rev%201%29.png",
     size: "512 KB",
     link1: "https://drive.google.com/file/d/1VAKXNovnwj1ZqHyZlNhVIQtueiqfUDEc/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Mobile Suit Gundam MSVS (J) [M][!]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Mobile%20Suit%20Gundam%20MSVS%20%28Japan%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/1urgDqe3poC8HqescprEtOQ4INZBmlVhw/view?usp=drivesdk",
     link2: ""
@@ -540,35 +540,35 @@ const roms = [
   },
   {
     name: "Nazo Ou Pocket (J) [M]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Nazo%20Ou%20Pocket%20%28Japan%29.png",
     size: "1024 KB",
     link1: "https://drive.google.com/file/d/1O2tUaKxeezf91yljE8PVWJppetcsLicd/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Nazo Ou Pocket (J) [M][f1]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Nazo%20Ou%20Pocket%20%28Japan%29.png",
     size: "1024 KB",
     link1: "https://drive.google.com/file/d/1rAEEXTIw45brcVNVEiTGKBYkmG4VDUj3/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Neon Genesis Evangelion Shito Ikusei (J) [M][!]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Neon%20Genesis%20Evangelion%20-%20Shito%20Ikusei%20%28Japan%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/14OGTfk5arWt4UJxevbYixjtgtObBKPRu/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Nice On (J) [M][!]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Nice%20On%20%28Japan%29%20%28Rev%201%29.png",
     size: "1024 KB",
     link1: "https://drive.google.com/file/d/1St27gWFLqUeTK92swtWlcCH0qU8EZrdi/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Nice On (J) [M][f1]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Nice%20On%20%28Japan%29%20%28Rev%201%29.png",
     size: "1024 KB",
     link1: "https://drive.google.com/file/d/1Hy19et8t_bwVuNc1J9ZBTfmPMFP8liM7/view?usp=drivesdk",
     link2: ""
@@ -596,7 +596,7 @@ const roms = [
   },
   {
     name: "Pocket Fighter (J) [M]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Pocket%20Fighter%20%28Japan%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/15NGUOHOlp0Z2lfq4coPNn_ulvDJzm1pk/view?usp=drivesdk",
     link2: ""
@@ -617,21 +617,21 @@ const roms = [
   },
   {
     name: "Puzzle Bobble (J) [M]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Puzzle%20Bobble%20%28Japan%29.png",
     size: "512 KB",
     link1: "https://drive.google.com/file/d/1_mEz2bxaxm1uD9ExhbAlpSxu2HP1e37d/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Puzzle Bobble (J) [M][f1]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Puzzle%20Bobble%20%28Japan%29.png",
     size: "512 KB",
     link1: "https://drive.google.com/file/d/1VkbS8bFja8rKG4qz9B481q_d6LF9kglR/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Rainbow Islands - Putty's Party (J) [M]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Rainbow%20Islands%20-%20Putty%27s%20Party%20%28Japan%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/1nIeyfzc4tV9HZayMvYGg5kr4HlZAnUZj/view?usp=drivesdk",
     link2: ""
@@ -645,28 +645,28 @@ const roms = [
   },
   {
     name: "Ring Infinity (J) [M][!]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Ring%20Infinity%20%28Japan%29.png",
     size: "4096 KB",
     link1: "https://drive.google.com/file/d/1kGYdQd222Lv9fSHcGWyAI2YB2btiwzrg/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Ring Infinity (J) [M][f1]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Ring%20Infinity%20%28Japan%29.png",
     size: "4096 KB",
     link1: "https://drive.google.com/file/d/1mcCV0V0bJSBdR45Wbps5qPE1S7iA-EFO/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Robot Works (A) [M]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Robot%20Works%20%28Japan%29.png",
     size: "1024 KB",
     link1: "https://drive.google.com/file/d/1FcmvdYDhBj6kzWf8rfgemtzZGjZvyZEc/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Robot Works (J) [M][!]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Robot%20Works%20%28Japan%29.png",
     size: "1024 KB",
     link1: "https://drive.google.com/file/d/1u4buIDA9qYCCLXp1QO0Hmeg6bJjXP7Oq/view?usp=drivesdk",
     link2: ""
@@ -680,7 +680,7 @@ const roms = [
   },
   {
     name: "SD Gundam - Emotional Jam (J) [M][!]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/SD%20Gundam%20-%20Emotional%20Jam%20%28Japan%29%20%28Rev%202%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/16Yc37C42SLEiSibslptGYghbP_a6cCex/view?usp=drivesdk",
     link2: ""
@@ -701,14 +701,14 @@ const roms = [
   },
   {
     name: "SD Gundam G Generation - Gather Beat (J) [M]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/SD%20Gundam%20G%20Generation%20-%20Gather%20Beat%20%28Japan%29.png",
     size: "4096 KB",
     link1: "https://drive.google.com/file/d/18_OC3sdfNRw19wriCF9QjxmgmPpVoPGD/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "SD Gundam Gashapon Senki - Episode 1 (J) [M][!]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/SD%20Gundam%20Gashapon%20Senki%20-%20Episode%201%20%28Japan%29%20%28Alt%29.png",
     size: "1024 KB",
     link1: "https://drive.google.com/file/d/15dD7AHg6FYx_XuSguNL9_3eAXzorBQOq/view?usp=drivesdk",
     link2: ""
@@ -722,7 +722,7 @@ const roms = [
   },
   {
     name: "Senkaiden - TV Animation Senkaiden Houshin Engi Yori (J) [M]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Senkaiden%20-%20TV%20Animation%20Senkaiden%20Houshin%20Engi%20Yori%20%28Japan%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/1PWlt4rxp-UVqwMa5k3r1hBMhRoBMwYuL/view?usp=drivesdk",
     link2: ""
@@ -750,21 +750,21 @@ const roms = [
   },
   {
     name: "Shanghai Pocket (J) [M]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Shanghai%20Pocket%20%28Japan%29.png",
     size: "512 KB",
     link1: "https://drive.google.com/file/d/1Z6QP6L3tyOtiDeKhrzAB0dccztTRlEzm/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Shin Nihon Pro Wrestling Toukon Retsuden (J) [M]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Shin%20Nihon%20Pro%20Wrestling%20-%20Toukon%20Retsuden%20%28Japan%29%20%28Rev%201%29.png",
     size: "1024 KB",
     link1: "https://drive.google.com/file/d/1n8MdjYt7OKVXqLZl5kYbsAV_u_rYkcmQ/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Shin Nihon Pro Wrestling Toukon Retsuden (J) [M][f1]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Shin%20Nihon%20Pro%20Wrestling%20-%20Toukon%20Retsuden%20%28Japan%29%20%28Rev%201%29.png",
     size: "1024 KB",
     link1: "https://drive.google.com/file/d/1BMmzyZWGc_u_CCGpWdo7SLtJ421CBSjY/view?usp=drivesdk",
     link2: ""
@@ -785,28 +785,28 @@ const roms = [
   },
   {
     name: "Slither Link (J) [M][!]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Slither%20Link%20%28Japan%29.png",
     size: "512 KB",
     link1: "https://drive.google.com/file/d/1VJ2S9bx7MrIlpJEoFzqmzyT9Rf_LMFNu/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Slither Link (J) [M][f1]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Slither%20Link%20%28Japan%29.png",
     size: "512 KB",
     link1: "https://drive.google.com/file/d/1YkYErGEww5rA-55PLqPAHaBnbw7RqOr4/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Soccer Yarou! - Challenge the World (J) [M]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Soccer%20Yarou%21%20-%20Challenge%20the%20World%20%28Japan%29.png",
     size: "512 KB",
     link1: "https://drive.google.com/file/d/1Xx1tktOL6DsrXTQCdFAYt4IWc5DE1i1C/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Soccer Yarou! - Challenge the World (J) [M][a1]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Soccer%20Yarou%21%20-%20Challenge%20the%20World%20%28Japan%29.png",
     size: "1024 KB",
     link1: "https://drive.google.com/file/d/1RR27sfUj7uChAeR7ZvB5xs1fcx7SUvQr/view?usp=drivesdk",
     link2: ""
@@ -820,14 +820,14 @@ const roms = [
   },
   {
     name: "Space Invaders (J) [M][!]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Space%20Invaders%20%28Japan%29.png",
     size: "1024 KB",
     link1: "https://drive.google.com/file/d/1MezJrMImQIeSX5XPKTmj1UbagVVWp475/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Super Robot Taisen Compact (J) [M][!]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Super%20Robot%20Taisen%20Compact%20%28Japan%29%20%28Rev%201%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/1i4F6G94d9sBsAUTRyO3ObVxfUGV4Jd3B/view?usp=drivesdk",
     link2: ""
@@ -883,28 +883,28 @@ const roms = [
   },
   {
     name: "Tekken Card Challenge (J) [M][!]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Tekken%20Card%20Challenge%20%28Japan%29.png",
     size: "1024 KB",
     link1: "https://drive.google.com/file/d/1KDQBDtnmuujv4bh2TlxFD0awlghHdiG4/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Terrors (J) [M]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Terrors%20%28Japan%29.png",
     size: "4096 KB",
     link1: "https://drive.google.com/file/d/1CN9fGX04tAe7D5IKVR9l86Of_bArwwMa/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Tetsujin 28 Gou (J) [M]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Tetsujin%2028%20Gou%20%28Japan%29.png",
     size: "4096 KB",
     link1: "https://drive.google.com/file/d/1-bh6O_ZubvQFCF05CxpIVYOyUyZ7BFCW/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Tetsujin 28 Gou (J) [M][f1]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Tetsujin%2028%20Gou%20%28Japan%29.png",
     size: "4096 KB",
     link1: "https://drive.google.com/file/d/1Cj1DfOvfOU6hJiTJwO84lS4oXBG8dOLY/view?usp=drivesdk",
     link2: ""
@@ -925,56 +925,56 @@ const roms = [
   },
   {
     name: "Trump Collection Bottom Up Teki Trump Seikatsu (J) [M][!]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Trump%20Collection%20-%20Bottom-Up%20Teki%20Trump%20Seikatsu%20%28Japan%29%20%28Rev%201%29.png",
     size: "512 KB",
     link1: "https://drive.google.com/file/d/1e7nQU78uqb-p2XA-TZBQZnheU7tmoPkF/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Turntablist - DJ Battle (J) [M][!]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Turntablist%20-%20DJ%20Battle%20%28Japan%29.png",
     size: "4096 KB",
     link1: "https://drive.google.com/file/d/133mMU1ue4xJ4xlpFVP4Lu1Few9xWuaaK/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Turntablist - DJ Battle (J) [M][f1]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Turntablist%20-%20DJ%20Battle%20%28Japan%29.png",
     size: "4096 KB",
     link1: "https://drive.google.com/file/d/1otTn9pW_NErcirw9cLa3nZCP5o7QhaHp/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Umizuri Ni Ikou (J) [M][!]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Umizuri%20ni%20Ikou%21%20%28Japan%29.png",
     size: "512 KB",
     link1: "https://drive.google.com/file/d/1k7KUkuxs1XxgfGVfh4szUfUnfpKE_6VI/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Uzumaki - Denshi Kaiki Hen (J) [M][!]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Uzumaki%20-%20Denshi%20Kaiki%20Hen%20%28Japan%29%20%28Rev%204%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/1MJUObk2b2EUBIyLZZIexDVdOihVYUrHg/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Uzumaki - Denshi Kaiki Hen (J) [M][f1]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Uzumaki%20-%20Denshi%20Kaiki%20Hen%20%28Japan%29%20%28Rev%204%29.png",
     size: "2048 KB",
     link1: "https://drive.google.com/file/d/1SNOCRhMgBXfVpD12iOwUZ-hsqd9wbxON/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Vaitz Blade (J) [M][!]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Vaitz%20Blade%20%28Japan%29%20%28Rev%201%29.png",
     size: "4096 KB",
     link1: "https://drive.google.com/file/d/1NYxuV5IvQv2SLy9H2DSuJwBQm3UXrFL8/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Wasabi Produce - Street Dancer (J) [M][!]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Wasabi%20Produce%20-%20Street%20Dancer%20%28Japan%29.png",
     size: "4096 KB",
     link1: "https://drive.google.com/file/d/13VPfM9BhTXjbm6FjQs225a0G7Ef4Ib52/view?usp=drivesdk",
     link2: ""
@@ -995,21 +995,21 @@ const roms = [
   },
   {
     name: "Wonder Stadium '99 (J) [M]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Wonder%20Stadium%20%2799%20%28Japan%29.png",
     size: "1024 KB",
     link1: "https://drive.google.com/file/d/1_G4JU1BFKJUzBeNXmh0deLWyt1R__2wc/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "Wonder Stadium (J) [M]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/Wonder%20Stadium%20%28Japan%29.png",
     size: "1024 KB",
     link1: "https://drive.google.com/file/d/1V4FjkTQab82Qdg-lRq8q74uLK47AfP2i/view?usp=drivesdk",
     link2: ""
   },
   {
     name: "WonderSwan Handy Sonar (J) [M]",
-    image: "https://i.postimg.cc/gcQf2Rcx/Wonder-Sw-an-logo-svg.png",
+    image: "https://thumbnails.libretro.com/Bandai%20-%20WonderSwan/Named_Boxarts/WonderSwan%20Handy%20Sonar%20%28Japan%29%20%28Rev%201%29.png",
     size: "1024 KB",
     link1: "https://drive.google.com/file/d/1LrhwyuDDAzVwkAsmG1XJoGujQ-hO_Sf_/view?usp=drivesdk",
     link2: ""
@@ -1024,7 +1024,7 @@ const romBody = document.getElementById("romBody");
     data.forEach(rom => {
       const tr = document.createElement("tr");
       tr.innerHTML = `
-        <td><img src="${rom.image}" alt="${rom.name}"></td>
+        <td><img ${window._boxartVisible ? 'src="' + rom.image + '"' : 'data-src="' + rom.image + '"'} alt="${rom.name}"></td>
         <td>${rom.name}</td>
         <td>${rom.link1 ? `<a href="${rom.link1}" target="_blank">Opción #1</a>` : '-'}</td>
         <td>${rom.link2 ? `<a href="${rom.link2}" target="_blank">Opción #2</a>` : '-'}</td>
