@@ -1,0 +1,247 @@
+
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: var(--font-sans); }
+  #drop-zone {
+    border: 2px dashed var(--color-border-secondary);
+    border-radius: var(--border-radius-lg);
+    padding: 2.5rem 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    transition: border-color 0.2s, background 0.2s;
+    background: var(--color-background-secondary);
+    user-select: none;
+  }
+  #drop-zone.dragover {
+    border-color: #378ADD;
+    background: #E6F1FB;
+  }
+  #drop-zone i { font-size: 36px; color: var(--color-text-secondary); display: block; margin-bottom: 12px; }
+  #drop-zone p { margin: 0 0 8px; font-size: 15px; color: var(--color-text-primary); font-weight: 500; }
+  #drop-zone small { font-size: 13px; color: var(--color-text-secondary); }
+  #file-input { display: none; }
+  #console-badge {
+    display: none;
+    align-items: center;
+    gap: 10px;
+    background: var(--color-background-secondary);
+    border: 0.5px solid var(--color-border-tertiary);
+    border-radius: var(--border-radius-md);
+    padding: 10px 16px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: var(--color-text-primary);
+  }
+  #console-badge .tag {
+    background: #E6F1FB;
+    color: #0C447C;
+    border-radius: var(--border-radius-md);
+    padding: 3px 10px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  #error-msg {
+    display: none;
+    background: var(--color-background-danger);
+    color: var(--color-text-danger);
+    border-radius: var(--border-radius-md);
+    padding: 10px 14px;
+    font-size: 13px;
+    margin-bottom: 12px;
+  }
+  #emulator-container { display: none; }
+  #emulator-container iframe {
+    width: 100%;
+    height: 480px;
+    border: 0.5px solid var(--color-border-tertiary);
+    border-radius: var(--border-radius-lg);
+  }
+  .btn-launch {
+    display: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: var(--border-radius-md);
+    border: 0.5px solid var(--color-border-secondary);
+    background: var(--color-background-primary);
+    color: var(--color-text-primary);
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 12px;
+    transition: background 0.15s;
+  }
+  .btn-launch:hover { background: var(--color-background-secondary); }
+  #reset-btn {
+    display: none;
+    font-size: 13px;
+    color: var(--color-text-secondary);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px 0;
+    text-decoration: underline;
+  }
+</style>
+
+<h2 class="sr-only">Emulador retro con detección automática de consola por extensión de ROM</h2>
+
+<div style="padding: 1rem 0;">
+  <div id="error-msg"></div>
+  <div id="console-badge">
+    <i class="ti ti-device-gamepad-2" aria-hidden="true" style="font-size:18px;"></i>
+    <span id="console-name">—</span>
+    <span class="tag" id="core-tag">nes</span>
+    <span style="color:var(--color-text-secondary); margin-left:auto; font-size:13px;" id="file-name-label"></span>
+  </div>
+
+  <div id="drop-zone">
+    <i class="ti ti-file-upload" aria-hidden="true"></i>
+    <p>Arrastra tu ROM aquí</p>
+    <small>o haz clic para seleccionar archivo</small>
+    <input type="file" id="file-input" />
+  </div>
+
+  <button class="btn-launch" id="launch-btn"><i class="ti ti-player-play" aria-hidden="true" style="font-size:15px; vertical-align:-2px; margin-right:6px;"></i>Iniciar emulador</button>
+  <button id="reset-btn">↺ Cargar otra ROM</button>
+
+  <div id="emulator-container"></div>
+
+  <div style="margin-top: 16px; padding: 12px 14px; background: var(--color-background-secondary); border-radius: var(--border-radius-md); border: 0.5px solid var(--color-border-tertiary);">
+    <p style="margin:0 0 6px; font-size:12px; font-weight:500; color:var(--color-text-secondary);">CONSOLAS SOPORTADAS</p>
+    <div id="console-list" style="display:flex; flex-wrap:wrap; gap:6px; font-size:11px;"></div>
+  </div>
+</div>
+
+<script>
+const CORES = {
+  nes:   { name: 'NES / Famicom', core: 'nes',       exts: ['nes','fds','unif','unf'] },
+  snes:  { name: 'SNES',          core: 'snes',      exts: ['smc','sfc','fig','swc'] },
+  gb:    { name: 'Game Boy',      core: 'gb',        exts: ['gb','gbc'] },
+  gba:   { name: 'Game Boy Advance', core: 'gba',   exts: ['gba'] },
+  n64:   { name: 'Nintendo 64',   core: 'n64',       exts: ['n64','v64','z64'] },
+  nds:   { name: 'Nintendo DS',   core: 'nds',       exts: ['nds','dsi'] },
+  vb:    { name: 'Virtual Boy',   core: 'vb',        exts: ['vb'] },
+  segams:{ name: 'Sega Master System', core: 'segams', exts: ['sms'] },
+  segagg:{ name: 'Sega Game Gear', core: 'segagg',  exts: ['gg'] },
+  segamd:{ name: 'Sega Mega Drive', core: 'segamd', exts: ['gen','md','bin','smd'] },
+  sega32x:{ name: 'Sega 32X',    core: 'sega32x',   exts: ['32x'] },
+  psx:   { name: 'PlayStation',   core: 'psx',       exts: ['bin','cue','img','mdf','pbp','chd','ccd','iso','m3u'] },
+  a2600: { name: 'Atari 2600',    core: 'a2600',     exts: ['a26','bin'] },
+  lynx:  { name: 'Atari Lynx',    core: 'lynx',      exts: ['lnx'] },
+  ngp:   { name: 'Neo Geo Pocket', core: 'ngp',      exts: ['ngp','ngc','ngpc'] },
+  tg16:  { name: 'TurboGrafx-16', core: 'tg16',     exts: ['pce'] },
+  arcade:{ name: 'Arcade',        core: 'arcade',    exts: ['zip'] },
+  dos:   { name: 'MS-DOS',        core: 'dos',       exts: ['exe','com','bat'] },
+  msx:   { name: 'MSX',           core: 'msx',       exts: ['rom','mx1','mx2','dsk'] },
+};
+
+const extMap = {};
+Object.values(CORES).forEach(c => c.exts.forEach(e => { if (!extMap[e]) extMap[e] = []; extMap[e].push(c); }));
+
+const dropZone = document.getElementById('drop-zone');
+const fileInput = document.getElementById('file-input');
+const consoleBadge = document.getElementById('console-badge');
+const consoleName = document.getElementById('console-name');
+const coreTag = document.getElementById('core-tag');
+const fileNameLabel = document.getElementById('file-name-label');
+const errorMsg = document.getElementById('error-msg');
+const launchBtn = document.getElementById('launch-btn');
+const resetBtn = document.getElementById('reset-btn');
+const emuContainer = document.getElementById('emulator-container');
+const consoleList = document.getElementById('console-list');
+
+let currentFile = null;
+let detectedCore = null;
+
+Object.values(CORES).forEach(c => {
+  const tag = document.createElement('span');
+  tag.style.cssText = 'background:var(--color-background-secondary);border:0.5px solid var(--color-border-tertiary);border-radius:4px;padding:2px 8px;color:var(--color-text-secondary);';
+  tag.textContent = c.name;
+  consoleList.appendChild(tag);
+});
+
+dropZone.addEventListener('click', () => fileInput.click());
+dropZone.addEventListener('dragover', e => { e.preventDefault(); dropZone.classList.add('dragover'); });
+dropZone.addEventListener('dragleave', () => dropZone.classList.remove('dragover'));
+dropZone.addEventListener('drop', e => {
+  e.preventDefault();
+  dropZone.classList.remove('dragover');
+  const f = e.dataTransfer.files[0];
+  if (f) handleFile(f);
+});
+fileInput.addEventListener('change', () => { if (fileInput.files[0]) handleFile(fileInput.files[0]); });
+
+function handleFile(file) {
+  errorMsg.style.display = 'none';
+  const ext = file.name.split('.').pop().toLowerCase();
+  const matches = extMap[ext];
+
+  if (!matches) {
+    errorMsg.textContent = `Extensión .${ext} no reconocida. Prueba con .nes, .smc, .gba, .gb, .n64, .bin, etc.`;
+    errorMsg.style.display = 'block';
+    return;
+  }
+
+  currentFile = file;
+  detectedCore = matches[0];
+
+  if (matches.length > 1) {
+    consoleName.textContent = matches.map(m => m.name).join(' / ');
+    coreTag.textContent = matches.map(m => m.core).join(' | ');
+    detectedCore = matches[0];
+  } else {
+    consoleName.textContent = detectedCore.name;
+    coreTag.textContent = detectedCore.core;
+  }
+
+  fileNameLabel.textContent = file.name.length > 30 ? file.name.slice(0,30)+'…' : file.name;
+  consoleBadge.style.display = 'flex';
+  launchBtn.style.display = 'block';
+  dropZone.style.display = 'none';
+}
+
+launchBtn.addEventListener('click', () => {
+  if (!currentFile || !detectedCore) return;
+  const url = URL.createObjectURL(currentFile);
+  launchBtn.style.display = 'none';
+  consoleBadge.style.display = 'flex';
+  resetBtn.style.display = 'block';
+  emuContainer.style.display = 'block';
+
+  const html = `<!DOCTYPE html><html><head><meta charset="utf-8">
+  <style>*{margin:0;padding:0;box-sizing:border-box;}body{background:#000;}</style>
+  </head><body>
+  <div style="width:100%;height:100vh;">
+    <div id="game" style="width:100%;height:100%;"></div>
+  </div>
+  <script>
+    EJS_player = '#game';
+    EJS_gameUrl = '${url}';
+    EJS_core = '${detectedCore.core}';
+    EJS_pathtodata = 'https://www.emulatorjs.com/data/';
+    EJS_startOnLoaded = true;
+  <\/script>
+  <script src="https://www.emulatorjs.com/loader.js"><\/script>
+  </body></html>`;
+
+  emuContainer.innerHTML = '';
+  const iframe = document.createElement('iframe');
+  iframe.style.cssText = 'width:100%;height:480px;border:0.5px solid var(--color-border-tertiary);border-radius:12px;';
+  iframe.sandbox = 'allow-scripts allow-same-origin allow-forms allow-pointer-lock';
+  emuContainer.appendChild(iframe);
+  iframe.contentDocument.open();
+  iframe.contentDocument.write(html);
+  iframe.contentDocument.close();
+});
+
+resetBtn.addEventListener('click', () => {
+  currentFile = null; detectedCore = null;
+  consoleBadge.style.display = 'none';
+  launchBtn.style.display = 'none';
+  resetBtn.style.display = 'none';
+  emuContainer.style.display = 'none';
+  emuContainer.innerHTML = '';
+  dropZone.style.display = 'block';
+  errorMsg.style.display = 'none';
+  fileInput.value = '';
+});
+</script>
