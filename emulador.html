@@ -1,299 +1,374 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ROM Player</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <style>
-        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+<script>
+(function(){
+  var t = localStorage.getItem('theme') || 'dark';
+  document.documentElement.setAttribute('data-theme', t);
+})();
+</script>
 
-        :root {
-            --bg:        #1e1b2e;
-            --bg2:       #252240;
-            --surface:   #2a2645;
-            --surface2:  #322f52;
-            --border:    #3d3870;
-            --accent:    #a78bfa;
-            --accent2:   #f472b6;
-            --accent3:   #38bdf8;
-            --text:      #e2e0f0;
-            --text-soft: #b8b5d8;
-            --muted:     #6b6890;
-            --shadow:    0 8px 32px rgba(0,0,0,.35);
-            --glow:      0 0 24px rgba(167,139,250,.25), 0 4px 16px rgba(0,0,0,.4);
-            --glow-drag: 0 0 40px rgba(167,139,250,.45), 0 0 80px rgba(244,114,182,.2);
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Emulador Online / RomsXISOs</title>
+<link rel="stylesheet" href="styles/styles_home.css">
+<link rel="stylesheet" href="styles/styles.css">
 
-        html, body {
-            height: 100%;
-            background: var(--bg);
-            color: var(--text);
-            font-family: 'Outfit', sans-serif;
-            overflow-x: hidden;
-        }
+<link rel="icon" type="image/png" href="icon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="icon/favicon.svg" />
+<link rel="shortcut icon" href="icon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png" />
+<link rel="manifest" href="icon/site.webmanifest" />
+ 
+   <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GJDZT6DWBJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-        /* Soft radial background blobs */
-        body::before {
-            content: '';
-            position: fixed;
-            inset: 0;
-            background:
-                radial-gradient(ellipse 60% 50% at 20% 20%, rgba(167,139,250,.12) 0%, transparent 70%),
-                radial-gradient(ellipse 50% 40% at 80% 80%, rgba(244,114,182,.09) 0%, transparent 70%),
-                radial-gradient(ellipse 40% 60% at 60% 10%, rgba(56,189,248,.07) 0%, transparent 70%);
-            pointer-events: none;
-            z-index: 0;
-        }
+  gtag('config', 'G-GJDZT6DWBJ');
+</script>
 
-        /* Subtle dot grid */
-        body::after {
-            content: '';
-            position: fixed;
-            inset: 0;
-            background-image: radial-gradient(circle, rgba(167,139,250,.12) 1px, transparent 1px);
-            background-size: 28px 28px;
-            pointer-events: none;
-            z-index: 0;
-        }
+<meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Emulador Online / RomsXISOs.">
+<meta name="author" content="RomsXISOs">
 
-        /* ── HEADER ── */
-        header {
-            position: relative;
-            z-index: 10;
-            text-align: center;
-            padding: 52px 24px 28px;
-        }
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+    *, *::before, *::after { box-sizing: border-box; }
 
-        .logo {
-            font-family: 'Nunito', sans-serif;
-            font-weight: 800;
-            font-size: clamp(26px, 5vw, 42px);
-            letter-spacing: -0.5px;
-            background: linear-gradient(135deg, var(--accent) 0%, var(--accent2) 60%, var(--accent3) 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
+    /* ── DARK THEME (default) ── */
+    :root,
+    [data-theme="dark"] {
+        --bg:        #1e1b2e;
+        --bg2:       #252240;
+        --surface:   #2a2645;
+        --surface2:  #322f52;
+        --emu-border:#3d3870;
+        --accent:    #a78bfa;
+        --accent2:   #f472b6;
+        --accent3:   #38bdf8;
+        --emu-text:  #e2e0f0;
+        --text-soft: #b8b5d8;
+        --muted:     #6b6890;
+        --shadow:    0 8px 32px rgba(0,0,0,.35);
+        --glow:      0 0 24px rgba(167,139,250,.25), 0 4px 16px rgba(0,0,0,.4);
+        --glow-drag: 0 0 40px rgba(167,139,250,.45), 0 0 80px rgba(244,114,182,.2);
+        --grad-a: rgba(167,139,250,.12);
+        --grad-b: rgba(244,114,182,.09);
+        --grad-c: rgba(56,189,248,.07);
+        --sup-bg: rgba(167,139,250,.08);
+        --sup-border: rgba(167,139,250,.22);
+    }
 
-        .logo-icon {
-            display: inline-block;
-            margin-right: 10px;
-            -webkit-text-fill-color: initial;
-            font-size: 0.9em;
-        }
+    /* ── LIGHT THEME ── */
+    [data-theme="light"] {
+        --bg:        #f4f2ff;
+        --bg2:       #eae7fb;
+        --surface:   #ffffff;
+        --surface2:  #ede9ff;
+        --emu-border:#c4b8f7;
+        --accent:    #7c3aed;
+        --accent2:   #db2777;
+        --accent3:   #0284c7;
+        --emu-text:  #1e1b2e;
+        --text-soft: #4b4670;
+        --muted:     #9590b8;
+        --shadow:    0 8px 32px rgba(100,80,200,.12);
+        --glow:      0 0 24px rgba(124,58,237,.18), 0 4px 16px rgba(100,80,200,.1);
+        --glow-drag: 0 0 40px rgba(124,58,237,.28), 0 0 80px rgba(219,39,119,.12);
+        --grad-a: rgba(124,58,237,.07);
+        --grad-b: rgba(219,39,119,.05);
+        --grad-c: rgba(2,132,199,.04);
+        --sup-bg: rgba(124,58,237,.06);
+        --sup-border: rgba(124,58,237,.2);
+    }
 
-        .subtitle {
-            margin-top: 10px;
-            font-size: 13px;
-            font-weight: 400;
-            color: var(--text-soft);
-            letter-spacing: 0.5px;
-        }
+    .emu-page {
+        background: var(--bg);
+        color: var(--emu-text);
+        font-family: 'Outfit', sans-serif;
+        position: relative;
+        overflow-x: hidden;
+        padding-bottom: 24px;
+        transition: background .35s ease, color .35s ease;
+    }
 
-        /* ── DROP ZONE ── */
-        #wrapper {
-            position: relative;
-            z-index: 10;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            min-height: calc(100vh - 210px);
-            padding: 24px;
-        }
+    .emu-page::before {
+        content: '';
+        position: fixed;
+        inset: 0;
+        background:
+            radial-gradient(ellipse 60% 50% at 20% 20%, var(--grad-a) 0%, transparent 70%),
+            radial-gradient(ellipse 50% 40% at 80% 80%, var(--grad-b) 0%, transparent 70%),
+            radial-gradient(ellipse 40% 60% at 60% 10%, var(--grad-c) 0%, transparent 70%);
+        pointer-events: none;
+        z-index: 0;
+        transition: background .35s ease;
+    }
 
-        #box {
-            position: relative;
-            width: 100%;
-            max-width: 680px;
-            min-height: 280px;
-            border: 2px dashed var(--border);
-            border-radius: 24px;
-            background: var(--surface);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            gap: 18px;
-            cursor: pointer;
-            transition: border-color .3s, background .3s, box-shadow .3s, transform .2s;
-            padding: 36px 24px;
-        }
+    .emu-hero {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        padding: 40px 24px 20px;
+    }
 
-        #box:hover {
-            border-color: var(--accent);
-            background: var(--surface2);
-            box-shadow: var(--glow);
-            transform: translateY(-2px);
-        }
+    .emu-logo {
+        font-family: 'Nunito', sans-serif;
+        font-weight: 800;
+        font-size: clamp(26px, 5vw, 42px);
+        letter-spacing: -0.5px;
+        background: linear-gradient(135deg, var(--accent) 0%, var(--accent2) 60%, var(--accent3) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
 
-        #box[drag] {
-            border-color: var(--accent2);
-            border-style: solid;
-            background: var(--surface2);
-            box-shadow: var(--glow-drag);
-            transform: scale(1.01);
-        }
+    .emu-logo .logo-icon {
+        display: inline-block;
+        margin-right: 10px;
+        -webkit-text-fill-color: initial;
+        font-size: 0.9em;
+    }
 
-        /* Cartridge icon */
-        .cart-icon {
-            width: 68px;
-            height: 68px;
-            opacity: .75;
-            transition: opacity .3s, transform .4s cubic-bezier(.34,1.56,.64,1);
-        }
-        #box:hover .cart-icon, #box[drag] .cart-icon {
-            opacity: 1;
-            transform: translateY(-6px) rotate(-3deg) scale(1.08);
-        }
+    .emu-subtitle {
+        margin-top: 10px;
+        font-size: 13px;
+        color: var(--text-soft);
+        letter-spacing: 0.5px;
+    }
 
-        .drop-label {
-            font-family: 'Nunito', sans-serif;
-            font-weight: 700;
-            font-size: 17px;
-            color: var(--text);
-            text-align: center;
-            line-height: 1.5;
-        }
+    #wrapper {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 24px;
+    }
 
-        .drop-label span {
-            color: var(--accent);
-        }
+    #box {
+        position: relative;
+        width: 100%;
+        max-width: 680px;
+        min-height: 280px;
+        border: 2px dashed var(--emu-border);
+        border-radius: 24px;
+        background: var(--surface);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 18px;
+        cursor: pointer;
+        transition: border-color .3s, background .35s ease, box-shadow .3s, transform .2s, color .35s ease;
+        padding: 36px 24px;
+        color: var(--emu-text);
+    }
 
-        .drop-sub {
-            font-size: 12.5px;
-            font-weight: 400;
-            color: var(--muted);
-            text-align: center;
-        }
+    #box:hover {
+        border-color: var(--accent);
+        background: var(--surface2);
+        box-shadow: var(--glow);
+        transform: translateY(-2px);
+    }
 
-        /* Extensions pills */
-        .console-grid {
-            width: 100%;
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-            gap: 10px;
-            padding: 4px 8px;
-            max-height: 260px;
-            overflow-y: auto;
-            scrollbar-width: thin;
-            scrollbar-color: var(--border) transparent;
-        }
-        .console-grid::-webkit-scrollbar { width: 4px; }
-        .console-grid::-webkit-scrollbar-thumb { background: var(--border); border-radius: 99px; }
+    #box[drag] {
+        border-color: var(--accent2);
+        border-style: solid;
+        background: var(--surface2);
+        box-shadow: var(--glow-drag);
+        transform: scale(1.01);
+    }
 
-        .console-group {
-            background: rgba(255,255,255,.03);
-            border: 1px solid rgba(255,255,255,.06);
-            border-radius: 10px;
-            padding: 8px 10px;
-        }
-        .console-name {
-            font-size: 10px;
-            font-weight: 600;
-            color: var(--text-soft);
-            margin-bottom: 6px;
-            letter-spacing: 0.3px;
-        }
-        .ext-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 5px;
-        }
-        .ext {
-            font-size: 10px;
-            font-weight: 600;
-            font-family: 'Outfit', sans-serif;
-            background: rgba(167,139,250,.1);
-            border: 1px solid rgba(167,139,250,.22);
-            color: var(--accent);
-            padding: 2px 7px;
-            border-radius: 99px;
-            letter-spacing: 0.2px;
-        }
+    .cart-icon {
+        width: 68px;
+        height: 68px;
+        opacity: .75;
+        transition: opacity .3s, transform .4s cubic-bezier(.34,1.56,.64,1);
+    }
+    #box:hover .cart-icon, #box[drag] .cart-icon {
+        opacity: 1;
+        transform: translateY(-6px) rotate(-3deg) scale(1.08);
+    }
 
-        #input { display: none; }
+    .drop-label {
+        font-family: 'Nunito', sans-serif;
+        font-weight: 700;
+        font-size: 17px;
+        text-align: center;
+        line-height: 1.5;
+    }
+    .drop-label span { color: var(--accent); }
 
-        /* ── CORE SELECT ── */
-        #box select {
-            background: var(--bg2);
-            border: 1.5px solid var(--border);
-            color: var(--text);
-            padding: 11px 16px;
-            border-radius: 12px;
-            font-family: 'Outfit', sans-serif;
-            font-size: 13px;
-            font-weight: 500;
-            width: 100%;
-            max-width: 360px;
-            appearance: none;
-            cursor: pointer;
-            outline: none;
-            transition: border-color .2s, box-shadow .2s;
-        }
-        #box select:focus {
-            border-color: var(--accent);
-            box-shadow: 0 0 0 3px rgba(167,139,250,.15);
-        }
+    .drop-sub {
+        font-size: 12.5px;
+        color: var(--muted);
+        text-align: center;
+    }
 
-        #box button {
-            background: linear-gradient(135deg, var(--accent), var(--accent2));
-            color: #fff;
-            border: none;
-            padding: 13px 32px;
-            border-radius: 12px;
-            font-family: 'Nunito', sans-serif;
-            font-weight: 800;
-            font-size: 14px;
-            cursor: pointer;
-            letter-spacing: 0.5px;
-            box-shadow: 0 4px 20px rgba(167,139,250,.35);
-            transition: transform .18s, box-shadow .18s;
-        }
-        #box button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 8px 28px rgba(167,139,250,.5);
-        }
-        #box button:active { transform: scale(.97); }
+    .supported-text {
+        width: 100%;
+        max-width: 620px;
+        text-align: left;
+        font-size: 12.5px;
+        line-height: 1.6;
+        color: var(--text-soft);
+        background: var(--sup-bg);
+        border: 1px solid var(--sup-border);
+        border-radius: 16px;
+        padding: 18px 20px;
+        transition: background .35s ease, border-color .35s ease;
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
 
-        /* ── DISPLAY (emulator frame) ── */
-        #display {
-            position: fixed;
-            inset: 0;
-            z-index: 100;
-            background: #000;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        #display > div { width: 100%; height: 100%; }
+    .sup-group { display: flex; flex-direction: column; gap: 6px; }
 
-        /* ── FOOTER ── */
-        footer {
-            position: relative;
-            z-index: 10;
-            text-align: center;
-            padding: 24px;
-            font-size: 12px;
-            color: var(--muted);
-        }
-        footer span { color: var(--accent); font-weight: 600; }
-    </style>
+    .sup-brand {
+        font-family: 'Nunito', sans-serif;
+        font-weight: 700;
+        font-size: 13px;
+        color: var(--accent);
+        letter-spacing: 0.3px;
+        padding-bottom: 4px;
+        border-bottom: 1px solid var(--sup-border);
+    }
+
+    .sup-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px 16px;
+        padding-left: 4px;
+    }
+
+    .sup-list span {
+        display: inline-flex;
+        align-items: baseline;
+        gap: 5px;
+        white-space: nowrap;
+    }
+
+    .sup-list strong {
+        color: var(--emu-text);
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    .sup-list em {
+        font-style: normal;
+        color: var(--muted);
+        font-size: 11px;
+        font-family: monospace;
+    }
+
+    #input { display: none; }
+
+    #box select {
+        background: var(--bg2);
+        border: 1.5px solid var(--emu-border);
+        color: var(--emu-text);
+        padding: 11px 16px;
+        border-radius: 12px;
+        font-family: 'Outfit', sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        width: 100%;
+        max-width: 360px;
+        appearance: none;
+        cursor: pointer;
+        outline: none;
+        transition: border-color .2s, box-shadow .2s, background .35s ease, color .35s ease;
+    }
+    #box select:focus {
+        border-color: var(--accent);
+        box-shadow: 0 0 0 3px rgba(167,139,250,.15);
+    }
+
+    #box button {
+        background: linear-gradient(135deg, var(--accent), var(--accent2));
+        color: #fff;
+        border: none;
+        padding: 13px 32px;
+        border-radius: 12px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 800;
+        font-size: 14px;
+        cursor: pointer;
+        letter-spacing: 0.5px;
+        box-shadow: 0 4px 20px rgba(167,139,250,.35);
+        transition: transform .18s, box-shadow .18s;
+    }
+    #box button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 28px rgba(167,139,250,.5);
+    }
+    #box button:active { transform: scale(.97); }
+
+    #display {
+        position: fixed;
+        inset: 0;
+        z-index: 100;
+        background: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #display > div { width: 100%; height: 100%; }
+
+    /* Light theme box shadow override */
+    [data-theme="light"] #box {
+        box-shadow: 0 4px 24px rgba(100,80,200,.1);
+    }
+    [data-theme="light"] #box:hover {
+        box-shadow: var(--glow);
+    }
+</style>
 </head>
-<body>
 
-<header>
-    <div class="logo"><span class="logo-icon">🎮</span>ROM Player</div>
-    <p class="subtitle">Drop a ROM file and start playing instantly</p>
-</header>
+<body class="emu-page">
+
+<!-- NAVBAR -->
+<div class="navbar">
+    <div class="menu-icon" onclick="openMenu()">☰</div>
+  <a href="#" class="navbar-logo">
+    <img src="https://i.postimg.cc/Cx35yNJ8/logo.png" alt="Logo del sitio" class="logo-img" />
+  </a>
+  <button class="theme-toggle" onclick="toggleTheme()" title="Cambiar tema">🌙</button>
+</div>
+
+<!-- SIDE MENU -->
+<div id="sideMenu" class="side-menu">
+  <span class="closebtn" onclick="closeMenu()">×</span>
+  <a href="index.html">Inicio</a>
+  <a href="emuladores.html">Emuladores</a>
+  <a href="emulador.html" class="active">Emulador Online</a>
+  <a href="bios.html">BIOS</a>
+  <a href="rom-parcher.html">ROM Parcher</a>
+  <a href="novedades.html">Novedades</a>
+  <a href="reportar-problema.html">¿Algún Problema o Falta Algún Juego?</a>
+  <a href="acerca-del-sitio.html">Acerca del Sitio Web</a>
+</div>
+
+<main class="main">
+
+<section class="emu-hero">
+    <div class="emu-logo"><span class="logo-icon">🎮</span>ROM Player</div>
+    <p class="emu-subtitle">Arrastra una ROM y empieza a jugar al instante</p>
+</section>
 
 <div id="wrapper">
     <div id="box">
-        <input type="file" id="input" accept=".nes,.fds,.unf,.unif,.sfc,.smc,.fig,.gd3,.gd7,.dx2,.bsx,.swc,.gba,.gb,.gbc,.n64,.z64,.v64,.nds,.pce,.sgx,.iso,.cue,.pbp,.chd,.smd,.md,.gen,.bin,.sms,.gg,.ccd,.img,.sub,.ws,.wsc,.ngp,.ngc,.col,.cv,.d64,.t64,.prg,.p00,.crt,.tap,.psp,.lnx,.jag,.vb,.exe,.com,.bat">
+        <input type="file" id="input" accept=".nes,.fds,.unf,.unif,.sfc,.smc,.fig,.gd3,.gd7,.dx2,.bsx,.swc,.gba,.gb,.gbc,.n64,.z64,.v64,.nds,.pce,.sgx,.iso,.cue,.pbp,.chd,.smd,.md,.gen,.bin,.sms,.gg,.ccd,.img,.sub,.ws,.wsc,.ngp,.ngc,.col,.cv,.d64,.t64,.prg,.p00,.crt,.tap,.psp,.lnx,.jag,.vb,.exe,.com,.bat,.a26,.a78,.32x,.cdi,.iso">
 
-        <!-- Cartridge SVG icon -->
         <svg class="cart-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect x="8" y="18" width="48" height="36" rx="5" fill="rgba(167,139,250,.12)" stroke="#a78bfa" stroke-width="2"/>
             <rect x="18" y="8" width="28" height="16" rx="4" fill="rgba(167,139,250,.08)" stroke="#a78bfa" stroke-width="2"/>
@@ -305,305 +380,186 @@
             <line x1="44" y1="33" x2="44" y2="42" stroke="#a78bfa" stroke-width="2" stroke-linecap="round"/>
         </svg>
 
-        <div class="drop-label">Drag your ROM file here<br><span>or click to browse</span></div>
-        <div class="drop-sub">No uploads — runs entirely in your browser</div>
+        <div class="drop-label">Arrastra tu archivo ROM aquí<br><span>o haz clic para buscar</span></div>
+        <div class="drop-sub">Sin subidas — se ejecuta completamente en tu navegador</div>
 
-        <div class="console-grid">
-            <div class="console-group">
-                <div class="console-name">Nintendo</div>
-                <div class="ext-list">
-                    <span class="ext">.nes</span>
-                    <span class="ext">.fds</span>
-                    <span class="ext">.unf</span>
+        <div class="supported-text">
+            <div class="sup-group">
+                <div class="sup-brand">🎮 Nintendo</div>
+                <div class="sup-list">
+                    <span><strong>NES / Famicom</strong> <em>.nes .fds .unf .unif</em></span>
+                    <span><strong>SNES</strong> <em>.sfc .smc .fig .swc .bsx</em></span>
+                    <span><strong>Nintendo 64</strong> <em>.n64 .z64 .v64</em></span>
+                    <span><strong>Nintendo DS</strong> <em>.nds</em></span>
+                    <span><strong>Game Boy / GBC</strong> <em>.gb .gbc</em></span>
+                    <span><strong>Game Boy Advance</strong> <em>.gba</em></span>
+                    <span><strong>Virtual Boy</strong> <em>.vb</em></span>
                 </div>
             </div>
-            <div class="console-group">
-                <div class="console-name">Super Nintendo</div>
-                <div class="ext-list">
-                    <span class="ext">.sfc</span>
-                    <span class="ext">.smc</span>
-                    <span class="ext">.fig</span>
-                    <span class="ext">.swc</span>
-                    <span class="ext">.bsx</span>
+            <div class="sup-group">
+                <div class="sup-brand">🔵 Sega</div>
+                <div class="sup-list">
+                    <span><strong>Master System</strong> <em>.sms</em></span>
+                    <span><strong>Mega Drive / Genesis</strong> <em>.smd .md .gen .bin</em></span>
+                    <span><strong>Sega 32X</strong> <em>.32x</em></span>
+                    <span><strong>Sega CD</strong> <em>.cue .iso .ccd .img</em></span>
+                    <span><strong>Sega Saturn</strong> <em>.cue .iso .mdf .chd</em></span>
+                    <span><strong>Game Gear</strong> <em>.gg</em></span>
                 </div>
             </div>
-            <div class="console-group">
-                <div class="console-name">Nintendo 64</div>
-                <div class="ext-list">
-                    <span class="ext">.n64</span>
-                    <span class="ext">.z64</span>
-                    <span class="ext">.v64</span>
+            <div class="sup-group">
+                <div class="sup-brand">🔴 PlayStation / Sony</div>
+                <div class="sup-list">
+                    <span><strong>PlayStation (PS1)</strong> <em>.iso .cue .pbp .chd .ccd .img</em></span>
+                    <span><strong>PlayStation Portable (PSP)</strong> <em>.iso .cso .pbp</em></span>
                 </div>
             </div>
-            <div class="console-group">
-                <div class="console-name">Game Boy / GBC</div>
-                <div class="ext-list">
-                    <span class="ext">.gb</span>
-                    <span class="ext">.gbc</span>
+            <div class="sup-group">
+                <div class="sup-brand">🕹️ Atari</div>
+                <div class="sup-list">
+                    <span><strong>Atari 2600</strong> <em>.a26 .bin</em></span>
+                    <span><strong>Atari 5200</strong> <em>.a52 .bin</em></span>
+                    <span><strong>Atari 7800</strong> <em>.a78 .bin</em></span>
+                    <span><strong>Atari Jaguar</strong> <em>.jag .j64</em></span>
+                    <span><strong>Atari Lynx</strong> <em>.lnx</em></span>
                 </div>
             </div>
-            <div class="console-group">
-                <div class="console-name">Game Boy Advance</div>
-                <div class="ext-list">
-                    <span class="ext">.gba</span>
+            <div class="sup-group">
+                <div class="sup-brand">💻 Commodore</div>
+                <div class="sup-list">
+                    <span><strong>Commodore 64</strong> <em>.d64 .t64 .prg .crt .tap</em></span>
+                    <span><strong>Commodore 128</strong> <em>.d64 .t64 .prg</em></span>
+                    <span><strong>Commodore Amiga</strong> <em>.adf .hdf</em></span>
+                    <span><strong>Commodore PET</strong> <em>.prg .t64</em></span>
+                    <span><strong>Commodore Plus/4</strong> <em>.prg .d64</em></span>
+                    <span><strong>Commodore VIC-20</strong> <em>.prg .crt .tap</em></span>
                 </div>
             </div>
-            <div class="console-group">
-                <div class="console-name">Nintendo DS</div>
-                <div class="ext-list">
-                    <span class="ext">.nds</span>
-                </div>
-            </div>
-            <div class="console-group">
-                <div class="console-name">PlayStation</div>
-                <div class="ext-list">
-                    <span class="ext">.iso</span>
-                    <span class="ext">.cue</span>
-                    <span class="ext">.pbp</span>
-                    <span class="ext">.chd</span>
-                    <span class="ext">.ccd</span>
-                    <span class="ext">.img</span>
-                </div>
-            </div>
-            <div class="console-group">
-                <div class="console-name">PSP</div>
-                <div class="ext-list">
-                    <span class="ext">.iso</span>
-                    <span class="ext">.cso</span>
-                    <span class="ext">.pbp</span>
-                </div>
-            </div>
-            <div class="console-group">
-                <div class="console-name">Sega Genesis / MD</div>
-                <div class="ext-list">
-                    <span class="ext">.smd</span>
-                    <span class="ext">.md</span>
-                    <span class="ext">.gen</span>
-                    <span class="ext">.bin</span>
-                </div>
-            </div>
-            <div class="console-group">
-                <div class="console-name">Sega Master System</div>
-                <div class="ext-list">
-                    <span class="ext">.sms</span>
-                </div>
-            </div>
-            <div class="console-group">
-                <div class="console-name">Sega Game Gear</div>
-                <div class="ext-list">
-                    <span class="ext">.gg</span>
-                </div>
-            </div>
-            <div class="console-group">
-                <div class="console-name">PC Engine / TG-16</div>
-                <div class="ext-list">
-                    <span class="ext">.pce</span>
-                    <span class="ext">.sgx</span>
-                </div>
-            </div>
-            <div class="console-group">
-                <div class="console-name">NeoGeo Pocket</div>
-                <div class="ext-list">
-                    <span class="ext">.ngp</span>
-                    <span class="ext">.ngc</span>
-                </div>
-            </div>
-            <div class="console-group">
-                <div class="console-name">WonderSwan</div>
-                <div class="ext-list">
-                    <span class="ext">.ws</span>
-                    <span class="ext">.wsc</span>
-                </div>
-            </div>
-            <div class="console-group">
-                <div class="console-name">Atari Lynx</div>
-                <div class="ext-list">
-                    <span class="ext">.lnx</span>
-                </div>
-            </div>
-            <div class="console-group">
-                <div class="console-name">Atari Jaguar</div>
-                <div class="ext-list">
-                    <span class="ext">.jag</span>
-                    <span class="ext">.j64</span>
-                </div>
-            </div>
-            <div class="console-group">
-                <div class="console-name">Commodore 64</div>
-                <div class="ext-list">
-                    <span class="ext">.d64</span>
-                    <span class="ext">.t64</span>
-                    <span class="ext">.prg</span>
-                    <span class="ext">.crt</span>
-                    <span class="ext">.tap</span>
-                </div>
-            </div>
-            <div class="console-group">
-                <div class="console-name">ColecoVision</div>
-                <div class="ext-list">
-                    <span class="ext">.col</span>
-                    <span class="ext">.cv</span>
-                </div>
-            </div>
-            <div class="console-group">
-                <div class="console-name">Virtual Boy</div>
-                <div class="ext-list">
-                    <span class="ext">.vb</span>
-                    <span class="ext">.vboy</span>
-                </div>
-            </div>
-            <div class="console-group">
-                <div class="console-name">DOS</div>
-                <div class="ext-list">
-                    <span class="ext">.exe</span>
-                    <span class="ext">.com</span>
-                    <span class="ext">.bat</span>
+            <div class="sup-group">
+                <div class="sup-brand">🎰 Arcade / Otros</div>
+                <div class="sup-list">
+                    <span><strong>Arcade (MAME 2003)</strong> <em>.zip .7z</em></span>
+                    <span><strong>3DO</strong> <em>.iso .cue .bin</em></span>
+                    <span><strong>ColecoVision</strong> <em>.col .cv .bin</em></span>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<footer>Powered by <span>EmulatorJS</span> · No data is uploaded · Runs entirely in your browser</footer>
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-content"></div>
+  <center>
+    <p style="color: var(--text-soft); font-size: 12px;">
+      Funciona con <span style="color: var(--accent); font-weight: 600;">EmulatorJS</span> · No se suben datos · Se ejecuta completamente en tu navegador
+    </p>
+  </center>
+</footer>
+
+<script>
+  const sideMenu = document.getElementById("sideMenu");
+  function openMenu() {
+    sideMenu.style.width = "250px";
+    document.body.addEventListener("click", outsideClickListener);
+  }
+  function closeMenu() {
+    sideMenu.style.width = "0";
+    document.body.removeEventListener("click", outsideClickListener);
+  }
+  function outsideClickListener(event) {
+    const isClickInside = sideMenu.contains(event.target) || event.target.classList.contains("menu-icon");
+    if (!isClickInside) closeMenu();
+  }
+</script>
+
+<script>
+function toggleTheme() {
+  var html = document.documentElement;
+  var current = html.getAttribute('data-theme') || 'dark';
+  var next = current === 'dark' ? 'light' : 'dark';
+  html.setAttribute('data-theme', next);
+  localStorage.setItem('theme', next);
+  updateToggleIcon();
+}
+function updateToggleIcon() {
+  var btn = document.querySelector('.theme-toggle');
+  if (!btn) return;
+  var t = document.documentElement.getAttribute('data-theme') || 'dark';
+  btn.textContent = t === 'dark' ? '☀️' : '🌙';
+}
+document.addEventListener('DOMContentLoaded', updateToggleIcon);
+</script>
 
 <script>
     const box   = document.getElementById("box");
     const input = document.getElementById("input");
 
-    // Click anywhere on box → open file picker
     box.addEventListener("click", (e) => {
         if (e.target.tagName !== "SELECT" && e.target.tagName !== "BUTTON") {
             input.click();
         }
     });
 
-    // Drag visual feedback
     box.ondragover  = (e) => { e.preventDefault(); box.setAttribute("drag", true); };
     box.ondragleave = ()  => box.removeAttribute("drag");
     box.ondrop      = (e) => {
         e.preventDefault();
         box.removeAttribute("drag");
-        const file = e.dataTransfer.files[0];
-        if (file) handleFile(file);
-    };
-
-    input.addEventListener("change", () => {
-        if (input.files[0]) handleFile(input.files[0]);
-    });
-
-    async function handleFile(file) {
-        const parts = file.name.split(".");
-        const ext   = parts.pop().toLowerCase();
-
-        const core = await detectCore(ext, parts);
-        if (!core) return;
-
-        launchEmulator(file, parts.shift() || "Game", core);
-    }
-
-    function detectCore(ext, parts) {
-        const map = {
-            fds: "nes", nes: "nes", unif: "nes", unf: "nes",
-            smc: "snes", fig: "snes", sfc: "snes", gd3: "snes",
-            gd7: "snes", dx2: "snes", bsx: "snes", swc: "snes",
-            z64: "n64", n64: "n64",
-            pce: "pce",
-            ngp: "ngp", ngc: "ngp",
-            ws: "ws",   wsc: "ws",
-            col: "coleco", cv: "coleco",
-            d64: "vice_x64",
-            nds: "nds", gba: "gba", gb: "gb", gbc: "gb",
-        };
-
-        if (map[ext]) return Promise.resolve(map[ext]);
-
-        // Unknown extension → show selector
-        const cores = {
-            "Super Nintendo (SNES)":              "snes",
-            "Nintendo Entertainment System":      "nes",
-            "Nintendo 64":                        "n64",
-            "Game Boy / Game Boy Color":          "gb",
-            "Game Boy Advance":                   "gba",
-            "Nintendo DS":                        "nds",
-            "PlayStation":                        "psx",
-            "Sega Mega Drive / Genesis":          "segaMD",
-            "Sega Master System":                 "segaMS",
-            "Sega CD":                            "segaCD",
-            "Sega 32X":                           "sega32x",
-            "Sega Game Gear":                     "segaGG",
-            "Sega Saturn":                        "segaSaturn",
-            "NEC TurboGrafx-16 / PC Engine":      "pce",
-            "NEC PC-FX":                          "pcfx",
-            "SNK NeoGeo Pocket (Color)":          "ngp",
-            "Bandai WonderSwan (Color)":          "ws",
-            "ColecoVision":                       "coleco",
-            "Commodore 64":                       "vice_x64",
-            "Atari 2600":                         "atari2600",
-            "Atari 7800":                         "atari7800",
-            "Atari Lynx":                         "lynx",
-            "Atari Jaguar":                       "jaguar",
-            "Virtual Boy":                        "vb",
-            "PlayStation Portable":               "psp",
-            "DOS":                                "dosbox_pure",
-        };
-
-        return new Promise(resolve => {
-            box.innerHTML = "";
-
-            const label = document.createElement("div");
-            label.className = "drop-label";
-            label.textContent = "SELECT CONSOLE";
-            label.style.marginBottom = "8px";
-
-            const sel = document.createElement("select");
-            for (const [name, val] of Object.entries(cores)) {
-                const opt   = document.createElement("option");
-                opt.value   = val;
-                opt.textContent = name;
-                sel.appendChild(opt);
-            }
-
-            const btn = document.createElement("button");
-            btn.textContent = "LOAD GAME";
-            btn.onclick = () => resolve(sel[sel.selectedIndex].value);
-
-            box.appendChild(label);
-            box.appendChild(sel);
-            box.appendChild(btn);
-        });
-    }
-
-    function launchEmulator(file, gameName, core) {
-        box.closest("#wrapper").remove();
-        document.querySelector("header").remove();
-        document.querySelector("footer").remove();
-
-        const display = document.createElement("div");
-        const game    = document.createElement("div");
-        const script  = document.createElement("script");
-
-        display.id = "display";
-        game.id    = "game";
-
-        const cdn = "https://cdn.emulatorjs.org/4.2.3/data/";
-
-        window.EJS_player        = "#game";
-        window.EJS_gameName      = gameName;
-        window.EJS_biosUrl       = "";
-        window.EJS_gameUrl       = file;
-        window.EJS_core          = core;
-        window.EJS_pathtodata    = cdn;
-        window.EJS_startOnLoaded = true;
-
-        if (core === "psp" || core === "dosbox_pure") {
-            window.EJS_threads = true;
+        if (e.dataTransfer.files.length) {
+            input.files = e.dataTransfer.files;
+            handleRom(e.dataTransfer.files[0]);
         }
+    };
+    input.onchange = (e) => { if (e.target.files.length) handleRom(e.target.files[0]); };
 
-        display.appendChild(game);
+    function detectCore(filename) {
+        const ext = filename.toLowerCase().split('.').pop();
+        const map = {
+            nes:'nes', fds:'nes', unf:'nes', unif:'nes',
+            sfc:'snes', smc:'snes', fig:'snes', swc:'snes', bsx:'snes',
+            n64:'n64', z64:'n64', v64:'n64',
+            gb:'gb', gbc:'gb',
+            gba:'gba',
+            nds:'nds',
+            iso:'psx', cue:'psx', pbp:'psx', chd:'psx', ccd:'psx', img:'psx',
+            smd:'segaMD', md:'segaMD', gen:'segaMD', bin:'segaMD',
+            sms:'segaMS',
+            gg:'segaGG',
+            pce:'pce', sgx:'pce',
+            ngp:'ngp', ngc:'ngp',
+            ws:'ws', wsc:'ws',
+            lnx:'lynx',
+            jag:'jaguar', j64:'jaguar',
+            vb:'vb', vboy:'vb',
+            a26:'atari2600',
+            a78:'atari7800',
+            col:'coleco', cv:'coleco'
+        };
+        return map[ext] || 'nes';
+    }
+
+    function handleRom(file) {
+        const core = detectCore(file.name);
+        const url  = URL.createObjectURL(file);
+
+        document.getElementById("wrapper").style.display = "none";
+        const display = document.createElement("div");
+        display.id = "display";
+        display.innerHTML = '<div id="game"></div>';
         document.body.appendChild(display);
 
-        script.src = cdn + "loader.js";
-        document.body.appendChild(script);
+        window.EJS_player    = "#game";
+        window.EJS_gameUrl   = url;
+        window.EJS_core      = core;
+        window.EJS_pathtoData = "https://cdn.emulatorjs.org/stable/data/";
+        window.EJS_startOnLoaded = true;
+
+        const s = document.createElement("script");
+        s.src = "https://cdn.emulatorjs.org/stable/data/loader.js";
+        document.body.appendChild(s);
     }
 </script>
 
