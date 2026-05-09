@@ -551,14 +551,17 @@ document.addEventListener('DOMContentLoaded', updateToggleIcon);
         display.innerHTML = '<div id="game"></div>';
         document.body.appendChild(display);
 
-        window.EJS_player    = "#game";
-        window.EJS_gameUrl   = url;
-        window.EJS_core      = core;
-        window.EJS_pathtoData = "https://cdn.emulatorjs.org/stable/data/";
+        const cdn = "https://cdn.emulatorjs.org/4.2.3/data/";
+
+        window.EJS_player        = "#game";
+        window.EJS_gameName      = file.name.split('.').slice(0, -1).join('.') || "Game";
+        window.EJS_gameUrl       = url;
+        window.EJS_core          = core;
+        window.EJS_pathtodata    = cdn;
         window.EJS_startOnLoaded = true;
 
         const s = document.createElement("script");
-        s.src = "https://cdn.emulatorjs.org/stable/data/loader.js";
+        s.src = cdn + "loader.js";
         document.body.appendChild(s);
     }
 </script>
